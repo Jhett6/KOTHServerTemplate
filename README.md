@@ -1,7 +1,6 @@
 <div align="center">
 
 <img src="Logo/koth_banner.png" alt="Logo" width="500"/>
-
 ### KOTH Server Template
 *A simplified template for rapidly deploying your own KOTH Server in Squad.*
 
@@ -17,7 +16,7 @@ This example attempts to support most Third-Party KOTH mods from the creator com
 </div align="center">
 <br>
 <div align="justify">
-
+ 
 ### Compatible Mod List
 Content Packs:
 Contractor's Crate 

@@ -2,7 +2,7 @@
 
 <img src="Logo/koth_banner.png" alt="Logo" width="500"/>
 
-### KOTHServerTemplate
+### KOTH Server Template
 *A simplified template for rapidly deploying your own KOTH Server in Squad.*
 
 ---

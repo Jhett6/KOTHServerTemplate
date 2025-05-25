@@ -13,6 +13,8 @@
 ### Overview
 This example attempts to support most Third-Party KOTH mods from the creator community as possible. This is a generic template to get you up and running as fast as possible with KOTH after loading it on your server.
 
+</div align="center">
+
 ### Compatible Mod List
 Content Packs:
 Contractor's Crate 

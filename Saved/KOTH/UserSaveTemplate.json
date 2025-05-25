@@ -1,0 +1,44 @@
+{
+  "save version": {
+    "text": "v1.3",
+    "major": 1,
+    "minor": 3
+  },
+  "player info": {
+    "steamid": "",
+    "eosid": "",
+    "known as": []
+  },
+  "update info": {
+    "year": 2025,
+    "month": 5,
+    "day": 24,
+    "hour": 20,
+    "minute": 54,
+    "second": 23,
+    "millisecond": 245,
+    "iso": "2025-05-24T20:54:23.245+00:00"
+  },
+  "save data": {
+    "$": 1000,
+    "total $": 1000,
+    "xp": 0,
+    "total xp": 0,
+    "indfor skin": "",
+    "blufor skin": "",
+    "redfor skin": "",
+    "loadout": [],
+    "perks": [
+      "None",
+      "None",
+      "None"
+    ],
+    "perma unlocks": [],
+    "rewards": {},
+    "player kills": {},
+    "vehicle kills": {},
+    "purchase history": {},
+    "weapon xp": {}
+  },
+  "old save data": {}
+}

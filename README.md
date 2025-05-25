@@ -19,15 +19,15 @@ This example attempts to support most Third-Party KOTH mods from the creator com
 <div align="justify">
  
 ### Compatible Mod List
-Content Packs:
+#### --- *Content Packs* ---
 Contractor's Crate 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3469480936
 
-Gameplay Mods:
+#### --- *Gameplay Mods* ---
 King of the Hill (KotH) Inventory Mod 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3481648267
 
-Modded Layers:
+#### --- *Modded Layers* ---
 King of the Hill - Additional Layers | [KOTH] (Alpha)
 https://steamcommunity.com/sharedfiles/filedetails/?id=3476103791
 

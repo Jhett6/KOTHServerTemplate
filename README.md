@@ -1,4 +1,7 @@
 <div align="center">
+
+<img src="Logo/koth_banner.png" alt="Logo" width="500"/>
+
 ### KOTHServerTemplate
 *A simplified template for rapidly deploying your own KOTH Server in Squad.*
 

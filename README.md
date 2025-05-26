@@ -28,13 +28,13 @@ King of the Hill (KotH) Inventory Mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=3481648267
 
 #### --- *Modded Layers* ---
-King of the Hill - Additional Layers | [KOTH] (Alpha)
+King of the Hill - Additional Layers
 https://steamcommunity.com/sharedfiles/filedetails/?id=3476103791
 
-Operation First Light: Re-Introduced [SQ v8.2] [Map] - [KOTH][ZEUS]
+Operation First Light: Re-Introduced - [KOTH][ZEUS]
 https://steamcommunity.com/sharedfiles/filedetails/?id=3309927178
 
-Wil's Fools Road [SQ v8.2] [Map] - [KOTH][ZEUS] 
+Wil's Fools Road
 https://steamcommunity.com/sharedfiles/filedetails/?id=3040351557
 
 Hrodna Border

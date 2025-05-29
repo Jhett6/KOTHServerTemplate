@@ -324,14 +324,6 @@
         "description": "Your aim's deadly... to morale. Try pointing the gun at the enemy next time, maybe?",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
-      },
-	  {
-        "name": "Razor Wire",
-        "xp": 0,
-        "$": 0,
-        "description": "Awarded for getting wraped in barbed wire. Watch your step!!!",
-        "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_attack.map_commandmarker_attack",
-        "display reward": true
       }
     ]
   },

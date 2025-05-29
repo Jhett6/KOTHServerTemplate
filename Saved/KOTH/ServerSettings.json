@@ -6,7 +6,7 @@
     "economy": {
       "$ multiplier": 1.5,
       "xp multiplier": 1,
-      "weapon xp multiplier": 2
+      "weapon xp multiplier": 4
     },
     "zone": {
       "move interval": 300,
@@ -20,7 +20,7 @@
       "prio vehicle can capture": true
     },
     "msv timer": 180,
-    "msv enemy trace distance": 2000,
+    "msv enemy trace distance": 3000,
     "vehicle cleanup": {
       "burn damage": 12.5,
       "burn interval": 1,
@@ -289,22 +289,14 @@
         "name": "Razor Wire",
         "xp": 0,
         "$": 0,
-        "description": "Awarded for getting wraped in barbed wire. Watch your step!!!",
-        "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_attack.map_commandmarker_attack",
-        "display reward": true
-      },
-      {
-        "name": "Razor Wire",
-        "xp": 0,
-        "$": 0,
         "description": "Rewarded for getting tangled in Razor Wire. Watch your step, idiot!",
         "texture": "/Game/UI/Widgets/HUD/Scoreboard/Scoreboardtextures/request_bleeding-2.request_bleeding-2",
         "display reward": true
       },
       {
         "name": "Friendly MSV Destroyed",
-        "xp": -50000,
-        "$": -50000,
+        "xp": -10000,
+        "$": -10000,
         "description": "Why would you do this???",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
@@ -571,7 +563,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74_Tracer.BP_AK74_Tracer",
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74_Tracer.BP_AK74_Tracer_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1
@@ -778,6 +770,56 @@
               "item count": -1
             }
           ],
+          "unlock level": 32
+        },
+        {
+          "family name": "G3A3",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "A German battle rifle chambered in 7.62x51mm NATO, featuring a collapsible stock for improved mobility. Known for its stopping power and durability, it has seen extensive use in military forces worldwide.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3a3.g3a3",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3.BP_G3A3_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Foregrip.BP_G3A3_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum.BP_G3A3_Drum_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_ZPoint.BP_G3A3_ZPoint_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Optic.BP_G3A3_Optic_C",
+              "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum_Optic.BP_G3A3_Drum_Optic_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1
+            }
+          ],
           "unlock level": 33
         },
         {
@@ -790,6 +832,12 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3A4.BP_G3A4_C",
               "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A4_ZPoint.BP_G3A4_ZPoint_C",
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1
             },
@@ -1508,88 +1556,6 @@
           "unlock level": 80
         },
         {
-          "family name": "Grenadier Guns",
-          "single cost": "1500",
-          "perma cost": "100000",
-          "description": "All Underbarrel GLs, 4x Smokes, 10x HE.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M16A2_M203.T_M16A2_M203",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M4M203_Rifle.BP_M4M203_Rifle_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle.BP_AK74GP25_Rifle_C",
-              "unlock level": 18,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A4M203_Rifle.BP_M16A4M203_Rifle_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
-              "unlock level": 25,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63.BP_AK74GP25_Rifle_1P63_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P78.BP_AK74GP25_Rifle_1P78_C",
-              "unlock level": 40,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
-              "unlock level": 45,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
-              "unlock level": 55,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Rock",
           "single cost": "10000",
           "perma cost": "-1",
@@ -1856,28 +1822,12 @@
           "unlock level": 15
         },
         {
-          "family name": "Light-AT",
-          "single cost": "250",
+          "family name": "RPG 7",
+          "single cost": "150",
           "perma cost": "-1",
-          "description": "A modern Russian disposable rocket launcher firing a powerful 125mm tandem-charge warhead. Designed to defeat advanced armor and fortified structures, it poses a serious threat to modern main battle tanks.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
+          "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
           "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Frag.BP_RPG7_Frag_C",
               "unlock level": 0,
@@ -1896,7 +1846,15 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Heat.BP_RPG7_Heat_C",
-              "unlock level": 10,
+              "unlock level": 5,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Thermo.BP_RPG7_Thermo_C",
+              "unlock level": 7,
               "perk requirements": [
                 "Launcher"
               ],
@@ -1911,7 +1869,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Thermo.BP_RPG7V2_Thermo_C",
               "unlock level": 15,
               "perk requirements": [
                 "Launcher"
@@ -1919,7 +1877,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/DZJ-08/BP_DZJ-08.BP_DZJ-08_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
               "perk requirements": [
                 "Launcher"
@@ -1927,64 +1885,8 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Tandem.BP_RPG7V2_Tandem_C",
               "unlock level": 25,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV441D_No78Mk1.BP_CarlGustavM2_FFV441D_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV551_No78Mk1.BP_CarlGustavM2_FFV551_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_HAR66.BP_HAR66_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_M136AT4.BP_M136AT4_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE.BP_PF-98_HE_C",
-              "unlock level": 35,
               "perk requirements": [
                 "Launcher"
               ],
@@ -1994,14 +1896,32 @@
           "unlock level": 5
         },
         {
-          "family name": "Heavy-AT",
-          "single cost": "750",
+          "family name": "RPG 26",
+          "single cost": "250",
           "perma cost": "-1",
-          "description": "A Russian shoulder-fired rocket launcher featuring a tandem-charge warhead designed to penetrate reactive and composite armor. It has been used effectively against modern armored vehicles in various conflicts.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
+          "description": "A  disposable anti-tank rocket-propelled grenade.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Thermo.BP_RPG7_Thermo_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
+        },
+        {
+          "family name": "M3 MAAWS",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
               "unlock level": 0,
               "perk requirements": [
                 "Launcher"
@@ -2009,72 +1929,52 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Thermo.BP_RPG7V2_Thermo_C",
-              "unlock level": 25,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
+        },
+        {
+          "family name": "SMAW",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
-              "unlock level": 30,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
+              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
-            },
+            }
+          ],
+          "unlock level": 5
+        },
+        {
+          "family name": "AT-4",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "AT4 is a Swedish 84 mm unguided, man-portable, disposable, shoulder-fired recoilless anti-tank weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
+          "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
-              "unlock level": 35,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
-              "unlock level": 40,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Tandem.BP_RPG7V2_Tandem_C",
-              "unlock level": 45,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
-              "unlock level": 55,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29.BP_RPG29_C",
-              "unlock level": 50,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29_Optic.BP_RPG29_Optic_C",
-              "unlock level": 60,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_Tandem.BP_PF-98_Tandem_C",
-              "unlock level": 65,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_M136AT4.BP_M136AT4_C",
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
@@ -2082,6 +1982,173 @@
             }
           ],
           "unlock level": 20
+        },
+        {
+          "family name": "HAR 66",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/T_HAR66.T_HAR66",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_HAR66.BP_HAR66_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "DZJ-08",
+          "single cost": "300",
+          "perma cost": "-1",
+          "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
+          "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/DZJ-08/BP_DZJ-08.BP_DZJ-08_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "RPG 28",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "A Russian handheld anti-tank rocket launcher.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 36
+        },
+        {
+          "family name": "RPG 29",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29.BP_RPG29_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29_Optic.BP_RPG29_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 48
+        },
+        {
+          "family name": "Carl Gustav M2",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "84 mm recoilless rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV441D_No78Mk1.BP_CarlGustavM2_FFV441D_No78Mk1_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV551_No78Mk1.BP_CarlGustavM2_FFV551_No78Mk1_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "NLAW",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
+          "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher",
+                "Engineer"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 70
+        },
+        {
+          "family name": "PF-98",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
+          "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE.BP_PF-98_HE_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_Tandem.BP_PF-98_Tandem_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 80
         },
         {
           "family name": "M320 - HE",
@@ -2794,10 +2861,6 @@
         {
           "image url": "https://public-repo.psg-hosting.com/external/koth-squad/TheUnnamed.png",
           "url": "https://discord.com/invite/unnamedcorp"
-        },
-        {
-          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/44thRA.png",
-          "url": "https://discord.gg/44thsquad"
         }
       ]
     },
@@ -2952,6 +3015,14 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4.BP_M16A4_C",
               "unlock level": 3,
               "perk requirements": [],
@@ -2976,6 +3047,14 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M16A4M203_Rifle.BP_M16A4M203_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4_M150.BP_M16A4_M150_C",
               "unlock level": 15,
               "perk requirements": [],
@@ -2985,6 +3064,14 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4_M150_Foregrip_Tracer.BP_M16A4_M150_Foregrip_Tracer_C",
               "unlock level": 20,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             },
             {
@@ -3036,7 +3123,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74_Tracer.BP_AK74_Tracer",
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74_Tracer.BP_AK74_Tracer_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1
@@ -3054,9 +3141,33 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle.BP_AK74GP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63.BP_AK74GP25_Rifle_1P63_C",
+              "unlock level": 23,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_AK74M_1P78.BP_AK74M_1P78_C",
               "unlock level": 25,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P78.BP_AK74GP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             }
           ],
@@ -3240,6 +3351,56 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL.BP_FNFAL_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 33
+        },
+        {
+          "family name": "G3A3",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "A German battle rifle chambered in 7.62x51mm NATO, featuring a collapsible stock for improved mobility. Known for its stopping power and durability, it has seen extensive use in military forces worldwide.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3a3.g3a3",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3.BP_G3A3_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Foregrip.BP_G3A3_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum.BP_G3A3_Drum_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_ZPoint.BP_G3A3_ZPoint_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Optic.BP_G3A3_Optic_C",
+              "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum_Optic.BP_G3A3_Drum_Optic_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
               "item count": -1
             }
           ],
@@ -3475,6 +3636,14 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
+              "unlock level": 23,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_Foregrip.BP_C7A2_C79A2_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -3484,6 +3653,14 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_Foregrip_Tracer.BP_C7A2_C79A2_Foregrip_Tracer_C",
               "unlock level": 30,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
+              "unlock level": 35,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             }
           ],
@@ -3532,6 +3709,14 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1.BP_M4A1_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M4M203_Rifle.BP_M4M203_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             },
             {
@@ -3973,88 +4158,6 @@
           "unlock level": 80
         },
         {
-          "family name": "Grenadier Guns",
-          "single cost": "1500",
-          "perma cost": "100000",
-          "description": "All Underbarrel GLs, 4x Smokes, 10x HE.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M16A2_M203.T_M16A2_M203",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M4M203_Rifle.BP_M4M203_Rifle_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle.BP_AK74GP25_Rifle_C",
-              "unlock level": 18,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A4M203_Rifle.BP_M16A4M203_Rifle_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
-              "unlock level": 25,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63.BP_AK74GP25_Rifle_1P63_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P78.BP_AK74GP25_Rifle_1P78_C",
-              "unlock level": 40,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
-              "unlock level": 45,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
-              "unlock level": 55,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Rock",
           "single cost": "10000",
           "perma cost": "-1",
@@ -4321,28 +4424,12 @@
           "unlock level": 15
         },
         {
-          "family name": "Light-AT",
-          "single cost": "250",
+          "family name": "RPG 7",
+          "single cost": "150",
           "perma cost": "-1",
-          "description": "A modern Russian disposable rocket launcher firing a powerful 125mm tandem-charge warhead. Designed to defeat advanced armor and fortified structures, it poses a serious threat to modern main battle tanks.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
+          "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
           "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Frag.BP_RPG7_Frag_C",
               "unlock level": 0,
@@ -4361,7 +4448,15 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Heat.BP_RPG7_Heat_C",
-              "unlock level": 10,
+              "unlock level": 5,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Thermo.BP_RPG7_Thermo_C",
+              "unlock level": 7,
               "perk requirements": [
                 "Launcher"
               ],
@@ -4376,7 +4471,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Thermo.BP_RPG7V2_Thermo_C",
               "unlock level": 15,
               "perk requirements": [
                 "Launcher"
@@ -4384,7 +4479,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/DZJ-08/BP_DZJ-08.BP_DZJ-08_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
               "perk requirements": [
                 "Launcher"
@@ -4392,64 +4487,8 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Tandem.BP_RPG7V2_Tandem_C",
               "unlock level": 25,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV441D_No78Mk1.BP_CarlGustavM2_FFV441D_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV551_No78Mk1.BP_CarlGustavM2_FFV551_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_HAR66.BP_HAR66_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_M136AT4.BP_M136AT4_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE.BP_PF-98_HE_C",
-              "unlock level": 35,
               "perk requirements": [
                 "Launcher"
               ],
@@ -4459,14 +4498,32 @@
           "unlock level": 5
         },
         {
-          "family name": "Heavy-AT",
-          "single cost": "750",
+          "family name": "RPG 26",
+          "single cost": "250",
           "perma cost": "-1",
-          "description": "A Russian shoulder-fired rocket launcher featuring a tandem-charge warhead designed to penetrate reactive and composite armor. It has been used effectively against modern armored vehicles in various conflicts.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
+          "description": "A  disposable anti-tank rocket-propelled grenade.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Thermo.BP_RPG7_Thermo_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
+        },
+        {
+          "family name": "M3 MAAWS",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
               "unlock level": 0,
               "perk requirements": [
                 "Launcher"
@@ -4474,72 +4531,52 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Thermo.BP_RPG7V2_Thermo_C",
-              "unlock level": 25,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
+        },
+        {
+          "family name": "SMAW",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
-              "unlock level": 30,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
+              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
-            },
+            }
+          ],
+          "unlock level": 5
+        },
+        {
+          "family name": "AT-4",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "AT4 is a Swedish 84 mm unguided, man-portable, disposable, shoulder-fired recoilless anti-tank weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
+          "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
-              "unlock level": 35,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
-              "unlock level": 40,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Tandem.BP_RPG7V2_Tandem_C",
-              "unlock level": 45,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
-              "unlock level": 55,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29.BP_RPG29_C",
-              "unlock level": 50,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29_Optic.BP_RPG29_Optic_C",
-              "unlock level": 60,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_Tandem.BP_PF-98_Tandem_C",
-              "unlock level": 65,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_M136AT4.BP_M136AT4_C",
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
@@ -4547,6 +4584,173 @@
             }
           ],
           "unlock level": 20
+        },
+        {
+          "family name": "HAR 66",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/T_HAR66.T_HAR66",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_HAR66.BP_HAR66_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "DZJ-08",
+          "single cost": "300",
+          "perma cost": "-1",
+          "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
+          "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/DZJ-08/BP_DZJ-08.BP_DZJ-08_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "RPG 28",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "A Russian handheld anti-tank rocket launcher.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 36
+        },
+        {
+          "family name": "RPG 29",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29.BP_RPG29_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29_Optic.BP_RPG29_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 48
+        },
+        {
+          "family name": "Carl Gustav M2",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "84 mm recoilless rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV441D_No78Mk1.BP_CarlGustavM2_FFV441D_No78Mk1_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV551_No78Mk1.BP_CarlGustavM2_FFV551_No78Mk1_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "NLAW",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
+          "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher",
+                "Engineer"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 70
+        },
+        {
+          "family name": "PF-98",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
+          "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE.BP_PF-98_HE_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_Tandem.BP_PF-98_Tandem_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 80
         },
         {
           "family name": "M320 - HE",
@@ -5435,10 +5639,6 @@
         {
           "image url": "https://public-repo.psg-hosting.com/external/koth-squad/TheUnnamed.png",
           "url": "https://discord.com/invite/unnamedcorp"
-        },
-        {
-          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/44thRA.png",
-          "url": "https://discord.gg/44thsquad"
         }
       ]
     },
@@ -5593,6 +5793,14 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4.BP_M16A4_C",
               "unlock level": 3,
               "perk requirements": [],
@@ -5617,6 +5825,14 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M16A4M203_Rifle.BP_M16A4M203_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4_M150.BP_M16A4_M150_C",
               "unlock level": 15,
               "perk requirements": [],
@@ -5626,6 +5842,14 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4_M150_Foregrip_Tracer.BP_M16A4_M150_Foregrip_Tracer_C",
               "unlock level": 20,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             },
             {
@@ -5677,7 +5901,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74_Tracer.BP_AK74_Tracer",
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74_Tracer.BP_AK74_Tracer_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1
@@ -5695,9 +5919,33 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle.BP_AK74GP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63.BP_AK74GP25_Rifle_1P63_C",
+              "unlock level": 23,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_AK74M_1P78.BP_AK74M_1P78_C",
               "unlock level": 25,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P78.BP_AK74GP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             }
           ],
@@ -5881,6 +6129,56 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL.BP_FNFAL_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 33
+        },
+        {
+          "family name": "G3A3",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "A German battle rifle chambered in 7.62x51mm NATO, featuring a collapsible stock for improved mobility. Known for its stopping power and durability, it has seen extensive use in military forces worldwide.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3a3.g3a3",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3.BP_G3A3_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Foregrip.BP_G3A3_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum.BP_G3A3_Drum_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_ZPoint.BP_G3A3_ZPoint_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Optic.BP_G3A3_Optic_C",
+              "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum_Optic.BP_G3A3_Drum_Optic_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
               "item count": -1
             }
           ],
@@ -6116,6 +6414,14 @@
               "item count": -1
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
+              "unlock level": 23,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_Foregrip.BP_C7A2_C79A2_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -6125,6 +6431,14 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_Foregrip_Tracer.BP_C7A2_C79A2_Foregrip_Tracer_C",
               "unlock level": 30,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
+              "unlock level": 35,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             }
           ],
@@ -6173,6 +6487,14 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1.BP_M4A1_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M4M203_Rifle.BP_M4M203_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1
             },
             {
@@ -6614,88 +6936,6 @@
           "unlock level": 80
         },
         {
-          "family name": "Grenadier Guns",
-          "single cost": "1500",
-          "perma cost": "100000",
-          "description": "All Underbarrel GLs, 4x Smokes, 10x HE.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M16A2_M203.T_M16A2_M203",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M4M203_Rifle.BP_M4M203_Rifle_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle.BP_AK74GP25_Rifle_C",
-              "unlock level": 18,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A4M203_Rifle.BP_M16A4M203_Rifle_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
-              "unlock level": 25,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63.BP_AK74GP25_Rifle_1P63_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P78.BP_AK74GP25_Rifle_1P78_C",
-              "unlock level": 40,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
-              "unlock level": 45,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
-              "unlock level": 55,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Rock",
           "single cost": "10000",
           "perma cost": "-1",
@@ -6962,28 +7202,12 @@
           "unlock level": 15
         },
         {
-          "family name": "Light-AT",
-          "single cost": "250",
+          "family name": "RPG 7",
+          "single cost": "150",
           "perma cost": "-1",
-          "description": "A modern Russian disposable rocket launcher firing a powerful 125mm tandem-charge warhead. Designed to defeat advanced armor and fortified structures, it poses a serious threat to modern main battle tanks.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
+          "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
           "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Frag.BP_RPG7_Frag_C",
               "unlock level": 0,
@@ -7002,7 +7226,15 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Heat.BP_RPG7_Heat_C",
-              "unlock level": 10,
+              "unlock level": 5,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Thermo.BP_RPG7_Thermo_C",
+              "unlock level": 7,
               "perk requirements": [
                 "Launcher"
               ],
@@ -7017,7 +7249,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Thermo.BP_RPG7V2_Thermo_C",
               "unlock level": 15,
               "perk requirements": [
                 "Launcher"
@@ -7025,7 +7257,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/DZJ-08/BP_DZJ-08.BP_DZJ-08_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
               "perk requirements": [
                 "Launcher"
@@ -7033,64 +7265,8 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Tandem.BP_RPG7V2_Tandem_C",
               "unlock level": 25,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV441D_No78Mk1.BP_CarlGustavM2_FFV441D_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV551_No78Mk1.BP_CarlGustavM2_FFV551_No78Mk1_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_HAR66.BP_HAR66_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_M136AT4.BP_M136AT4_C",
-              "unlock level": 30,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE.BP_PF-98_HE_C",
-              "unlock level": 35,
               "perk requirements": [
                 "Launcher"
               ],
@@ -7100,14 +7276,32 @@
           "unlock level": 5
         },
         {
-          "family name": "Heavy-AT",
-          "single cost": "750",
+          "family name": "RPG 26",
+          "single cost": "250",
           "perma cost": "-1",
-          "description": "A Russian shoulder-fired rocket launcher featuring a tandem-charge warhead designed to penetrate reactive and composite armor. It has been used effectively against modern armored vehicles in various conflicts.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
+          "description": "A  disposable anti-tank rocket-propelled grenade.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Thermo.BP_RPG7_Thermo_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
+        },
+        {
+          "family name": "M3 MAAWS",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
               "unlock level": 0,
               "perk requirements": [
                 "Launcher"
@@ -7115,72 +7309,52 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Thermo.BP_RPG7V2_Thermo_C",
-              "unlock level": 25,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
+        },
+        {
+          "family name": "SMAW",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
-              "unlock level": 30,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
+              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
-            },
+            }
+          ],
+          "unlock level": 5
+        },
+        {
+          "family name": "AT-4",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "AT4 is a Swedish 84 mm unguided, man-portable, disposable, shoulder-fired recoilless anti-tank weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
+          "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
-              "unlock level": 35,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
-              "unlock level": 40,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V2_Tandem.BP_RPG7V2_Tandem_C",
-              "unlock level": 45,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
-              "unlock level": 55,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29.BP_RPG29_C",
-              "unlock level": 50,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29_Optic.BP_RPG29_Optic_C",
-              "unlock level": 60,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_Tandem.BP_PF-98_Tandem_C",
-              "unlock level": 65,
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_M136AT4.BP_M136AT4_C",
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
@@ -7188,6 +7362,173 @@
             }
           ],
           "unlock level": 20
+        },
+        {
+          "family name": "HAR 66",
+          "single cost": "250",
+          "perma cost": "-1",
+          "description": "portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/T_HAR66.T_HAR66",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_HAR66.BP_HAR66_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "DZJ-08",
+          "single cost": "300",
+          "perma cost": "-1",
+          "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
+          "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/DZJ-08/BP_DZJ-08.BP_DZJ-08_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "RPG 28",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "A Russian handheld anti-tank rocket launcher.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 36
+        },
+        {
+          "family name": "RPG 29",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29.BP_RPG29_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG29_Optic.BP_RPG29_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 48
+        },
+        {
+          "family name": "Carl Gustav M2",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "84 mm recoilless rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV441D_No78Mk1.BP_CarlGustavM2_FFV441D_No78Mk1_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV551_No78Mk1.BP_CarlGustavM2_FFV551_No78Mk1_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "NLAW",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
+          "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher",
+                "Engineer"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 70
+        },
+        {
+          "family name": "PF-98",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
+          "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_HE.BP_PF-98_HE_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/PF-98/BP_PF-98_Tandem.BP_PF-98_Tandem_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 80
         },
         {
           "family name": "M320 - HE",
@@ -8010,10 +8351,6 @@
         {
           "image url": "https://public-repo.psg-hosting.com/external/koth-squad/TheUnnamed.png",
           "url": "https://discord.com/invite/unnamedcorp"
-        },
-        {
-          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/44thRA.png",
-          "url": "https://discord.gg/44thsquad"
         }
       ]
     },

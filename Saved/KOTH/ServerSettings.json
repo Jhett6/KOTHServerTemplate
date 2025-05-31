@@ -2413,7 +2413,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "Gator",
@@ -2424,7 +2424,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "ATV",
@@ -2435,7 +2435,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "RHIB_M240",
@@ -2446,7 +2446,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "RHIB_M2",
@@ -2457,7 +2457,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
-          "kill $ reward": 300
+          "kill $ reward": 200
         },
         {
           "name": "Safir",
@@ -2468,7 +2468,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "TLF Utility Truck",
@@ -2479,7 +2479,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "British Utility Truck",
@@ -2490,7 +2490,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "PMC Technical Mortar",
@@ -2501,7 +2501,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 7500
+          "kill $ reward": 5000
         },
         {
           "name": "Motorcycle",
@@ -2512,7 +2512,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "Loach_Scout",
@@ -2523,7 +2523,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
           "spawn type": "Air Vehicle",
           "kill xp reward": 200,
-          "kill $ reward": 400
+          "kill $ reward": 265
         },
         {
           "name": "AntiAir-Truck",
@@ -2534,7 +2534,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
           "kill xp reward": 375,
-          "kill $ reward": 750
+          "kill $ reward": 500
         },
         {
           "name": "Technical4Seater_Transport",
@@ -2545,7 +2545,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "CPV",
@@ -2556,7 +2556,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 200,
-          "kill $ reward": 400
+          "kill $ reward": 265
         },
         {
           "name": "Technical_Dshk",
@@ -2567,7 +2567,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 375,
-          "kill $ reward": 750
+          "kill $ reward": 500
         },
         {
           "name": "Tigr",
@@ -2578,7 +2578,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "CPV_M134",
@@ -2589,7 +2589,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "MATV",
@@ -2600,7 +2600,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "Technical Mortar",
@@ -2611,7 +2611,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 7500
+          "kill $ reward": 5000
         },
         {
           "name": "MATV_MK19",
@@ -2622,7 +2622,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 550,
-          "kill $ reward": 1100
+          "kill $ reward": 726
         },
         {
           "name": "Technical_SpG9",
@@ -2633,7 +2633,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 400,
-          "kill $ reward": 800
+          "kill $ reward": 528
         },
         {
           "name": "BMP Techie",
@@ -2644,7 +2644,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 750,
-          "kill $ reward": 1500
+          "kill $ reward": 1000
         },
         {
           "name": "MI17",
@@ -2655,7 +2655,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 550,
-          "kill $ reward": 1100
+          "kill $ reward": 726
         },
         {
           "name": "UH60",
@@ -2666,7 +2666,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 600,
-          "kill $ reward": 1200
+          "kill $ reward": 800
         },
         {
           "name": "ZBJ",
@@ -2677,7 +2677,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "Loach-CAS",
@@ -2688,7 +2688,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 16000
+          "kill $ reward": 10600
         }
       ],
       "perks": [
@@ -5015,7 +5015,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "Gator",
@@ -5026,7 +5026,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "ATV",
@@ -5037,7 +5037,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "RHIB_M240",
@@ -5048,7 +5048,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "RHIB_M2",
@@ -5059,7 +5059,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
-          "kill $ reward": 300
+          "kill $ reward": 200
         },
         {
           "name": "Safir",
@@ -5070,7 +5070,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "TLF Utility Truck",
@@ -5081,7 +5081,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "British Utility Truck",
@@ -5092,7 +5092,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "PMC Technical Mortar",
@@ -5103,7 +5103,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 7500
+          "kill $ reward": 5000
         },
         {
           "name": "Motorcycle",
@@ -5114,7 +5114,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "Loach_Scout",
@@ -5125,7 +5125,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
           "spawn type": "Air Vehicle",
           "kill xp reward": 200,
-          "kill $ reward": 400
+          "kill $ reward": 265
         },
         {
           "name": "AntiAir-Truck",
@@ -5136,7 +5136,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
           "kill xp reward": 375,
-          "kill $ reward": 750
+          "kill $ reward": 500
         },
         {
           "name": "Technical4Seater_Transport",
@@ -5147,7 +5147,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "CPV",
@@ -5158,7 +5158,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 200,
-          "kill $ reward": 400
+          "kill $ reward": 265
         },
         {
           "name": "Technical_Dshk",
@@ -5169,7 +5169,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 375,
-          "kill $ reward": 750
+          "kill $ reward": 500
         },
         {
           "name": "Tigr",
@@ -5180,7 +5180,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "CPV_M134",
@@ -5191,7 +5191,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "MATV",
@@ -5202,7 +5202,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "Technical Mortar",
@@ -5213,7 +5213,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 7500
+          "kill $ reward": 5000
         },
         {
           "name": "MATV_MK19",
@@ -5224,7 +5224,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 550,
-          "kill $ reward": 1100
+          "kill $ reward": 726
         },
         {
           "name": "Technical_SpG9",
@@ -5235,7 +5235,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 400,
-          "kill $ reward": 800
+          "kill $ reward": 528
         },
         {
           "name": "BMP Techie",
@@ -5246,7 +5246,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 750,
-          "kill $ reward": 1500
+          "kill $ reward": 1000
         },
         {
           "name": "MI17",
@@ -5257,7 +5257,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 550,
-          "kill $ reward": 1100
+          "kill $ reward": 726
         },
         {
           "name": "UH60",
@@ -5268,7 +5268,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 600,
-          "kill $ reward": 1200
+          "kill $ reward": 800
         },
         {
           "name": "ZBJ",
@@ -5279,7 +5279,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "Loach-CAS",
@@ -5290,7 +5290,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 16000
+          "kill $ reward": 10600
         }
       ],
       "perks": [
@@ -7793,7 +7793,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "Gator",
@@ -7804,7 +7804,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "ATV",
@@ -7815,7 +7815,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "RHIB_M240",
@@ -7826,7 +7826,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "RHIB_M2",
@@ -7837,7 +7837,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
-          "kill $ reward": 300
+          "kill $ reward": 200
         },
         {
           "name": "Safir",
@@ -7848,7 +7848,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 75,
-          "kill $ reward": 150
+          "kill $ reward": 100
         },
         {
           "name": "TLF Utility Truck",
@@ -7859,7 +7859,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "British Utility Truck",
@@ -7870,7 +7870,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "PMC Technical Mortar",
@@ -7881,7 +7881,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 7500
+          "kill $ reward": 5000
         },
         {
           "name": "Motorcycle",
@@ -7892,7 +7892,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 100
+          "kill $ reward": 66
         },
         {
           "name": "Loach_Scout",
@@ -7903,7 +7903,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
           "spawn type": "Air Vehicle",
           "kill xp reward": 200,
-          "kill $ reward": 400
+          "kill $ reward": 265
         },
         {
           "name": "AntiAir-Truck",
@@ -7914,7 +7914,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
           "kill xp reward": 375,
-          "kill $ reward": 750
+          "kill $ reward": 500
         },
         {
           "name": "Technical4Seater_Transport",
@@ -7925,7 +7925,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
-          "kill $ reward": 200
+          "kill $ reward": 133
         },
         {
           "name": "CPV",
@@ -7936,7 +7936,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 200,
-          "kill $ reward": 400
+          "kill $ reward": 265
         },
         {
           "name": "Technical_Dshk",
@@ -7947,7 +7947,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 375,
-          "kill $ reward": 750
+          "kill $ reward": 500
         },
         {
           "name": "Tigr",
@@ -7958,7 +7958,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "CPV_M134",
@@ -7969,7 +7969,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "MATV",
@@ -7980,7 +7980,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "Technical Mortar",
@@ -7991,7 +7991,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 7500
+          "kill $ reward": 5000
         },
         {
           "name": "MATV_MK19",
@@ -8002,7 +8002,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 550,
-          "kill $ reward": 1100
+          "kill $ reward": 726
         },
         {
           "name": "Technical_SpG9",
@@ -8013,7 +8013,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 400,
-          "kill $ reward": 800
+          "kill $ reward": 528
         },
         {
           "name": "BMP Techie",
@@ -8024,7 +8024,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 750,
-          "kill $ reward": 1500
+          "kill $ reward": 1000
         },
         {
           "name": "MI17",
@@ -8035,7 +8035,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 550,
-          "kill $ reward": 1100
+          "kill $ reward": 726
         },
         {
           "name": "UH60",
@@ -8046,7 +8046,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 600,
-          "kill $ reward": 1200
+          "kill $ reward": 800
         },
         {
           "name": "ZBJ",
@@ -8057,7 +8057,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 450,
-          "kill $ reward": 900
+          "kill $ reward": 600
         },
         {
           "name": "Loach-CAS",
@@ -8068,7 +8068,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 16000
+          "kill $ reward": 10600
         }
       ],
       "perks": [

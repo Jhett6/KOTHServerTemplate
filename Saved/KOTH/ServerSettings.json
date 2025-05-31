@@ -2407,288 +2407,288 @@
         {
           "name": "RHIB",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_Transport.BP_RHIB_Transport_C",
-          "single cost": 100,
-          "description": "A not-so-bulletproof rubber boat",
+          "single cost": 200,
+          "description": "A not-so-bulletproof rubber boat.",
           "unlock level": 0,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "Gator",
           "vehicle": "/Game/Vehicles/M-Gator/BP_M-Gator_Transport_ARID.BP_M-Gator_Transport_ARID_C",
-          "single cost": 125,
-          "description": "A small atv-like transport vehicle",
+          "single cost": 300,
+          "description": "A small ATV-like transport vehicle.",
           "unlock level": 0,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
-          "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "ATV",
           "vehicle": "/Game/Vehicles/QuadBike/BP_Quadbike_Woodland.BP_Quadbike_Woodland_C",
           "single cost": 200,
-          "description": "An ATV with 2 seats. A cheap method of transportation.",
+          "description": "An ATV with 2 seats.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "RHIB_M240",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M240.BP_RHIB_US_M240_C",
           "single cost": 300,
-          "description": "A boat with a M240",
+          "description": "A boat with an M240 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
-          "kill xp reward": 50,
-          "kill $ reward": 50
-        },
-        {
-          "name": "Safir",
-          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
-          "single cost": 240,
-          "description": "a small open vehicle",
-          "unlock level": 7,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
-          "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "RHIB_M2",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M2.BP_RHIB_US_M2_C",
-          "single cost": 500,
-          "description": "A boat with a mounted 50 cal",
+          "single cost": 600,
+          "description": "A boat with a mounted 50 cal mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
-          "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill xp reward": 150,
+          "kill $ reward": 300
+        },
+        {
+          "name": "Safir",
+          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
+          "single cost": 300,
+          "description": "A small open truck.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "TLF Utility Truck",
           "vehicle": "/Game/Vehicles/BMC_185_Truck/BP_TLF_Util_Truck.BP_TLF_Util_Truck_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 400,
+          "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
+          "kill xp reward": 100,
           "kill $ reward": 200
         },
         {
           "name": "British Utility Truck",
           "vehicle": "/Game/Vehicles/British_Util_Truck/BP_Brit_Util_Truck.BP_Brit_Util_Truck_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 400,
+          "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
-          "kill xp reward": 200,
+          "kill xp reward": 100,
           "kill $ reward": 200
         },
         {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
-          "single cost": 20000,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 15000,
+          "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 3750,
+          "kill $ reward": 7500
         },
         {
           "name": "Motorcycle",
           "vehicle": "/Game/Vehicles/Minsk_motorbike/BP_minsk.BP_minsk_C",
           "single cost": 200,
-          "description": "A Motorcycle with 2 seats. A cheap method of transportation.",
+          "description": "A motorcycle with 2 seats.",
           "unlock level": 10,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "Loach_Scout",
           "vehicle": "/KingOfTheHill/Vehicles/Helicopters/BP_Loach_KOTH.BP_Loach_KOTH_C",
-          "single cost": 600,
-          "description": "Small helicopter, fast but can be easily shot down.",
+          "single cost": 800,
+          "description": "A small helicopter, fast but can be easily shot down.",
           "unlock level": 10,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 300,
-          "kill $ reward": 300
+          "kill xp reward": 200,
+          "kill $ reward": 400
         },
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 1500,
+          "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 375,
+          "kill $ reward": 750
         },
         {
           "name": "Technical4Seater_Transport",
           "vehicle": "/Game/Vehicles/Technical2Seater/Technical4Seater/BP_Technical4Seater_Transport.BP_Technical4Seater_Transport_C",
           "single cost": 400,
-          "description": "A truck with 4 seats",
+          "description": "A truck with 4 seats.",
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 100,
+          "kill $ reward": 200
         },
         {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
-          "single cost": 600,
-          "description": "An armored SUV, favored by private militaries",
+          "single cost": 800,
+          "description": "An armored SUV, favored by private militaries.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 200,
+          "kill $ reward": 400
         },
         {
           "name": "Technical_Dshk",
           "vehicle": "/Game/Vehicles/Technical/BP_Technical_Dshk_INS.BP_Technical_Dshk_INS_C",
-          "single cost": 750,
-          "description": "A rusty pickup with a 50 cal mounted in the bed.",
+          "single cost": 1500,
+          "description": "A technical with a 50 cal mounted on its flatbed.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 375,
+          "kill $ reward": 750
         },
         {
           "name": "Tigr",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr.BP_Tigr_C",
-          "single cost": 800,
-          "description": "A well armored squad transport vehicle. Equipped with an open-top 50cal",
+          "single cost": 1800,
+          "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "CPV_M134",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_M134.BP_CPV_M134_C",
-          "single cost": 1200,
-          "description": "an armored SUV with an open top mini gun",
+          "single cost": 1800,
+          "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
-          "single cost": 1600,
-          "description": "A well armored squad transport vehicle. Equipped with an open-top 50cal",
+          "single cost": 1800,
+          "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 25,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_Mortar.BP_Technical2Seater_White_Mortar_C",
-          "single cost": 20000,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 15000,
+          "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 27,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 3750,
+          "kill $ reward": 7500
         },
         {
           "name": "MATV_MK19",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_Mk19.BP_MATV_Mk19_C",
-          "single cost": 1800,
-          "description": "a well armored squad transport vehicle. Equpped with an open-top Mk19 grenade launcher",
+          "single cost": 2200,
+          "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 150,
-          "kill $ reward": 150
+          "kill xp reward": 550,
+          "kill $ reward": 1100
         },
         {
           "name": "Technical_SpG9",
           "vehicle": "/KingOfTheHill/Vehicles/Technical/BP_Technical_SPG9_INS.BP_Technical_SPG9_INS_C",
-          "single cost": 1200,
-          "description": "A rusty pickup with a rocket launcher moutned in the bed",
+          "single cost": 1600,
+          "description": "A technical with an SPG-9 recoilless gun mounted on its flatbed.",
           "unlock level": 35,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 400,
+          "kill $ reward": 800
         },
         {
           "name": "BMP Techie",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_BMP1.BP_Technical2Seater_White_BMP1_C",
           "single cost": 3000,
-          "description": "An abomination of cracked welds. To be feared on the battlefield.",
+          "description": "A technical with the turret of a BMP-1 IFV grafted onto the flatbed. It is an abomination of cracked welds, to be feared on the battlefield.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 750,
+          "kill $ reward": 1500
         },
         {
           "name": "MI17",
           "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
-          "single cost": 2400,
-          "description": "A bulky transport helicopter",
+          "single cost": 2200,
+          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 550,
+          "kill $ reward": 1100
         },
         {
           "name": "UH60",
           "vehicle": "/Game/Vehicles/UH60M/BP_UH60.BP_UH60_C",
-          "single cost": 2600,
-          "description": "A US military helicopter",
+          "single cost": 2400,
+          "description": "A US military helicopter armed with two side-mounted M240H machine guns",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 600,
+          "kill $ reward": 1200
         },
         {
           "name": "ZBJ",
           "vehicle": "/Game/Vehicles/Z8J/BP_Z8J.BP_Z8J_C",
-          "single cost": 3000,
-          "description": "A Chinese military helicopter",
+          "single cost": 1800,
+          "description": "A bulky Chinese military transport helicopter equipped with a co-pilot controlled scout camera.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 35000,
-          "description": "A WPMC military helicopter",
+          "single cost": 32000,
+          "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 8000,
+          "kill $ reward": 16000
         }
       ],
       "perks": [
@@ -5009,288 +5009,288 @@
         {
           "name": "RHIB",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_Transport.BP_RHIB_Transport_C",
-          "single cost": 100,
-          "description": "A not-so-bulletproof rubber boat",
+          "single cost": 200,
+          "description": "A not-so-bulletproof rubber boat.",
           "unlock level": 0,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "Gator",
           "vehicle": "/Game/Vehicles/M-Gator/BP_M-Gator_Transport_ARID.BP_M-Gator_Transport_ARID_C",
-          "single cost": 125,
-          "description": "A small atv-like transport vehicle",
+          "single cost": 300,
+          "description": "A small ATV-like transport vehicle.",
           "unlock level": 0,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
-          "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "ATV",
           "vehicle": "/Game/Vehicles/QuadBike/BP_Quadbike_Woodland.BP_Quadbike_Woodland_C",
           "single cost": 200,
-          "description": "An ATV with 2 seats. A cheap method of transportation.",
+          "description": "An ATV with 2 seats.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "RHIB_M240",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M240.BP_RHIB_US_M240_C",
           "single cost": 300,
-          "description": "A boat with a M240",
+          "description": "A boat with an M240 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
-          "kill xp reward": 50,
-          "kill $ reward": 50
-        },
-        {
-          "name": "Safir",
-          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
-          "single cost": 240,
-          "description": "a small open vehicle",
-          "unlock level": 7,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
-          "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "RHIB_M2",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M2.BP_RHIB_US_M2_C",
-          "single cost": 500,
-          "description": "A boat with a mounted 50 cal",
+          "single cost": 600,
+          "description": "A boat with a mounted 50 cal mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
-          "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill xp reward": 150,
+          "kill $ reward": 300
+        },
+        {
+          "name": "Safir",
+          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
+          "single cost": 300,
+          "description": "A small open truck.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "TLF Utility Truck",
           "vehicle": "/Game/Vehicles/BMC_185_Truck/BP_TLF_Util_Truck.BP_TLF_Util_Truck_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 400,
+          "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
+          "kill xp reward": 100,
           "kill $ reward": 200
         },
         {
           "name": "British Utility Truck",
           "vehicle": "/Game/Vehicles/British_Util_Truck/BP_Brit_Util_Truck.BP_Brit_Util_Truck_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 400,
+          "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
-          "kill xp reward": 200,
+          "kill xp reward": 100,
           "kill $ reward": 200
         },
         {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
-          "single cost": 20000,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 15000,
+          "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 3750,
+          "kill $ reward": 7500
         },
         {
           "name": "Motorcycle",
           "vehicle": "/Game/Vehicles/Minsk_motorbike/BP_minsk.BP_minsk_C",
           "single cost": 200,
-          "description": "A Motorcycle with 2 seats. A cheap method of transportation.",
+          "description": "A motorcycle with 2 seats.",
           "unlock level": 10,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "Loach_Scout",
           "vehicle": "/KingOfTheHill/Vehicles/Helicopters/BP_Loach_KOTH.BP_Loach_KOTH_C",
-          "single cost": 600,
-          "description": "Small helicopter, fast but can be easily shot down.",
+          "single cost": 800,
+          "description": "A small helicopter, fast but can be easily shot down.",
           "unlock level": 10,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 300,
-          "kill $ reward": 300
+          "kill xp reward": 200,
+          "kill $ reward": 400
         },
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 1500,
+          "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 375,
+          "kill $ reward": 750
         },
         {
           "name": "Technical4Seater_Transport",
           "vehicle": "/Game/Vehicles/Technical2Seater/Technical4Seater/BP_Technical4Seater_Transport.BP_Technical4Seater_Transport_C",
           "single cost": 400,
-          "description": "A truck with 4 seats",
+          "description": "A truck with 4 seats.",
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 100,
+          "kill $ reward": 200
         },
         {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
-          "single cost": 600,
-          "description": "An armored SUV, favored by private militaries",
+          "single cost": 800,
+          "description": "An armored SUV, favored by private militaries.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 200,
+          "kill $ reward": 400
         },
         {
           "name": "Technical_Dshk",
           "vehicle": "/Game/Vehicles/Technical/BP_Technical_Dshk_INS.BP_Technical_Dshk_INS_C",
-          "single cost": 750,
-          "description": "A rusty pickup with a 50 cal mounted in the bed.",
+          "single cost": 1500,
+          "description": "A technical with a 50 cal mounted on its flatbed.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 375,
+          "kill $ reward": 750
         },
         {
           "name": "Tigr",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr.BP_Tigr_C",
-          "single cost": 800,
-          "description": "A well armored squad transport vehicle. Equipped with an open-top 50cal",
+          "single cost": 1800,
+          "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "CPV_M134",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_M134.BP_CPV_M134_C",
-          "single cost": 1200,
-          "description": "an armored SUV with an open top mini gun",
+          "single cost": 1800,
+          "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
-          "single cost": 1600,
-          "description": "A well armored squad transport vehicle. Equipped with an open-top 50cal",
+          "single cost": 1800,
+          "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 25,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_Mortar.BP_Technical2Seater_White_Mortar_C",
-          "single cost": 20000,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 15000,
+          "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 27,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 3750,
+          "kill $ reward": 7500
         },
         {
           "name": "MATV_MK19",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_Mk19.BP_MATV_Mk19_C",
-          "single cost": 1800,
-          "description": "a well armored squad transport vehicle. Equpped with an open-top Mk19 grenade launcher",
+          "single cost": 2200,
+          "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 150,
-          "kill $ reward": 150
+          "kill xp reward": 550,
+          "kill $ reward": 1100
         },
         {
           "name": "Technical_SpG9",
           "vehicle": "/KingOfTheHill/Vehicles/Technical/BP_Technical_SPG9_INS.BP_Technical_SPG9_INS_C",
-          "single cost": 1200,
-          "description": "A rusty pickup with a rocket launcher moutned in the bed",
+          "single cost": 1600,
+          "description": "A technical with an SPG-9 recoilless gun mounted on its flatbed.",
           "unlock level": 35,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 400,
+          "kill $ reward": 800
         },
         {
           "name": "BMP Techie",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_BMP1.BP_Technical2Seater_White_BMP1_C",
           "single cost": 3000,
-          "description": "An abomination of cracked welds. To be feared on the battlefield.",
+          "description": "A technical with the turret of a BMP-1 IFV grafted onto the flatbed. It is an abomination of cracked welds, to be feared on the battlefield.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 750,
+          "kill $ reward": 1500
         },
         {
           "name": "MI17",
           "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
-          "single cost": 2400,
-          "description": "A bulky transport helicopter",
+          "single cost": 2200,
+          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 550,
+          "kill $ reward": 1100
         },
         {
           "name": "UH60",
           "vehicle": "/Game/Vehicles/UH60M/BP_UH60.BP_UH60_C",
-          "single cost": 2600,
-          "description": "A US military helicopter",
+          "single cost": 2400,
+          "description": "A US military helicopter armed with two side-mounted M240H machine guns",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 600,
+          "kill $ reward": 1200
         },
         {
           "name": "ZBJ",
           "vehicle": "/Game/Vehicles/Z8J/BP_Z8J.BP_Z8J_C",
-          "single cost": 3000,
-          "description": "A Chinese military helicopter",
+          "single cost": 1800,
+          "description": "A bulky Chinese military transport helicopter equipped with a co-pilot controlled scout camera.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 35000,
-          "description": "A WPMC military helicopter",
+          "single cost": 32000,
+          "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 8000,
+          "kill $ reward": 16000
         }
       ],
       "perks": [
@@ -7787,288 +7787,288 @@
         {
           "name": "RHIB",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_Transport.BP_RHIB_Transport_C",
-          "single cost": 100,
-          "description": "A not-so-bulletproof rubber boat",
+          "single cost": 200,
+          "description": "A not-so-bulletproof rubber boat.",
           "unlock level": 0,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "Gator",
           "vehicle": "/Game/Vehicles/M-Gator/BP_M-Gator_Transport_ARID.BP_M-Gator_Transport_ARID_C",
-          "single cost": 125,
-          "description": "A small atv-like transport vehicle",
+          "single cost": 300,
+          "description": "A small ATV-like transport vehicle.",
           "unlock level": 0,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
-          "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "ATV",
           "vehicle": "/Game/Vehicles/QuadBike/BP_Quadbike_Woodland.BP_Quadbike_Woodland_C",
           "single cost": 200,
-          "description": "An ATV with 2 seats. A cheap method of transportation.",
+          "description": "An ATV with 2 seats.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "RHIB_M240",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M240.BP_RHIB_US_M240_C",
           "single cost": 300,
-          "description": "A boat with a M240",
+          "description": "A boat with an M240 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
-          "kill xp reward": 50,
-          "kill $ reward": 50
-        },
-        {
-          "name": "Safir",
-          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
-          "single cost": 240,
-          "description": "a small open vehicle",
-          "unlock level": 7,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
-          "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "RHIB_M2",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M2.BP_RHIB_US_M2_C",
-          "single cost": 500,
-          "description": "A boat with a mounted 50 cal",
+          "single cost": 600,
+          "description": "A boat with a mounted 50 cal mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
-          "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill xp reward": 150,
+          "kill $ reward": 300
+        },
+        {
+          "name": "Safir",
+          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
+          "single cost": 300,
+          "description": "A small open truck.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 75,
+          "kill $ reward": 150
         },
         {
           "name": "TLF Utility Truck",
           "vehicle": "/Game/Vehicles/BMC_185_Truck/BP_TLF_Util_Truck.BP_TLF_Util_Truck_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 400,
+          "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
+          "kill xp reward": 100,
           "kill $ reward": 200
         },
         {
           "name": "British Utility Truck",
           "vehicle": "/Game/Vehicles/British_Util_Truck/BP_Brit_Util_Truck.BP_Brit_Util_Truck_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 400,
+          "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
-          "kill xp reward": 200,
+          "kill xp reward": 100,
           "kill $ reward": 200
         },
         {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
-          "single cost": 20000,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 15000,
+          "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 3750,
+          "kill $ reward": 7500
         },
         {
           "name": "Motorcycle",
           "vehicle": "/Game/Vehicles/Minsk_motorbike/BP_minsk.BP_minsk_C",
           "single cost": 200,
-          "description": "A Motorcycle with 2 seats. A cheap method of transportation.",
+          "description": "A motorcycle with 2 seats.",
           "unlock level": 10,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
           "spawn type": "Ground",
           "kill xp reward": 50,
-          "kill $ reward": 50
+          "kill $ reward": 100
         },
         {
           "name": "Loach_Scout",
           "vehicle": "/KingOfTheHill/Vehicles/Helicopters/BP_Loach_KOTH.BP_Loach_KOTH_C",
-          "single cost": 600,
-          "description": "Small helicopter, fast but can be easily shot down.",
+          "single cost": 800,
+          "description": "A small helicopter, fast but can be easily shot down.",
           "unlock level": 10,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 300,
-          "kill $ reward": 300
+          "kill xp reward": 200,
+          "kill $ reward": 400
         },
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 300,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 1500,
+          "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 375,
+          "kill $ reward": 750
         },
         {
           "name": "Technical4Seater_Transport",
           "vehicle": "/Game/Vehicles/Technical2Seater/Technical4Seater/BP_Technical4Seater_Transport.BP_Technical4Seater_Transport_C",
           "single cost": 400,
-          "description": "A truck with 4 seats",
+          "description": "A truck with 4 seats.",
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 100,
+          "kill $ reward": 200
         },
         {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
-          "single cost": 600,
-          "description": "An armored SUV, favored by private militaries",
+          "single cost": 800,
+          "description": "An armored SUV, favored by private militaries.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 200,
+          "kill $ reward": 400
         },
         {
           "name": "Technical_Dshk",
           "vehicle": "/Game/Vehicles/Technical/BP_Technical_Dshk_INS.BP_Technical_Dshk_INS_C",
-          "single cost": 750,
-          "description": "A rusty pickup with a 50 cal mounted in the bed.",
+          "single cost": 1500,
+          "description": "A technical with a 50 cal mounted on its flatbed.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 375,
+          "kill $ reward": 750
         },
         {
           "name": "Tigr",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr.BP_Tigr_C",
-          "single cost": 800,
-          "description": "A well armored squad transport vehicle. Equipped with an open-top 50cal",
+          "single cost": 1800,
+          "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "CPV_M134",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_M134.BP_CPV_M134_C",
-          "single cost": 1200,
-          "description": "an armored SUV with an open top mini gun",
+          "single cost": 1800,
+          "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
-          "single cost": 1600,
-          "description": "A well armored squad transport vehicle. Equipped with an open-top 50cal",
+          "single cost": 1800,
+          "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 25,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 100,
-          "kill $ reward": 100
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_Mortar.BP_Technical2Seater_White_Mortar_C",
-          "single cost": 20000,
-          "description": "A small squad-sized transport vehicle",
+          "single cost": 15000,
+          "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 27,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 200,
-          "kill $ reward": 200
+          "kill xp reward": 3750,
+          "kill $ reward": 7500
         },
         {
           "name": "MATV_MK19",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_Mk19.BP_MATV_Mk19_C",
-          "single cost": 1800,
-          "description": "a well armored squad transport vehicle. Equpped with an open-top Mk19 grenade launcher",
+          "single cost": 2200,
+          "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 150,
-          "kill $ reward": 150
+          "kill xp reward": 550,
+          "kill $ reward": 1100
         },
         {
           "name": "Technical_SpG9",
           "vehicle": "/KingOfTheHill/Vehicles/Technical/BP_Technical_SPG9_INS.BP_Technical_SPG9_INS_C",
-          "single cost": 1200,
-          "description": "A rusty pickup with a rocket launcher moutned in the bed",
+          "single cost": 1600,
+          "description": "A technical with an SPG-9 recoilless gun mounted on its flatbed.",
           "unlock level": 35,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
-          "kill xp reward": 80,
-          "kill $ reward": 80
+          "kill xp reward": 400,
+          "kill $ reward": 800
         },
         {
           "name": "BMP Techie",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_BMP1.BP_Technical2Seater_White_BMP1_C",
           "single cost": 3000,
-          "description": "An abomination of cracked welds. To be feared on the battlefield.",
+          "description": "A technical with the turret of a BMP-1 IFV grafted onto the flatbed. It is an abomination of cracked welds, to be feared on the battlefield.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 750,
+          "kill $ reward": 1500
         },
         {
           "name": "MI17",
           "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
-          "single cost": 2400,
-          "description": "A bulky transport helicopter",
+          "single cost": 2200,
+          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 550,
+          "kill $ reward": 1100
         },
         {
           "name": "UH60",
           "vehicle": "/Game/Vehicles/UH60M/BP_UH60.BP_UH60_C",
-          "single cost": 2600,
-          "description": "A US military helicopter",
+          "single cost": 2400,
+          "description": "A US military helicopter armed with two side-mounted M240H machine guns",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 600,
+          "kill $ reward": 1200
         },
         {
           "name": "ZBJ",
           "vehicle": "/Game/Vehicles/Z8J/BP_Z8J.BP_Z8J_C",
-          "single cost": 3000,
-          "description": "A Chinese military helicopter",
+          "single cost": 1800,
+          "description": "A bulky Chinese military transport helicopter equipped with a co-pilot controlled scout camera.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 450,
+          "kill $ reward": 900
         },
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 35000,
-          "description": "A WPMC military helicopter",
+          "single cost": 32000,
+          "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 400
+          "kill xp reward": 8000,
+          "kill $ reward": 16000
         }
       ],
       "perks": [

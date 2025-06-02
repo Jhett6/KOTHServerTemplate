@@ -2647,6 +2647,39 @@
           "kill $ reward": 1000
         },
         {
+          "name": "CSK131 Mengshi RWS",
+          "vehicle": "/Game/Vehicles/CSK131/BP_CSK131_RWS.BP_CSK131_RWS_C",
+          "single cost": 5200,
+          "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal",
+          "unlock level": 32,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1300,
+          "kill $ reward": 1733
+        },
+        {
+          "name": "Bushmaster PMV RWS",
+          "vehicle": "/Game/Vehicles/PMV/BP_PMV_RWS.BP_PMV_RWS_C",
+          "single cost": 5500,
+          "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1375,
+          "kill $ reward": 1833
+        },
+        {
+          "name": "Tigr-M Kord RWS",
+          "vehicle": "/Game/Vehicles/Tigr/BP_Tigr_RWS.BP_Tigr_RWS_C",
+          "single cost": 6000,
+          "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal and smoke countermeasures",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000
+        },
+        {
           "name": "MI17",
           "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
           "single cost": 2200,

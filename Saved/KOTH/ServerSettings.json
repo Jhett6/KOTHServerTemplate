@@ -2680,6 +2680,17 @@
           "kill $ reward": 2000
         },
         {
+          "name": "Technical UB-32",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_UB32.BP_Technical2Seater_White_UB32_C",
+          "single cost": 18000,
+          "description": "A technical with a UB-32 rocket pod mounted on its flatbed.",
+          "unlock level": 42,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 4500,
+          "kill $ reward": 6000
+        },
+        {
           "name": "BMP-2 Sarath",
           "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_IMF.BP_BMP2_IMF_C",
           "single cost": 9000,

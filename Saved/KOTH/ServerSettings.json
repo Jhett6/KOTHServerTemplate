@@ -2680,6 +2680,39 @@
           "kill $ reward": 2000
         },
         {
+          "name": "BMP-2 Sarath",
+          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_IMF.BP_BMP2_IMF_C",
+          "single cost": 9000,
+          "description": "A moderately armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
+          "unlock level": 44,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 2250,
+          "kill $ reward": 3000
+        },
+        {
+          "name": "FV510 Warrior",
+          "vehicle": "/Game/vehicles/FV510/BP_FV510_Woodland.BP_FV510_Woodland_C",
+          "single cost": 11000,
+          "description": "A well armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
+          "unlock level": 46,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 2750,
+          "kill $ reward": 3666
+        },
+        {
+          "name": "M2A3 Bradley",
+          "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
+          "single cost": 14000,
+          "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
+          "unlock level": 50,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 3500,
+          "kill $ reward": 4666
+        },
+        {
           "name": "MI17",
           "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
           "single cost": 2200,

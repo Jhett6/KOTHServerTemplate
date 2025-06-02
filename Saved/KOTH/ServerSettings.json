@@ -2755,6 +2755,39 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
           "kill $ reward": 10600
+        },
+        {
+          "name": "T-62",
+          "vehicle": "/Game/vehicles/T62/BP_T62.BP_T62_C",
+          "single cost": 18000,
+          "description": "A lightly armored MBT armed with a 115mm smoothbore gun, 30 cal machine gun and 50 cal open top machine gun.",
+          "unlock level": 62,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 4500,
+          "kill $ reward": 6000
+        },
+        {
+          "name": "ZTZ99A",
+          "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
+          "single cost": 24000,
+          "description": "A moderately armored MBT armed with a 125mm smoothbore gun, anti-tank guided missiles, 5.8mm machine gun, 50 cal RWS and smoke countermeasures.",
+          "unlock level": 66,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 6000,
+          "kill $ reward": 8000
+        },
+        {
+          "name": "M1A2 Abrams",
+          "vehicle": "/Game/vehicles/M1A2/BP_M1A2_woodland.BP_M1A2_woodland_C",
+          "single cost": 26000,
+          "description": "A highly armored MBT armed with a 120mm smoothbore gun, 30 cal machine gun, 50 cal RWS, 30 cal open top and smoke countermeasures.",
+          "unlock level": 68,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 6500,
+          "kill $ reward": 8666
         }
       ],
       "perks": [

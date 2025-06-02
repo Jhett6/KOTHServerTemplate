@@ -2498,7 +2498,7 @@
           "single cost": 15000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
           "kill $ reward": 5000
@@ -2608,7 +2608,7 @@
           "single cost": 15000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 24,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
           "kill $ reward": 5000
@@ -2685,7 +2685,7 @@
           "single cost": 18000,
           "description": "A technical with a UB-32 rocket pod mounted on its flatbed.",
           "unlock level": 42,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 4500,
           "kill $ reward": 6000
@@ -2696,7 +2696,7 @@
           "single cost": 9000,
           "description": "A moderately armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 44,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 2250,
           "kill $ reward": 3000
@@ -2707,7 +2707,7 @@
           "single cost": 11000,
           "description": "A well armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 46,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 2750,
           "kill $ reward": 3666
@@ -2718,7 +2718,7 @@
           "single cost": 14000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 50,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 3500,
           "kill $ reward": 4666
@@ -2773,7 +2773,7 @@
           "single cost": 18000,
           "description": "A lightly armored MBT armed with a 115mm smoothbore gun, 30 cal machine gun and 50 cal open top machine gun.",
           "unlock level": 62,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 4500,
           "kill $ reward": 6000
@@ -2784,7 +2784,7 @@
           "single cost": 24000,
           "description": "A moderately armored MBT armed with a 125mm smoothbore gun, anti-tank guided missiles, 5.8mm machine gun, 50 cal RWS and smoke countermeasures.",
           "unlock level": 66,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 6000,
           "kill $ reward": 8000
@@ -2795,7 +2795,7 @@
           "single cost": 26000,
           "description": "A highly armored MBT armed with a 120mm smoothbore gun, 30 cal machine gun, 50 cal RWS, 30 cal open top and smoke countermeasures.",
           "unlock level": 68,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 6500,
           "kill $ reward": 8666
@@ -5210,7 +5210,7 @@
           "single cost": 15000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
           "kill $ reward": 5000
@@ -5320,7 +5320,7 @@
           "single cost": 15000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 24,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
           "kill $ reward": 5000
@@ -5397,7 +5397,7 @@
           "single cost": 18000,
           "description": "A technical with a UB-32 rocket pod mounted on its flatbed.",
           "unlock level": 42,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 4500,
           "kill $ reward": 6000
@@ -5408,7 +5408,7 @@
           "single cost": 9000,
           "description": "A moderately armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 44,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 2250,
           "kill $ reward": 3000
@@ -5419,7 +5419,7 @@
           "single cost": 11000,
           "description": "A well armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 46,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 2750,
           "kill $ reward": 3666
@@ -5430,7 +5430,7 @@
           "single cost": 14000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 50,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 3500,
           "kill $ reward": 4666
@@ -5485,7 +5485,7 @@
           "single cost": 18000,
           "description": "A lightly armored MBT armed with a 115mm smoothbore gun, 30 cal machine gun and 50 cal open top machine gun.",
           "unlock level": 62,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 4500,
           "kill $ reward": 6000
@@ -5496,7 +5496,7 @@
           "single cost": 24000,
           "description": "A moderately armored MBT armed with a 125mm smoothbore gun, anti-tank guided missiles, 5.8mm machine gun, 50 cal RWS and smoke countermeasures.",
           "unlock level": 66,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 6000,
           "kill $ reward": 8000
@@ -5507,7 +5507,7 @@
           "single cost": 26000,
           "description": "A highly armored MBT armed with a 120mm smoothbore gun, 30 cal machine gun, 50 cal RWS, 30 cal open top and smoke countermeasures.",
           "unlock level": 68,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 6500,
           "kill $ reward": 8666
@@ -8098,7 +8098,7 @@
           "single cost": 15000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
           "kill $ reward": 5000
@@ -8208,7 +8208,7 @@
           "single cost": 15000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 24,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
           "kill $ reward": 5000
@@ -8285,7 +8285,7 @@
           "single cost": 18000,
           "description": "A technical with a UB-32 rocket pod mounted on its flatbed.",
           "unlock level": 42,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 4500,
           "kill $ reward": 6000
@@ -8296,7 +8296,7 @@
           "single cost": 9000,
           "description": "A moderately armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 44,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 2250,
           "kill $ reward": 3000
@@ -8307,7 +8307,7 @@
           "single cost": 11000,
           "description": "A well armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 46,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 2750,
           "kill $ reward": 3666
@@ -8318,7 +8318,7 @@
           "single cost": 14000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 50,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Ground",
           "kill xp reward": 3500,
           "kill $ reward": 4666
@@ -8373,7 +8373,7 @@
           "single cost": 18000,
           "description": "A lightly armored MBT armed with a 115mm smoothbore gun, 30 cal machine gun and 50 cal open top machine gun.",
           "unlock level": 62,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 4500,
           "kill $ reward": 6000
@@ -8384,7 +8384,7 @@
           "single cost": 24000,
           "description": "A moderately armored MBT armed with a 125mm smoothbore gun, anti-tank guided missiles, 5.8mm machine gun, 50 cal RWS and smoke countermeasures.",
           "unlock level": 66,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 6000,
           "kill $ reward": 8000
@@ -8395,7 +8395,7 @@
           "single cost": 26000,
           "description": "A highly armored MBT armed with a 120mm smoothbore gun, 30 cal machine gun, 50 cal RWS, 30 cal open top and smoke countermeasures.",
           "unlock level": 68,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Ground",
           "kill xp reward": 6500,
           "kill $ reward": 8666

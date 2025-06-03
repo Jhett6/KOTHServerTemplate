@@ -2421,7 +2421,7 @@
           "single cost": 300,
           "description": "A small ATV-like transport vehicle.",
           "unlock level": 0,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 75,
           "kill $ reward": 100
@@ -2465,7 +2465,7 @@
           "single cost": 300,
           "description": "A small open truck.",
           "unlock level": 7,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_logistics.map_jeep_logistics",
           "spawn type": "Ground",
           "kill xp reward": 75,
           "kill $ reward": 100
@@ -2476,7 +2476,7 @@
           "single cost": 400,
           "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
           "kill $ reward": 133
@@ -2575,7 +2575,7 @@
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -2586,7 +2586,7 @@
           "single cost": 1800,
           "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -2597,7 +2597,7 @@
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 22,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -2619,7 +2619,7 @@
           "single cost": 2200,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 26,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726
@@ -2641,7 +2641,7 @@
           "single cost": 3000,
           "description": "A technical with the turret of a BMP-1 IFV grafted onto the flatbed. It is an abomination of cracked welds, to be feared on the battlefield.",
           "unlock level": 30,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 750,
           "kill $ reward": 1000
@@ -2696,7 +2696,7 @@
           "single cost": 9000,
           "description": "A moderately armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 44,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 2250,
           "kill $ reward": 3000
@@ -2707,7 +2707,7 @@
           "single cost": 11000,
           "description": "A well armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 46,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 2750,
           "kill $ reward": 3666
@@ -2718,7 +2718,7 @@
           "single cost": 14000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 50,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 3500,
           "kill $ reward": 4666
@@ -5133,7 +5133,7 @@
           "single cost": 300,
           "description": "A small ATV-like transport vehicle.",
           "unlock level": 0,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 75,
           "kill $ reward": 100
@@ -5177,7 +5177,7 @@
           "single cost": 300,
           "description": "A small open truck.",
           "unlock level": 7,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_logistics.map_jeep_logistics",
           "spawn type": "Ground",
           "kill xp reward": 75,
           "kill $ reward": 100
@@ -5188,7 +5188,7 @@
           "single cost": 400,
           "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
           "kill $ reward": 133
@@ -5287,7 +5287,7 @@
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -5298,7 +5298,7 @@
           "single cost": 1800,
           "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -5309,7 +5309,7 @@
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 22,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -5331,7 +5331,7 @@
           "single cost": 2200,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 26,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726
@@ -5353,7 +5353,7 @@
           "single cost": 3000,
           "description": "A technical with the turret of a BMP-1 IFV grafted onto the flatbed. It is an abomination of cracked welds, to be feared on the battlefield.",
           "unlock level": 30,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 750,
           "kill $ reward": 1000
@@ -5408,7 +5408,7 @@
           "single cost": 9000,
           "description": "A moderately armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 44,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 2250,
           "kill $ reward": 3000
@@ -5419,7 +5419,7 @@
           "single cost": 11000,
           "description": "A well armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 46,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 2750,
           "kill $ reward": 3666
@@ -5430,7 +5430,7 @@
           "single cost": 14000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 50,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 3500,
           "kill $ reward": 4666
@@ -8021,7 +8021,7 @@
           "single cost": 300,
           "description": "A small ATV-like transport vehicle.",
           "unlock level": 0,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_motorcycle.map_motorcycle",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
           "spawn type": "Ground",
           "kill xp reward": 75,
           "kill $ reward": 100
@@ -8065,7 +8065,7 @@
           "single cost": 300,
           "description": "A small open truck.",
           "unlock level": 7,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_logistics.map_jeep_logistics",
           "spawn type": "Ground",
           "kill xp reward": 75,
           "kill $ reward": 100
@@ -8076,7 +8076,7 @@
           "single cost": 400,
           "description": "A small squad-sized transport vehicle.",
           "unlock level": 8,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
           "spawn type": "Ground",
           "kill xp reward": 100,
           "kill $ reward": 133
@@ -8175,7 +8175,7 @@
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -8186,7 +8186,7 @@
           "single cost": 1800,
           "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_transport.map_jeep_transport",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -8197,7 +8197,7 @@
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 22,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
           "kill $ reward": 600
@@ -8219,7 +8219,7 @@
           "single cost": 2200,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 26,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726
@@ -8241,7 +8241,7 @@
           "single cost": 3000,
           "description": "A technical with the turret of a BMP-1 IFV grafted onto the flatbed. It is an abomination of cracked welds, to be feared on the battlefield.",
           "unlock level": 30,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 750,
           "kill $ reward": 1000
@@ -8296,7 +8296,7 @@
           "single cost": 9000,
           "description": "A moderately armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 44,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 2250,
           "kill $ reward": 3000
@@ -8307,7 +8307,7 @@
           "single cost": 11000,
           "description": "A well armored IFV armed with a 30mm autocannon, 30 cal machine gun and smoke countermeasures.",
           "unlock level": 46,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 2750,
           "kill $ reward": 3666
@@ -8318,7 +8318,7 @@
           "single cost": 14000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 50,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 3500,
           "kill $ reward": 4666

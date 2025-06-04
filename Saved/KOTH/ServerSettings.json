@@ -2270,25 +2270,15 @@
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1
-            }
-          ],
-          "unlock level": 65
-        },
-        {
-          "family name": "9-banger",
-          "single cost": "1200",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_CTS_9Bang.T_CTS_9Bang",
-          "xp unlocks": [
+            },
             {
               "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 0,
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1
             }
           ],
-          "unlock level": 85
+          "unlock level": 65
         }
       ],
       "deployables": [

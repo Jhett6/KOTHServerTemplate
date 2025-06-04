@@ -2222,7 +2222,7 @@
               "item count": -1
             }
           ],
-          "unlock level": 18
+          "unlock level": 15
         },
         {
           "family name": "M320 - HE",
@@ -2240,7 +2240,7 @@
               "item count": -1
             }
           ],
-          "unlock level": 24
+          "unlock level": 40
         },
         {
           "family name": "M320 - Flashbang",
@@ -4848,7 +4848,7 @@
               "item count": -1
             }
           ],
-          "unlock level": 18
+          "unlock level": 15
         },
         {
           "family name": "M320 - HE",
@@ -4866,7 +4866,7 @@
               "item count": -1
             }
           ],
-          "unlock level": 24
+          "unlock level": 40
         },
         {
           "family name": "M320 - Flashbang",
@@ -7650,7 +7650,7 @@
               "item count": -1
             }
           ],
-          "unlock level": 18
+          "unlock level": 15
         },
         {
           "family name": "M320 - HE",
@@ -7668,7 +7668,7 @@
               "item count": -1
             }
           ],
-          "unlock level": 24
+          "unlock level": 40
         },
         {
           "family name": "M320 - Flashbang",

@@ -1732,6 +1732,24 @@
       ],
       "special": [
         {
+          "family name": "RKG3",
+          "single cost": "175",
+          "perma cost": "-1",
+          "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 10
+        },
+        {
           "family name": "Impact Grenade",
           "single cost": "100",
           "perma cost": "-1",
@@ -1748,6 +1766,28 @@
             }
           ],
           "unlock level": 40
+        },
+        {
+          "family name": "Flashbang",
+          "single cost": "350",
+          "perma cost": "-1",
+          "description": "A flashbang",
+          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
+          "xp unlocks": [
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 65
         },
         {
           "family name": "TNT",
@@ -1786,14 +1826,14 @@
           "unlock level": 3
         },
         {
-          "family name": "RKG3",
-          "single cost": "175",
+          "family name": "IED",
+          "single cost": "1000",
           "perma cost": "-1",
-          "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
+          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
               "unlock level": 0,
               "perk requirements": [
                 "Explosives"
@@ -1801,25 +1841,25 @@
               "item count": -1
             }
           ],
-          "unlock level": 10
+          "unlock level": 45
         },
         {
-          "family name": "M320 - Smokes",
-          "single cost": "300",
+          "family name": "Mine",
+          "single cost": "2000",
           "perma cost": "-1",
-          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
+          "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_M15Mine.BP_Deployable_M15Mine_C",
               "unlock level": 0,
               "perk requirements": [
-                "Grenadier"
+                "Engineer"
               ],
               "item count": -1
             }
           ],
-          "unlock level": 15
+          "unlock level": 50
         },
         {
           "family name": "RPG 7",
@@ -1896,22 +1936,30 @@
           "unlock level": 5
         },
         {
-          "family name": "RPG 26",
+          "family name": "SMAW",
           "single cost": "250",
           "perma cost": "-1",
-          "description": "A  disposable anti-tank rocket-propelled grenade.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
+          "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
               "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
+              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
             }
           ],
-          "unlock level": 15
+          "unlock level": 5
         },
         {
           "family name": "M3 MAAWS",
@@ -1940,30 +1988,22 @@
           "unlock level": 15
         },
         {
-          "family name": "SMAW",
+          "family name": "RPG 26",
           "single cost": "250",
           "perma cost": "-1",
-          "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
+          "description": "A  disposable anti-tank rocket-propelled grenade.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_SpottingRifle.BP_SMAW_SpottingRifle_C",
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
-              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],
               "item count": -1
             }
           ],
-          "unlock level": 5
+          "unlock level": 15
         },
         {
           "family name": "AT-4",
@@ -2151,22 +2191,22 @@
           "unlock level": 80
         },
         {
-          "family name": "Mine",
-          "single cost": "2000",
+          "family name": "M320 - Smokes",
+          "single cost": "300",
           "perma cost": "-1",
-          "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
+          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_M15Mine.BP_Deployable_M15Mine_C",
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
               "unlock level": 0,
               "perk requirements": [
-                "Engineer"
+                "Grenadier"
               ],
               "item count": -1
             }
           ],
-          "unlock level": 50
+          "unlock level": 15
         },
         {
           "family name": "M320 - HE",
@@ -2239,46 +2279,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "IED",
-          "single cost": "1000",
-          "perma cost": "-1",
-          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 45
-        },
-        {
-          "family name": "Flashbang",
-          "single cost": "350",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
-          "xp unlocks": [
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            },
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 65
         }
       ],
       "deployables": [

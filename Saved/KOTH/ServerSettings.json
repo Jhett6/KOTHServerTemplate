@@ -2151,6 +2151,24 @@
           "unlock level": 80
         },
         {
+          "family name": "Mine",
+          "single cost": "2000",
+          "perma cost": "-1",
+          "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_M15Mine.BP_Deployable_M15Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 50
+        },
+        {
           "family name": "M320 - HE",
           "single cost": "1000",
           "perma cost": "-1",

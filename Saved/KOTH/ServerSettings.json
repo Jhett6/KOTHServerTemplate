@@ -1857,6 +1857,22 @@
                 "Engineer"
               ],
               "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_TM62Mine.BP_Deployable_TM62Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Deployable_Type72Mine.BP_Deployable_Type72Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
             }
           ],
           "unlock level": 50

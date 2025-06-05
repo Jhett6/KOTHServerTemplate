@@ -1751,7 +1751,7 @@
         },
         {
           "family name": "Impact Grenade",
-          "single cost": "300",
+          "single cost": "200",
           "perma cost": "-1",
           "description": "A grenade that detonates on impact.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -1769,7 +1769,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -1791,7 +1791,7 @@
         },
         {
           "family name": "TNT",
-          "single cost": "600",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
@@ -1809,7 +1809,7 @@
         },
         {
           "family name": "C4",
-          "single cost": "600",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
@@ -4377,7 +4377,7 @@
         },
         {
           "family name": "Impact Grenade",
-          "single cost": "300",
+          "single cost": "200",
           "perma cost": "-1",
           "description": "A grenade that detonates on impact.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -4395,7 +4395,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -4417,7 +4417,7 @@
         },
         {
           "family name": "TNT",
-          "single cost": "600",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
@@ -4435,7 +4435,7 @@
         },
         {
           "family name": "C4",
-          "single cost": "600",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
@@ -7179,7 +7179,7 @@
         },
         {
           "family name": "Impact Grenade",
-          "single cost": "300",
+          "single cost": "200",
           "perma cost": "-1",
           "description": "A grenade that detonates on impact.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -7197,7 +7197,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -7219,7 +7219,7 @@
         },
         {
           "family name": "TNT",
-          "single cost": "600",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
@@ -7237,7 +7237,7 @@
         },
         {
           "family name": "C4",
-          "single cost": "600",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",

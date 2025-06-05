@@ -1733,7 +1733,7 @@
       "special": [
         {
           "family name": "RKG3",
-          "single cost": "200",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -1741,7 +1741,9 @@
             {
               "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Explosives"
+              ],
               "item count": -1
             }
           ],
@@ -4355,7 +4357,7 @@
       "special": [
         {
           "family name": "RKG3",
-          "single cost": "200",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -4363,7 +4365,9 @@
             {
               "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Explosives"
+              ],
               "item count": -1
             }
           ],
@@ -7153,7 +7157,7 @@
       "special": [
         {
           "family name": "RKG3",
-          "single cost": "200",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -7161,7 +7165,9 @@
             {
               "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Explosives"
+              ],
               "item count": -1
             }
           ],

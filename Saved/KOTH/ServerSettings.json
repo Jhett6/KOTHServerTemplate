@@ -2911,16 +2911,6 @@
           "item count": 1
         },
         {
-          "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
           "item": "/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing_Medic.BP_Generic_FieldDressing_Medic_C",
           "slot": 4,
           "item count": 5
@@ -4368,6 +4358,44 @@
       ],
       "special": [
         {
+          "family name": "Grenade",
+          "single cost": "150",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C",
+              "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 2
+        },
+        {
+          "family name": "Smoke Grenade",
+          "single cost": "100",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 6
+        },
+        {
           "family name": "RKG3",
           "single cost": "400",
           "perma cost": "-1",
@@ -4384,22 +4412,6 @@
             }
           ],
           "unlock level": 10
-        },
-        {
-          "family name": "Impact Grenade",
-          "single cost": "200",
-          "perma cost": "-1",
-          "description": "A grenade that detonates on impact.",
-          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 40
         },
         {
           "family name": "Flashbang",
@@ -4485,7 +4497,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_M15Mine.BP_Deployable_M15Mine_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M15_Antitank_Mine.BP_M15_Antitank_Mine_C",
               "unlock level": 0,
               "perk requirements": [
                 "Engineer"
@@ -4493,7 +4505,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_TM62Mine.BP_Deployable_TM62Mine_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TM62_Antitank_Mine.BP_TM62_Antitank_Mine_C",
               "unlock level": 0,
               "perk requirements": [
                 "Engineer"
@@ -4501,7 +4513,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Deployable_Type72Mine.BP_Deployable_Type72Mine_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Type72_Antitank_Mine.BP_Type72_Antitank_Mine_C",
               "unlock level": 0,
               "perk requirements": [
                 "Engineer"
@@ -5711,16 +5723,6 @@
           "item count": 1
         },
         {
-          "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
           "item": "/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing_Medic.BP_Generic_FieldDressing_Medic_C",
           "slot": 4,
           "item count": 5
@@ -7168,6 +7170,44 @@
       ],
       "special": [
         {
+          "family name": "Grenade",
+          "single cost": "150",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C",
+              "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 2
+        },
+        {
+          "family name": "Smoke Grenade",
+          "single cost": "100",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 6
+        },
+        {
           "family name": "RKG3",
           "single cost": "400",
           "perma cost": "-1",
@@ -7184,22 +7224,6 @@
             }
           ],
           "unlock level": 10
-        },
-        {
-          "family name": "Impact Grenade",
-          "single cost": "200",
-          "perma cost": "-1",
-          "description": "A grenade that detonates on impact.",
-          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 40
         },
         {
           "family name": "Flashbang",
@@ -7285,7 +7309,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_M15Mine.BP_Deployable_M15Mine_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M15_Antitank_Mine.BP_M15_Antitank_Mine_C",
               "unlock level": 0,
               "perk requirements": [
                 "Engineer"
@@ -7293,7 +7317,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/Handheld_Deployables/BP_Deployable_TM62Mine.BP_Deployable_TM62Mine_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TM62_Antitank_Mine.BP_TM62_Antitank_Mine_C",
               "unlock level": 0,
               "perk requirements": [
                 "Engineer"
@@ -7301,7 +7325,7 @@
               "item count": -1
             },
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Deployable_Type72Mine.BP_Deployable_Type72Mine_C",
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Type72_Antitank_Mine.BP_Type72_Antitank_Mine_C",
               "unlock level": 0,
               "perk requirements": [
                 "Engineer"

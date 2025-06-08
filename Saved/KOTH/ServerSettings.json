@@ -341,16 +341,6 @@
           "item count": 1
         },
         {
-          "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
           "item": "/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing_Medic.BP_Generic_FieldDressing_Medic_C",
           "slot": 4,
           "item count": 5
@@ -1732,62 +1722,46 @@
       ],
       "special": [
         {
-          "family name": "Impact Grenade",
-          "single cost": "100",
+          "family name": "Grenade",
+          "single cost": "150",
           "perma cost": "-1",
-          "description": "A grenade that detonates on impact.",
+          "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Grenadier"
-              ],
+              "unlock level": 20,
+              "perk requirements": [],
               "item count": -1
             }
           ],
-          "unlock level": 40
+          "unlock level": 2
         },
         {
-          "family name": "TNT",
+          "family name": "Smoke Grenade",
           "single cost": "100",
           "perma cost": "-1",
-          "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
+          "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_TNT_1lb_Explosive_Timed.BP_TNT_1lb_Explosive_Timed_C",
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
+              "perk requirements": [],
               "item count": -1
             }
           ],
-          "unlock level": 3
-        },
-        {
-          "family name": "C4",
-          "single cost": "100",
-          "perma cost": "-1",
-          "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_M112_C4Explosive_Timed.BP_M112_C4Explosive_Timed_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 3
+          "unlock level": 6
         },
         {
           "family name": "RKG3",
-          "single cost": "175",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -1804,26 +1778,118 @@
           "unlock level": 10
         },
         {
-          "family name": "M320 - Smokes",
+          "family name": "Flashbang",
           "single cost": "300",
           "perma cost": "-1",
-          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
+          "description": "A flashbang",
+          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "TNT",
+          "single cost": "500",
+          "perma cost": "-1",
+          "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TNT_1lb_Explosive_Timed.BP_TNT_1lb_Explosive_Timed_C",
               "unlock level": 0,
               "perk requirements": [
-                "Grenadier"
+                "Explosives"
               ],
               "item count": -1
             }
           ],
-          "unlock level": 15
+          "unlock level": 4
+        },
+        {
+          "family name": "C4",
+          "single cost": "500",
+          "perma cost": "-1",
+          "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M112_C4Explosive_Timed.BP_M112_C4Explosive_Timed_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 4
+        },
+        {
+          "family name": "IED",
+          "single cost": "1800",
+          "perma cost": "-1",
+          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Mine",
+          "single cost": "2000",
+          "perma cost": "-1",
+          "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M15_Antitank_Mine.BP_M15_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TM62_Antitank_Mine.BP_TM62_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Type72_Antitank_Mine.BP_Type72_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "RPG 7",
-          "single cost": "150",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
@@ -1893,55 +1959,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 5
-        },
-        {
-          "family name": "RPG 26",
-          "single cost": "250",
-          "perma cost": "-1",
-          "description": "A  disposable anti-tank rocket-propelled grenade.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 15
-        },
-        {
-          "family name": "M3 MAAWS",
-          "single cost": "250",
-          "perma cost": "-1",
-          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 15
+          "unlock level": 4
         },
         {
           "family name": "SMAW",
-          "single cost": "250",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
@@ -1963,11 +1985,55 @@
               "item count": -1
             }
           ],
-          "unlock level": 5
+          "unlock level": 8
+        },
+        {
+          "family name": "M3 MAAWS",
+          "single cost": "400",
+          "perma cost": "-1",
+          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 14
+        },
+        {
+          "family name": "RPG 26",
+          "single cost": "600",
+          "perma cost": "-1",
+          "description": "A disposable anti-tank rocket-propelled grenade.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 18
         },
         {
           "family name": "AT-4",
-          "single cost": "250",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "AT4 is a Swedish 84 mm unguided, man-portable, disposable, shoulder-fired recoilless anti-tank weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
@@ -1981,13 +2047,13 @@
               "item count": -1
             }
           ],
-          "unlock level": 20
+          "unlock level": 24
         },
         {
           "family name": "HAR 66",
-          "single cost": "250",
+          "single cost": "500",
           "perma cost": "-1",
-          "description": "portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
+          "description": "Portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/T_HAR66.T_HAR66",
           "xp unlocks": [
             {
@@ -1999,11 +2065,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 25
+          "unlock level": 28
         },
         {
           "family name": "DZJ-08",
-          "single cost": "300",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
           "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
@@ -2017,11 +2083,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 30
+          "unlock level": 32
         },
         {
           "family name": "RPG 28",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -2035,11 +2101,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 36
+          "unlock level": 38
         },
         {
           "family name": "RPG 29",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -2061,11 +2127,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 48
+          "unlock level": 44
         },
         {
           "family name": "Carl Gustav M2",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
@@ -2103,11 +2169,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 60
+          "unlock level": 50
         },
         {
           "family name": "NLAW",
-          "single cost": "350",
+          "single cost": "800",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -2122,11 +2188,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 70
+          "unlock level": 60
         },
         {
           "family name": "PF-98",
-          "single cost": "350",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
           "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
@@ -2148,7 +2214,25 @@
               "item count": -1
             }
           ],
-          "unlock level": 80
+          "unlock level": 70
+        },
+        {
+          "family name": "M320 - Smokes",
+          "single cost": "300",
+          "perma cost": "-1",
+          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
         },
         {
           "family name": "M320 - HE",
@@ -2221,56 +2305,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "IED",
-          "single cost": "1000",
-          "perma cost": "-1",
-          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 45
-        },
-        {
-          "family name": "Flashbang",
-          "single cost": "350",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
-          "xp unlocks": [
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 65
-        },
-        {
-          "family name": "9-banger",
-          "single cost": "1200",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_CTS_9Bang.T_CTS_9Bang",
-          "xp unlocks": [
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 85
         }
       ],
       "deployables": [
@@ -2874,16 +2908,6 @@
         {
           "item": "/Game/Blueprints/Items/Melee/BP_M9Bayonet.BP_M9Bayonet_C",
           "slot": 1,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
-          "slot": 2,
           "item count": 1
         },
         {
@@ -4334,62 +4358,46 @@
       ],
       "special": [
         {
-          "family name": "Impact Grenade",
-          "single cost": "100",
+          "family name": "Grenade",
+          "single cost": "150",
           "perma cost": "-1",
-          "description": "A grenade that detonates on impact.",
+          "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Grenadier"
-              ],
+              "unlock level": 20,
+              "perk requirements": [],
               "item count": -1
             }
           ],
-          "unlock level": 40
+          "unlock level": 2
         },
         {
-          "family name": "TNT",
+          "family name": "Smoke Grenade",
           "single cost": "100",
           "perma cost": "-1",
-          "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
+          "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_TNT_1lb_Explosive_Timed.BP_TNT_1lb_Explosive_Timed_C",
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
+              "perk requirements": [],
               "item count": -1
             }
           ],
-          "unlock level": 3
-        },
-        {
-          "family name": "C4",
-          "single cost": "100",
-          "perma cost": "-1",
-          "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_M112_C4Explosive_Timed.BP_M112_C4Explosive_Timed_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 3
+          "unlock level": 6
         },
         {
           "family name": "RKG3",
-          "single cost": "175",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -4406,26 +4414,118 @@
           "unlock level": 10
         },
         {
-          "family name": "M320 - Smokes",
+          "family name": "Flashbang",
           "single cost": "300",
           "perma cost": "-1",
-          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
+          "description": "A flashbang",
+          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "TNT",
+          "single cost": "500",
+          "perma cost": "-1",
+          "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TNT_1lb_Explosive_Timed.BP_TNT_1lb_Explosive_Timed_C",
               "unlock level": 0,
               "perk requirements": [
-                "Grenadier"
+                "Explosives"
               ],
               "item count": -1
             }
           ],
-          "unlock level": 15
+          "unlock level": 4
+        },
+        {
+          "family name": "C4",
+          "single cost": "500",
+          "perma cost": "-1",
+          "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M112_C4Explosive_Timed.BP_M112_C4Explosive_Timed_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 4
+        },
+        {
+          "family name": "IED",
+          "single cost": "1800",
+          "perma cost": "-1",
+          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Mine",
+          "single cost": "2000",
+          "perma cost": "-1",
+          "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M15_Antitank_Mine.BP_M15_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TM62_Antitank_Mine.BP_TM62_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Type72_Antitank_Mine.BP_Type72_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "RPG 7",
-          "single cost": "150",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
@@ -4495,55 +4595,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 5
-        },
-        {
-          "family name": "RPG 26",
-          "single cost": "250",
-          "perma cost": "-1",
-          "description": "A  disposable anti-tank rocket-propelled grenade.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 15
-        },
-        {
-          "family name": "M3 MAAWS",
-          "single cost": "250",
-          "perma cost": "-1",
-          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 15
+          "unlock level": 4
         },
         {
           "family name": "SMAW",
-          "single cost": "250",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
@@ -4565,11 +4621,55 @@
               "item count": -1
             }
           ],
-          "unlock level": 5
+          "unlock level": 8
+        },
+        {
+          "family name": "M3 MAAWS",
+          "single cost": "400",
+          "perma cost": "-1",
+          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 14
+        },
+        {
+          "family name": "RPG 26",
+          "single cost": "600",
+          "perma cost": "-1",
+          "description": "A disposable anti-tank rocket-propelled grenade.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 18
         },
         {
           "family name": "AT-4",
-          "single cost": "250",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "AT4 is a Swedish 84 mm unguided, man-portable, disposable, shoulder-fired recoilless anti-tank weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
@@ -4583,13 +4683,13 @@
               "item count": -1
             }
           ],
-          "unlock level": 20
+          "unlock level": 24
         },
         {
           "family name": "HAR 66",
-          "single cost": "250",
+          "single cost": "500",
           "perma cost": "-1",
-          "description": "portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
+          "description": "Portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/T_HAR66.T_HAR66",
           "xp unlocks": [
             {
@@ -4601,11 +4701,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 25
+          "unlock level": 28
         },
         {
           "family name": "DZJ-08",
-          "single cost": "300",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
           "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
@@ -4619,11 +4719,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 30
+          "unlock level": 32
         },
         {
           "family name": "RPG 28",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -4637,11 +4737,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 36
+          "unlock level": 38
         },
         {
           "family name": "RPG 29",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -4663,11 +4763,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 48
+          "unlock level": 44
         },
         {
           "family name": "Carl Gustav M2",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
@@ -4705,11 +4805,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 60
+          "unlock level": 50
         },
         {
           "family name": "NLAW",
-          "single cost": "350",
+          "single cost": "800",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -4724,11 +4824,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 70
+          "unlock level": 60
         },
         {
           "family name": "PF-98",
-          "single cost": "350",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
           "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
@@ -4750,7 +4850,25 @@
               "item count": -1
             }
           ],
-          "unlock level": 80
+          "unlock level": 70
+        },
+        {
+          "family name": "M320 - Smokes",
+          "single cost": "300",
+          "perma cost": "-1",
+          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
         },
         {
           "family name": "M320 - HE",
@@ -4823,56 +4941,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "IED",
-          "single cost": "1000",
-          "perma cost": "-1",
-          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 45
-        },
-        {
-          "family name": "Flashbang",
-          "single cost": "350",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
-          "xp unlocks": [
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 65
-        },
-        {
-          "family name": "9-banger",
-          "single cost": "1200",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_CTS_9Bang.T_CTS_9Bang",
-          "xp unlocks": [
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 85
         }
       ],
       "deployables": [
@@ -5655,16 +5723,6 @@
           "item count": 1
         },
         {
-          "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
-          "slot": 2,
-          "item count": 1
-        },
-        {
           "item": "/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing_Medic.BP_Generic_FieldDressing_Medic_C",
           "slot": 4,
           "item count": 5
@@ -7112,62 +7170,46 @@
       ],
       "special": [
         {
-          "family name": "Impact Grenade",
-          "single cost": "100",
+          "family name": "Grenade",
+          "single cost": "150",
           "perma cost": "-1",
-          "description": "A grenade that detonates on impact.",
+          "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/Grenades/BP_F1Frag.BP_F1Frag_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
               "item": "/Game/Blueprints/Items/Grenades/BP_RGOFrag_Brown.BP_RGOFrag_Brown_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Grenadier"
-              ],
+              "unlock level": 20,
+              "perk requirements": [],
               "item count": -1
             }
           ],
-          "unlock level": 40
+          "unlock level": 2
         },
         {
-          "family name": "TNT",
+          "family name": "Smoke Grenade",
           "single cost": "100",
           "perma cost": "-1",
-          "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
+          "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_TNT_1lb_Explosive_Timed.BP_TNT_1lb_Explosive_Timed_C",
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
+              "perk requirements": [],
               "item count": -1
             }
           ],
-          "unlock level": 3
-        },
-        {
-          "family name": "C4",
-          "single cost": "100",
-          "perma cost": "-1",
-          "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_M112_C4Explosive_Timed.BP_M112_C4Explosive_Timed_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 3
+          "unlock level": 6
         },
         {
           "family name": "RKG3",
-          "single cost": "175",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -7184,26 +7226,118 @@
           "unlock level": 10
         },
         {
-          "family name": "M320 - Smokes",
+          "family name": "Flashbang",
           "single cost": "300",
           "perma cost": "-1",
-          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
+          "description": "A flashbang",
+          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1
+            },
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "TNT",
+          "single cost": "500",
+          "perma cost": "-1",
+          "description": "A powerful, stable explosive widely used for demolition and military applications. Known for its high explosive yield and reliability, it remains a standard in warfare and construction.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/tnt_1lb_explosive.tnt_1lb_explosive",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TNT_1lb_Explosive_Timed.BP_TNT_1lb_Explosive_Timed_C",
               "unlock level": 0,
               "perk requirements": [
-                "Grenadier"
+                "Explosives"
               ],
               "item count": -1
             }
           ],
-          "unlock level": 15
+          "unlock level": 4
+        },
+        {
+          "family name": "C4",
+          "single cost": "500",
+          "perma cost": "-1",
+          "description": "A plastic explosive known for its stability, moldability, and high detonation power. Used in military and demolition operations, it requires a detonator to activate, making it highly controlled and versatile.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/T_m112_c4explosive_timed.T_m112_c4explosive_timed",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M112_C4Explosive_Timed.BP_M112_C4Explosive_Timed_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 4
+        },
+        {
+          "family name": "IED",
+          "single cost": "1800",
+          "perma cost": "-1",
+          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Mine",
+          "single cost": "2000",
+          "perma cost": "-1",
+          "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_M15_Antitank_Mine.BP_M15_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_TM62_Antitank_Mine.BP_TM62_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Type72_Antitank_Mine.BP_Type72_Antitank_Mine_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Engineer"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "RPG 7",
-          "single cost": "150",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
@@ -7273,55 +7407,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 5
-        },
-        {
-          "family name": "RPG 26",
-          "single cost": "250",
-          "perma cost": "-1",
-          "description": "A  disposable anti-tank rocket-propelled grenade.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 15
-        },
-        {
-          "family name": "M3 MAAWS",
-          "single cost": "250",
-          "perma cost": "-1",
-          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 15
+          "unlock level": 4
         },
         {
           "family name": "SMAW",
-          "single cost": "250",
+          "single cost": "400",
           "perma cost": "-1",
           "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
@@ -7343,11 +7433,55 @@
               "item count": -1
             }
           ],
-          "unlock level": 5
+          "unlock level": 8
+        },
+        {
+          "family name": "M3 MAAWS",
+          "single cost": "400",
+          "perma cost": "-1",
+          "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Smoke_2mags.BP_M3MAAWS_Smoke_2mags_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 14
+        },
+        {
+          "family name": "RPG 26",
+          "single cost": "600",
+          "perma cost": "-1",
+          "description": "A disposable anti-tank rocket-propelled grenade.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg26.rpg26",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/BP_RPG26.BP_RPG26_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 18
         },
         {
           "family name": "AT-4",
-          "single cost": "250",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "AT4 is a Swedish 84 mm unguided, man-portable, disposable, shoulder-fired recoilless anti-tank weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
@@ -7361,13 +7495,13 @@
               "item count": -1
             }
           ],
-          "unlock level": 20
+          "unlock level": 24
         },
         {
           "family name": "HAR 66",
-          "single cost": "250",
+          "single cost": "500",
           "perma cost": "-1",
-          "description": "portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
+          "description": "Portable one-shot 66 mm (2.6 in) unguided anti-tank weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/T_HAR66.T_HAR66",
           "xp unlocks": [
             {
@@ -7379,11 +7513,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 25
+          "unlock level": 28
         },
         {
           "family name": "DZJ-08",
-          "single cost": "300",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
           "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
@@ -7397,11 +7531,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 30
+          "unlock level": 32
         },
         {
           "family name": "RPG 28",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -7415,11 +7549,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 36
+          "unlock level": 38
         },
         {
           "family name": "RPG 29",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -7441,11 +7575,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 48
+          "unlock level": 44
         },
         {
           "family name": "Carl Gustav M2",
-          "single cost": "350",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
@@ -7483,11 +7617,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 60
+          "unlock level": 50
         },
         {
           "family name": "NLAW",
-          "single cost": "350",
+          "single cost": "800",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -7502,11 +7636,11 @@
               "item count": -1
             }
           ],
-          "unlock level": 70
+          "unlock level": 60
         },
         {
           "family name": "PF-98",
-          "single cost": "350",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
           "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
@@ -7528,7 +7662,25 @@
               "item count": -1
             }
           ],
-          "unlock level": 80
+          "unlock level": 70
+        },
+        {
+          "family name": "M320 - Smokes",
+          "single cost": "300",
+          "perma cost": "-1",
+          "description": "WPMC Single Fire Grenade Launcher chambered in 40mm grenades. 6 Rounds",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/T_m320_he.T_m320_he",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/M320/BP_M320_Smoke_White.BP_M320_Smoke_White_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1
+            }
+          ],
+          "unlock level": 15
         },
         {
           "family name": "M320 - HE",
@@ -7601,56 +7753,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "IED",
-          "single cost": "1000",
-          "perma cost": "-1",
-          "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_IED.BP_IED_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1
-            }
-          ],
-          "unlock level": 45
-        },
-        {
-          "family name": "Flashbang",
-          "single cost": "350",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
-          "xp unlocks": [
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_M84.BP_Flashbang_M84_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 65
-        },
-        {
-          "family name": "9-banger",
-          "single cost": "1200",
-          "perma cost": "-1",
-          "description": "A flashbang",
-          "texture": "/KingOfTheHill/Art/Items/Flashbang/T_CTS_9Bang.T_CTS_9Bang",
-          "xp unlocks": [
-            {
-              "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1
-            }
-          ],
-          "unlock level": 85
         }
       ],
       "deployables": [

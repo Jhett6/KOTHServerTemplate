@@ -1802,7 +1802,7 @@
             },
             {
               "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1
             }
@@ -4438,7 +4438,7 @@
             },
             {
               "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1
             }
@@ -7250,7 +7250,7 @@
             },
             {
               "item": "/KingOfTheHill/Blueprints/Items/Flashbang/BP_Flashbang_9Bang.BP_Flashbang_9Bang_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1
             }

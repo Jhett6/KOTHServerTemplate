@@ -4,8 +4,8 @@
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C"
     ],
     "economy": {
-      "$ multiplier": 1.5,
-      "xp multiplier": 1,
+      "$ multiplier": 1,
+      "xp multiplier": 0.5,
       "weapon xp multiplier": 4
     },
     "zone": {
@@ -29,10 +29,20 @@
     },
     "tk penalties": [
       -100,
-      -250,
+      -100,
+      -100,
+      -100,
+      -100,
+      -100,
+      -100,
+      -200,
+      -300,
+      -400,
       -500,
       -1000,
-      -2500,
+      -2000,
+      -3000,
+      -4000,
       -5000,
       -10000
     ],

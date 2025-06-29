@@ -39,3 +39,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3040351557
 
 Hrodna Border
 https://steamcommunity.com/sharedfiles/filedetails/?id=3436010829
+
+Rassvet  (Reimagined and Remastered OPFL)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2995310287

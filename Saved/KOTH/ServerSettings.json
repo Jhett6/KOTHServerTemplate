@@ -19,7 +19,7 @@
       "vehicle can capture": false,
       "prio vehicle can capture": true
     },
-    "msv timer": 180,
+    "msv timer": 1800,
     "msv enemy trace distance": 3000,
     "vehicle cleanup": {
       "burn damage": 12.5,

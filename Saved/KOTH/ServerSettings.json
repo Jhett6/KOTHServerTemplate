@@ -1903,7 +1903,7 @@
         {
           "family name": "Glock",
           "single cost": "100",
-          "perma cost": "25000",
+          "perma cost": "65000",
           "description": "n Austrian polymer-framed, striker-fired pistol available in multiple calibers, with 9x19mm being the most common. Renowned for its reliability, simplicity, and ease of maintenance, it is widely used by military, law enforcement, and civilian shooters worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/glock17.glock17",
           "xp unlocks": [
@@ -1911,6 +1911,29 @@
               "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_G17.BP_G17_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/G17/BP_G17_ExtendedMag_33rd.BP_G17_ExtendedMag_33rd_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/G17/BP_G18_ExtendedMag_33rd.BP_G18_ExtendedMag_33rd_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Crewman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -2636,6 +2659,25 @@
             }
           ],
           "unlock level": 80
+        },
+        {
+          "family name": "Scout Drone",
+          "single cost": "1500",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to scout enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Commander/CommandActors/Drone/DeployableDrone/BP_Deployable_DroneItem_Recoverable.BP_Deployable_DroneItem_Recoverable_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 85
         }
       ],
       "deployables": [
@@ -3226,15 +3268,6 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
           "material": "None",
           "unlock level": 48,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "SPHERE",
-          "description": "WIP! THE SPHERE IS REAL. PRAISE SPHERE",
-          "texture": "None",
-          "material": "/KingOfTheHill/UI/KOTH_Icons/M_Sphere.M_Sphere",
-          "unlock level": 100,
           "unlock items": [],
           "prestige": 0
         }
@@ -4835,7 +4868,7 @@
         {
           "family name": "Glock",
           "single cost": "100",
-          "perma cost": "25000",
+          "perma cost": "65000",
           "description": "n Austrian polymer-framed, striker-fired pistol available in multiple calibers, with 9x19mm being the most common. Renowned for its reliability, simplicity, and ease of maintenance, it is widely used by military, law enforcement, and civilian shooters worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/glock17.glock17",
           "xp unlocks": [
@@ -4843,6 +4876,29 @@
               "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_G17.BP_G17_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/G17/BP_G17_ExtendedMag_33rd.BP_G17_ExtendedMag_33rd_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/G17/BP_G18_ExtendedMag_33rd.BP_G18_ExtendedMag_33rd_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Crewman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -5568,6 +5624,25 @@
             }
           ],
           "unlock level": 80
+        },
+        {
+          "family name": "Scout Drone",
+          "single cost": "1500",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to scout enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Commander/CommandActors/Drone/DeployableDrone/BP_Deployable_DroneItem_Recoverable.BP_Deployable_DroneItem_Recoverable_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 85
         }
       ],
       "deployables": [
@@ -6159,6 +6234,17 @@
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Drone Operator",
+          "description": "Allows you to purchase and operate Drones",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "material": "",
+          "unlock level": 85,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Smartphone_FPV.BP_Smartphone_FPV_C"
+          ],
           "prestige": 0
         },
         {
@@ -7987,7 +8073,7 @@
         {
           "family name": "Glock",
           "single cost": "100",
-          "perma cost": "25000",
+          "perma cost": "65000",
           "description": "n Austrian polymer-framed, striker-fired pistol available in multiple calibers, with 9x19mm being the most common. Renowned for its reliability, simplicity, and ease of maintenance, it is widely used by military, law enforcement, and civilian shooters worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/glock17.glock17",
           "xp unlocks": [
@@ -7995,6 +8081,29 @@
               "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_G17.BP_G17_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/G17/BP_G17_ExtendedMag_33rd.BP_G17_ExtendedMag_33rd_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Pistols/G17/BP_G18_ExtendedMag_33rd.BP_G18_ExtendedMag_33rd_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Crewman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -8720,6 +8829,25 @@
             }
           ],
           "unlock level": 80
+        },
+        {
+          "family name": "Scout Drone",
+          "single cost": "1500",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to scout enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Commander/CommandActors/Drone/DeployableDrone/BP_Deployable_DroneItem_Recoverable.BP_Deployable_DroneItem_Recoverable_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 85
         }
       ],
       "deployables": [
@@ -9311,6 +9439,17 @@
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Drone Operator",
+          "description": "Allows you to purchase and operate Drones",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "material": "",
+          "unlock level": 85,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Smartphone_FPV.BP_Smartphone_FPV_C"
+          ],
           "prestige": 0
         },
         {

@@ -4,9 +4,9 @@
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C"
     ],
     "economy": {
-      "$ multiplier": 1,
-      "xp multiplier": 0.5,
-      "weapon xp multiplier": 6
+      "$ multiplier": 2,
+      "xp multiplier": 1,
+      "weapon xp multiplier": 12
     },
     "zone": {
       "move interval": 300,
@@ -410,6 +410,23 @@
           ],
           "unlock level": 0
         },
+		{
+          "family name": "M1 Carbine",
+          "single cost": "300",
+          "perma cost": "4000",
+          "description": "The M1 carbine (formally the United States carbine, caliber .30, M1) is a lightweight semi-automatic carbine chambered in the .30 carbine (7.62×33mm) cartridge that was issued to the U.S. military during World War II, the Korean War, and the Vietnam War.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.BP_M1Carbine_Ironsights_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 0
+        },
         {
           "family name": "SKS",
           "single cost": "125",
@@ -424,10 +441,58 @@
               "item count": -1,
               "prestige": 0
             },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_Ironsight.BP_SKSTazco_Ironsight_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_T800.BP_SKSTazco_T800_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SKS_Optic.BP_SKS_Optic_C",
               "unlock level": 10,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_M150.BP_SKSTazco_M150_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+          ],
+          "unlock level": 0
+        },
+		{
+          "family name": "Lee Enfield",
+          "single cost": "300",
+          "perma cost": "8000",
+          "description": "The Lee–Enfield is a bolt-action, magazine-fed repeating rifle that served as the main firearm of the military forces of the British Empire and Commonwealth during the first half of the 20th century, and was the standard service rifle of the British Armed Forces from its official adoption in 1895 until 1957.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_leeenfieldno4.T_leeenfieldno4",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4.BP_LeeEnfieldNo4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4_Sniper.BP_LeeEnfieldNo4_Sniper_C",
+              "unlock level": 5,
+              "perk requirements": [
+				"Marksman"
+			  ],
               "item count": -1,
               "prestige": 0
             }
@@ -1593,15 +1658,6 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M110/RoomService/BP_M110_RoomService.BP_M110_RoomService_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
-              "item count": -1,
-              "prestige": 1
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M110_Optic_Suppressed.BP_M110_Optic_Suppressed_C",
               "unlock level": 30,
               "perk requirements": [
@@ -2108,6 +2164,25 @@
           "unlock level": 65
         },
         {
+          "family name": "Combat Gauze",
+          "single cost": "50",
+          "perma cost": "-1",
+          "description": "Issued only to medics, combat gauze seals a bleed in seconds. Contractors swear by this hemostatic after a squad walked out of an airburst flechette strike alive — men pulled back from the dead, patched up, and still laying bodies down.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
+          "xp unlocks": [
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 34
+        },
+        {
           "family name": "TNT",
           "single cost": "500",
           "perma cost": "-1",
@@ -2163,6 +2238,25 @@
             }
           ],
           "unlock level": 40
+        },
+		{
+          "family name": "Bangerite",
+          "single cost": "1800",
+          "perma cost": "-1",
+          "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_GenericEquippableItem_Deployable_Bangerite.BP_GenericEquippableItem_Deployable_Bangerite_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "Mine",
@@ -3375,6 +3469,23 @@
           ],
           "unlock level": 0
         },
+		{
+          "family name": "M1 Carbine",
+          "single cost": "300",
+          "perma cost": "4000",
+          "description": "The M1 carbine (formally the United States carbine, caliber .30, M1) is a lightweight semi-automatic carbine chambered in the .30 carbine (7.62×33mm) cartridge that was issued to the U.S. military during World War II, the Korean War, and the Vietnam War.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.BP_M1Carbine_Ironsights_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 0
+        },
         {
           "family name": "SKS",
           "single cost": "125",
@@ -3389,10 +3500,58 @@
               "item count": -1,
               "prestige": 0
             },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_Ironsight.BP_SKSTazco_Ironsight_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_T800.BP_SKSTazco_T800_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SKS_Optic.BP_SKS_Optic_C",
               "unlock level": 10,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_M150.BP_SKSTazco_M150_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+          ],
+          "unlock level": 0
+        },
+		{
+          "family name": "Lee Enfield",
+          "single cost": "300",
+          "perma cost": "8000",
+          "description": "The Lee–Enfield is a bolt-action, magazine-fed repeating rifle that served as the main firearm of the military forces of the British Empire and Commonwealth during the first half of the 20th century, and was the standard service rifle of the British Armed Forces from its official adoption in 1895 until 1957.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_leeenfieldno4.T_leeenfieldno4",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4.BP_LeeEnfieldNo4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4_Sniper.BP_LeeEnfieldNo4_Sniper_C",
+              "unlock level": 5,
+              "perk requirements": [
+				"Marksman"
+			  ],
               "item count": -1,
               "prestige": 0
             }
@@ -4558,15 +4717,6 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M110/RoomService/BP_M110_RoomService.BP_M110_RoomService_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
-              "item count": -1,
-              "prestige": 1
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M110_Optic_Suppressed.BP_M110_Optic_Suppressed_C",
               "unlock level": 30,
               "perk requirements": [
@@ -5073,6 +5223,25 @@
           "unlock level": 65
         },
         {
+          "family name": "Combat Gauze",
+          "single cost": "50",
+          "perma cost": "-1",
+          "description": "Issued only to medics, combat gauze seals a bleed in seconds. Contractors swear by this hemostatic after a squad walked out of an airburst flechette strike alive — men pulled back from the dead, patched up, and still laying bodies down.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
+          "xp unlocks": [
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 34
+        },
+        {
           "family name": "TNT",
           "single cost": "500",
           "perma cost": "-1",
@@ -5128,6 +5297,25 @@
             }
           ],
           "unlock level": 40
+        },
+		{
+          "family name": "Bangerite",
+          "single cost": "1800",
+          "perma cost": "-1",
+          "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_GenericEquippableItem_Deployable_Bangerite.BP_GenericEquippableItem_Deployable_Bangerite_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "Mine",
@@ -6580,6 +6768,23 @@
           ],
           "unlock level": 0
         },
+		{
+          "family name": "M1 Carbine",
+          "single cost": "300",
+          "perma cost": "4000",
+          "description": "The M1 carbine (formally the United States carbine, caliber .30, M1) is a lightweight semi-automatic carbine chambered in the .30 carbine (7.62×33mm) cartridge that was issued to the U.S. military during World War II, the Korean War, and the Vietnam War.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.BP_M1Carbine_Ironsights_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 0
+        },
         {
           "family name": "SKS",
           "single cost": "125",
@@ -6594,10 +6799,58 @@
               "item count": -1,
               "prestige": 0
             },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_Ironsight.BP_SKSTazco_Ironsight_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_T800.BP_SKSTazco_T800_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SKS_Optic.BP_SKS_Optic_C",
               "unlock level": 10,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_M150.BP_SKSTazco_M150_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+          ],
+          "unlock level": 0
+        },
+		{
+          "family name": "Lee Enfield",
+          "single cost": "300",
+          "perma cost": "8000",
+          "description": "The Lee–Enfield is a bolt-action, magazine-fed repeating rifle that served as the main firearm of the military forces of the British Empire and Commonwealth during the first half of the 20th century, and was the standard service rifle of the British Armed Forces from its official adoption in 1895 until 1957.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_leeenfieldno4.T_leeenfieldno4",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4.BP_LeeEnfieldNo4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4_Sniper.BP_LeeEnfieldNo4_Sniper_C",
+              "unlock level": 5,
+              "perk requirements": [
+				"Marksman"
+			  ],
               "item count": -1,
               "prestige": 0
             }
@@ -7763,15 +8016,6 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M110/RoomService/BP_M110_RoomService.BP_M110_RoomService_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
-              "item count": -1,
-              "prestige": 1
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M110_Optic_Suppressed.BP_M110_Optic_Suppressed_C",
               "unlock level": 30,
               "perk requirements": [
@@ -8278,6 +8522,25 @@
           "unlock level": 65
         },
         {
+          "family name": "Combat Gauze",
+          "single cost": "50",
+          "perma cost": "-1",
+          "description": "Issued only to medics, combat gauze seals a bleed in seconds. Contractors swear by this hemostatic after a squad walked out of an airburst flechette strike alive — men pulled back from the dead, patched up, and still laying bodies down.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
+          "xp unlocks": [
+            {
+              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 34
+        },
+        {
           "family name": "TNT",
           "single cost": "500",
           "perma cost": "-1",
@@ -8333,6 +8596,25 @@
             }
           ],
           "unlock level": 40
+        },
+		{
+          "family name": "Bangerite",
+          "single cost": "1800",
+          "perma cost": "-1",
+          "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_GenericEquippableItem_Deployable_Bangerite.BP_GenericEquippableItem_Deployable_Bangerite_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Explosives"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "Mine",

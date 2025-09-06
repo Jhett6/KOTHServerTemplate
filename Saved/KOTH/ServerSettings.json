@@ -410,7 +410,7 @@
           ],
           "unlock level": 0
         },
-		{
+        {
           "family name": "M1 Carbine",
           "single cost": "300",
           "perma cost": "4000",
@@ -441,21 +441,20 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_Ironsight.BP_SKSTazco_Ironsight_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_T800.BP_SKSTazco_T800_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
-
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SKS_Optic.BP_SKS_Optic_C",
               "unlock level": 10,
@@ -463,17 +462,17 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_M150.BP_SKSTazco_M150_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 0
         },
-		{
+        {
           "family name": "Lee Enfield",
           "single cost": "300",
           "perma cost": "8000",
@@ -487,12 +486,12 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4_Sniper.BP_LeeEnfieldNo4_Sniper_C",
               "unlock level": 5,
               "perk requirements": [
-				"Marksman"
-			  ],
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -546,7 +545,7 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150_Foregrip.BP_L85A2_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -2211,7 +2210,7 @@
           ],
           "unlock level": 40
         },
-		{
+        {
           "family name": "Bangerite",
           "single cost": "1800",
           "perma cost": "-1",
@@ -3429,7 +3428,7 @@
           ],
           "unlock level": 0
         },
-		{
+        {
           "family name": "M1 Carbine",
           "single cost": "300",
           "perma cost": "4000",
@@ -3460,21 +3459,20 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_Ironsight.BP_SKSTazco_Ironsight_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_T800.BP_SKSTazco_T800_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
-
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SKS_Optic.BP_SKS_Optic_C",
               "unlock level": 10,
@@ -3482,17 +3480,17 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_M150.BP_SKSTazco_M150_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 0
         },
-		{
+        {
           "family name": "Lee Enfield",
           "single cost": "300",
           "perma cost": "8000",
@@ -3506,12 +3504,12 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4_Sniper.BP_LeeEnfieldNo4_Sniper_C",
               "unlock level": 5,
               "perk requirements": [
-				"Marksman"
-			  ],
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -3565,7 +3563,7 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150_Foregrip.BP_L85A2_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -5230,7 +5228,7 @@
           ],
           "unlock level": 40
         },
-		{
+        {
           "family name": "Bangerite",
           "single cost": "1800",
           "perma cost": "-1",
@@ -6688,7 +6686,7 @@
           ],
           "unlock level": 0
         },
-		{
+        {
           "family name": "M1 Carbine",
           "single cost": "300",
           "perma cost": "4000",
@@ -6719,21 +6717,20 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_Ironsight.BP_SKSTazco_Ironsight_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_T800.BP_SKSTazco_T800_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
-
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SKS_Optic.BP_SKS_Optic_C",
               "unlock level": 10,
@@ -6741,17 +6738,17 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/SKS_Tazco/BP_SKSTazco_M150.BP_SKSTazco_M150_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 0
         },
-		{
+        {
           "family name": "Lee Enfield",
           "single cost": "300",
           "perma cost": "8000",
@@ -6765,12 +6762,12 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/LeeEnfieldNo4/BP_LeeEnfieldNo4_Sniper.BP_LeeEnfieldNo4_Sniper_C",
               "unlock level": 5,
               "perk requirements": [
-				"Marksman"
-			  ],
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -6824,7 +6821,7 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150_Foregrip.BP_L85A2_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -8489,7 +8486,7 @@
           ],
           "unlock level": 40
         },
-		{
+        {
           "family name": "Bangerite",
           "single cost": "1800",
           "perma cost": "-1",

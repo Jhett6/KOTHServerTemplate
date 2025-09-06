@@ -540,8 +540,15 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150.BP_L85A2_M150_C",
               "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150_Foregrip.BP_L85A2_M150_Foregrip_C",
+              "unlock level": 25,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -778,7 +785,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/F88.F88",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_F88.BP_F88_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_AUG.BP_AUG_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -965,32 +972,11 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Foregrip.BP_G3A3_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum.BP_G3A3_Drum_C",
               "unlock level": 5,
               "perk requirements": [
                 "Machinegunner"
               ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_ZPoint.BP_G3A3_ZPoint_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Optic.BP_G3A3_Optic_C",
-              "unlock level": 20,
-              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
@@ -1099,36 +1085,22 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Ironsight_Grippod_Tracer.BP_EF88_Ironsight_Grippod_Tracer_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_ET552_Grippod.BP_EF88_ET552_Grippod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Eotech_Grippod.BP_EF88_Eotech_Grippod_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Eotech_Grippod_Tracer.BP_EF88_Eotech_Grippod_Tracer_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Foregrip.BP_EF88_Specter_Foregrip_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Frontgrip.BP_EF88_Specter_Frontgrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Grippod.BP_EF88_Specter_Grippod_C",
               "unlock level": 20,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Grippod_Tracer.BP_EF88_Specter_Grippod_Tracer_C",
-              "unlock level": 25,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -3151,18 +3123,6 @@
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726,
-          "prestige": 0
-        },
-        {
-          "name": "Technical_SpG9",
-          "vehicle": "/KingOfTheHill/Vehicles/Technical/BP_Technical_SPG9_INS.BP_Technical_SPG9_INS_C",
-          "single cost": 1600,
-          "description": "A technical with an SPG-9 recoilless gun mounted on its flatbed.",
-          "unlock level": 35,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
-          "spawn type": "Ground",
-          "kill xp reward": 400,
-          "kill $ reward": 528,
           "prestige": 0
         },
         {
@@ -3599,8 +3559,15 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150.BP_L85A2_M150_C",
               "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150_Foregrip.BP_L85A2_M150_Foregrip_C",
+              "unlock level": 25,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -3837,7 +3804,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/F88.F88",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_F88.BP_F88_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_AUG.BP_AUG_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -4024,32 +3991,11 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Foregrip.BP_G3A3_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum.BP_G3A3_Drum_C",
               "unlock level": 5,
               "perk requirements": [
                 "Machinegunner"
               ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_ZPoint.BP_G3A3_ZPoint_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Optic.BP_G3A3_Optic_C",
-              "unlock level": 20,
-              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
@@ -4158,36 +4104,22 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Ironsight_Grippod_Tracer.BP_EF88_Ironsight_Grippod_Tracer_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_ET552_Grippod.BP_EF88_ET552_Grippod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Eotech_Grippod.BP_EF88_Eotech_Grippod_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Eotech_Grippod_Tracer.BP_EF88_Eotech_Grippod_Tracer_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Foregrip.BP_EF88_Specter_Foregrip_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Frontgrip.BP_EF88_Specter_Frontgrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Grippod.BP_EF88_Specter_Grippod_C",
               "unlock level": 20,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Grippod_Tracer.BP_EF88_Specter_Grippod_Tracer_C",
-              "unlock level": 25,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -5063,7 +4995,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -6210,18 +6142,6 @@
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726,
-          "prestige": 0
-        },
-        {
-          "name": "Technical_SpG9",
-          "vehicle": "/KingOfTheHill/Vehicles/Technical/BP_Technical_SPG9_INS.BP_Technical_SPG9_INS_C",
-          "single cost": 1600,
-          "description": "A technical with an SPG-9 recoilless gun mounted on its flatbed.",
-          "unlock level": 35,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
-          "spawn type": "Ground",
-          "kill xp reward": 400,
-          "kill $ reward": 528,
           "prestige": 0
         },
         {
@@ -6898,8 +6818,15 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150.BP_L85A2_M150_C",
               "unlock level": 20,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_M150_Foregrip.BP_L85A2_M150_Foregrip_C",
+              "unlock level": 25,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -7136,7 +7063,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/F88.F88",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_F88.BP_F88_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_AUG.BP_AUG_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -7323,32 +7250,11 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Foregrip.BP_G3A3_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum.BP_G3A3_Drum_C",
               "unlock level": 5,
               "perk requirements": [
                 "Machinegunner"
               ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_ZPoint.BP_G3A3_ZPoint_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3_Optic.BP_G3A3_Optic_C",
-              "unlock level": 20,
-              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
@@ -7457,36 +7363,22 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Ironsight_Grippod_Tracer.BP_EF88_Ironsight_Grippod_Tracer_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_ET552_Grippod.BP_EF88_ET552_Grippod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Eotech_Grippod.BP_EF88_Eotech_Grippod_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Eotech_Grippod_Tracer.BP_EF88_Eotech_Grippod_Tracer_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Foregrip.BP_EF88_Specter_Foregrip_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Frontgrip.BP_EF88_Specter_Frontgrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Grippod.BP_EF88_Specter_Grippod_C",
               "unlock level": 20,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_Grippod_Tracer.BP_EF88_Specter_Grippod_Tracer_C",
-              "unlock level": 25,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -8362,7 +8254,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -9509,18 +9401,6 @@
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726,
-          "prestige": 0
-        },
-        {
-          "name": "Technical_SpG9",
-          "vehicle": "/KingOfTheHill/Vehicles/Technical/BP_Technical_SPG9_INS.BP_Technical_SPG9_INS_C",
-          "single cost": 1600,
-          "description": "A technical with an SPG-9 recoilless gun mounted on its flatbed.",
-          "unlock level": 35,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
-          "spawn type": "Ground",
-          "kill xp reward": 400,
-          "kill $ reward": 528,
           "prestige": 0
         },
         {

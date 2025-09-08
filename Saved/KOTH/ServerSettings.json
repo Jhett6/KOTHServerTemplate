@@ -2,7 +2,7 @@
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
-	  "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C"
+      "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C"
     ],
     "economy": {
       "$ multiplier": 2,
@@ -16,7 +16,7 @@
       "radius multiplier": 1,
       "prio radius multiplier": 1,
       "half height": 30000,
-      "reward update interval": 30,
+      "reward update interval": 20,
       "vehicle can capture": false,
       "prio vehicle can capture": true
     },
@@ -2728,7 +2728,7 @@
         },
         {
           "family name": "Scout Drone",
-          "single cost": "1500",
+          "single cost": "750",
           "perma cost": "-1",
           "description": "A lightweight quadcopter used to scout enemy positions",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
@@ -5746,7 +5746,7 @@
         },
         {
           "family name": "Scout Drone",
-          "single cost": "1500",
+          "single cost": "750",
           "perma cost": "-1",
           "description": "A lightweight quadcopter used to scout enemy positions",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
@@ -6348,7 +6348,7 @@
           "description": "Allows you to purchase and operate Drones",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
           "material": "",
-          "unlock level": 85,
+          "unlock level": 65,
           "unlock items": [
             "/Game/Blueprints/Items/EquippableItems/BP_Smartphone_FPV.BP_Smartphone_FPV_C"
           ],
@@ -9004,7 +9004,7 @@
         },
         {
           "family name": "Scout Drone",
-          "single cost": "1500",
+          "single cost": "750",
           "perma cost": "-1",
           "description": "A lightweight quadcopter used to scout enemy positions",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
@@ -9606,7 +9606,7 @@
           "description": "Allows you to purchase and operate Drones",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
           "material": "",
-          "unlock level": 85,
+          "unlock level": 65,
           "unlock items": [
             "/Game/Blueprints/Items/EquippableItems/BP_Smartphone_FPV.BP_Smartphone_FPV_C"
           ],

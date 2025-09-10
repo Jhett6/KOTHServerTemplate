@@ -2,7 +2,8 @@
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
-      "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C"
+      "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C",
+      "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01.BP_Squad_UltraDynamicWeather_01_C"
     ],
     "economy": {
       "$ multiplier": 2,
@@ -16,12 +17,12 @@
       "radius multiplier": 1,
       "prio radius multiplier": 1,
       "half height": 30000,
-      "reward update interval": 20,
+      "reward update interval": 15,
       "vehicle can capture": false,
       "prio vehicle can capture": true
     },
     "max prestige": 1,
-    "msv timer": 180,
+    "msv timer": 120,
     "msv enemy trace distance": 3000,
     "main protection time": 1,
     "vehicle cleanup": {
@@ -340,8 +341,8 @@
       },
       {
         "name": "Servant of the Crown",
-        "xp": 5,
-        "$": 5,
+        "xp": 10,
+        "$": 10,
         "description": "In the presence of royalty, some find glory not in battle... but in boots to kiss.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
@@ -504,7 +505,7 @@
           "single cost": "350",
           "perma cost": "10000",
           "description": "A Russian pump-action shotgun chambered in 23×75mmR, originally designed for riot control but adapted for military and special forces use. With its powerful cartridges, it can breach doors, or deliver extreme stopping power in combat scenarios.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/ks23.ks23",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/ks23.ks23",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
@@ -654,7 +655,7 @@
           "single cost": "500",
           "perma cost": "75000",
           "description": "A Soviet submachine gun chambered in 7.62x25mm Tokarev, featuring a high rate of fire and a distinctive drum magazine. Widely used in World War II, it became an iconic weapon of the Eastern Front.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ppsh-41.ppsh-41",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ppsh-41_stick.ppsh-41_stick",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/SubmachineGuns/PPSH41/BP_Ppsh41_Stick.BP_Ppsh41_Stick_C",
@@ -920,17 +921,8 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/MP5/BP_MP5A3_ZPoint.BP_MP5A3_ZPoint_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Crewman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/SubmachineGuns/MP5/BP_MP5A3_T800.BP_MP5A3_T800_C",
-              "unlock level": 20,
+              "unlock level": 10,
               "perk requirements": [
                 "Crewman"
               ],
@@ -1221,14 +1213,14 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech.BP_C7A2_EoTech_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552.BP_C7A2_ET552_C",
               "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_Eotech_Foregrip.BP_C7A2_Eotech_Foregrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_Foregrip.BP_C7A2_ET552_Foregrip_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
@@ -1258,15 +1250,8 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_Foregrip_Tracer.BP_C7A2_C79A2_Foregrip_Tracer_C",
-              "unlock level": 30,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
-              "unlock level": 35,
+              "unlock level": 30,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -1373,7 +1358,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/SubmachineGuns/T_sar109t.T_sar109t",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SAR109T.BP_SAR109T_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SOR109T.BP_SOR109T_C",
               "unlock level": 0,
               "perk requirements": [
                 "Crewman"
@@ -1382,7 +1367,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SAR109T_HNA.BP_SAR109T_HNA_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SOR109T_HNA.BP_SOR109T_HNA_C",
               "unlock level": 10,
               "perk requirements": [
                 "Crewman"
@@ -1417,7 +1402,7 @@
           "single cost": "400",
           "perma cost": "100000",
           "description": "A pump-action shotgun chambered in 12-gauge, widely used by military, law enforcement, and civilian shooters. Known for its reliability and versatility, it serves in both combat and sporting applications.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/M870.M870",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/M870.M870",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
@@ -1514,7 +1499,7 @@
               "prestige": 1
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M14_Optics.BP_M14_Optics_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M21_Meupold.BP_M21_Meupold_C",
               "unlock level": 20,
               "perk requirements": [
                 "Marksman"
@@ -1734,7 +1719,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_sv98m.T_sv98m",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SV98M.BP_SV98M_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_SV98.BP_SV98_C",
               "unlock level": 0,
               "perk requirements": [
                 "Marksman"
@@ -1799,7 +1784,7 @@
           "single cost": "500",
           "perma cost": "100000",
           "description": "A semi-automatic shotgun chambered in 12-gauge, designed for military and law enforcement use. Featuring a gas-operated system, it offers rapid follow-up shots and exceptional durability in harsh conditions.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/m1014.m1014",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/m1014.m1014",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
@@ -2007,7 +1992,7 @@
           "single cost": "100",
           "perma cost": "50000",
           "description": "A compact variant of the Remington 870 pump-action shotgun, featuring a shortened barrel and stock for increased maneuverability in close-quarters combat. Chambered in 12-gauge, it delivers devastating stopping power at short range but sacrifices accuracy and capacity.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/sawnoff_m870.sawnoff_m870",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
@@ -2038,7 +2023,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/SubmachineGuns/T_vz61.T_vz61",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61_3mags.BP_Vz61_3mags_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61.BP_Vz61_C",
               "unlock level": 0,
               "perk requirements": [
                 "Crewman"
@@ -2542,7 +2527,7 @@
           "single cost": "600",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2+no78mk1.carlgustavm2+no78mk1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
@@ -3522,7 +3507,7 @@
           "single cost": "350",
           "perma cost": "10000",
           "description": "A Russian pump-action shotgun chambered in 23×75mmR, originally designed for riot control but adapted for military and special forces use. With its powerful cartridges, it can breach doors, or deliver extreme stopping power in combat scenarios.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/ks23.ks23",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/ks23.ks23",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
@@ -3672,7 +3657,7 @@
           "single cost": "500",
           "perma cost": "75000",
           "description": "A Soviet submachine gun chambered in 7.62x25mm Tokarev, featuring a high rate of fire and a distinctive drum magazine. Widely used in World War II, it became an iconic weapon of the Eastern Front.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ppsh-41.ppsh-41",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ppsh-41_stick.ppsh-41_stick",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/SubmachineGuns/PPSH41/BP_Ppsh41_Stick.BP_Ppsh41_Stick_C",
@@ -3938,17 +3923,8 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/MP5/BP_MP5A3_ZPoint.BP_MP5A3_ZPoint_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Crewman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/SubmachineGuns/MP5/BP_MP5A3_T800.BP_MP5A3_T800_C",
-              "unlock level": 20,
+              "unlock level": 10,
               "perk requirements": [
                 "Crewman"
               ],
@@ -4239,14 +4215,14 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech.BP_C7A2_EoTech_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552.BP_C7A2_ET552_C",
               "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_Eotech_Foregrip.BP_C7A2_Eotech_Foregrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_Foregrip.BP_C7A2_ET552_Foregrip_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
@@ -4276,15 +4252,8 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_Foregrip_Tracer.BP_C7A2_C79A2_Foregrip_Tracer_C",
-              "unlock level": 30,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
-              "unlock level": 35,
+              "unlock level": 30,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -4391,7 +4360,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/SubmachineGuns/T_sar109t.T_sar109t",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SAR109T.BP_SAR109T_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SOR109T.BP_SOR109T_C",
               "unlock level": 0,
               "perk requirements": [
                 "Crewman"
@@ -4400,7 +4369,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SAR109T_HNA.BP_SAR109T_HNA_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SOR109T_HNA.BP_SOR109T_HNA_C",
               "unlock level": 10,
               "perk requirements": [
                 "Crewman"
@@ -4435,7 +4404,7 @@
           "single cost": "400",
           "perma cost": "100000",
           "description": "A pump-action shotgun chambered in 12-gauge, widely used by military, law enforcement, and civilian shooters. Known for its reliability and versatility, it serves in both combat and sporting applications.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/M870.M870",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/M870.M870",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
@@ -4532,7 +4501,7 @@
               "prestige": 1
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M14_Optics.BP_M14_Optics_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M21_Meupold.BP_M21_Meupold_C",
               "unlock level": 20,
               "perk requirements": [
                 "Marksman"
@@ -4752,7 +4721,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_sv98m.T_sv98m",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SV98M.BP_SV98M_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_SV98.BP_SV98_C",
               "unlock level": 0,
               "perk requirements": [
                 "Marksman"
@@ -4817,7 +4786,7 @@
           "single cost": "500",
           "perma cost": "100000",
           "description": "A semi-automatic shotgun chambered in 12-gauge, designed for military and law enforcement use. Featuring a gas-operated system, it offers rapid follow-up shots and exceptional durability in harsh conditions.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/m1014.m1014",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/m1014.m1014",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
@@ -5025,7 +4994,7 @@
           "single cost": "100",
           "perma cost": "50000",
           "description": "A compact variant of the Remington 870 pump-action shotgun, featuring a shortened barrel and stock for increased maneuverability in close-quarters combat. Chambered in 12-gauge, it delivers devastating stopping power at short range but sacrifices accuracy and capacity.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/sawnoff_m870.sawnoff_m870",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
@@ -5056,7 +5025,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/SubmachineGuns/T_vz61.T_vz61",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61_3mags.BP_Vz61_3mags_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61.BP_Vz61_C",
               "unlock level": 0,
               "perk requirements": [
                 "Crewman"
@@ -5560,7 +5529,7 @@
           "single cost": "600",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2+no78mk1.carlgustavm2+no78mk1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",
@@ -6780,7 +6749,7 @@
           "single cost": "350",
           "perma cost": "10000",
           "description": "A Russian pump-action shotgun chambered in 23×75mmR, originally designed for riot control but adapted for military and special forces use. With its powerful cartridges, it can breach doors, or deliver extreme stopping power in combat scenarios.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/ks23.ks23",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/ks23.ks23",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
@@ -6930,7 +6899,7 @@
           "single cost": "500",
           "perma cost": "75000",
           "description": "A Soviet submachine gun chambered in 7.62x25mm Tokarev, featuring a high rate of fire and a distinctive drum magazine. Widely used in World War II, it became an iconic weapon of the Eastern Front.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ppsh-41.ppsh-41",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ppsh-41_stick.ppsh-41_stick",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/SubmachineGuns/PPSH41/BP_Ppsh41_Stick.BP_Ppsh41_Stick_C",
@@ -7196,17 +7165,8 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/MP5/BP_MP5A3_ZPoint.BP_MP5A3_ZPoint_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Crewman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/SubmachineGuns/MP5/BP_MP5A3_T800.BP_MP5A3_T800_C",
-              "unlock level": 20,
+              "unlock level": 10,
               "perk requirements": [
                 "Crewman"
               ],
@@ -7497,14 +7457,14 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech.BP_C7A2_EoTech_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552.BP_C7A2_ET552_C",
               "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_Eotech_Foregrip.BP_C7A2_Eotech_Foregrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_Foregrip.BP_C7A2_ET552_Foregrip_C",
               "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
@@ -7534,15 +7494,8 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_Foregrip_Tracer.BP_C7A2_C79A2_Foregrip_Tracer_C",
-              "unlock level": 30,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
-              "unlock level": 35,
+              "unlock level": 30,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -7649,7 +7602,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/SubmachineGuns/T_sar109t.T_sar109t",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SAR109T.BP_SAR109T_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SOR109T.BP_SOR109T_C",
               "unlock level": 0,
               "perk requirements": [
                 "Crewman"
@@ -7658,7 +7611,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SAR109T_HNA.BP_SAR109T_HNA_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/SAR109T/BP_SOR109T_HNA.BP_SOR109T_HNA_C",
               "unlock level": 10,
               "perk requirements": [
                 "Crewman"
@@ -7693,7 +7646,7 @@
           "single cost": "400",
           "perma cost": "100000",
           "description": "A pump-action shotgun chambered in 12-gauge, widely used by military, law enforcement, and civilian shooters. Known for its reliability and versatility, it serves in both combat and sporting applications.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/M870.M870",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/M870.M870",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
@@ -7790,7 +7743,7 @@
               "prestige": 1
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M14_Optics.BP_M14_Optics_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M21_Meupold.BP_M21_Meupold_C",
               "unlock level": 20,
               "perk requirements": [
                 "Marksman"
@@ -8010,7 +7963,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_sv98m.T_sv98m",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SV98M.BP_SV98M_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_SV98.BP_SV98_C",
               "unlock level": 0,
               "perk requirements": [
                 "Marksman"
@@ -8075,7 +8028,7 @@
           "single cost": "500",
           "perma cost": "100000",
           "description": "A semi-automatic shotgun chambered in 12-gauge, designed for military and law enforcement use. Featuring a gas-operated system, it offers rapid follow-up shots and exceptional durability in harsh conditions.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/m1014.m1014",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/m1014.m1014",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
@@ -8283,7 +8236,7 @@
           "single cost": "100",
           "perma cost": "50000",
           "description": "A compact variant of the Remington 870 pump-action shotgun, featuring a shortened barrel and stock for increased maneuverability in close-quarters combat. Chambered in 12-gauge, it delivers devastating stopping power at short range but sacrifices accuracy and capacity.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Shotguns/sawnoff_m870.sawnoff_m870",
+          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
@@ -8314,7 +8267,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/SubmachineGuns/T_vz61.T_vz61",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61_3mags.BP_Vz61_3mags_C",
+              "item": "/Game/Blueprints/Items/SubmachineGuns/VZ61/BP_Vz61.BP_Vz61_C",
               "unlock level": 0,
               "perk requirements": [
                 "Crewman"
@@ -8818,7 +8771,7 @@
           "single cost": "600",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2.carlgustavm2",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2+no78mk1.carlgustavm2+no78mk1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_2x_FFV551_No78Mk1.BP_CarlGustavM2_2x_FFV551_No78Mk1_C",

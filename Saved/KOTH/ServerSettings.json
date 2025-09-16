@@ -3169,6 +3169,66 @@
           "kill xp reward": 8000,
           "kill $ reward": 10600,
           "prestige": 0
+        },
+		{
+          "name": "FV510_40mm",
+          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
+          "single cost": 32000,
+          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "T62",
+          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
+          "single cost": 28000,
+          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "T90A",
+          "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
+          "single cost": 32000,
+          "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "ZTZ99",
+          "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
+          "single cost": 32000,
+          "description": "China’s most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "M1A2",
+          "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
+          "single cost": 32000,
+          "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
         }
       ],
       "perks": [
@@ -6170,6 +6230,66 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
           "kill $ reward": 10600,
+          "prestige": 0
+        },
+		{
+          "name": "FV510_40mm",
+          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
+          "single cost": 32000,
+          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "T62",
+          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
+          "single cost": 28000,
+          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "T90A",
+          "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
+          "single cost": 32000,
+          "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "ZTZ99",
+          "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
+          "single cost": 32000,
+          "description": "China’s most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "M1A2",
+          "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
+          "single cost": 32000,
+          "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
           "prestige": 0
         }
       ],
@@ -9412,6 +9532,66 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
           "kill $ reward": 10600,
+          "prestige": 0
+        },
+		{
+          "name": "FV510_40mm",
+          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
+          "single cost": 32000,
+          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "T62",
+          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
+          "single cost": 28000,
+          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "T90A",
+          "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
+          "single cost": 32000,
+          "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "ZTZ99",
+          "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
+          "single cost": 32000,
+          "description": "China’s most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "M1A2",
+          "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
+          "single cost": 32000,
+          "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
           "prestige": 0
         }
       ],

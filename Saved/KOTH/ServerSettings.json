@@ -3123,10 +3123,10 @@
           "prestige": 0
         },
         {
-          "name": "MI17",
-          "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
+          "name": "MI8",
+          "vehicle": "/Game/Vehicles/MI8/BP_MI8.BP_MI8_C",
           "single cost": 2200,
-          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
+          "description": "A bulky Soviet military helicopter armed with two side-mounted machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
@@ -6209,10 +6209,10 @@
           "prestige": 0
         },
         {
-          "name": "MI17",
-          "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
+          "name": "MI8",
+          "vehicle": "/Game/Vehicles/MI8/BP_MI8.BP_MI8_C",
           "single cost": 2200,
-          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
+          "description": "A bulky Soviet military helicopter armed with two side-mounted machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
@@ -9535,10 +9535,10 @@
           "prestige": 0
         },
         {
-          "name": "MI17",
-          "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
+          "name": "MI8",
+          "vehicle": "/Game/Vehicles/MI8/BP_MI8.BP_MI8_C",
           "single cost": 2200,
-          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
+          "description": "A bulky Soviet military helicopter armed with two side-mounted machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",

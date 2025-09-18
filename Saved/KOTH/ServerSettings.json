@@ -21,8 +21,8 @@
       "vehicle can capture": false,
       "prio vehicle can capture": true
     },
-    "max prestige": 1,
-    "msv timer": 120,
+    "max prestige": 10,
+    "msv timer": 18,
     "msv enemy trace distance": 3000,
     "main protection time": 1,
     "vehicle cleanup": {
@@ -1388,9 +1388,7 @@
             {
               "item": "/KOTHContractorCrate/SD/Weapons/MPX/New_BP_MPX_EXPS_Suppressed_29.New_BP_MPX_EXPS_Suppressed_29_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }
@@ -1656,8 +1654,7 @@
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
               "unlock level": 15,
               "perk requirements": [
-                "Machinegunner",
-                "Crewman"
+                "Machinegunner"
               ],
               "item count": -1,
               "prestige": 1
@@ -1944,9 +1941,7 @@
             {
               "item": "/Game/Blueprints/Items/Pistols/G17/BP_G18_ExtendedMag_33rd.BP_G18_ExtendedMag_33rd_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Crewman"
-              ],
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }
@@ -2217,7 +2212,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1300",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -2579,8 +2574,7 @@
               "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
               "unlock level": 0,
               "perk requirements": [
-                "Launcher",
-                "Engineer"
+                "Launcher"
               ],
               "item count": -1,
               "prestige": 0
@@ -3005,13 +2999,13 @@
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 1500,
+          "single cost": 3500,
           "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 375,
-          "kill $ reward": 500,
+          "kill xp reward": 800,
+          "kill $ reward": 1300,
           "prestige": 0
         },
         {
@@ -3123,10 +3117,23 @@
           "prestige": 0
         },
         {
-          "name": "MI8",
-          "vehicle": "/Game/Vehicles/MI8/BP_MI8.BP_MI8_C",
+
+          "name": "BRDM-2",
+          "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
+          "single cost": 5000,
+          "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "MI17",
+          "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
           "single cost": 2200,
-          "description": "A bulky Soviet military helicopter armed with two side-mounted machine guns",
+          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
@@ -3161,57 +3168,21 @@
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 8000,
-          "kill $ reward": 10600,
-          "prestige": 0
-        },
-		{
-          "name": "BRDM-2",
-          "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
-          "single cost": 10000,
-          "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
-          "unlock level": 40,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
-          "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
-          "prestige": 0
-        },
-        {
-          "name": "FV510_40mm",
-          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 32000,
-          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
-          "unlock level": 45,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 5000,
-          "kill $ reward": 8600,
-          "prestige": 0
-        },
-        {
-          "name": "T62",
-          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
-          "single cost": 28000,
-          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
-          "unlock level": 55,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 6200,
           "prestige": 0
         },
-		{
+{
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 20000,
+          "single cost": 10000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
-          "unlock level": 60,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 3000,
@@ -3219,13 +3190,37 @@
           "prestige": 0
         },
         {
+          "name": "FV510_40mm",
+          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
+          "single cost": 16000,
+          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Ground",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "T62",
+          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
+          "single cost": 14000,
+          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Ground",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+{
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -3233,11 +3228,11 @@
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "China’s most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
-          "unlock level": 75,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -3245,11 +3240,11 @@
         {
           "name": "M1A2",
           "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
-          "unlock level": 85,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -4474,9 +4469,7 @@
             {
               "item": "/KOTHContractorCrate/SD/Weapons/MPX/New_BP_MPX_EXPS_Suppressed_29.New_BP_MPX_EXPS_Suppressed_29_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }
@@ -4742,8 +4735,7 @@
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
               "unlock level": 15,
               "perk requirements": [
-                "Machinegunner",
-                "Crewman"
+                "Machinegunner"
               ],
               "item count": -1,
               "prestige": 1
@@ -5030,9 +5022,7 @@
             {
               "item": "/Game/Blueprints/Items/Pistols/G17/BP_G18_ExtendedMag_33rd.BP_G18_ExtendedMag_33rd_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Crewman"
-              ],
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }
@@ -5303,7 +5293,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1300",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -5665,15 +5655,14 @@
               "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
               "unlock level": 0,
               "perk requirements": [
-                "Launcher",
-                "Engineer"
+                "Launcher"
               ],
               "item count": -1,
               "prestige": 0
             }
           ],
           "unlock level": 60
-        },
+        }, 
         {
           "family name": "PF-98",
           "single cost": "500",
@@ -6091,13 +6080,13 @@
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 1500,
+          "single cost": 3500,
           "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 375,
-          "kill $ reward": 500,
+          "kill xp reward": 800,
+          "kill $ reward": 1300,
           "prestige": 0
         },
         {
@@ -6209,10 +6198,22 @@
           "prestige": 0
         },
         {
-          "name": "MI8",
-          "vehicle": "/Game/Vehicles/MI8/BP_MI8.BP_MI8_C",
+          "name": "BRDM-2",
+          "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
+          "single cost": 5000,
+          "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "MI17",
+          "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
           "single cost": 2200,
-          "description": "A bulky Soviet military helicopter armed with two side-mounted machine guns",
+          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
@@ -6247,57 +6248,21 @@
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 8000,
-          "kill $ reward": 10600,
-          "prestige": 0
-        },
-		{
-          "name": "BRDM-2",
-          "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
-          "single cost": 10000,
-          "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
-          "unlock level": 40,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
-          "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
-          "prestige": 0
-        },
-        {
-          "name": "FV510_40mm",
-          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 32000,
-          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
-          "unlock level": 45,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 5000,
-          "kill $ reward": 8600,
-          "prestige": 0
-        },
-        {
-          "name": "T62",
-          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
-          "single cost": 28000,
-          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
-          "unlock level": 55,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 6200,
           "prestige": 0
         },
-		{
+        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 20000,
+          "single cost": 10000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
-          "unlock level": 60,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 3000,
@@ -6305,13 +6270,37 @@
           "prestige": 0
         },
         {
+          "name": "FV510_40mm",
+          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
+          "single cost": 16000,
+          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Ground",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "T62",
+          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
+          "single cost": 14000,
+          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Ground",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -6319,11 +6308,11 @@
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "China’s most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
-          "unlock level": 75,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -6331,11 +6320,11 @@
         {
           "name": "M1A2",
           "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
-          "unlock level": 85,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -7800,9 +7789,7 @@
             {
               "item": "/KOTHContractorCrate/SD/Weapons/MPX/New_BP_MPX_EXPS_Suppressed_29.New_BP_MPX_EXPS_Suppressed_29_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }
@@ -8068,8 +8055,7 @@
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
               "unlock level": 15,
               "perk requirements": [
-                "Machinegunner",
-                "Crewman"
+                "Machinegunner"
               ],
               "item count": -1,
               "prestige": 1
@@ -8356,9 +8342,7 @@
             {
               "item": "/Game/Blueprints/Items/Pistols/G17/BP_G18_ExtendedMag_33rd.BP_G18_ExtendedMag_33rd_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Crewman"
-              ],
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }
@@ -8629,7 +8613,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1300",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -8991,8 +8975,7 @@
               "item": "/Game/Blueprints/Items/RocketLaunchers/NLAW/BP_NLAW.BP_NLAW_C",
               "unlock level": 0,
               "perk requirements": [
-                "Launcher",
-                "Engineer"
+                "Launcher"
               ],
               "item count": -1,
               "prestige": 0
@@ -9417,13 +9400,13 @@
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 1500,
+          "single cost": 3500,
           "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 375,
-          "kill $ reward": 500,
+          "kill xp reward": 800,
+          "kill $ reward": 1300,
           "prestige": 0
         },
         {
@@ -9535,10 +9518,22 @@
           "prestige": 0
         },
         {
-          "name": "MI8",
-          "vehicle": "/Game/Vehicles/MI8/BP_MI8.BP_MI8_C",
+          "name": "BRDM-2",
+          "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
+          "single cost": 5000,
+          "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "MI17",
+          "vehicle": "/Game/Vehicles/MI17_MEA/BP_MI17_MEA.BP_MI17_MEA_C",
           "single cost": 2200,
-          "description": "A bulky Soviet military helicopter armed with two side-mounted machine guns",
+          "description": "A bulky Soviet military helicopter armed with two side-mounted MG3 machine guns",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
@@ -9573,57 +9568,21 @@
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 8000,
-          "kill $ reward": 10600,
-          "prestige": 0
-        },
-		{
-          "name": "BRDM-2",
-          "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
-          "single cost": 10000,
-          "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
-          "unlock level": 40,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
-          "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
-          "prestige": 0
-        },
-        {
-          "name": "FV510_40mm",
-          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 32000,
-          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
-          "unlock level": 45,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 5000,
-          "kill $ reward": 8600,
-          "prestige": 0
-        },
-        {
-          "name": "T62",
-          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
-          "single cost": 28000,
-          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
-          "unlock level": 55,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 6200,
           "prestige": 0
         },
-		{
+        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 20000,
+          "single cost": 10000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
-          "unlock level": 60,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Ground",
           "kill xp reward": 3000,
@@ -9631,13 +9590,37 @@
           "prestige": 0
         },
         {
+          "name": "FV510_40mm",
+          "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
+          "single cost": 16000,
+          "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Ground",
+          "kill xp reward": 5000,
+          "kill $ reward": 8600,
+          "prestige": 0
+        },
+        {
+          "name": "T62",
+          "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
+          "single cost": 14000,
+          "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Ground",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+{
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -9645,11 +9628,11 @@
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "China’s most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
-          "unlock level": 75,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
@@ -9657,11 +9640,11 @@
         {
           "name": "M1A2",
           "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
-          "single cost": 32000,
+          "single cost": 16000,
           "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
-          "unlock level": 85,
+          "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
-          "spawn type": "Armored Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0

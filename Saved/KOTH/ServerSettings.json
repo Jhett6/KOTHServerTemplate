@@ -6299,7 +6299,7 @@
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-          "spawn type": "Ground",
+          "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
           "kill $ reward": 5600,
           "prestige": 0

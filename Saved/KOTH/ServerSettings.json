@@ -3170,18 +3170,6 @@
           "kill $ reward": 10600,
           "prestige": 0
         },
-        {
-          "name": "Stryker",
-          "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-          "single cost": 7000,
-          "description": "A standard US army armored personnel carrier with a Browning Crows system.",
-          "unlock level": 35,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 700,
-          "prestige": 0
-        },
 		{
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
@@ -3192,6 +3180,18 @@
           "spawn type": "Ground",
           "kill xp reward": 750,
           "kill $ reward": 1000,
+          "prestige": 0
+        },
+		{
+          "name": "Stryker",
+          "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
+          "single cost": 15000,
+          "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 45,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -6304,18 +6304,6 @@
           "kill $ reward": 10600,
           "prestige": 0
         },
-        {
-          "name": "Stryker",
-          "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-          "single cost": 7000,
-          "description": "A standard US army armored personnel carrier with a Browning Crows system.",
-          "unlock level": 35,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 700,
-          "prestige": 0
-        },
 		{
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
@@ -6326,6 +6314,18 @@
           "spawn type": "Ground",
           "kill xp reward": 750,
           "kill $ reward": 1000,
+          "prestige": 0
+        },
+		{
+          "name": "Stryker",
+          "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
+          "single cost": 15000,
+          "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 45,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -9679,18 +9679,6 @@
           "prestige": 0
         },
 		{
-		  "name": "Stryker",
-		  "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-		  "single cost": 7000,
-		  "description": "A standard US army armored personnel carrier with a Browning Crows system.",
-		  "unlock level": 35,
-		  "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
-		  "spawn type": "Armored Vehicle",
-		  "kill xp reward": 400,
-		  "kill $ reward": 700,
-		  "prestige": 0
-		},
-		{
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
           "single cost": 10000,
@@ -9700,6 +9688,18 @@
           "spawn type": "Ground",
           "kill xp reward": 750,
           "kill $ reward": 1000,
+          "prestige": 0
+        },
+		{
+          "name": "Stryker",
+          "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
+          "single cost": 15000,
+          "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 45,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {

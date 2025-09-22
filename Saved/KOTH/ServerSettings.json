@@ -3182,7 +3182,7 @@
           "kill $ reward": 700,
           "prestige": 0
         },
-		{
+		    {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
           "single cost": 10000,
@@ -3218,7 +3218,7 @@
           "kill $ reward": 6000,
           "prestige": 0
         },
-		{
+		    {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
           "single cost": 20000,
@@ -6316,8 +6316,7 @@
           "kill $ reward": 700,
           "prestige": 0
         },
-
-		{
+		    {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
           "single cost": 10000,
@@ -6353,7 +6352,7 @@
           "kill $ reward": 6000,
           "prestige": 0
         },
-		{
+		    {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
           "single cost": 20000,
@@ -9691,7 +9690,7 @@
 		      "kill $ reward": 700,
 		      "prestige": 0
 		    },
-		{
+		    {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
           "single cost": 10000,

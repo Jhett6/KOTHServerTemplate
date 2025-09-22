@@ -3302,18 +3302,54 @@
           "kill $ reward": 8600,
           "prestige": 0
         }
-		{
-		  "name": "M1128 MGS",
-	      "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
-		  "single cost": 30000,
-		  "description": "An American mobile gun system with a powerful 105mm rifled gun.",
-		  "unlock level": 70,
-		  "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
-		  "spawn type": "Armored Vehicle",
-		  "kill xp reward": 4000,
-		  "kill $ reward": 7000,
-		  "prestige": 0
-		},
+		    {
+		      "name": "M1128 MGS",
+	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
+		      "single cost": 30000,
+		      "description": "An American mobile gun system with a powerful 105mm rifled gun.",
+		      "unlock level": 70,
+		      "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
+		      "spawn type": "Armored Vehicle",
+		      "kill xp reward": 4000,
+		      "kill $ reward": 7000,
+		      "prestige": 0
+		    },
+        {
+          "name": "UH-1 (Huey)",
+          "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
+          "single cost": 1000,
+          "description": "The iconic American Huey most known for its uses during the vietnam war.",
+          "unlock level": 25,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 300,
+          "kill $ reward": 350,
+          "prestige": 0
+        },
+        {
+          "name": "MRH-90 (Taipan)",
+          "vehicle": "/Game/Vehicles/MRH90/BP_MRH90_Mag58.BP_MRH90_Mag58_C",
+          "single cost": 2700,
+          "description": "An Australian transport heli with a minigun and a machine gun.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 650,
+          "kill $ reward": 850,
+          "prestige": 0
+        },
+        {
+          "name": "SA330 (Puma)",
+          "vehicle": "/Game/Vehicles/SA330/BP_SA330.BP_SA330_C",
+          "single cost": 2200,
+          "description": "French built with an English attitude, the Puma saw extensive use by the royal air forces.",
+          "unlock level": 50,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 500,
+          "kill $ reward": 650,
+          "prestige": 0
+        },
       ],
       "perks": [
         {
@@ -6448,6 +6484,54 @@
           "kill $ reward": 8600,
           "prestige": 0
         }
+        		    {
+		      "name": "M1128 MGS",
+	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
+		      "single cost": 30000,
+		      "description": "An American mobile gun system with a powerful 105mm rifled gun.",
+		      "unlock level": 70,
+		      "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
+		      "spawn type": "Armored Vehicle",
+		      "kill xp reward": 4000,
+		      "kill $ reward": 7000,
+		      "prestige": 0
+		    },
+        {
+          "name": "UH-1 (Huey)",
+          "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
+          "single cost": 1000,
+          "description": "The iconic American Huey most known for its uses during the vietnam war.",
+          "unlock level": 25,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 300,
+          "kill $ reward": 350,
+          "prestige": 0
+        },
+        {
+          "name": "MRH-90 (Taipan)",
+          "vehicle": "/Game/Vehicles/MRH90/BP_MRH90_Mag58.BP_MRH90_Mag58_C",
+          "single cost": 2700,
+          "description": "An Australian transport heli with a minigun and a machine gun.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 650,
+          "kill $ reward": 850,
+          "prestige": 0
+        },
+        {
+          "name": "SA330 (Puma)",
+          "vehicle": "/Game/Vehicles/SA330/BP_SA330.BP_SA330_C",
+          "single cost": 2200,
+          "description": "French built with an English attitude, the Puma saw extensive use by the royal air forces.",
+          "unlock level": 50,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 500,
+          "kill $ reward": 650,
+          "prestige": 0
+        },
       ],
       "perks": [
         {
@@ -9822,6 +9906,54 @@
           "kill $ reward": 8600,
           "prestige": 0
         }
+        		    {
+		      "name": "M1128 MGS",
+	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
+		      "single cost": 30000,
+		      "description": "An American mobile gun system with a powerful 105mm rifled gun.",
+		      "unlock level": 70,
+		      "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
+		      "spawn type": "Armored Vehicle",
+		      "kill xp reward": 4000,
+		      "kill $ reward": 7000,
+		      "prestige": 0
+		    },
+        {
+          "name": "UH-1 (Huey)",
+          "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
+          "single cost": 1000,
+          "description": "The iconic American Huey most known for its uses during the vietnam war.",
+          "unlock level": 25,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 300,
+          "kill $ reward": 350,
+          "prestige": 0
+        },
+        {
+          "name": "MRH-90 (Taipan)",
+          "vehicle": "/Game/Vehicles/MRH90/BP_MRH90_Mag58.BP_MRH90_Mag58_C",
+          "single cost": 2700,
+          "description": "An Australian transport heli with a minigun and a machine gun.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 650,
+          "kill $ reward": 850,
+          "prestige": 0
+        },
+        {
+          "name": "SA330 (Puma)",
+          "vehicle": "/Game/Vehicles/SA330/BP_SA330.BP_SA330_C",
+          "single cost": 2200,
+          "description": "French built with an English attitude, the Puma saw extensive use by the royal air forces.",
+          "unlock level": 50,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 500,
+          "kill $ reward": 650,
+          "prestige": 0
+        },
       ],
       "perks": [
         {

@@ -9642,6 +9642,18 @@
           "kill $ reward": 8600,
           "prestige": 0
         },
+		{
+          "name": "ZBD-04A",
+          "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
+          "single cost": 25000,
+          "description": "A tracked Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",

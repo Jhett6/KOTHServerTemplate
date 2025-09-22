@@ -6484,7 +6484,7 @@
           "kill $ reward": 8600,
           "prestige": 0
         }
-        		    {
+        {
 		      "name": "M1128 MGS",
 	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
 		      "single cost": 30000,
@@ -9906,7 +9906,7 @@
           "kill $ reward": 8600,
           "prestige": 0
         }
-        		    {
+        {
 		      "name": "M1128 MGS",
 	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
 		      "single cost": 30000,

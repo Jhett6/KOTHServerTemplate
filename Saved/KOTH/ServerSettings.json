@@ -3302,6 +3302,18 @@
           "kill $ reward": 8600,
           "prestige": 0
         }
+		{
+		  "name": "M1128 MGS",
+	      "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
+		  "single cost": 30000,
+		  "description": "An American mobile gun system with a powerful 105mm rifled gun.",
+		  "unlock level": 70,
+		  "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
+		  "spawn type": "Armored Vehicle",
+		  "kill xp reward": 4000,
+		  "kill $ reward": 7000,
+		  "prestige": 0
+		},
       ],
       "perks": [
         {

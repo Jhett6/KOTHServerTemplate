@@ -2931,6 +2931,54 @@
           "prestige": 0
         },
         {
+          "name": "RHIB_MG3",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_MEA_MG3.BP_RHIB_MEA_MG3_C",
+          "single cost": 600,
+          "description": "A boat with a mounted MG3 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_PKP",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_PKP.BP_RHIB_RUS_PKP_C",
+          "single cost": 300,
+          "description": "A boat with a PKP mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_QJY88",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJY88.BP_RHIB_QJY88_C",
+          "single cost": 300,
+          "description": "A boat with an QJY88 machine gun mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_QJZ89",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJZ89.BP_RHIB_QJZ89_C",
+          "single cost": 300,
+          "description": "A boat with a QJZ89 machine gun mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
+          "prestige": 0
+        },
+        {
           "name": "Safir",
           "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
           "single cost": 300,
@@ -6410,6 +6458,54 @@
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
           "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_MG3",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_MEA_MG3.BP_RHIB_MEA_MG3_C",
+          "single cost": 600,
+          "description": "A boat with a mounted MG3 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_PKP",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_PKP.BP_RHIB_RUS_PKP_C",
+          "single cost": 300,
+          "description": "A boat with a PKP mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_QJY88",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJY88.BP_RHIB_QJY88_C",
+          "single cost": 300,
+          "description": "A boat with an QJY88 machine gun mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_QJZ89",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJZ89.BP_RHIB_QJZ89_C",
+          "single cost": 300,
+          "description": "A boat with a QJZ89 machine gun mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
           "prestige": 0
         },
         {
@@ -10132,6 +10228,54 @@
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
           "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_MG3",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_MEA_MG3.BP_RHIB_MEA_MG3_C",
+          "single cost": 600,
+          "description": "A boat with a mounted MG3 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_PKP",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_PKP.BP_RHIB_RUS_PKP_C",
+          "single cost": 300,
+          "description": "A boat with a PKP mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_QJY88",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJY88.BP_RHIB_QJY88_C",
+          "single cost": 300,
+          "description": "A boat with an QJY88 machine gun mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_QJZ89",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJZ89.BP_RHIB_QJZ89_C",
+          "single cost": 300,
+          "description": "A boat with a QJZ89 machine gun mounted on the bow.",
+          "unlock level": 5,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 75,
+          "kill $ reward": 100,
           "prestige": 0
         },
         {

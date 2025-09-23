@@ -3123,6 +3123,18 @@
           "prestige": 0
         },
         {
+          "name": "MT-LB ZU23-2",
+          "vehicle": "/Game/Vehicles/MTLB/BP_MTLB_ZU23_MIL.BP_MTLB_ZU23_MIL_C",
+          "single cost": 20000,
+          "description": "An amphibious anti air platform using a MT-LB chassis.",
+          "unlock level": 32,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
           "name": "BMP Techie",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_BMP1.BP_Technical2Seater_White_BMP1_C",
           "single cost": 3000,
@@ -3456,6 +3468,30 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 300,
           "kill $ reward": 300,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-3M",
+          "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
+          "single cost": 28000,
+          "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
+          "unlock level": 67,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3500,
+          "kill $ reward": 5800,
+          "prestige": 0
+        },
+        {
+          "name": "BMD-4M",
+          "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
+          "single cost": 30000,
+          "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
+          "unlock level": 72,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
           "prestige": 0
         },
         {
@@ -6425,6 +6461,18 @@
           "prestige": 0
         },
         {
+          "name": "MT-LB ZU23-2",
+          "vehicle": "/Game/Vehicles/MTLB/BP_MTLB_ZU23_MIL.BP_MTLB_ZU23_MIL_C",
+          "single cost": 20000,
+          "description": "An amphibious anti air platform using a MT-LB chassis.",
+          "unlock level": 32,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
           "name": "BMP Techie",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_BMP1.BP_Technical2Seater_White_BMP1_C",
           "single cost": 3000,
@@ -6758,6 +6806,30 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 300,
           "kill $ reward": 300,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-3M",
+          "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
+          "single cost": 28000,
+          "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
+          "unlock level": 67,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3500,
+          "kill $ reward": 5800,
+          "prestige": 0
+        },
+        {
+          "name": "BMD-4M",
+          "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
+          "single cost": 30000,
+          "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
+          "unlock level": 72,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
           "prestige": 0
         },
         {
@@ -9967,6 +10039,18 @@
           "prestige": 0
         },
         {
+          "name": "MT-LB ZU23-2",
+          "vehicle": "/Game/Vehicles/MTLB/BP_MTLB_ZU23_MIL.BP_MTLB_ZU23_MIL_C",
+          "single cost": 20000,
+          "description": "An amphibious anti air platform using a MT-LB chassis.",
+          "unlock level": 32,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
           "name": "BMP Techie",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_BMP1.BP_Technical2Seater_White_BMP1_C",
           "single cost": 3000,
@@ -10312,6 +10396,30 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 300,
           "kill $ reward": 300,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-3M",
+          "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
+          "single cost": 28000,
+          "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
+          "unlock level": 67,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3500,
+          "kill $ reward": 5800,
+          "prestige": 0
+        },
+        {
+          "name": "BMD-4M",
+          "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
+          "single cost": 30000,
+          "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
+          "unlock level": 72,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
           "prestige": 0
         },
         {

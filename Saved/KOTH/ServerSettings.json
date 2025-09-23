@@ -85,8 +85,8 @@
       },
       {
         "name": "Objective Offensive",
-        "xp": 100,
-        "$": 100,
+        "xp": 50,
+        "$": 50,
         "description": "Awarded for aggressively holding W toward the point while bullets fly past your head. Remember, aggression wins wars.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/CommandMarker/map_commandmarker_attack.map_commandmarker_attack",
         "display reward": true
@@ -237,16 +237,16 @@
       },
       {
         "name": "Priority Offensive",
-        "xp": 200,
-        "$": 200,
+        "xp": 150,
+        "$": 150,
         "description": "Awarded for attacking the priority zone! Its almost yours keep fighting!",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/CommandMarker/map_commandmarker_squad_attack.map_commandmarker_squad_attack",
         "display reward": true
       },
       {
         "name": "Priority Defensive",
-        "xp": 200,
-        "$": 200,
+        "xp": 300,
+        "$": 300,
         "description": "Awarded for holding the priority zone. Dont give them an inch",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/CommandMarker/map_commandmarker_squad_defend.map_commandmarker_squad_defend",
         "display reward": true

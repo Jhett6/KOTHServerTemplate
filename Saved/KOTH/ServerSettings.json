@@ -17,7 +17,7 @@
       "radius multiplier": 1,
       "prio radius multiplier": 1,
       "half height": 30000,
-      "reward update interval": 15,
+      "reward update interval": 20,
       "vehicle can capture": false,
       "prio vehicle can capture": true
     },

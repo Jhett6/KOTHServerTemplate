@@ -3521,13 +3521,13 @@
         {
           "name": "UH60M CAS",
           "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_CAS.BP_UH60_CAS_C",
-          "single cost": 48000,
+          "single cost": 120000,
           "description": "A CAS variant of the UH60M.",
           "unlock level": 68,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 9000,
-          "kill $ reward": 15000,
+          "kill xp reward": 30000,
+          "kill $ reward": 40000,
           "prestige": 0
         },
         {
@@ -6931,13 +6931,13 @@
         {
           "name": "UH60M CAS",
           "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_CAS.BP_UH60_CAS_C",
-          "single cost": 48000,
+          "single cost": 120000,
           "description": "A CAS variant of the UH60M.",
           "unlock level": 68,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 9000,
-          "kill $ reward": 15000,
+          "kill xp reward": 30000,
+          "kill $ reward": 40000,
           "prestige": 0
         },
         {
@@ -10593,13 +10593,13 @@
         {
           "name": "UH60M CAS",
           "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_CAS.BP_UH60_CAS_C",
-          "single cost": 48000,
+          "single cost": 120000,
           "description": "A CAS variant of the UH60M.",
           "unlock level": 68,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 9000,
-          "kill $ reward": 15000,
+          "kill xp reward": 30000,
+          "kill $ reward": 40000,
           "prestige": 0
         },
         {

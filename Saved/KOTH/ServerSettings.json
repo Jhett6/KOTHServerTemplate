@@ -3341,9 +3341,9 @@
         {
           "name": "UH-1 (Huey)",
           "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
-          "single cost": 1000,
+          "single cost": 1400,
           "description": "The iconic American Huey most known for its uses during the vietnam war.",
-          "unlock level": 25,
+          "unlock level": 28,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 300,
@@ -3420,6 +3420,30 @@
           "spawn type": "Ground",
           "kill xp reward": 15000,
           "kill $ reward": 30000,
+          "prestige": 0
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_CAS.BP_UH60_CAS_C",
+          "single cost": 48000,
+          "description": "A CAS variant of the UH60M.",
+          "unlock level": 68,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 9000,
+          "kill $ reward": 15000,
+          "prestige": 0
+        },
+        {
+          "name": "UH60M Transport",
+          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
+          "single cost": 1200,
+          "description": "A US military helicopter purely for transportation",
+          "unlock level": 28,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 300,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -6487,7 +6511,7 @@
         {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 20000,
+          "single cost": 25000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -6571,7 +6595,7 @@
         {
           "name": "BMP-1",
           "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
-          "single cost": 22000,
+          "single cost": 20000,
           "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -6607,9 +6631,9 @@
         {
           "name": "UH-1 (Huey)",
           "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
-          "single cost": 1000,
+          "single cost": 1400,
           "description": "The iconic American Huey most known for its uses during the vietnam war.",
-          "unlock level": 25,
+          "unlock level": 28,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 300,
@@ -6686,6 +6710,30 @@
           "spawn type": "Ground",
           "kill xp reward": 15000,
           "kill $ reward": 30000,
+          "prestige": 0
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_CAS.BP_UH60_CAS_C",
+          "single cost": 48000,
+          "description": "A CAS variant of the UH60M.",
+          "unlock level": 68,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 9000,
+          "kill $ reward": 15000,
+          "prestige": 0
+        },
+        {
+          "name": "UH60M Transport",
+          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
+          "single cost": 1200,
+          "description": "A US military helicopter purely for transportation",
+          "unlock level": 28,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 300,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -9993,7 +10041,7 @@
         {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 20000,
+          "single cost": 25000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -10089,7 +10137,7 @@
         {
           "name": "BMP-1",
           "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
-          "single cost": 22000,
+          "single cost": 20000,
           "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -10125,9 +10173,9 @@
         {
           "name": "UH-1 (Huey)",
           "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
-          "single cost": 1000,
+          "single cost": 1400,
           "description": "The iconic American Huey most known for its uses during the vietnam war.",
-          "unlock level": 25,
+          "unlock level": 28,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 300,
@@ -10204,6 +10252,30 @@
           "spawn type": "Ground",
           "kill xp reward": 15000,
           "kill $ reward": 30000,
+          "prestige": 0
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_CAS.BP_UH60_CAS_C",
+          "single cost": 48000,
+          "description": "A CAS variant of the UH60M.",
+          "unlock level": 68,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 9000,
+          "kill $ reward": 15000,
+          "prestige": 0
+        },
+        {
+          "name": "UH60M Transport",
+          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
+          "single cost": 1200,
+          "description": "A US military helicopter purely for transportation",
+          "unlock level": 28,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 300,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {

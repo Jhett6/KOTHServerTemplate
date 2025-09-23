@@ -3317,13 +3317,13 @@
         {
           "name": "CH146 (Griffon)",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
-          "single cost": 2000,
+          "single cost": 26500,
           "description": "A Canadian heli similar to the US’s Hueys, mounts a machine gun and a minigun.",
-          "unlock level": 45,
+          "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 450,
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
           "prestige": 0
         },
 		    {
@@ -6523,13 +6523,13 @@
         {
           "name": "CH146 (Griffon)",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
-          "single cost": 2000,
+          "single cost": 26500,
           "description": "A Canadian heli similar to the US’s Hueys, mounts a machine gun and a minigun.",
-          "unlock level": 45,
+          "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 450,
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
           "prestige": 0
         },
         {
@@ -9981,13 +9981,13 @@
         {
           "name": "CH146 (Griffon)",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
-          "single cost": 2000,
+          "single cost": 26500,
           "description": "A Canadian heli similar to the US’s Hueys, mounts a machine gun and a minigun.",
           "unlock level": 45,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 400,
-          "kill $ reward": 450,
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
           "prestige": 0
         },
         {

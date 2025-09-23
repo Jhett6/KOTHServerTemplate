@@ -3111,6 +3111,18 @@
           "prestige": 0
         },
         {
+          "name": "BTR-ZD",
+          "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
+          "single cost": 15000,
+          "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 32,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
           "name": "BMP Techie",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_BMP1.BP_Technical2Seater_White_BMP1_C",
           "single cost": 3000,
@@ -6398,6 +6410,18 @@
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-ZD",
+          "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
+          "single cost": 15000,
+          "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 32,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -9928,6 +9952,18 @@
           "spawn type": "Ground",
           "kill xp reward": 550,
           "kill $ reward": 726,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-ZD",
+          "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
+          "single cost": 15000,
+          "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 32,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {

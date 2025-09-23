@@ -3219,6 +3219,18 @@
         "prestige": 0
     },
     {
+        "name": "AAVP",
+        "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
+        "single cost": 6000,
+        "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
+        "unlock level": 22,
+        "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+        "spawn type": "Sea Vehicle",
+        "kill xp reward": 1500,
+        "kill $ reward": 2000,
+        "prestige": 0
+    },
+    {
         "name": "MATV",
         "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
         "single cost": 1800,
@@ -6818,6 +6830,18 @@
         "spawn type": "Ground",
         "kill xp reward": 450,
         "kill $ reward": 600,
+        "prestige": 0
+    },
+    {
+        "name": "AAVP",
+        "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
+        "single cost": 6000,
+        "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
+        "unlock level": 22,
+        "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+        "spawn type": "Sea Vehicle",
+        "kill xp reward": 1500,
+        "kill $ reward": 2000,
         "prestige": 0
     },
     {
@@ -10660,6 +10684,18 @@
         "spawn type": "Ground",
         "kill xp reward": 450,
         "kill $ reward": 600,
+        "prestige": 0
+    },
+    {
+        "name": "AAVP",
+        "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
+        "single cost": 6000,
+        "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
+        "unlock level": 22,
+        "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+        "spawn type": "Sea Vehicle",
+        "kill xp reward": 1500,
+        "kill $ reward": 2000,
         "prestige": 0
     },
     {

@@ -3170,7 +3170,7 @@
           "kill $ reward": 10600,
           "prestige": 0
         },
-		{
+        {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
           "single cost": 10000,
@@ -3182,7 +3182,7 @@
           "kill $ reward": 1000,
           "prestige": 0
         },
-		{
+        {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 15000,
@@ -3218,7 +3218,7 @@
           "kill $ reward": 6000,
           "prestige": 0
         },
-		{
+        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
           "single cost": 20000,
@@ -3326,18 +3326,18 @@
           "kill $ reward": 6000,
           "prestige": 0
         },
-		    {
-		      "name": "M1128 MGS",
-	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
-		      "single cost": 30000,
-		      "description": "An American mobile gun system with a powerful 105mm rifled gun.",
-		      "unlock level": 70,
-		      "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
-		      "spawn type": "Armored Vehicle",
-		      "kill xp reward": 4000,
-		      "kill $ reward": 7000,
-		      "prestige": 0
-		    },
+        {
+          "name": "M1128 MGS",
+          "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
+          "single cost": 30000,
+          "description": "An American mobile gun system with a powerful 105mm rifled gun.",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 7000,
+          "prestige": 0
+        },
         {
           "name": "UH-1 (Huey)",
           "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
@@ -6436,7 +6436,7 @@
           "kill $ reward": 10600,
           "prestige": 0
         },
-		{
+        {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
           "single cost": 10000,
@@ -6448,7 +6448,7 @@
           "kill $ reward": 1000,
           "prestige": 0
         },
-		{
+        {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 15000,
@@ -6484,7 +6484,7 @@
           "kill $ reward": 6000,
           "prestige": 0
         },
-		{
+        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
           "single cost": 20000,
@@ -6593,17 +6593,17 @@
           "prestige": 0
         },
         {
-		      "name": "M1128 MGS",
-	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
-		      "single cost": 30000,
-		      "description": "An American mobile gun system with a powerful 105mm rifled gun.",
-		      "unlock level": 70,
-		      "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
-		      "spawn type": "Armored Vehicle",
-		      "kill xp reward": 4000,
-		      "kill $ reward": 7000,
-		      "prestige": 0
-		    },
+          "name": "M1128 MGS",
+          "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
+          "single cost": 30000,
+          "description": "An American mobile gun system with a powerful 105mm rifled gun.",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 7000,
+          "prestige": 0
+        },
         {
           "name": "UH-1 (Huey)",
           "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",
@@ -9942,7 +9942,7 @@
           "kill $ reward": 10600,
           "prestige": 0
         },
-		{
+        {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
           "single cost": 10000,
@@ -9954,7 +9954,7 @@
           "kill $ reward": 1000,
           "prestige": 0
         },
-		{
+        {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 15000,
@@ -9990,7 +9990,7 @@
           "kill $ reward": 6000,
           "prestige": 0
         },
-		{
+        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
           "single cost": 20000,
@@ -10000,7 +10000,7 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
           "kill $ reward": 5600,
-        "prestige": 0
+          "prestige": 0
         },
         {
           "name": "T90A",
@@ -10014,42 +10014,42 @@
           "kill $ reward": 8600,
           "prestige": 0
         },
-		{
-		  "name": "LAV-25",
-		  "vehicle": "/Game/Vehicles/LAV25/BP_LAV25.BP_LAV25_C",
-		  "single cost": 20000,
-		  "description": "An American made infantry fighting vehicle that packs a punch with its 25mm autocannon and speedy maneuvering.",
-		  "unlock level": 65,
-		  "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
-		  "spawn type": "Armored Vehicle",
-		  "kill xp reward": 2500,
-		  "kill $ reward": 5000,
-		  "prestige": 0
-		},
-		{
-		  "name": "ZBD-04A",
-		  "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
-		  "single cost": 25000,
-		  "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
-		  "unlock level": 70,
-		  "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-		  "spawn type": "Armored Vehicle",
-		  "kill xp reward": 3000,
-		  "kill $ reward": 6000,
-		  "prestige": 0
+        {
+          "name": "LAV-25",
+          "vehicle": "/Game/Vehicles/LAV25/BP_LAV25.BP_LAV25_C",
+          "single cost": 20000,
+          "description": "An American made infantry fighting vehicle that packs a punch with its 25mm autocannon and speedy maneuvering.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 2500,
+          "kill $ reward": 5000,
+          "prestige": 0
         },
-		{
-		  "name": "BTR-82A",
-		  "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
-		  "single cost": 25000,
-		  "description": "A Russian infantry fighting vehicle designed to deliver quick blows with its speed and 30mm autocannon. ",
-		  "unlock level": 70,
-		  "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
-		  "spawn type": "Armored Vehicle",
-		  "kill xp reward": 3000,
-		  "kill $ reward": 5500,
-		  "prestige": 0
-		},
+        {
+          "name": "ZBD-04A",
+          "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
+          "single cost": 25000,
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-82A",
+          "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
+          "single cost": 25000,
+          "description": "A Russian infantry fighting vehicle designed to deliver quick blows with its speed and 30mm autocannon. ",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 5500,
+          "prestige": 0
+        },
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
@@ -10111,17 +10111,17 @@
           "prestige": 0
         },
         {
-		      "name": "M1128 MGS",
-	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
-		      "single cost": 30000,
-		      "description": "An American mobile gun system with a powerful 105mm rifled gun.",
-		      "unlock level": 70,
-		      "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
-		      "spawn type": "Armored Vehicle",
-		      "kill xp reward": 4000,
-		      "kill $ reward": 7000,
-		      "prestige": 0
-		    },
+          "name": "M1128 MGS",
+          "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
+          "single cost": 30000,
+          "description": "An American mobile gun system with a powerful 105mm rifled gun.",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 7000,
+          "prestige": 0
+        },
         {
           "name": "UH-1 (Huey)",
           "vehicle": "/Game/Vehicles/UH1Y/BP_UH1Y.BP_UH1Y_C",

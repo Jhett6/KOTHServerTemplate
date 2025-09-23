@@ -3363,6 +3363,18 @@
           "prestige": 0
         },
         {
+          "name": "M2A3 Bradley",
+          "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
+          "single cost": 28000,
+          "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Ground",
+          "kill xp reward": 3000,
+          "kill $ reward": 5000,
+          "prestige": 0
+        },
+        {
           "name": "SA330 (Puma)",
           "vehicle": "/Game/Vehicles/SA330/BP_SA330.BP_SA330_C",
           "single cost": 2200,

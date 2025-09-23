@@ -2968,7 +2968,7 @@
     },
     {
         "name": "RHIB_MG3",
-        "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_MEA_MG3.BP_RHIB_MEA_MG3_C",
+        "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_GFI_MG3.BP_RHIB_GFI_MG3_C",
         "single cost": 600,
         "description": "A boat with a mounted MG3 mounted on the bow.",
         "unlock level": 7,
@@ -6570,7 +6570,7 @@
     },
     {
         "name": "RHIB_MG3",
-        "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_MEA_MG3.BP_RHIB_MEA_MG3_C",
+        "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_GFI_MG3.BP_RHIB_GFI_MG3_C",
         "single cost": 600,
         "description": "A boat with a mounted MG3 mounted on the bow.",
         "unlock level": 7,
@@ -10412,7 +10412,7 @@
     },
     {
         "name": "RHIB_MG3",
-        "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_MEA_MG3.BP_RHIB_MEA_MG3_C",
+        "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_GFI_MG3.BP_RHIB_GFI_MG3_C",
         "single cost": 600,
         "description": "A boat with a mounted MG3 mounted on the bow.",
         "unlock level": 7,

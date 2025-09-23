@@ -3301,7 +3301,31 @@
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
-        }
+        },
+        {
+          "name": "BMP-1",
+          "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
+          "single cost": 22000,
+          "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 5800,
+          "prestige": 0
+        },
+        {
+          "name": "CH146 (Griffon)",
+          "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
+          "single cost": 2000,
+          "description": "A Canadian heli similar to the US’s Hueys, mounts a machine gun and a minigun.",
+          "unlock level": 45,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 400,
+          "kill $ reward": 450,
+          "prestige": 0
+        },
 		    {
 		      "name": "M1128 MGS",
 	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
@@ -3349,7 +3373,7 @@
           "kill xp reward": 500,
           "kill $ reward": 650,
           "prestige": 0
-        },
+        }
       ],
       "perks": [
         {
@@ -6483,7 +6507,31 @@
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
-        }
+        },
+        {
+          "name": "BMP-1",
+          "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
+          "single cost": 22000,
+          "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 5800,
+          "prestige": 0
+        },
+        {
+          "name": "CH146 (Griffon)",
+          "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
+          "single cost": 2000,
+          "description": "A Canadian heli similar to the US’s Hueys, mounts a machine gun and a minigun.",
+          "unlock level": 45,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 400,
+          "kill $ reward": 450,
+          "prestige": 0
+        },
         {
 		      "name": "M1128 MGS",
 	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
@@ -6531,7 +6579,7 @@
           "kill xp reward": 500,
           "kill $ reward": 650,
           "prestige": 0
-        },
+        }
       ],
       "perks": [
         {
@@ -9905,7 +9953,43 @@
           "kill xp reward": 5000,
           "kill $ reward": 8600,
           "prestige": 0
-        }
+        },
+        {
+          "name": "BMD-1M",
+          "vehicle": "/Game/Vehicles/BMD-1M/BP_BMD1M.BP_BMD1M_C",
+          "single cost": 22000,
+          "description": "A Russian amphibious IFV utilizing the BMP-1’s cannon.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 5800,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-1",
+          "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
+          "single cost": 22000,
+          "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 5800,
+          "prestige": 0
+        },
+        {
+          "name": "CH146 (Griffon)",
+          "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
+          "single cost": 2000,
+          "description": "A Canadian heli similar to the US’s Hueys, mounts a machine gun and a minigun.",
+          "unlock level": 45,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 400,
+          "kill $ reward": 450,
+          "prestige": 0
+        },
         {
 		      "name": "M1128 MGS",
 	        "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
@@ -9953,7 +10037,7 @@
           "kill xp reward": 500,
           "kill $ reward": 650,
           "prestige": 0
-        },
+        }
       ],
       "perks": [
         {

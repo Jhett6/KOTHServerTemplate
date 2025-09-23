@@ -3101,13 +3101,13 @@
         {
           "name": "M1151 M2",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_WPMC.BP_M1151_WPMC_C",
-          "single cost": 2400,
+          "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top M2",
           "unlock level": 23,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 500,
-          "kill $ reward": 600,
+          "kill xp reward": 450,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -3120,6 +3120,18 @@
           "spawn type": "Ground",
           "kill xp reward": 2000,
           "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical SPG9",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
+          "single cost": 12000,
+          "description": "A basic technical with an SPG9 on its back.",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
+          "spawn type": "Ground",
+          "kill xp reward": 900,
+          "kill $ reward": 1000,
           "prestige": 0
         },
         {
@@ -6571,13 +6583,13 @@
         {
           "name": "M1151 M2",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_WPMC.BP_M1151_WPMC_C",
-          "single cost": 2400,
+          "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top M2",
           "unlock level": 23,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 500,
-          "kill $ reward": 600,
+          "kill xp reward": 450,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -6590,6 +6602,18 @@
           "spawn type": "Ground",
           "kill xp reward": 2000,
           "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical SPG9",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
+          "single cost": 12000,
+          "description": "A basic technical with an SPG9 on its back.",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
+          "spawn type": "Ground",
+          "kill xp reward": 900,
+          "kill $ reward": 1000,
           "prestige": 0
         },
         {
@@ -10281,13 +10305,13 @@
         {
           "name": "M1151 M2",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_WPMC.BP_M1151_WPMC_C",
-          "single cost": 2400,
+          "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top M2",
           "unlock level": 23,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 500,
-          "kill $ reward": 600,
+          "kill xp reward": 450,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -10300,6 +10324,18 @@
           "spawn type": "Ground",
           "kill xp reward": 2000,
           "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical SPG9",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
+          "single cost": 12000,
+          "description": "A basic technical with an SPG9 on its back.",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
+          "spawn type": "Ground",
+          "kill xp reward": 900,
+          "kill $ reward": 1000,
           "prestige": 0
         },
         {

@@ -2265,7 +2265,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic",
+              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -6395,7 +6395,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic",
+              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -10766,7 +10766,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic",
+              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,

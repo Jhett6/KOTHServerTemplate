@@ -2258,6 +2258,23 @@
           "unlock level": 50
         },
         {
+          "family name": "L129A1",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The L129A1 sharpshooter rifle is a 7.62x51mm NATO designated marksman rifle in current use by the British Army",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
           "family name": "Rock",
           "single cost": "10000",
           "perma cost": "-1",
@@ -6364,6 +6381,23 @@
               "perk requirements": [
                 "Machinegunner"
               ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L129A1",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The L129A1 sharpshooter rifle is a 7.62x51mm NATO designated marksman rifle in current use by the British Army",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic",
+              "unlock level": 0,
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }
@@ -10718,6 +10752,23 @@
               "perk requirements": [
                 "Machinegunner"
               ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L129A1",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The L129A1 sharpshooter rifle is a 7.62x51mm NATO designated marksman rifle in current use by the British Army",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/L129A1_Optic.L129A1_Optic",
+              "unlock level": 0,
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             }

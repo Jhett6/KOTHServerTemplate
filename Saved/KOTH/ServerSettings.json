@@ -998,6 +998,20 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+              },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+              },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3A4_ZPoint.BP_G3A4_ZPoint_C",
               "unlock level": 10,
               "perk requirements": [],
@@ -1834,30 +1848,7 @@
           ],
           "unlock level": 80
           },
-        {
-          "family name": "G3KA4",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The G3KA4 is the collapsible stock carbine variant of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-              },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
-              "unlock level": 7,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-              }
-            ],
-          "unlock level": 50
-        },
+
         {
           "family name": "AMD65",
           "single cost": "700",
@@ -2089,35 +2080,35 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27.BP_M27_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic.BP_M27_IAR_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Bipod.BP_M27_Bipod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic_NoBipod.BP_M27_IAR_Optic_NoBipod_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39.BP_M39_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39_Optic.BP_M39_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
               "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
@@ -5121,6 +5112,20 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+              },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+              },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3A4_ZPoint.BP_G3A4_ZPoint_C",
               "unlock level": 10,
               "perk requirements": [],
@@ -5958,30 +5963,6 @@
           "unlock level": 80
         },        
         {
-          "family name": "G3KA4",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The G3KA4 is the collapsible stock carbine variant of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-              },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
-              "unlock level": 7,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-              }
-            ],
-          "unlock level": 50
-        },
-        {
           "family name": "AMD65",
           "single cost": "700",
           "perma cost": "100000",
@@ -6212,35 +6193,35 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27.BP_M27_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic.BP_M27_IAR_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Bipod.BP_M27_Bipod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic_NoBipod.BP_M27_IAR_Optic_NoBipod_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39.BP_M39_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39_Optic.BP_M39_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
               "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
@@ -9484,6 +9465,20 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+              },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+              },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3A4_ZPoint.BP_G3A4_ZPoint_C",
               "unlock level": 10,
               "perk requirements": [],
@@ -10322,30 +10317,6 @@
         },
 
         {
-          "family name": "G3KA4",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The G3KA4 is the collapsible stock carbine variant of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-              },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
-              "unlock level": 7,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-              }
-            ],
-          "unlock level": 50
-        },
-        {
           "family name": "AMD65",
           "single cost": "700",
           "perma cost": "100000",
@@ -10576,35 +10547,35 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27.BP_M27_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic.BP_M27_IAR_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Bipod.BP_M27_Bipod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic_NoBipod.BP_M27_IAR_Optic_NoBipod_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39.BP_M39_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39_Optic.BP_M39_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
               "unlock level": 10,
               "perk requirements": [],
               "item count": -1,

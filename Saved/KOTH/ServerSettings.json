@@ -1146,6 +1146,14 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+
+            {
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
               "unlock level": 5,
               "perk requirements": [],
@@ -1849,24 +1857,6 @@
           "unlock level": 80
           },
 
-        {
-          "family name": "AMD65",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The AMD-65 is the Hungarian variant of the Russian AKM rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/amd65.amd65",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
- 
         {
           "family name": "AKS74",
           "single cost": "700",
@@ -5249,6 +5239,14 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+
+            {
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
               "unlock level": 5,
               "perk requirements": [],
@@ -5951,23 +5949,6 @@
           ],
           "unlock level": 80
         },        
-        {
-          "family name": "AMD65",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The AMD-65 is the Hungarian variant of the Russian AKM rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/amd65.amd65",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
 
         {
           "family name": "AKS74",
@@ -9591,6 +9572,14 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+
+            {
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
               "unlock level": 5,
               "perk requirements": [],
@@ -10292,24 +10281,6 @@
             }
           ],
           "unlock level": 80
-        },
-
-        {
-          "family name": "AMD65",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The AMD-65 is the Hungarian variant of the Russian AKM rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/amd65.amd65",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
         },
 
         {

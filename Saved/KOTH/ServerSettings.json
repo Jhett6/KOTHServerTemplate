@@ -1817,7 +1817,7 @@
           ],
           "unlock level": 80
         },
-                {
+        {
           "family name": "HK51",
           "single cost": "700",
           "perma cost": "100000",
@@ -2136,7 +2136,7 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 50
         },
@@ -2164,7 +2164,7 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 50
         },
@@ -2192,7 +2192,7 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 50
         },
@@ -2237,7 +2237,7 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 50
         },
@@ -2274,7 +2274,7 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 50
         },
@@ -2293,7 +2293,7 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
           ],
           "unlock level": 50
         },
@@ -6054,6 +6054,570 @@
             }
           ],
           "unlock level": 80
+        },        
+        {
+          "family name": "HK51",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/hk51.hk51",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "G3KA4",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The G3KA4 is the collapsible stock carbine variant of the G3A3 battle rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Foregrip.BP_G3KA4_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Optic.BP_G3KA4_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "AMD65",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The AMD-65 is the Hungarian variant of the Russian AKM rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/amd65.amd65",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "SVD",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "AKS74",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The AKS-74 is the skeleton metallic stock variant of the AK-74 assault rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/aks74.aks74",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74.BP_AKS74_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74_1P29.BP_AKS74_1P29_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74_1P63.BP_AKS74_1P63_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L22A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The L22A2 rifle is the carbine variant to the current British Army service rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l22a2.l22a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L22A2_Foregrip.BP_L22A2_Foregrip_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L22A2_SUSAT_Foregrip.BP_L22A2_SUSAT_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L86A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The L86A2 LSW rifle is a variant of the L85A2 rifle with a longer barrel",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l86a2.l86a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L86A2LSW.BP_L86A2LSW_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L86A2LSW_SUSAT.BP_L86A2LSW_SUSAT_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L85A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The gas-operated, select fire L85A2 rifle is the current British Army service rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2.BP_L85A2_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_Foregrip.BP_L85A2_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ElcanLDS.BP_L85A2_ElcanLDS_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "EF88C",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The EF88 is a modern bullpup rifle which entered service in 2016. It is an evolution of the Austrian Steyr AUG.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_EF88C_IronSight.T_EF88C_IronSight",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Eotech_Frontgrip.BP_EF88C_Eotech_Frontgrip_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Frontgrip.BP_EF88C_Specter_Frontgrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "QBZ95-1",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "RPK",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The Russian made RPK was designed in parallel with the AKM series of assault rifles as a light machine gun",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74.rpk74",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK_1P78.BP_RPK_1P78_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M_1P78.BP_RPK74M_1P78_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "PKM",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The PKM is a gas-operated open bolt Russian machine gun developed in the early 1960s",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkm.pkm",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM.BP_PKM_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "PKP",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "M27",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M27_iar.M27_iar",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic.BP_M27_IAR_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic_NoBipod.BP_M27_IAR_Optic_NoBipod_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "C9A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The Canadian Forces C9 is a standard factory Minimi with a steel tubular stock.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/C9A2.C9A2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2.BP_C9A2_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "Minimi",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "Classic Minimi",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "MaxiMi",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi_Specter.BP_Maximi_Specter_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "QJB95-1",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW_Optic.BP_QJB95-1_LSW_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "QJY88",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88_Optic.BP_QJY-88_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "Rock",
@@ -9968,6 +10532,570 @@
             }
           ],
           "unlock level": 80
+        },
+        {
+          "family name": "HK51",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/hk51.hk51",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "G3KA4",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The G3KA4 is the collapsible stock carbine variant of the G3A3 battle rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4.BP_G3KA4_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Foregrip.BP_G3KA4_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Optic.BP_G3KA4_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "AMD65",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The AMD-65 is the Hungarian variant of the Russian AKM rifle.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/amd65.amd65",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AMD65.BP_AMD65_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "SVD",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "AKS74",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The AKS-74 is the skeleton metallic stock variant of the AK-74 assault rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/aks74.aks74",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74.BP_AKS74_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74_1P29.BP_AKS74_1P29_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74_1P63.BP_AKS74_1P63_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L22A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The L22A2 rifle is the carbine variant to the current British Army service rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l22a2.l22a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L22A2_Foregrip.BP_L22A2_Foregrip_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L22A2_SUSAT_Foregrip.BP_L22A2_SUSAT_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L86A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The L86A2 LSW rifle is a variant of the L85A2 rifle with a longer barrel",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l86a2.l86a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L86A2LSW.BP_L86A2LSW_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L86A2LSW_SUSAT.BP_L86A2LSW_SUSAT_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "L85A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The gas-operated, select fire L85A2 rifle is the current British Army service rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2.BP_L85A2_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_Foregrip.BP_L85A2_Foregrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ElcanLDS.BP_L85A2_ElcanLDS_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "EF88C",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The EF88 is a modern bullpup rifle which entered service in 2016. It is an evolution of the Austrian Steyr AUG.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_EF88C_IronSight.T_EF88C_IronSight",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Eotech_Frontgrip.BP_EF88C_Eotech_Frontgrip_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Frontgrip.BP_EF88C_Specter_Frontgrip_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "QBZ95-1",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "RPK",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The Russian made RPK was designed in parallel with the AKM series of assault rifles as a light machine gun",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74.rpk74",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK_1P78.BP_RPK_1P78_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M_1P78.BP_RPK74M_1P78_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "PKM",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The PKM is a gas-operated open bolt Russian machine gun developed in the early 1960s",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkm.pkm",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM.BP_PKM_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "PKP",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "M27",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M27_iar.M27_iar",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic.BP_M27_IAR_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Optic_NoBipod.BP_M27_IAR_Optic_NoBipod_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "C9A2",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The Canadian Forces C9 is a standard factory Minimi with a steel tubular stock.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/C9A2.C9A2",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2.BP_C9A2_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "Minimi",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "Classic Minimi",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "MaxiMi",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi_Specter.BP_Maximi_Specter_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "QJB95-1",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW_Optic.BP_QJB95-1_LSW_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "QJY88",
+          "single cost": "700",
+          "perma cost": "100000",
+          "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88_Optic.BP_QJY-88_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
         },
         {
           "family name": "Rock",

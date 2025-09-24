@@ -898,7 +898,7 @@
         },
         {
             "family name": "L86A2",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "The L86A2 LSW rifle is a variant of the L85A2 rifle with a longer barrel",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l86a2.l86a2",
@@ -1029,7 +1029,7 @@
         },
         {
             "family name": "QJB95-1",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
@@ -1577,7 +1577,7 @@
         },
         {
             "family name": "L129A1",
-            "single cost": "700",
+            "single cost": "600",
             "perma cost": "100000",
             "description": "The L129A1 sharpshooter rifle is a 7.62x51mm NATO designated marksman rifle in current use by the British Army",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
@@ -1907,7 +1907,7 @@
         },
         {
             "family name": "M27",
-            "single cost": "700",
+            "single cost": "850",
             "perma cost": "100000",
             "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
@@ -2051,7 +2051,7 @@
         },
         {
             "family name": "Minimi",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "Classic Minimi",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
@@ -2138,8 +2138,8 @@
         },
         {
             "family name": "MaxiMi",
-            "single cost": "700",
-            "perma cost": "100000",
+            "single cost": "1500",
+            "perma cost": "150000",
             "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
             "xp unlocks": [
@@ -2250,6 +2250,7 @@
             "unlock level": 100
         }
     ],
+
       "secondary": [
         {
           "family name": "TT33",
@@ -4985,7 +4986,7 @@
         },
         {
             "family name": "L86A2",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "The L86A2 LSW rifle is a variant of the L85A2 rifle with a longer barrel",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l86a2.l86a2",
@@ -5116,7 +5117,7 @@
         },
         {
             "family name": "QJB95-1",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
@@ -5664,7 +5665,7 @@
         },
         {
             "family name": "L129A1",
-            "single cost": "700",
+            "single cost": "600",
             "perma cost": "100000",
             "description": "The L129A1 sharpshooter rifle is a 7.62x51mm NATO designated marksman rifle in current use by the British Army",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
@@ -5994,7 +5995,7 @@
         },
         {
             "family name": "M27",
-            "single cost": "700",
+            "single cost": "850",
             "perma cost": "100000",
             "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
@@ -6138,7 +6139,7 @@
         },
         {
             "family name": "Minimi",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "Classic Minimi",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
@@ -6225,8 +6226,8 @@
         },
         {
             "family name": "MaxiMi",
-            "single cost": "700",
-            "perma cost": "100000",
+            "single cost": "1500",
+            "perma cost": "150000",
             "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
             "xp unlocks": [
@@ -6337,6 +6338,7 @@
             "unlock level": 100
         }
     ],
+
       "secondary": [
         {
           "family name": "TT33",
@@ -9312,7 +9314,7 @@
         },
         {
             "family name": "L86A2",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "The L86A2 LSW rifle is a variant of the L85A2 rifle with a longer barrel",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l86a2.l86a2",
@@ -9443,7 +9445,7 @@
         },
         {
             "family name": "QJB95-1",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
@@ -9991,7 +9993,7 @@
         },
         {
             "family name": "L129A1",
-            "single cost": "700",
+            "single cost": "600",
             "perma cost": "100000",
             "description": "The L129A1 sharpshooter rifle is a 7.62x51mm NATO designated marksman rifle in current use by the British Army",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l129a1.l129a1",
@@ -10321,7 +10323,7 @@
         },
         {
             "family name": "M27",
-            "single cost": "700",
+            "single cost": "850",
             "perma cost": "100000",
             "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
             "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
@@ -10465,7 +10467,7 @@
         },
         {
             "family name": "Minimi",
-            "single cost": "700",
+            "single cost": "900",
             "perma cost": "100000",
             "description": "Classic Minimi",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
@@ -10552,8 +10554,8 @@
         },
         {
             "family name": "MaxiMi",
-            "single cost": "700",
-            "perma cost": "100000",
+            "single cost": "1500",
+            "perma cost": "150000",
             "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
             "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
             "xp unlocks": [
@@ -10664,6 +10666,7 @@
             "unlock level": 100
         }
     ],
+
       "secondary": [
         {
           "family name": "TT33",

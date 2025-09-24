@@ -7332,8 +7332,8 @@
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill xp reward": 3000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -11186,8 +11186,8 @@
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill xp reward": 3000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {

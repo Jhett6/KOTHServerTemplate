@@ -3053,7 +3053,7 @@
         {
           "name": "Simir MG3",
           "vehicle": "/game/vehicles/Safir/BP_Safir_MG3.BP_Safir_MG3_C",
-          "single cost": 350,
+          "single cost": 1000,
           "description": "A Safir with an MG3.",
           "unlock level": 9,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -3101,7 +3101,7 @@
         {
           "name": "Simir Kord",
           "vehicle": "/game/vehicles/Safir/BP_Safir_Kord.BP_Safir_Kord_C",
-          "single cost": 400,
+          "single cost": 1200,
           "description": "A Safir with a Kord.",
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -3473,7 +3473,7 @@
         {
           "name": "FV510_40mm",
           "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 29000,
+          "single cost": 28000,
           "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -3713,13 +3713,13 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 29000,
+          "single cost": 27000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill xp reward": 3000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -3737,13 +3737,13 @@
         {
           "name": "CH146 (Griffon)",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
-          "single cost": 26500,
+          "single cost": 5500,
           "description": "A Canadian heli similar to the USs Hueys, mounts a machine gun and a minigun.",
           "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -6667,7 +6667,7 @@
         {
           "name": "Simir MG3",
           "vehicle": "/game/vehicles/Safir/BP_Safir_MG3.BP_Safir_MG3_C",
-          "single cost": 350,
+          "single cost": 1000,
           "description": "A Safir with an MG3.",
           "unlock level": 9,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -6715,7 +6715,7 @@
         {
           "name": "Simir Kord",
           "vehicle": "/game/vehicles/Safir/BP_Safir_Kord.BP_Safir_Kord_C",
-          "single cost": 400,
+          "single cost": 1200,
           "description": "A Safir with a Kord.",
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -7087,7 +7087,7 @@
         {
           "name": "FV510_40mm",
           "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 29000,
+          "single cost": 28000,
           "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -7327,13 +7327,13 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 29000,
+          "single cost": 27000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill xp reward": 3000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -7351,13 +7351,13 @@
         {
           "name": "CH146 (Griffon)",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
-          "single cost": 26500,
+          "single cost": 5500,
           "description": "A Canadian heli similar to the USs Hueys, mounts a machine gun and a minigun.",
           "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -10521,7 +10521,7 @@
         {
           "name": "Simir MG3",
           "vehicle": "/game/vehicles/Safir/BP_Safir_MG3.BP_Safir_MG3_C",
-          "single cost": 350,
+          "single cost": 1000,
           "description": "A Safir with an MG3.",
           "unlock level": 9,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -10569,7 +10569,7 @@
         {
           "name": "Simir Kord",
           "vehicle": "/game/vehicles/Safir/BP_Safir_Kord.BP_Safir_Kord_C",
-          "single cost": 400,
+          "single cost": 1200,
           "description": "A Safir with a Kord.",
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -10941,7 +10941,7 @@
         {
           "name": "FV510_40mm",
           "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 29000,
+          "single cost": 28000,
           "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -11181,13 +11181,13 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 29000,
+          "single cost": 27000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill xp reward": 3000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -11205,13 +11205,13 @@
         {
           "name": "CH146 (Griffon)",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146_CAS.BP_CH146_CAS_C",
-          "single cost": 26500,
+          "single cost": 5500,
           "description": "A Canadian heli similar to the USs Hueys, mounts a machine gun and a minigun.",
           "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_transporthelo.map_transporthelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {

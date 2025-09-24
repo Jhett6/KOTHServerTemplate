@@ -765,16 +765,8 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_MG3_Elcan.BP_MG3_Elcan_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
+
           ],
           "unlock level": 18
         },
@@ -4934,16 +4926,8 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_MG3_Elcan.BP_MG3_Elcan_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
+
           ],
           "unlock level": 18
         },
@@ -9343,16 +9327,8 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_MG3_Elcan.BP_MG3_Elcan_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
+
           ],
           "unlock level": 18
         },

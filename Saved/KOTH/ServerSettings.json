@@ -6147,53 +6147,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "RPK",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The Russian made RPK was designed in parallel with the AKM series of assault rifles as a light machine gun",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74.rpk74",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M_1P78.BP_RPK74M_1P78_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+        
         {
           "family name": "PKM",
           "single cost": "700",
@@ -10557,53 +10511,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "RPK",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The Russian made RPK was designed in parallel with the AKM series of assault rifles as a light machine gun",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74.rpk74",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M_1P78.BP_RPK74M_1P78_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+ 
         {
           "family name": "PKM",
           "single cost": "700",

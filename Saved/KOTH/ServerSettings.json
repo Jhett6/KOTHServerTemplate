@@ -1816,13 +1816,13 @@
             }
           ],
           "unlock level": 80
-        },
-        {
+          },
+          {
           "family name": "HK51",
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/hk51.hk51",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
@@ -1847,29 +1847,15 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Foregrip.BP_G3KA4_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
+              },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Optic.BP_G3KA4_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
+              }
+            ],
           "unlock level": 50
         },
         {
@@ -1894,7 +1880,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -2029,31 +2015,7 @@
             }
           ],
           "unlock level": 50
-        },
-        {
-          "family name": "EF88C",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The EF88 is a modern bullpup rifle which entered service in 2016. It is an evolution of the Austrian Steyr AUG.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_EF88C_IronSight.T_EF88C_IronSight",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Eotech_Frontgrip.BP_EF88C_Eotech_Frontgrip_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Frontgrip.BP_EF88C_Specter_Frontgrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+          },
         {
           "family name": "QBZ95-1",
           "single cost": "700",
@@ -2110,15 +2072,7 @@
               "item count": -1,
               "prestige": 0
             },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK_1P78.BP_RPK_1P78_C",
-              "unlock level": 5,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
+
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
               "unlock level": 0,
@@ -2201,7 +2155,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M27_iar.M27_iar",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M4_acog.M4_acog",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
@@ -2305,7 +2259,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximic_C",
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
                 "Machinegunner"
@@ -6055,12 +6009,12 @@
           ],
           "unlock level": 80
         },        
-        {
+                  {
           "family name": "HK51",
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/hk51.hk51",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
@@ -6085,29 +6039,15 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Foregrip.BP_G3KA4_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
+              },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Optic.BP_G3KA4_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
+              }
+            ],
           "unlock level": 50
         },
         {
@@ -6132,7 +6072,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -6267,31 +6207,7 @@
             }
           ],
           "unlock level": 50
-        },
-        {
-          "family name": "EF88C",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The EF88 is a modern bullpup rifle which entered service in 2016. It is an evolution of the Austrian Steyr AUG.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_EF88C_IronSight.T_EF88C_IronSight",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Eotech_Frontgrip.BP_EF88C_Eotech_Frontgrip_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Frontgrip.BP_EF88C_Specter_Frontgrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+          },
         {
           "family name": "QBZ95-1",
           "single cost": "700",
@@ -6348,15 +6264,7 @@
               "item count": -1,
               "prestige": 0
             },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK_1P78.BP_RPK_1P78_C",
-              "unlock level": 5,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
+
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
               "unlock level": 0,
@@ -6439,7 +6347,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M27_iar.M27_iar",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M4_acog.M4_acog",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
@@ -6543,7 +6451,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximic_C",
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
                 "Machinegunner"
@@ -10533,12 +10441,12 @@
           ],
           "unlock level": 80
         },
-        {
+                  {
           "family name": "HK51",
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/hk51.hk51",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
@@ -10563,29 +10471,15 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Foregrip.BP_G3KA4_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
+              },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_ZPoint.BP_G3KA4_ZPoint_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_G3KA4_Optic.BP_G3KA4_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
+              }
+            ],
           "unlock level": 50
         },
         {
@@ -10610,7 +10504,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -10745,31 +10639,7 @@
             }
           ],
           "unlock level": 50
-        },
-        {
-          "family name": "EF88C",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The EF88 is a modern bullpup rifle which entered service in 2016. It is an evolution of the Austrian Steyr AUG.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_EF88C_IronSight.T_EF88C_IronSight",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Eotech_Frontgrip.BP_EF88C_Eotech_Frontgrip_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Frontgrip.BP_EF88C_Specter_Frontgrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+          },
         {
           "family name": "QBZ95-1",
           "single cost": "700",
@@ -10826,15 +10696,7 @@
               "item count": -1,
               "prestige": 0
             },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK_1P78.BP_RPK_1P78_C",
-              "unlock level": 5,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
+
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
               "unlock level": 0,
@@ -10917,7 +10779,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M27_iar.M27_iar",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M4_acog.M4_acog",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
@@ -11021,7 +10883,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximic_C",
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
                 "Machinegunner"

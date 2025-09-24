@@ -1946,44 +1946,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "L85A2",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The gas-operated, select fire L85A2 rifle is the current British Army service rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2.BP_L85A2_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_Foregrip.BP_L85A2_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
-              "unlock level": 7,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ElcanLDS.BP_L85A2_ElcanLDS_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-          },
+
         {
           "family name": "QBZ95-1",
           "single cost": "700",
@@ -6076,44 +6039,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "L85A2",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The gas-operated, select fire L85A2 rifle is the current British Army service rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2.BP_L85A2_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_Foregrip.BP_L85A2_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
-              "unlock level": 7,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ElcanLDS.BP_L85A2_ElcanLDS_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-          },
+
         {
           "family name": "QBZ95-1",
           "single cost": "700",
@@ -10447,44 +10373,6 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "L85A2",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The gas-operated, select fire L85A2 rifle is the current British Army service rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2.BP_L85A2_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_Foregrip.BP_L85A2_Foregrip_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ACOG.BP_L85A2_ACOG_C",
-              "unlock level": 7,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2_ElcanLDS.BP_L85A2_ElcanLDS_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-          },
         {
           "family name": "QBZ95-1",
           "single cost": "700",

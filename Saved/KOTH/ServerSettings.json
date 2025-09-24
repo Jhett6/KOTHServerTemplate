@@ -3327,6 +3327,30 @@
           "prestige": 0
         },
         {
+          "name": "M1151 crows",
+          "vehicle": "/Game/Vehicles/M1151/BP_M1151_CROWS_Woodland.BP_M1151_CROWS_Woodland_C",
+          "single cost": 7000,
+          "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
+          "unlock level": 33,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1000,
+          "kill $ reward": 1500,
+          "prestige": 0
+        },
+        {
+          "name": "MATV crows",
+          "vehicle": "/Game/Vehicles/MATV/BP_MATV_CROWS.BP_MATV_CROWS_C",
+          "single cost": 7000,
+          "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
+          "unlock level": 35,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1000,
+          "kill $ reward": 1500,
+          "prestige": 0
+        },
+        {
           "name": "Technical SPG9",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
           "single cost": 12000,
@@ -3423,6 +3447,18 @@
           "prestige": 0
         },
         {
+          "name": "PARS III apc",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_M2_Desert.BP_PARS3_M2_Desert_C",
+          "single cost": 12500,
+          "description": "A Turkish M2 variant of the PARS III.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
+          "prestige": 0
+        },
+        {
           "name": "MT-LBM",
           "vehicle": "/Game/Vehicles/MTLB/BP_MTLBM_6MA_RUS.BP_MTLBM_6MA_RUS_C",
           "single cost": 13500,
@@ -3456,6 +3492,30 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 2000,
           "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
+          "name": "MATV TOW",
+          "vehicle": "/game/vehicles/MATV/BP_MATV_TOW.BP_MATV_TOW_C",
+          "single cost": 18500,
+          "description": "A well armored squad transport vehicle armed with a TOW",
+          "unlock level": 45,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
+          "spawn type": "Ground",
+          "kill xp reward": 2000,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
+          "name": "PARS III ifv",
+          "vehicle": "/Game/Vehicles/LAV25/BP_LAV25.BP_LAV25_C",
+          "single cost": 20000,
+          "description": "A Turkish IFV with a 25mm cannon.",
+          "unlock level": 48,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 2500,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {

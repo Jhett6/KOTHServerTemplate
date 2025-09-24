@@ -965,7 +965,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
@@ -1015,13 +1015,31 @@
           "unlock level": 34
         },
         {
-          "family name": "RPK 74M",
+          "family name": "RPK",
           "single cost": "600",
           "perma cost": "100000",
           "description": "A modernized Russian light machine gun chambered in 5.45x39mm, designed for sustained fire with improved accuracy and reduced recoil. It features a polymer stock and a longer barrel, making it an effective squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74m.rpk74m",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+              {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
               "unlock level": 0,
               "perk requirements": [
@@ -1816,23 +1834,6 @@
           ],
           "unlock level": 80
           },
-          {
-          "family name": "HK51",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
         {
           "family name": "G3KA4",
           "single cost": "700",
@@ -2023,53 +2024,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "RPK",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The Russian made RPK was designed in parallel with the AKM series of assault rifles as a light machine gun",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74.rpk74",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
 
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M_1P78.BP_RPK74M_1P78_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
         {
           "family name": "PKM",
           "single cost": "700",
@@ -5133,7 +5088,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
@@ -5183,12 +5138,30 @@
           "unlock level": 34
         },
         {
-          "family name": "RPK 74M",
+          "family name": "RPK",
           "single cost": "600",
           "perma cost": "100000",
           "description": "A modernized Russian light machine gun chambered in 5.45x39mm, designed for sustained fire with improved accuracy and reduced recoil. It features a polymer stock and a longer barrel, making it an effective squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74m.rpk74m",
           "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
               "unlock level": 0,
@@ -5984,23 +5957,6 @@
           ],
           "unlock level": 80
         },        
-                  {
-          "family name": "HK51",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
         {
           "family name": "G3KA4",
           "single cost": "700",
@@ -9541,7 +9497,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
@@ -9591,12 +9547,30 @@
           "unlock level": 34
         },
         {
-          "family name": "RPK 74M",
+          "family name": "RPK",
           "single cost": "600",
           "perma cost": "100000",
           "description": "A modernized Russian light machine gun chambered in 5.45x39mm, designed for sustained fire with improved accuracy and reduced recoil. It features a polymer stock and a longer barrel, making it an effective squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74m.rpk74m",
           "xp unlocks": [
+              {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK.BP_RPK_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74.BP_RPK74_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_RPK74M.BP_RPK74M_C",
               "unlock level": 0,
@@ -10392,23 +10366,7 @@
           ],
           "unlock level": 80
         },
-                  {
-          "family name": "HK51",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The HK51 is the shortest configuration of the G3A3 battle rifle.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/g3ka4.g3ka4",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK51.BP_HK51_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+
         {
           "family name": "G3KA4",
           "single cost": "700",

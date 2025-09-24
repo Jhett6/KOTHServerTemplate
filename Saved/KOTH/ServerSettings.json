@@ -965,6 +965,13 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_G3A3_Drum_Optic.BP_G3A3_Drum_Optic_C",
               "unlock level": 20,
               "perk requirements": [
@@ -5122,6 +5129,13 @@
               "perk requirements": [
                 "Machinegunner"
               ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
@@ -9523,6 +9537,13 @@
               "perk requirements": [
                 "Machinegunner"
               ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
+              "unlock level": 5,
+              "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },

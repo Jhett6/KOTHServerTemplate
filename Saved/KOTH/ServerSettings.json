@@ -2056,25 +2056,8 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
+
           ],
           "unlock level": 50
         },
@@ -2229,6 +2212,34 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "M39",
+          "single cost": "1500",
+          "perma cost": "100000",
+          "description": "A M39 Rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -6147,25 +6158,8 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
+
           ],
           "unlock level": 50
         },
@@ -6320,6 +6314,34 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "M39",
+          "single cost": "1500",
+          "perma cost": "100000",
+          "description": "A M39 Rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -10478,25 +10500,8 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
+
           ],
           "unlock level": 50
         },
@@ -10651,6 +10656,34 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 50
+        },
+        {
+          "family name": "M39",
+          "single cost": "1500",
+          "perma cost": "100000",
+          "description": "A M39 Rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }

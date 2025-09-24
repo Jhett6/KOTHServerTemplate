@@ -1875,30 +1875,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "SVD",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SVDM_Optic.BP_SVDM_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+ 
         {
           "family name": "AKS74",
           "single cost": "700",
@@ -6067,30 +6044,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "SVD",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SVDM_Optic.BP_SVDM_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+
         {
           "family name": "AKS74",
           "single cost": "700",
@@ -10499,30 +10453,7 @@
           ],
           "unlock level": 50
         },
-        {
-          "family name": "SVD",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "The SVD (Dragunov) rifle is a semi-automatic gas-operated rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SVD_Optic.BP_SVD_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_SVDM_Optic.BP_SVDM_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
+
         {
           "family name": "AKS74",
           "single cost": "700",

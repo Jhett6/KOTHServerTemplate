@@ -2131,7 +2131,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M4_acog.M4_acog",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
@@ -6299,7 +6299,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M4_acog.M4_acog",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",
@@ -10707,7 +10707,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/M4_acog.M4_acog",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M27_IAR_Parent.BP_M27_IAR_Parent_C",

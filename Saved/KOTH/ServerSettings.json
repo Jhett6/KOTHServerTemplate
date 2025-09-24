@@ -3309,7 +3309,7 @@
           "description": "An amphibious anti air platform using a BTR chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
-          "spawn type": "Sea Vehicle",
+          "spawn type": "Armored Vehicle",
           "kill xp reward": 1000,
           "kill $ reward": 3000,
           "prestige": 0
@@ -3508,7 +3508,7 @@
         },
         {
           "name": "PARS III ifv",
-          "vehicle": "/Game/Vehicles/LAV25/BP_LAV25.BP_LAV25_C",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3.BP_PARS3_C",
           "single cost": 20000,
           "description": "A Turkish IFV with a 25mm cannon.",
           "unlock level": 48,
@@ -6983,7 +6983,7 @@
           "description": "An amphibious anti air platform using a BTR chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
-          "spawn type": "Sea Vehicle",
+          "spawn type": "Armored Vehicle",
           "kill xp reward": 1000,
           "kill $ reward": 3000,
           "prestige": 0
@@ -7182,7 +7182,7 @@
         },
         {
           "name": "PARS III ifv",
-          "vehicle": "/Game/Vehicles/LAV25/BP_LAV25.BP_LAV25_C",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3.BP_PARS3_C",
           "single cost": 20000,
           "description": "A Turkish IFV with a 25mm cannon.",
           "unlock level": 48,
@@ -10897,7 +10897,7 @@
           "description": "An amphibious anti air platform using a BTR chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
-          "spawn type": "Sea Vehicle",
+          "spawn type": "Armored Vehicle",
           "kill xp reward": 1000,
           "kill $ reward": 3000,
           "prestige": 0
@@ -11096,7 +11096,7 @@
         },
         {
           "name": "PARS III ifv",
-          "vehicle": "/Game/Vehicles/LAV25/BP_LAV25.BP_LAV25_C",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3.BP_PARS3_C",
           "single cost": 20000,
           "description": "A Turkish IFV with a 25mm cannon.",
           "unlock level": 48,

@@ -765,6 +765,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_MG3_Specter.BP_MG3_Specter_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 18
@@ -1909,7 +1918,7 @@
           "single cost": "850",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27.BP_M27_C",
@@ -2187,7 +2196,7 @@
           "single cost": "1500",
           "perma cost": "100000",
           "description": "A M39 Rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M39.T_M39",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
@@ -4851,6 +4860,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_MG3_Specter.BP_MG3_Specter_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 18
@@ -5995,7 +6013,7 @@
           "single cost": "850",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27.BP_M27_C",
@@ -6273,7 +6291,7 @@
           "single cost": "1500",
           "perma cost": "100000",
           "description": "A M39 Rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M39.T_M39",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
@@ -9177,6 +9195,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_MG3_Specter.BP_MG3_Specter_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 18
@@ -10321,7 +10348,7 @@
           "single cost": "850",
           "perma cost": "100000",
           "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M4_acog.M4_acog",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27.BP_M27_C",
@@ -10599,7 +10626,7 @@
           "single cost": "1500",
           "perma cost": "100000",
           "description": "A M39 Rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M39.T_M39",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",

@@ -3268,7 +3268,7 @@
         },
         {
           "name": "BTR-MDM",
-          "vehicle": "MDM/BP_BTRMDM_PKT_RWS.BP_BTRMDM_PKT_RWS_C",
+          "vehicle": "/Game/Vehicles/BTR-MDM/BP_BTRMDM_PKT_RWS_Desert.BP_BTRMDM_PKT_RWS_Desert_C",
           "single cost": 9000,
           "description": "An amphibious apc used by the Russians with a PKT.",
           "unlock level": 23,
@@ -7134,7 +7134,7 @@
         },
         {
           "name": "BTR-MDM",
-          "vehicle": "MDM/BP_BTRMDM_PKT_RWS.BP_BTRMDM_PKT_RWS_C",
+          "vehicle": "/Game/Vehicles/BTR-MDM/BP_BTRMDM_PKT_RWS_Desert.BP_BTRMDM_PKT_RWS_Desert_C",
           "single cost": 9000,
           "description": "An amphibious apc used by the Russians with a PKT.",
           "unlock level": 23,
@@ -11240,7 +11240,7 @@
         },
         {
           "name": "BTR-MDM",
-          "vehicle": "MDM/BP_BTRMDM_PKT_RWS.BP_BTRMDM_PKT_RWS_C",
+          "vehicle": "/Game/Vehicles/BTR-MDM/BP_BTRMDM_PKT_RWS_Desert.BP_BTRMDM_PKT_RWS_Desert_C",
           "single cost": 9000,
           "description": "An amphibious apc used by the Russians with a PKT.",
           "unlock level": 23,

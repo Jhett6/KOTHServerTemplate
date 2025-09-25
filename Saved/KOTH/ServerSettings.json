@@ -3266,7 +3266,7 @@
           "kill $ reward": 2000,
           "prestige": 0
         },
-                {
+        {
           "name": "BTR-MDM",
           "vehicle": "MDM/BP_BTRMDM_PKT_RWS.BP_BTRMDM_PKT_RWS_C",
           "single cost": 9000,
@@ -3662,7 +3662,7 @@
           "kill $ reward": 650,
           "prestige": 0
         },
-                {
+        {
           "name": "M1064A3",
           "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
           "single cost": 17000,
@@ -7133,6 +7133,18 @@
           "prestige": 0
         },
         {
+          "name": "BTR-MDM",
+          "vehicle": "MDM/BP_BTRMDM_PKT_RWS.BP_BTRMDM_PKT_RWS_C",
+          "single cost": 9000,
+          "description": "An amphibious apc used by the Russians with a PKT.",
+          "unlock level": 23,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
           "single cost": 1800,
@@ -7514,6 +7526,18 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 500,
           "kill $ reward": 650,
+          "prestige": 0
+        },
+        {
+          "name": "M1064A3",
+          "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
+          "single cost": 17000,
+          "description": "An APC with a 120mm mortar.",
+          "unlock level": 53,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Ground",
+          "kill xp reward": 3750,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -11215,6 +11239,18 @@
           "prestige": 0
         },
         {
+          "name": "BTR-MDM",
+          "vehicle": "MDM/BP_BTRMDM_PKT_RWS.BP_BTRMDM_PKT_RWS_C",
+          "single cost": 9000,
+          "description": "An amphibious apc used by the Russians with a PKT.",
+          "unlock level": 23,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
           "single cost": 1800,
@@ -11596,6 +11632,18 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 500,
           "kill $ reward": 650,
+          "prestige": 0
+        },
+        {
+          "name": "M1064A3",
+          "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
+          "single cost": 17000,
+          "description": "An APC with a 120mm mortar.",
+          "unlock level": 53,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Ground",
+          "kill xp reward": 3750,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {

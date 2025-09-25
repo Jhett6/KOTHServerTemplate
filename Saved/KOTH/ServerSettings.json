@@ -3989,7 +3989,7 @@
         {
           "name": "Grad",
           "vehicle": "/Game/Vehicles/BM21Grad/BP_BM21Grad_MIL.BP_BM21Grad_MIL_C",
-          "single cost": 300000,
+          "single cost": 500000,
           "description": "BIG BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -7819,7 +7819,7 @@
         {
           "name": "Grad",
           "vehicle": "/Game/Vehicles/BM21Grad/BP_BM21Grad_MIL.BP_BM21Grad_MIL_C",
-          "single cost": 300000,
+          "single cost": 500000,
           "description": "BIG BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -11889,7 +11889,7 @@
         {
           "name": "Grad",
           "vehicle": "/Game/Vehicles/BM21Grad/BP_BM21Grad_MIL.BP_BM21Grad_MIL_C",
-          "single cost": 300000,
+          "single cost": 500000,
           "description": "BIG BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",

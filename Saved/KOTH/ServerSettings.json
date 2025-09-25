@@ -3771,7 +3771,7 @@
           "prestige": 0
         },
         {
-          "name": "BMP-2M",
+          "name": "BMP-2",
           "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
           "single cost": 23000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
@@ -7613,7 +7613,7 @@
           "prestige": 0
         },
         {
-          "name": "BMP-2M",
+          "name": "BMP-2",
           "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
           "single cost": 23000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
@@ -11695,7 +11695,7 @@
           "prestige": 0
         },
         {
-          "name": "BMP-2M",
+          "name": "BMP-2",
           "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
           "single cost": 23000,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",

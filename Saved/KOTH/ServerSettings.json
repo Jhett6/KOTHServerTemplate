@@ -7183,7 +7183,7 @@
         {
           "name": "BTR-ZD",
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
-          "single cost": 10000,
+          "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
@@ -7195,7 +7195,7 @@
         {
           "name": "MT-LB ZUS23-2",
           "vehicle": "/Game/Vehicles/MTLB/BP_MTLB_ZU23_MIL.BP_MTLB_ZU23_MIL_C",
-          "single cost": 10000,
+          "single cost": 8000,
           "description": "An amphibious anti air platform using an MT-LB chassis.",
           "unlock level": 32,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
@@ -7219,7 +7219,7 @@
         {
           "name": "BTR80",
           "vehicle": "/Game/Vehicles/BTR80/BP_BTR80_RUS_Desert.BP_BTR80_RUS_Desert_C",
-          "single cost": 12500,
+          "single cost": 12000,
           "description": "The BTR-80 was adopted as the standard armored personnel carrier (APC) of the Soviet Army.",
           "unlock level": 34,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -7327,7 +7327,7 @@
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-          "single cost": 12500,
+          "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -7339,7 +7339,7 @@
         {
           "name": "PARS III apc",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_M2_Desert.BP_PARS3_M2_Desert_C",
-          "single cost": 12500,
+          "single cost": 12000,
           "description": "A Turkish M2 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -7351,7 +7351,7 @@
         {
           "name": "MT-LBM",
           "vehicle": "/Game/Vehicles/MTLB/BP_MTLBM_6MA_RUS.BP_MTLBM_6MA_RUS_C",
-          "single cost": 13500,
+          "single cost": 13000,
           "description": "A Russian amphibious APC using an IFV 30mm cannon.",
           "unlock level": 41,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -7375,7 +7375,7 @@
         {
           "name": "ACV-15",
           "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_Desert.BP_ACV-15_Desert_C",
-          "single cost": 17000,
+          "single cost": 15000,
           "description": "A turkish IFV using an APC chassis with a 25mm cannon.",
           "unlock level": 43,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -7411,13 +7411,13 @@
         {
           "name": "Coyote",
           "vehicle": "/Game/Vehicles/Coyote/BP_LAV2_Coyote.BP_LAV2_Coyote_C",
-          "single cost": 20000,
+          "single cost": 17000,
           "description": "The Coyote is modified with additional fuel tanks in place of the LAV-25's amphibious equipment. Besides having slightly less HE-IT ammo and the commander optics lacking stabilization.",
           "unlock level": 46,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 2500,
-          "kill $ reward": 5000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -7614,8 +7614,20 @@
         },
         {
           "name": "BMP-2M",
+          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
+          "single cost": 23000,
+          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 5600,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 25000,
+          "single cost": 23500,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -7675,7 +7687,7 @@
         {
           "name": "BMP-3M",
           "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
           "unlock level": 67,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -7735,7 +7747,7 @@
         {
           "name": "BMD-4M",
           "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
-          "single cost": 30000,
+          "single cost": 27000,
           "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
           "unlock level": 72,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -7747,7 +7759,7 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 27000,
+          "single cost": 25000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
@@ -11253,7 +11265,7 @@
         {
           "name": "BTR-ZD",
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
-          "single cost": 10000,
+          "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
@@ -11265,7 +11277,7 @@
         {
           "name": "MT-LB ZUS23-2",
           "vehicle": "/Game/Vehicles/MTLB/BP_MTLB_ZU23_MIL.BP_MTLB_ZU23_MIL_C",
-          "single cost": 10000,
+          "single cost": 8000,
           "description": "An amphibious anti air platform using an MT-LB chassis.",
           "unlock level": 32,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
@@ -11289,7 +11301,7 @@
         {
           "name": "BTR80",
           "vehicle": "/Game/Vehicles/BTR80/BP_BTR80_RUS_Desert.BP_BTR80_RUS_Desert_C",
-          "single cost": 12500,
+          "single cost": 12000,
           "description": "The BTR-80 was adopted as the standard armored personnel carrier (APC) of the Soviet Army.",
           "unlock level": 34,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -11397,7 +11409,7 @@
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-          "single cost": 12500,
+          "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -11409,7 +11421,7 @@
         {
           "name": "PARS III apc",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_M2_Desert.BP_PARS3_M2_Desert_C",
-          "single cost": 12500,
+          "single cost": 12000,
           "description": "A Turkish M2 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -11421,7 +11433,7 @@
         {
           "name": "MT-LBM",
           "vehicle": "/Game/Vehicles/MTLB/BP_MTLBM_6MA_RUS.BP_MTLBM_6MA_RUS_C",
-          "single cost": 13500,
+          "single cost": 13000,
           "description": "A Russian amphibious APC using an IFV 30mm cannon.",
           "unlock level": 41,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -11445,7 +11457,7 @@
         {
           "name": "ACV-15",
           "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_Desert.BP_ACV-15_Desert_C",
-          "single cost": 17000,
+          "single cost": 15000,
           "description": "A turkish IFV using an APC chassis with a 25mm cannon.",
           "unlock level": 43,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -11481,13 +11493,13 @@
         {
           "name": "Coyote",
           "vehicle": "/Game/Vehicles/Coyote/BP_LAV2_Coyote.BP_LAV2_Coyote_C",
-          "single cost": 20000,
+          "single cost": 17000,
           "description": "The Coyote is modified with additional fuel tanks in place of the LAV-25's amphibious equipment. Besides having slightly less HE-IT ammo and the commander optics lacking stabilization.",
           "unlock level": 46,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 2500,
-          "kill $ reward": 5000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -11684,8 +11696,20 @@
         },
         {
           "name": "BMP-2M",
+          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
+          "single cost": 23000,
+          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 5600,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 25000,
+          "single cost": 23500,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -11745,7 +11769,7 @@
         {
           "name": "BMP-3M",
           "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
           "unlock level": 67,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -11805,7 +11829,7 @@
         {
           "name": "BMD-4M",
           "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
-          "single cost": 30000,
+          "single cost": 27000,
           "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
           "unlock level": 72,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -11817,7 +11841,7 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 27000,
+          "single cost": 25000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",

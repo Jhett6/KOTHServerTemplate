@@ -3669,7 +3669,7 @@
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
-          "spawn type": "Ground",
+          "spawn type": "Armored Vehicle",
           "kill xp reward": 3750,
           "kill $ reward": 5500,
           "prestige": 0
@@ -7535,7 +7535,7 @@
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
-          "spawn type": "Ground",
+          "spawn type": "Armored Vehicle",
           "kill xp reward": 3750,
           "kill $ reward": 5500,
           "prestige": 0
@@ -11641,7 +11641,7 @@
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
-          "spawn type": "Ground",
+          "spawn type": "Armored Vehicle",
           "kill xp reward": 3750,
           "kill $ reward": 5500,
           "prestige": 0

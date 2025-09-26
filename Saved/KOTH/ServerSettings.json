@@ -3425,7 +3425,7 @@
         },
         {
           "name": "RHIB_M134",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
           "single cost": 900,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
@@ -3437,7 +3437,7 @@
         },
         {
           "name": "RHIB_M19",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
           "single cost": 600,
           "description": "A boat with a mounted MK19 mounted on the bow.",
           "unlock level": 7,
@@ -3449,7 +3449,7 @@
         },
         {
           "name": "RHIB_PKM",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
           "single cost": 400,
           "description": "A boat with a mounted PKM mounted on the bow.",
           "unlock level": 7,
@@ -3461,7 +3461,7 @@
         },
         {
           "name": "RHIB_NSV",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
           "single cost": 800,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
@@ -3473,7 +3473,7 @@
         },
         {
           "name": "RHIB_DSHK",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
           "single cost": 800,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
@@ -3665,7 +3665,7 @@
         },
         {
           "name": "Technical_M134",
-          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
           "single cost": 1600,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
@@ -3689,7 +3689,7 @@
         },
         {
           "name": "Technical armored dshk",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
           "single cost": 1700,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
@@ -3953,7 +3953,7 @@
         },
         {
           "name": "Technical kornet",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
           "single cost": 17500,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
@@ -4253,7 +4253,7 @@
         },
         {
           "name": "T72b3",
-          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
           "single cost": 30000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
@@ -7829,7 +7829,7 @@
         },
         {
           "name": "RHIB_M134",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
           "single cost": 900,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
@@ -7841,7 +7841,7 @@
         },
         {
           "name": "RHIB_M19",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
           "single cost": 600,
           "description": "A boat with a mounted MK19 mounted on the bow.",
           "unlock level": 7,
@@ -7853,7 +7853,7 @@
         },
         {
           "name": "RHIB_PKM",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
           "single cost": 400,
           "description": "A boat with a mounted PKM mounted on the bow.",
           "unlock level": 7,
@@ -7865,7 +7865,7 @@
         },
         {
           "name": "RHIB_NSV",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
           "single cost": 800,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
@@ -7877,7 +7877,7 @@
         },
         {
           "name": "RHIB_DSHK",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
           "single cost": 800,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
@@ -8069,7 +8069,7 @@
         },
         {
           "name": "Technical_M134",
-          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
           "single cost": 1600,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
@@ -8093,7 +8093,7 @@
         },
         {
           "name": "Technical armored dshk",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
           "single cost": 1700,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
@@ -8357,7 +8357,7 @@
         },
         {
           "name": "Technical kornet",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
           "single cost": 17500,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
@@ -8657,7 +8657,7 @@
         },
         {
           "name": "T72b3",
-          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
           "single cost": 30000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
@@ -12473,7 +12473,7 @@
         },
         {
           "name": "RHIB_M134",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
           "single cost": 900,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
@@ -12485,7 +12485,7 @@
         },
         {
           "name": "RHIB_M19",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
           "single cost": 600,
           "description": "A boat with a mounted MK19 mounted on the bow.",
           "unlock level": 7,
@@ -12497,7 +12497,7 @@
         },
         {
           "name": "RHIB_PKM",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
           "single cost": 400,
           "description": "A boat with a mounted PKM mounted on the bow.",
           "unlock level": 7,
@@ -12509,7 +12509,7 @@
         },
         {
           "name": "RHIB_NSV",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
           "single cost": 800,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
@@ -12521,7 +12521,7 @@
         },
         {
           "name": "RHIB_DSHK",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
           "single cost": 800,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
@@ -12713,7 +12713,7 @@
         },
         {
           "name": "Technical_M134",
-          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
           "single cost": 1600,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
@@ -12737,7 +12737,7 @@
         },
         {
           "name": "Technical armored dshk",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
           "single cost": 1700,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
@@ -13001,7 +13001,7 @@
         },
         {
           "name": "Technical kornet",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
           "single cost": 17500,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
@@ -13301,7 +13301,7 @@
         },
         {
           "name": "T72b3",
-          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
           "single cost": 30000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,

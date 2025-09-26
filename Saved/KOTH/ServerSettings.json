@@ -1,4 +1,4 @@
-{ 
+{  
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -858,15 +858,6 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDS_Optic.BP_SVDS_Optic_C",
               "unlock level": 0,
               "perk requirements": [
@@ -876,8 +867,17 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
-              "unlock level": 0,
+              "unlock level": 10,
               "perk requirements": [
                 "Marksman"
               ],
@@ -1184,8 +1184,10 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
-              "unlock level": 5,
-              "perk requirements": [],
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -1292,6 +1294,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
               "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
@@ -1681,15 +1701,6 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 26,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
           ],
           "unlock level": 42
@@ -1705,6 +1716,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -1813,34 +1833,6 @@
             }
           ],
           "unlock level": 46
-        },
-        {
-          "family name": "PKP",
-          "single cost": "800",
-          "perma cost": "130000",
-          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
-              "unlock level": 7,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 47
         },
         {
           "family name": "MPT76",
@@ -2034,7 +2026,7 @@
           "family name": "M27",
           "single cost": "850",
           "perma cost": "100000",
-          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "description": "The M27 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
@@ -2175,25 +2167,6 @@
           "unlock level": 70
         },
         {
-          "family name": "Minimi",
-          "single cost": "900",
-          "perma cost": "150000",
-          "description": "Classic Minimi",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 71
-        },
-        {
           "family name": "SV98",
           "single cost": "2000",
           "perma cost": "100000",
@@ -2269,6 +2242,15 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
@@ -2326,34 +2308,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "QBU88",
-          "single cost": "2500",
-          "perma cost": "200000",
-          "description": "A Chinese sniper rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 85
         },
         {
           "family name": "Rock",
@@ -4660,6 +4614,18 @@
           "kill xp reward": 25000,
           "kill $ reward": 60000,
           "prestige": 0
+        },
+        {
+          "name": "Loach-CAS-small",
+          "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
+          "single cost": 80000,
+          "description": "Double the rockets, double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
         },        
         {
           "name": "Behemoth",
@@ -4671,7 +4637,7 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
           "kill $ reward": 150000,
-          "prestige": 0
+          "prestige": 1
         }
       ],
       "perks": [
@@ -5348,15 +5314,6 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDS_Optic.BP_SVDS_Optic_C",
               "unlock level": 0,
               "perk requirements": [
@@ -5366,8 +5323,17 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
-              "unlock level": 0,
+              "unlock level": 10,
               "perk requirements": [
                 "Marksman"
               ],
@@ -5674,8 +5640,10 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
-              "unlock level": 5,
-              "perk requirements": [],
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -5782,6 +5750,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
               "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
@@ -6171,15 +6157,6 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 26,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
           ],
           "unlock level": 42
@@ -6195,6 +6172,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -6303,34 +6289,6 @@
             }
           ],
           "unlock level": 46
-        },
-        {
-          "family name": "PKP",
-          "single cost": "800",
-          "perma cost": "130000",
-          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
-              "unlock level": 7,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 47
         },
         {
           "family name": "MPT76",
@@ -6524,7 +6482,7 @@
           "family name": "M27",
           "single cost": "850",
           "perma cost": "100000",
-          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "description": "The M27 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
@@ -6665,25 +6623,6 @@
           "unlock level": 70
         },
         {
-          "family name": "Minimi",
-          "single cost": "900",
-          "perma cost": "150000",
-          "description": "Classic Minimi",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 71
-        },
-        {
           "family name": "SV98",
           "single cost": "2000",
           "perma cost": "100000",
@@ -6759,6 +6698,15 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
@@ -6816,34 +6764,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "QBU88",
-          "single cost": "2500",
-          "perma cost": "200000",
-          "description": "A Chinese sniper rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 85
         },
         {
           "family name": "Rock",
@@ -9150,6 +9070,18 @@
           "kill xp reward": 25000,
           "kill $ reward": 60000,
           "prestige": 0
+        },
+        {
+          "name": "Loach-CAS-small",
+          "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
+          "single cost": 80000,
+          "description": "Double the rockets, double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
         },        
         {
           "name": "Behemoth",
@@ -9161,7 +9093,7 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
           "kill $ reward": 150000,
-          "prestige": 0
+          "prestige": 1
         }
       ],
       "perks": [
@@ -10078,15 +10010,6 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDS_Optic.BP_SVDS_Optic_C",
               "unlock level": 0,
               "perk requirements": [
@@ -10096,8 +10019,17 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
-              "unlock level": 0,
+              "unlock level": 10,
               "perk requirements": [
                 "Marksman"
               ],
@@ -10404,8 +10336,10 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
-              "unlock level": 5,
-              "perk requirements": [],
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -10512,6 +10446,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
               "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
@@ -10901,15 +10853,6 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 26,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
           ],
           "unlock level": 42
@@ -10925,6 +10868,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -11033,34 +10985,6 @@
             }
           ],
           "unlock level": 46
-        },
-        {
-          "family name": "PKP",
-          "single cost": "800",
-          "perma cost": "130000",
-          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
-              "unlock level": 7,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 47
         },
         {
           "family name": "MPT76",
@@ -11254,7 +11178,7 @@
           "family name": "M27",
           "single cost": "850",
           "perma cost": "100000",
-          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "description": "The M27 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
@@ -11395,25 +11319,6 @@
           "unlock level": 70
         },
         {
-          "family name": "Minimi",
-          "single cost": "900",
-          "perma cost": "150000",
-          "description": "Classic Minimi",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 71
-        },
-        {
           "family name": "SV98",
           "single cost": "2000",
           "perma cost": "100000",
@@ -11489,6 +11394,15 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
@@ -11546,34 +11460,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "QBU88",
-          "single cost": "2500",
-          "perma cost": "200000",
-          "description": "A Chinese sniper rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 85
         },
         {
           "family name": "Rock",
@@ -13880,6 +13766,18 @@
           "kill xp reward": 25000,
           "kill $ reward": 60000,
           "prestige": 0
+        },
+        {
+          "name": "Loach-CAS-small",
+          "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
+          "single cost": 80000,
+          "description": "Double the rockets, double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
         },        
         {
           "name": "Behemoth",
@@ -13891,7 +13789,7 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
           "kill $ reward": 150000,
-          "prestige": 0
+          "prestige": 1
         }
       ],
       "perks": [

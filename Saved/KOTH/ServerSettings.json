@@ -1,4 +1,4 @@
-{  
+{
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -4626,7 +4626,7 @@
           "kill xp reward": 8000,
           "kill $ reward": 18500,
           "prestige": 1
-        },        
+        },
         {
           "name": "Behemoth",
           "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP.BP_MTLB_FAB500_SATP_C",
@@ -9082,7 +9082,7 @@
           "kill xp reward": 8000,
           "kill $ reward": 18500,
           "prestige": 1
-        },        
+        },
         {
           "name": "Behemoth",
           "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP.BP_MTLB_FAB500_SATP_C",
@@ -13778,7 +13778,7 @@
           "kill xp reward": 8000,
           "kill $ reward": 18500,
           "prestige": 1
-        },        
+        },
         {
           "name": "Behemoth",
           "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP.BP_MTLB_FAB500_SATP_C",

@@ -347,23 +347,23 @@
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
       },
-	  {
+      {
         "name": "Zone Intel",
-        "xp": 1.0,
-        "$": 1.0,
+        "xp": 1,
+        "$": 1,
         "description": "This is the last time you're telling the story of what happened in there.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
       },
-	  {
+      {
         "name": "Prio Intel",
-        "xp": 1.0,
-        "$": 1.0,
+        "xp": 1,
+        "$": 1,
         "description": "How the fuck did you get out of there?",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
       },
-	  {
+      {
         "name": "Bounty",
         "xp": -1,
         "$": -1,
@@ -4718,7 +4718,7 @@
           "unlock items": [],
           "prestige": 0
         },
-		{
+        {
           "name": "Got Milk?",
           "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
@@ -9122,7 +9122,7 @@
           "unlock items": [],
           "prestige": 0
         },
-		{
+        {
           "name": "Got Milk?",
           "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
@@ -13766,7 +13766,7 @@
           "unlock items": [],
           "prestige": 0
         },
-		{
+        {
           "name": "Got Milk?",
           "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",

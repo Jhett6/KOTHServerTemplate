@@ -841,7 +841,7 @@
           ],
           "unlock level": 20
         },
-        {
+                {
           "family name": "SVD",
           "single cost": "1000",
           "perma cost": "120000",
@@ -850,15 +850,6 @@
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
               "unlock level": 0,
               "perk requirements": [
                 "Marksman"
@@ -876,8 +867,17 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
-              "unlock level": 0,
+              "unlock level": 10,
               "perk requirements": [
                 "Marksman"
               ],
@@ -1184,8 +1184,10 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
-              "unlock level": 5,
-              "perk requirements": [],
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -1292,6 +1294,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
               "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
@@ -1681,15 +1701,6 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 26,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
           ],
           "unlock level": 42
@@ -1705,6 +1716,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -1813,34 +1833,6 @@
             }
           ],
           "unlock level": 46
-        },
-        {
-          "family name": "PKP",
-          "single cost": "800",
-          "perma cost": "130000",
-          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
-              "unlock level": 7,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 47
         },
         {
           "family name": "MPT76",
@@ -2175,25 +2167,6 @@
           "unlock level": 70
         },
         {
-          "family name": "Minimi",
-          "single cost": "900",
-          "perma cost": "150000",
-          "description": "Classic Minimi",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 71
-        },
-        {
           "family name": "SV98",
           "single cost": "2000",
           "perma cost": "100000",
@@ -2269,6 +2242,15 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
@@ -2326,34 +2308,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "QBU88",
-          "single cost": "2500",
-          "perma cost": "200000",
-          "description": "A Chinese sniper rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 85
         },
         {
           "family name": "Rock",
@@ -5331,7 +5285,7 @@
           ],
           "unlock level": 20
         },
-        {
+                {
           "family name": "SVD",
           "single cost": "1000",
           "perma cost": "120000",
@@ -5340,15 +5294,6 @@
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
               "unlock level": 0,
               "perk requirements": [
                 "Marksman"
@@ -5366,8 +5311,17 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
-              "unlock level": 0,
+              "unlock level": 10,
               "perk requirements": [
                 "Marksman"
               ],
@@ -5674,8 +5628,10 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
-              "unlock level": 5,
-              "perk requirements": [],
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -5782,6 +5738,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
               "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
@@ -6171,15 +6145,6 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 26,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
           ],
           "unlock level": 42
@@ -6195,6 +6160,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -6303,34 +6277,6 @@
             }
           ],
           "unlock level": 46
-        },
-        {
-          "family name": "PKP",
-          "single cost": "800",
-          "perma cost": "130000",
-          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
-              "unlock level": 7,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 47
         },
         {
           "family name": "MPT76",
@@ -6665,25 +6611,6 @@
           "unlock level": 70
         },
         {
-          "family name": "Minimi",
-          "single cost": "900",
-          "perma cost": "150000",
-          "description": "Classic Minimi",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 71
-        },
-        {
           "family name": "SV98",
           "single cost": "2000",
           "perma cost": "100000",
@@ -6759,6 +6686,15 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
@@ -6816,34 +6752,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "QBU88",
-          "single cost": "2500",
-          "perma cost": "200000",
-          "description": "A Chinese sniper rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 85
         },
         {
           "family name": "Rock",
@@ -10061,7 +9969,7 @@
           ],
           "unlock level": 20
         },
-        {
+                {
           "family name": "SVD",
           "single cost": "1000",
           "perma cost": "120000",
@@ -10070,15 +9978,6 @@
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
               "unlock level": 0,
               "perk requirements": [
                 "Marksman"
@@ -10096,8 +9995,17 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
-              "unlock level": 0,
+              "unlock level": 10,
               "perk requirements": [
                 "Marksman"
               ],
@@ -10404,8 +10312,10 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_G3SG1_Optic.BP_G3SG1_Optic_C",
-              "unlock level": 5,
-              "perk requirements": [],
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -10512,6 +10422,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_PKM_1P29.BP_PKM_1P29_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
               "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
@@ -10901,15 +10829,6 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 26,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
             }
           ],
           "unlock level": 42
@@ -10925,6 +10844,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -11033,34 +10961,6 @@
             }
           ],
           "unlock level": 46
-        },
-        {
-          "family name": "PKP",
-          "single cost": "800",
-          "perma cost": "130000",
-          "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP.BP_PKP_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_PKP_1P78.BP_PKP_1P78_C",
-              "unlock level": 7,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 47
         },
         {
           "family name": "MPT76",
@@ -11395,25 +11295,6 @@
           "unlock level": 70
         },
         {
-          "family name": "Minimi",
-          "single cost": "900",
-          "perma cost": "150000",
-          "description": "Classic Minimi",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 71
-        },
-        {
           "family name": "SV98",
           "single cost": "2000",
           "perma cost": "100000",
@@ -11489,6 +11370,15 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
             {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_Minimi_Classic.BP_Minimi_Classic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_Maximi.BP_Maximi_C",
               "unlock level": 0,
               "perk requirements": [
@@ -11546,34 +11436,6 @@
             }
           ],
           "unlock level": 80
-        },
-        {
-          "family name": "QBU88",
-          "single cost": "2500",
-          "perma cost": "200000",
-          "description": "A Chinese sniper rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 85
         },
         {
           "family name": "Rock",

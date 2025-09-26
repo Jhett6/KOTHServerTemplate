@@ -1,4 +1,4 @@
-{
+{ 
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -776,8 +776,8 @@
         },
         {
           "family name": "MG3",
-          "single cost": "650",
-          "perma cost": "100000",
+          "single cost": "1000",
+          "perma cost": "140000",
           "description": "A German general-purpose machine gun chambered in 7.62x51mm NATO, known for its high rate of fire and battlefield dominance. Based on the MG42, it remains in service worldwide due to its reliability, sustained fire capability, and effectiveness in both mounted and infantry roles.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/mg3.mg3",
           "xp unlocks": [
@@ -906,7 +906,7 @@
         },
         {
           "family name": "L22A2",
-          "single cost": "700",
+          "single cost": "600",
           "perma cost": "100000",
           "description": "The L22A2 rifle is the carbine variant to the current British Army service rifle",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l22a2.l22a2",
@@ -955,8 +955,8 @@
         {
           "name": "M249",
           "family name": "M249",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "110000",
           "description": "A belt-fed 5.56x45mm light machine gun, providing sustained firepower for squad support. Reliable and deadly in suppressing enemies.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/m249.m249",
           "xp unlocks": [
@@ -992,7 +992,7 @@
         },
         {
           "family name": "X95",
-          "single cost": "1300",
+          "single cost": "1000",
           "perma cost": "130000",
           "description": "The X95 is an bullpup assault rifle chambered in 5.56x45mm NATO with a rate of fire of 750 RPM.",
           "texture": "/KOTHContractorCrate/SD/Weapons/X95/T_X95_Family.T_X95_Family",
@@ -1062,7 +1062,7 @@
         {
           "family name": "QJB95-1",
           "single cost": "900",
-          "perma cost": "100000",
+          "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -1148,8 +1148,8 @@
         },
         {
           "family name": "QJY88",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "850",
+          "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -1221,8 +1221,8 @@
         },
         {
           "family name": "PKM",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "120000",
           "description": "The PKM is a gas-operated open bolt Russian machine gun developed in the early 1960s",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkm.pkm",
           "xp unlocks": [
@@ -1249,7 +1249,7 @@
         },
         {
           "family name": "RPK",
-          "single cost": "600",
+          "single cost": "800",
           "perma cost": "100000",
           "description": "A modernized Russian light machine gun chambered in 5.45x39mm, designed for sustained fire with improved accuracy and reduced recoil. It features a polymer stock and a longer barrel, making it an effective squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74m.rpk74m",
@@ -1431,8 +1431,8 @@
         },
         {
           "family name": "RPD",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "110000",
           "description": "A Soviet-era belt-fed light machine gun chambered in 7.62x39mm, designed for continuous fire in extended engagements. Known for its simplicity and durability, it served as a predecessor to later squad automatic weapons like the RPK.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpd.rpd",
           "xp unlocks": [
@@ -1452,7 +1452,7 @@
           "family name": "C7A2",
           "single cost": "800",
           "perma cost": "100000",
-          "description": "Add C7A2 Test",
+          "description": "The C7A2 is an upgraded variant of a domestically-produced Canadian version of the American M16A2 rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
           "xp unlocks": [
             {
@@ -1520,8 +1520,8 @@
         },
         {
           "family name": "M240B",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "900",
+          "perma cost": "140000",
           "description": "A heavy-hitting 7.62x51mm belt-fed machine gun, known for its stopping power and battlefield dominance as a squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/m240b.m240b",
           "xp unlocks": [
@@ -1601,6 +1601,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1_M150_Foregrip.BP_M4A1_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -1692,8 +1701,8 @@
         },
         {
           "family name": "C9A2",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "900",
+          "perma cost": "150000",
           "description": "The Canadian Forces C9 is a standard factory Minimi with a steel tubular stock.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/C9A2.C9A2",
           "xp unlocks": [
@@ -1729,8 +1738,8 @@
         },
         {
           "family name": "PKP",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "130000",
           "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -1811,13 +1820,22 @@
           "family name": "M14",
           "single cost": "800",
           "perma cost": "100000",
-          "description": "The M14 is a select-fire Battle Rifle that currently has a ironsight and M68 red dot sight variant. ",
+          "description": "The M14 is a select-fire Battle Rifle that currently has a ironsight and M68 red dot sight variant. Two modifications of the M14 for use as marksman rifles, The M21 and the M39 EBR",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_m14.T_m14",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M14.BP_M14_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -1845,20 +1863,10 @@
               ],
               "item count": -1,
               "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
-        {
-          "family name": "HK417",
-          "single cost": "800",
-          "perma cost": "60000",
-          "description": " A compact variant of the M4, featuring a shortened barrel and collapsible stock for enhanced maneuverability in tight spaces. Chambered in 5.56x45mm NATO, it is favored by military contractors and special forces for its versatility, making it ideal for urban combat, vehicle operations, and close-quarters engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/HK417.HK417",
-          "xp unlocks": [
+            },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 0,
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 25,
               "perk requirements": [
                 "Marksman"
               ],
@@ -1866,7 +1874,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 55
+          "unlock level": 50
         },
         {
           "family name": "M4 Wormpool",
@@ -2084,7 +2092,7 @@
         {
           "family name": "Minimi",
           "single cost": "900",
-          "perma cost": "100000",
+          "perma cost": "150000",
           "description": "Classic Minimi",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
           "xp unlocks": [
@@ -2170,8 +2178,8 @@
         },
         {
           "family name": "MaxiMi",
-          "single cost": "1500",
-          "perma cost": "150000",
+          "single cost": "1000",
+          "perma cost": "155000",
           "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
@@ -2214,34 +2222,6 @@
             }
           ],
           "unlock level": 78
-        },
-        {
-          "family name": "M39",
-          "single cost": "1500",
-          "perma cost": "100000",
-          "description": "A M39 Rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M39.T_M39",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 79
         },
         {
           "family name": "C14",
@@ -2713,15 +2693,6 @@
               "item count": -1,
               "prestige": 0
             },
-                              {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Frag_Founders.BP_RPG7V2_Frag_Founders",
-              "unlock level": 5,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Heat.BP_RPG7_Heat_C",
               "unlock level": 5,
@@ -2749,36 +2720,9 @@
               "item count": -1,
               "prestige": 0
             },
-                                    {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Heat_Founders.BP_RPG7V2_Heat_Founders",
-              "unlock level": 10,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-                                {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Thermo_Founders.BP_RPG7V2_Thermo_Founders",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-                                  {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Tandem_Founders.BP_RPG7V2_Tandem_Founders",
-              "unlock level": 25,
               "perk requirements": [
                 "Launcher"
               ],
@@ -3425,7 +3369,7 @@
         },
         {
           "name": "RHIB_M134",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
           "single cost": 900,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
@@ -3437,7 +3381,7 @@
         },
         {
           "name": "RHIB_M19",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
           "single cost": 600,
           "description": "A boat with a mounted MK19 mounted on the bow.",
           "unlock level": 7,
@@ -3449,7 +3393,7 @@
         },
         {
           "name": "RHIB_PKM",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
           "single cost": 400,
           "description": "A boat with a mounted PKM mounted on the bow.",
           "unlock level": 7,
@@ -3461,7 +3405,7 @@
         },
         {
           "name": "RHIB_NSV",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
           "single cost": 800,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
@@ -3473,7 +3417,7 @@
         },
         {
           "name": "RHIB_DSHK",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
           "single cost": 800,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
@@ -3665,7 +3609,7 @@
         },
         {
           "name": "Technical_M134",
-          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
           "single cost": 1600,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
@@ -3689,7 +3633,7 @@
         },
         {
           "name": "Technical armored dshk",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
           "single cost": 1700,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
@@ -3953,7 +3897,7 @@
         },
         {
           "name": "Technical kornet",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
           "single cost": 17500,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
@@ -4253,7 +4197,7 @@
         },
         {
           "name": "T72b3",
-          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
           "single cost": 30000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
@@ -5180,8 +5124,8 @@
         },
         {
           "family name": "MG3",
-          "single cost": "650",
-          "perma cost": "100000",
+          "single cost": "1000",
+          "perma cost": "140000",
           "description": "A German general-purpose machine gun chambered in 7.62x51mm NATO, known for its high rate of fire and battlefield dominance. Based on the MG42, it remains in service worldwide due to its reliability, sustained fire capability, and effectiveness in both mounted and infantry roles.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/mg3.mg3",
           "xp unlocks": [
@@ -5310,7 +5254,7 @@
         },
         {
           "family name": "L22A2",
-          "single cost": "700",
+          "single cost": "600",
           "perma cost": "100000",
           "description": "The L22A2 rifle is the carbine variant to the current British Army service rifle",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l22a2.l22a2",
@@ -5359,8 +5303,8 @@
         {
           "name": "M249",
           "family name": "M249",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "110000",
           "description": "A belt-fed 5.56x45mm light machine gun, providing sustained firepower for squad support. Reliable and deadly in suppressing enemies.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/m249.m249",
           "xp unlocks": [
@@ -5396,7 +5340,7 @@
         },
         {
           "family name": "X95",
-          "single cost": "1300",
+          "single cost": "1000",
           "perma cost": "130000",
           "description": "The X95 is an bullpup assault rifle chambered in 5.56x45mm NATO with a rate of fire of 750 RPM.",
           "texture": "/KOTHContractorCrate/SD/Weapons/X95/T_X95_Family.T_X95_Family",
@@ -5466,7 +5410,7 @@
         {
           "family name": "QJB95-1",
           "single cost": "900",
-          "perma cost": "100000",
+          "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -5552,8 +5496,8 @@
         },
         {
           "family name": "QJY88",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "850",
+          "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -5625,8 +5569,8 @@
         },
         {
           "family name": "PKM",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "120000",
           "description": "The PKM is a gas-operated open bolt Russian machine gun developed in the early 1960s",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkm.pkm",
           "xp unlocks": [
@@ -5653,7 +5597,7 @@
         },
         {
           "family name": "RPK",
-          "single cost": "600",
+          "single cost": "800",
           "perma cost": "100000",
           "description": "A modernized Russian light machine gun chambered in 5.45x39mm, designed for sustained fire with improved accuracy and reduced recoil. It features a polymer stock and a longer barrel, making it an effective squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74m.rpk74m",
@@ -5835,8 +5779,8 @@
         },
         {
           "family name": "RPD",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "110000",
           "description": "A Soviet-era belt-fed light machine gun chambered in 7.62x39mm, designed for continuous fire in extended engagements. Known for its simplicity and durability, it served as a predecessor to later squad automatic weapons like the RPK.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpd.rpd",
           "xp unlocks": [
@@ -5856,7 +5800,7 @@
           "family name": "C7A2",
           "single cost": "800",
           "perma cost": "100000",
-          "description": "Add C7A2 Test",
+          "description": "The C7A2 is an upgraded variant of a domestically-produced Canadian version of the American M16A2 rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
           "xp unlocks": [
             {
@@ -5924,8 +5868,8 @@
         },
         {
           "family name": "M240B",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "900",
+          "perma cost": "140000",
           "description": "A heavy-hitting 7.62x51mm belt-fed machine gun, known for its stopping power and battlefield dominance as a squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/m240b.m240b",
           "xp unlocks": [
@@ -6005,6 +5949,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1_M150_Foregrip.BP_M4A1_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -6096,8 +6049,8 @@
         },
         {
           "family name": "C9A2",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "900",
+          "perma cost": "150000",
           "description": "The Canadian Forces C9 is a standard factory Minimi with a steel tubular stock.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/C9A2.C9A2",
           "xp unlocks": [
@@ -6133,8 +6086,8 @@
         },
         {
           "family name": "PKP",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "130000",
           "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -6215,13 +6168,22 @@
           "family name": "M14",
           "single cost": "800",
           "perma cost": "100000",
-          "description": "The M14 is a select-fire Battle Rifle that currently has a ironsight and M68 red dot sight variant. ",
+          "description": "The M14 is a select-fire Battle Rifle that currently has a ironsight and M68 red dot sight variant. Two modifications of the M14 for use as marksman rifles, The M21 and the M39 EBR",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_m14.T_m14",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M14.BP_M14_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -6249,20 +6211,10 @@
               ],
               "item count": -1,
               "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
-        {
-          "family name": "HK417",
-          "single cost": "800",
-          "perma cost": "60000",
-          "description": " A compact variant of the M4, featuring a shortened barrel and collapsible stock for enhanced maneuverability in tight spaces. Chambered in 5.56x45mm NATO, it is favored by military contractors and special forces for its versatility, making it ideal for urban combat, vehicle operations, and close-quarters engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/HK417.HK417",
-          "xp unlocks": [
+            },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 0,
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 25,
               "perk requirements": [
                 "Marksman"
               ],
@@ -6270,7 +6222,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 55
+          "unlock level": 50
         },
         {
           "family name": "M4 Wormpool",
@@ -6488,7 +6440,7 @@
         {
           "family name": "Minimi",
           "single cost": "900",
-          "perma cost": "100000",
+          "perma cost": "150000",
           "description": "Classic Minimi",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
           "xp unlocks": [
@@ -6574,8 +6526,8 @@
         },
         {
           "family name": "MaxiMi",
-          "single cost": "1500",
-          "perma cost": "150000",
+          "single cost": "1000",
+          "perma cost": "155000",
           "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
@@ -6618,34 +6570,6 @@
             }
           ],
           "unlock level": 78
-        },
-        {
-          "family name": "M39",
-          "single cost": "1500",
-          "perma cost": "100000",
-          "description": "A M39 Rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M39.T_M39",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 79
         },
         {
           "family name": "C14",
@@ -7117,15 +7041,6 @@
               "item count": -1,
               "prestige": 0
             },
-                              {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Frag_Founders.BP_RPG7V2_Frag_Founders",
-              "unlock level": 5,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Heat.BP_RPG7_Heat_C",
               "unlock level": 5,
@@ -7153,36 +7068,9 @@
               "item count": -1,
               "prestige": 0
             },
-                                    {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Heat_Founders.BP_RPG7V2_Heat_Founders",
-              "unlock level": 10,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-                                {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Thermo_Founders.BP_RPG7V2_Thermo_Founders",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-                                  {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Tandem_Founders.BP_RPG7V2_Tandem_Founders",
-              "unlock level": 25,
               "perk requirements": [
                 "Launcher"
               ],
@@ -7829,7 +7717,7 @@
         },
         {
           "name": "RHIB_M134",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
           "single cost": 900,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
@@ -7841,7 +7729,7 @@
         },
         {
           "name": "RHIB_M19",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
           "single cost": 600,
           "description": "A boat with a mounted MK19 mounted on the bow.",
           "unlock level": 7,
@@ -7853,7 +7741,7 @@
         },
         {
           "name": "RHIB_PKM",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
           "single cost": 400,
           "description": "A boat with a mounted PKM mounted on the bow.",
           "unlock level": 7,
@@ -7865,7 +7753,7 @@
         },
         {
           "name": "RHIB_NSV",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
           "single cost": 800,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
@@ -7877,7 +7765,7 @@
         },
         {
           "name": "RHIB_DSHK",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
           "single cost": 800,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
@@ -8069,7 +7957,7 @@
         },
         {
           "name": "Technical_M134",
-          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
           "single cost": 1600,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
@@ -8093,7 +7981,7 @@
         },
         {
           "name": "Technical armored dshk",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
           "single cost": 1700,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
@@ -8357,7 +8245,7 @@
         },
         {
           "name": "Technical kornet",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
           "single cost": 17500,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
@@ -8657,7 +8545,7 @@
         },
         {
           "name": "T72b3",
-          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
           "single cost": 30000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
@@ -9824,8 +9712,8 @@
         },
         {
           "family name": "MG3",
-          "single cost": "650",
-          "perma cost": "100000",
+          "single cost": "1000",
+          "perma cost": "140000",
           "description": "A German general-purpose machine gun chambered in 7.62x51mm NATO, known for its high rate of fire and battlefield dominance. Based on the MG42, it remains in service worldwide due to its reliability, sustained fire capability, and effectiveness in both mounted and infantry roles.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/mg3.mg3",
           "xp unlocks": [
@@ -9954,7 +9842,7 @@
         },
         {
           "family name": "L22A2",
-          "single cost": "700",
+          "single cost": "600",
           "perma cost": "100000",
           "description": "The L22A2 rifle is the carbine variant to the current British Army service rifle",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l22a2.l22a2",
@@ -10003,8 +9891,8 @@
         {
           "name": "M249",
           "family name": "M249",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "110000",
           "description": "A belt-fed 5.56x45mm light machine gun, providing sustained firepower for squad support. Reliable and deadly in suppressing enemies.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/m249.m249",
           "xp unlocks": [
@@ -10040,7 +9928,7 @@
         },
         {
           "family name": "X95",
-          "single cost": "1300",
+          "single cost": "1000",
           "perma cost": "130000",
           "description": "The X95 is an bullpup assault rifle chambered in 5.56x45mm NATO with a rate of fire of 750 RPM.",
           "texture": "/KOTHContractorCrate/SD/Weapons/X95/T_X95_Family.T_X95_Family",
@@ -10110,7 +9998,7 @@
         {
           "family name": "QJB95-1",
           "single cost": "900",
-          "perma cost": "100000",
+          "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -10196,8 +10084,8 @@
         },
         {
           "family name": "QJY88",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "850",
+          "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -10269,8 +10157,8 @@
         },
         {
           "family name": "PKM",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "120000",
           "description": "The PKM is a gas-operated open bolt Russian machine gun developed in the early 1960s",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkm.pkm",
           "xp unlocks": [
@@ -10297,7 +10185,7 @@
         },
         {
           "family name": "RPK",
-          "single cost": "600",
+          "single cost": "800",
           "perma cost": "100000",
           "description": "A modernized Russian light machine gun chambered in 5.45x39mm, designed for sustained fire with improved accuracy and reduced recoil. It features a polymer stock and a longer barrel, making it an effective squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpk74m.rpk74m",
@@ -10479,8 +10367,8 @@
         },
         {
           "family name": "RPD",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "110000",
           "description": "A Soviet-era belt-fed light machine gun chambered in 7.62x39mm, designed for continuous fire in extended engagements. Known for its simplicity and durability, it served as a predecessor to later squad automatic weapons like the RPK.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/rpd.rpd",
           "xp unlocks": [
@@ -10500,7 +10388,7 @@
           "family name": "C7A2",
           "single cost": "800",
           "perma cost": "100000",
-          "description": "Add C7A2 Test",
+          "description": "The C7A2 is an upgraded variant of a domestically-produced Canadian version of the American M16A2 rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
           "xp unlocks": [
             {
@@ -10568,8 +10456,8 @@
         },
         {
           "family name": "M240B",
-          "single cost": "600",
-          "perma cost": "100000",
+          "single cost": "900",
+          "perma cost": "140000",
           "description": "A heavy-hitting 7.62x51mm belt-fed machine gun, known for its stopping power and battlefield dominance as a squad support weapon.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/m240b.m240b",
           "xp unlocks": [
@@ -10649,6 +10537,15 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1_M150_Foregrip.BP_M4A1_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -10740,8 +10637,8 @@
         },
         {
           "family name": "C9A2",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "900",
+          "perma cost": "150000",
           "description": "The Canadian Forces C9 is a standard factory Minimi with a steel tubular stock.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/C9A2.C9A2",
           "xp unlocks": [
@@ -10777,8 +10674,8 @@
         },
         {
           "family name": "PKP",
-          "single cost": "700",
-          "perma cost": "100000",
+          "single cost": "800",
+          "perma cost": "130000",
           "description": "The PKP Pecheneg is a modern upgrade to the PKM machine gun that was adopted by the Russian military",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
           "xp unlocks": [
@@ -10859,13 +10756,22 @@
           "family name": "M14",
           "single cost": "800",
           "perma cost": "100000",
-          "description": "The M14 is a select-fire Battle Rifle that currently has a ironsight and M68 red dot sight variant. ",
+          "description": "The M14 is a select-fire Battle Rifle that currently has a ironsight and M68 red dot sight variant. Two modifications of the M14 for use as marksman rifles, The M21 and the M39 EBR",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_m14.T_m14",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M14.BP_M14_C",
               "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -10893,20 +10799,10 @@
               ],
               "item count": -1,
               "prestige": 0
-            }
-          ],
-          "unlock level": 50
-        },
-        {
-          "family name": "HK417",
-          "single cost": "800",
-          "perma cost": "60000",
-          "description": " A compact variant of the M4, featuring a shortened barrel and collapsible stock for enhanced maneuverability in tight spaces. Chambered in 5.56x45mm NATO, it is favored by military contractors and special forces for its versatility, making it ideal for urban combat, vehicle operations, and close-quarters engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/HK417.HK417",
-          "xp unlocks": [
+            },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_HK417_Optic.BP_HK417_Optic_C",
-              "unlock level": 0,
+              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
+              "unlock level": 25,
               "perk requirements": [
                 "Marksman"
               ],
@@ -10914,7 +10810,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 55
+          "unlock level": 50
         },
         {
           "family name": "M4 Wormpool",
@@ -11132,7 +11028,7 @@
         {
           "family name": "Minimi",
           "single cost": "900",
-          "perma cost": "100000",
+          "perma cost": "150000",
           "description": "Classic Minimi",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/minimi.minimi",
           "xp unlocks": [
@@ -11218,8 +11114,8 @@
         },
         {
           "family name": "MaxiMi",
-          "single cost": "1500",
-          "perma cost": "150000",
+          "single cost": "1000",
+          "perma cost": "155000",
           "description": "The Maximi is a Minimi conversion, chambered for the more powerful 7.62x51mm NATO cartridge.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
           "xp unlocks": [
@@ -11262,34 +11158,6 @@
             }
           ],
           "unlock level": 78
-        },
-        {
-          "family name": "M39",
-          "single cost": "1500",
-          "perma cost": "100000",
-          "description": "A M39 Rifle",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M39.T_M39",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39.BP_M39_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M39_Optic.BP_M39_Optic_C",
-              "unlock level": 10,
-              "perk requirements": [
-                "Marksman"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 79
         },
         {
           "family name": "C14",
@@ -11761,15 +11629,6 @@
               "item count": -1,
               "prestige": 0
             },
-                              {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Frag_Founders.BP_RPG7V2_Frag_Founders",
-              "unlock level": 5,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Heat.BP_RPG7_Heat_C",
               "unlock level": 5,
@@ -11797,36 +11656,9 @@
               "item count": -1,
               "prestige": 0
             },
-                                    {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Heat_Founders.BP_RPG7V2_Heat_Founders",
-              "unlock level": 10,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-                                {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Thermo_Founders.BP_RPG7V2_Thermo_Founders",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-                                  {
-              "item": "/Game/Blueprints/Items/Founders/RocketLaunchers/BP_RPG7V2_Tandem_Founders.BP_RPG7V2_Tandem_Founders",
-              "unlock level": 25,
               "perk requirements": [
                 "Launcher"
               ],
@@ -12473,7 +12305,7 @@
         },
         {
           "name": "RHIB_M134",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
           "single cost": 900,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
@@ -12485,7 +12317,7 @@
         },
         {
           "name": "RHIB_M19",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
           "single cost": 600,
           "description": "A boat with a mounted MK19 mounted on the bow.",
           "unlock level": 7,
@@ -12497,7 +12329,7 @@
         },
         {
           "name": "RHIB_PKM",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
           "single cost": 400,
           "description": "A boat with a mounted PKM mounted on the bow.",
           "unlock level": 7,
@@ -12509,7 +12341,7 @@
         },
         {
           "name": "RHIB_NSV",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
           "single cost": 800,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
@@ -12521,7 +12353,7 @@
         },
         {
           "name": "RHIB_DSHK",
-          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
           "single cost": 800,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
@@ -12713,7 +12545,7 @@
         },
         {
           "name": "Technical_M134",
-          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
           "single cost": 1600,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
@@ -12737,7 +12569,7 @@
         },
         {
           "name": "Technical armored dshk",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
           "single cost": 1700,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
@@ -13001,7 +12833,7 @@
         },
         {
           "name": "Technical kornet",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
           "single cost": 17500,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
@@ -13301,7 +13133,7 @@
         },
         {
           "name": "T72b3",
-          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
           "single cost": 30000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,

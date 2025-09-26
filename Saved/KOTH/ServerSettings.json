@@ -1,4 +1,4 @@
-{ 
+{  
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -656,15 +656,6 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
-              "unlock level": 22,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4_M150_Foregrip.BP_M16A4_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -849,6 +840,52 @@
             }
           ],
           "unlock level": 20
+        },
+                {
+          "family name": "SVD",
+          "single cost": "1000",
+          "perma cost": "120000",
+          "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDS_Optic.BP_SVDS_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 21
         },
         {
           "family name": "AK12",
@@ -1100,6 +1137,24 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_Rifle.BP_FNFAL_GL_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_HEAT_Rifle.BP_FNFAL_GL_HEAT_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 33
@@ -1346,6 +1401,29 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_ET552_Foregrip.BP_EF88C_ET552_Foregrip_C",
+              "unlock level": 22,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Foregrip.BP_EF88C_Specter_Foregrip_C",
+              "unlock level": 24,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_SL40.BP_EF88_Specter_SL40_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 38
@@ -1491,7 +1569,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_M203A1.BP_C7A2_ET552_M203A1_C",
               "unlock level": 23,
               "perk requirements": [
                 "Grenadier"
@@ -1809,6 +1887,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_MPT76_Foregrip_A940.BP_MPT76_Foregrip_A940_C",
               "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
+              "unlock level": 27,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -2243,6 +2328,34 @@
           "unlock level": 80
         },
         {
+          "family name": "QBU88",
+          "single cost": "2500",
+          "perma cost": "200000",
+          "description": "A Chinese sniper rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 85
+        },
+        {
           "family name": "Rock",
           "single cost": "10000",
           "perma cost": "-1",
@@ -2263,6 +2376,23 @@
         }
       ],
       "secondary": [
+        {
+          "family name": "QSZ92",
+          "single cost": "20",
+          "perma cost": "1000",
+          "description": "A Chinese semi-auto pistol",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 1
+        },
         {
           "family name": "TT33",
           "single cost": "20",
@@ -5004,15 +5134,6 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
-              "unlock level": 22,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4_M150_Foregrip.BP_M16A4_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -5197,6 +5318,52 @@
             }
           ],
           "unlock level": 20
+        },
+                {
+          "family name": "SVD",
+          "single cost": "1000",
+          "perma cost": "120000",
+          "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDS_Optic.BP_SVDS_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 21
         },
         {
           "family name": "AK12",
@@ -5448,6 +5615,24 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_Rifle.BP_FNFAL_GL_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_HEAT_Rifle.BP_FNFAL_GL_HEAT_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 33
@@ -5694,6 +5879,29 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_ET552_Foregrip.BP_EF88C_ET552_Foregrip_C",
+              "unlock level": 22,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Foregrip.BP_EF88C_Specter_Foregrip_C",
+              "unlock level": 24,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_SL40.BP_EF88_Specter_SL40_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 38
@@ -5839,7 +6047,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_M203A1.BP_C7A2_ET552_M203A1_C",
               "unlock level": 23,
               "perk requirements": [
                 "Grenadier"
@@ -6157,6 +6365,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_MPT76_Foregrip_A940.BP_MPT76_Foregrip_A940_C",
               "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
+              "unlock level": 27,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -6591,6 +6806,34 @@
           "unlock level": 80
         },
         {
+          "family name": "QBU88",
+          "single cost": "2500",
+          "perma cost": "200000",
+          "description": "A Chinese sniper rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 85
+        },
+        {
           "family name": "Rock",
           "single cost": "10000",
           "perma cost": "-1",
@@ -6611,6 +6854,23 @@
         }
       ],
       "secondary": [
+        {
+          "family name": "QSZ92",
+          "single cost": "20",
+          "perma cost": "1000",
+          "description": "A Chinese semi-auto pistol",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 1
+        },
         {
           "family name": "TT33",
           "single cost": "20",
@@ -6734,7 +6994,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -9592,15 +9852,6 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
-              "unlock level": 22,
-              "perk requirements": [
-                "Grenadier"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M16A4_M150_Foregrip.BP_M16A4_M150_Foregrip_C",
               "unlock level": 25,
               "perk requirements": [],
@@ -9785,6 +10036,52 @@
             }
           ],
           "unlock level": 20
+        },
+                {
+          "family name": "SVD",
+          "single cost": "1000",
+          "perma cost": "120000",
+          "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic.BP_SVDM_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDS_Optic.BP_SVDS_Optic_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVDM_Optic_Desert.BP_SVDM_Optic_Desert_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 21
         },
         {
           "family name": "AK12",
@@ -10036,6 +10333,24 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_Rifle.BP_FNFAL_GL_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_HEAT_Rifle.BP_FNFAL_GL_HEAT_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 33
@@ -10282,6 +10597,29 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_ET552_Foregrip.BP_EF88C_ET552_Foregrip_C",
+              "unlock level": 22,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88C_Specter_Foregrip.BP_EF88C_Specter_Foregrip_C",
+              "unlock level": 24,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_SL40.BP_EF88_Specter_SL40_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 38
@@ -10427,7 +10765,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
+              "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_M203A1.BP_C7A2_ET552_M203A1_C",
               "unlock level": 23,
               "perk requirements": [
                 "Grenadier"
@@ -10745,6 +11083,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_MPT76_Foregrip_A940.BP_MPT76_Foregrip_A940_C",
               "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
+              "unlock level": 27,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -11179,6 +11524,34 @@
           "unlock level": 80
         },
         {
+          "family name": "QBU88",
+          "single cost": "2500",
+          "perma cost": "200000",
+          "description": "A Chinese sniper rifle",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Ironsights.BP_QBU-88_Ironsights_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_QBU-88_Optic.BP_QBU-88_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 85
+        },
+        {
           "family name": "Rock",
           "single cost": "10000",
           "perma cost": "-1",
@@ -11199,6 +11572,23 @@
         }
       ],
       "secondary": [
+        {
+          "family name": "QSZ92",
+          "single cost": "20",
+          "perma cost": "1000",
+          "description": "A Chinese semi-auto pistol",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 1
+        },
         {
           "family name": "TT33",
           "single cost": "20",
@@ -11322,7 +11712,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -13872,7 +14262,7 @@
         ]
       },
       {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_C7A2_EoTech_M203A1.BP_C7A2_EoTech_M203A1_C",
+        "parent": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_M203A1.BP_C7A2_ET552_M203A1_C",
         "items": [
           "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_ET_UGL_HE.BP_C7A2_M203A1_ET_UGL_HE_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_ET_UGL_Smoke.BP_C7A2_M203A1_ET_UGL_Smoke_C",
@@ -13887,6 +14277,29 @@
           "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_C79A2_UGL_Smoke.BP_C7A2_M203A1_C79A2_UGL_Smoke_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_C79A2_UGL_Smoke_Blue.BP_C7A2_M203A1_C79A2_UGL_Smoke_Blue_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_C79A2_UGL_Smoke_Red.BP_C7A2_M203A1_C79A2_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_Rifle.BP_FNFAL_GL_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_Frag.BP_FNFAL_GL_Frag_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_HEAT.BP_FNFAL_GL_HEAT_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_HEAT_Rifle.BP_FNFAL_GL_HEAT_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_Frag.BP_FNFAL_GL_Frag_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_HEAT.BP_FNFAL_GL_HEAT_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_SL40.BP_EF88_Specter_SL40_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_HE.BP_EF88_SL40_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_Smoke.BP_EF88_SL40_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_Smoke_Blue.BP_EF88_SL40_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_Smoke_Red.BP_EF88_SL40_UGL_Smoke_Red_C"
         ]
       },
       {

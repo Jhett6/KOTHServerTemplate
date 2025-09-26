@@ -1,4 +1,4 @@
-{ 
+{
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -2909,7 +2909,7 @@
         {
           "name": "RHIB_M240",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M240.BP_RHIB_US_M240_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with an M240 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -2921,7 +2921,7 @@
         {
           "name": "RHIB_PKP",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_PKP.BP_RHIB_RUS_PKP_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with a PKP mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -2933,7 +2933,7 @@
         {
           "name": "RHIB_QJY88",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJY88.BP_RHIB_QJY88_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with an QJY88 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -2945,7 +2945,7 @@
         {
           "name": "RHIB_QJZ89",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJZ89.BP_RHIB_QJZ89_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with a QJZ89 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -2971,6 +2971,66 @@
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_GFI_MG3.BP_RHIB_GFI_MG3_C",
           "single cost": 600,
           "description": "A boat with a mounted MG3 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
+          "single cost": 900,
+          "description": "A boat with a mounted MINIGUN mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_M19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
+          "single cost": 600,
+          "description": "A boat with a mounted MK19 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
+          "single cost": 400,
+          "description": "A boat with a mounted PKM mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
+          "single cost": 800,
+          "description": "A boat with a mounted NSV mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
+          "single cost": 800,
+          "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
@@ -3159,10 +3219,34 @@
           "prestige": 0
         },
         {
+          "name": "Technical_M134",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "single cost": 1600,
+          "description": "A technical with a MINIGUN mounted on its flatbed.",
+          "unlock level": 15,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "M1151 Black Dshk",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_Technical.BP_M1151_Technical_C",
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top Dshk.",
+          "unlock level": 16,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 450,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
+          "name": "Technical armored dshk",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "single cost": 1700,
+          "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
@@ -3260,6 +3344,18 @@
           "single cost": 10000,
           "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
           "unlock level": 22,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-MDM",
+          "vehicle": "/Game/Vehicles/BTR-MDM/BP_BTRMDM_PKT_RWS_Desert.BP_BTRMDM_PKT_RWS_Desert_C",
+          "single cost": 9000,
+          "description": "An amphibious apc used by the Russians with a PKT.",
+          "unlock level": 23,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
@@ -3408,6 +3504,18 @@
           "spawn type": "Ground",
           "kill xp reward": 900,
           "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "single cost": 17500,
+          "description": "A well techie armed with a kornet",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
+          "spawn type": "Ground",
+          "kill xp reward": 2000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -3651,6 +3759,18 @@
           "prestige": 0
         },
         {
+          "name": "M1064A3",
+          "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
+          "single cost": 17000,
+          "description": "An APC with a 120mm mortar.",
+          "unlock level": 53,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3750,
+          "kill $ reward": 5500,
+          "prestige": 0
+        },
+        {
           "name": "ZBL08",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZBL08_HJ73C_Naval.BP_ZBL08_HJ73C_Naval_C",
           "single cost": 24000,
@@ -3679,6 +3799,18 @@
           "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
           "single cost": 28000,
           "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 55,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "T72b3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
+          "single cost": 30000,
+          "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
@@ -6751,7 +6883,7 @@
         {
           "name": "RHIB_M240",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M240.BP_RHIB_US_M240_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with an M240 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -6763,7 +6895,7 @@
         {
           "name": "RHIB_PKP",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_PKP.BP_RHIB_RUS_PKP_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with a PKP mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -6775,7 +6907,7 @@
         {
           "name": "RHIB_QJY88",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJY88.BP_RHIB_QJY88_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with an QJY88 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -6787,7 +6919,7 @@
         {
           "name": "RHIB_QJZ89",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJZ89.BP_RHIB_QJZ89_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with a QJZ89 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -6813,6 +6945,66 @@
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_GFI_MG3.BP_RHIB_GFI_MG3_C",
           "single cost": 600,
           "description": "A boat with a mounted MG3 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
+          "single cost": 900,
+          "description": "A boat with a mounted MINIGUN mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_M19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
+          "single cost": 600,
+          "description": "A boat with a mounted MK19 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
+          "single cost": 400,
+          "description": "A boat with a mounted PKM mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
+          "single cost": 800,
+          "description": "A boat with a mounted NSV mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
+          "single cost": 800,
+          "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
@@ -7001,10 +7193,34 @@
           "prestige": 0
         },
         {
+          "name": "Technical_M134",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "single cost": 1600,
+          "description": "A technical with a MINIGUN mounted on its flatbed.",
+          "unlock level": 15,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "M1151 Black Dshk",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_Technical.BP_M1151_Technical_C",
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top Dshk.",
+          "unlock level": 16,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 450,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
+          "name": "Technical armored dshk",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "single cost": 1700,
+          "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
@@ -7102,6 +7318,18 @@
           "single cost": 10000,
           "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
           "unlock level": 22,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-MDM",
+          "vehicle": "/Game/Vehicles/BTR-MDM/BP_BTRMDM_PKT_RWS_Desert.BP_BTRMDM_PKT_RWS_Desert_C",
+          "single cost": 9000,
+          "description": "An amphibious apc used by the Russians with a PKT.",
+          "unlock level": 23,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
@@ -7250,6 +7478,18 @@
           "spawn type": "Ground",
           "kill xp reward": 900,
           "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "single cost": 17500,
+          "description": "A well techie armed with a kornet",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
+          "spawn type": "Ground",
+          "kill xp reward": 2000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -7493,6 +7733,18 @@
           "prestige": 0
         },
         {
+          "name": "M1064A3",
+          "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
+          "single cost": 17000,
+          "description": "An APC with a 120mm mortar.",
+          "unlock level": 53,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3750,
+          "kill $ reward": 5500,
+          "prestige": 0
+        },
+        {
           "name": "ZBL08",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZBL08_HJ73C_Naval.BP_ZBL08_HJ73C_Naval_C",
           "single cost": 24000,
@@ -7521,6 +7773,18 @@
           "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
           "single cost": 28000,
           "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 55,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "T72b3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
+          "single cost": 30000,
+          "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
@@ -10833,7 +11097,7 @@
         {
           "name": "RHIB_M240",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M240.BP_RHIB_US_M240_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with an M240 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -10845,7 +11109,7 @@
         {
           "name": "RHIB_PKP",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_PKP.BP_RHIB_RUS_PKP_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with a PKP mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -10857,7 +11121,7 @@
         {
           "name": "RHIB_QJY88",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJY88.BP_RHIB_QJY88_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with an QJY88 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -10869,7 +11133,7 @@
         {
           "name": "RHIB_QJZ89",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_QJZ89.BP_RHIB_QJZ89_C",
-          "single cost": 300,
+          "single cost": 400,
           "description": "A boat with a QJZ89 machine gun mounted on the bow.",
           "unlock level": 5,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -10895,6 +11159,66 @@
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_GFI_MG3.BP_RHIB_GFI_MG3_C",
           "single cost": 600,
           "description": "A boat with a mounted MG3 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_M134",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
+          "single cost": 900,
+          "description": "A boat with a mounted MINIGUN mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_M19",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_Mk19.BP_RHIB_US_Mk19_C",
+          "single cost": 600,
+          "description": "A boat with a mounted MK19 mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_PKM",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_PKM.BP_RHIB_PKM_C",
+          "single cost": 400,
+          "description": "A boat with a mounted PKM mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_NSV",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
+          "single cost": 800,
+          "description": "A boat with a mounted NSV mounted on the bow.",
+          "unlock level": 7,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 150,
+          "kill $ reward": 200,
+          "prestige": 0
+        },
+        {
+          "name": "RHIB_DSHK",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
+          "single cost": 800,
+          "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
@@ -11083,10 +11407,34 @@
           "prestige": 0
         },
         {
+          "name": "Technical_M134",
+          "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black",
+          "single cost": 1600,
+          "description": "A technical with a MINIGUN mounted on its flatbed.",
+          "unlock level": 15,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "M1151 Black Dshk",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_Technical.BP_M1151_Technical_C",
           "single cost": 1800,
           "description": "A well armored squad transport vehicle armed with an open-top Dshk.",
+          "unlock level": 16,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 450,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
+          "name": "Technical armored dshk",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK",
+          "single cost": 1700,
+          "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
@@ -11184,6 +11532,18 @@
           "single cost": 10000,
           "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
           "unlock level": 22,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-MDM",
+          "vehicle": "/Game/Vehicles/BTR-MDM/BP_BTRMDM_PKT_RWS_Desert.BP_BTRMDM_PKT_RWS_Desert_C",
+          "single cost": 9000,
+          "description": "An amphibious apc used by the Russians with a PKT.",
+          "unlock level": 23,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
@@ -11332,6 +11692,18 @@
           "spawn type": "Ground",
           "kill xp reward": 900,
           "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical kornet",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet",
+          "single cost": 17500,
+          "description": "A well techie armed with a kornet",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
+          "spawn type": "Ground",
+          "kill xp reward": 2000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -11575,6 +11947,18 @@
           "prestige": 0
         },
         {
+          "name": "M1064A3",
+          "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
+          "single cost": 17000,
+          "description": "An APC with a 120mm mortar.",
+          "unlock level": 53,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3750,
+          "kill $ reward": 5500,
+          "prestige": 0
+        },
+        {
           "name": "ZBL08",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZBL08_HJ73C_Naval.BP_ZBL08_HJ73C_Naval_C",
           "single cost": 24000,
@@ -11603,6 +11987,18 @@
           "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
           "single cost": 28000,
           "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
+          "unlock level": 55,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 4000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "T72b3",
+          "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
+          "single cost": 30000,
+          "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",

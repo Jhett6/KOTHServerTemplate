@@ -2026,7 +2026,7 @@
           "family name": "M27",
           "single cost": "850",
           "perma cost": "100000",
-          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "description": "The M27 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
@@ -6470,7 +6470,7 @@
           "family name": "M27",
           "single cost": "850",
           "perma cost": "100000",
-          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "description": "The M27 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {
@@ -11154,7 +11154,7 @@
           "family name": "M27",
           "single cost": "850",
           "perma cost": "100000",
-          "description": "The HK416 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
+          "description": "The M27 is a well-balanced weapon with adequate damage, effective range, and bullet dispersion performance.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M27.T_M27",
           "xp unlocks": [
             {

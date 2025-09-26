@@ -4614,6 +4614,18 @@
           "kill xp reward": 25000,
           "kill $ reward": 60000,
           "prestige": 0
+        },
+        {
+          "name": "Loach-CAS-small",
+          "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
+          "single cost": 80000,
+          "description": "Double the rockets, double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
         },        
         {
           "name": "Behemoth",
@@ -4625,7 +4637,7 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
           "kill $ reward": 150000,
-          "prestige": 0
+          "prestige": 1
         }
       ],
       "perks": [
@@ -9058,6 +9070,18 @@
           "kill xp reward": 25000,
           "kill $ reward": 60000,
           "prestige": 0
+        },
+        {
+          "name": "Loach-CAS-small",
+          "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
+          "single cost": 80000,
+          "description": "Double the rockets, double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
         },        
         {
           "name": "Behemoth",
@@ -9069,7 +9093,7 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
           "kill $ reward": 150000,
-          "prestige": 0
+          "prestige": 1
         }
       ],
       "perks": [
@@ -13742,6 +13766,18 @@
           "kill xp reward": 25000,
           "kill $ reward": 60000,
           "prestige": 0
+        },
+        {
+          "name": "Loach-CAS-small",
+          "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
+          "single cost": 80000,
+          "description": "Double the rockets, double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
         },        
         {
           "name": "Behemoth",
@@ -13753,7 +13789,7 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
           "kill $ reward": 150000,
-          "prestige": 0
+          "prestige": 1
         }
       ],
       "perks": [

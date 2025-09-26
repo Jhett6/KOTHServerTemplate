@@ -4660,6 +4660,18 @@
           "kill xp reward": 25000,
           "kill $ reward": 60000,
           "prestige": 0
+        },
+        {
+          "name": "Behemoth",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP_C",
+          "single cost": 3000000,
+          "description": "BIGGEST BOOM BOOM.",
+          "unlock level": 100,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 50000,
+          "kill $ reward": 150000,
+          "prestige": 0
         }
       ],
       "perks": [
@@ -9137,6 +9149,18 @@
           "spawn type": "Ground",
           "kill xp reward": 25000,
           "kill $ reward": 60000,
+          "prestige": 0
+        },
+        {
+          "name": "Behemoth",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP_C",
+          "single cost": 3000000,
+          "description": "BIGGEST BOOM BOOM.",
+          "unlock level": 100,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 50000,
+          "kill $ reward": 150000,
           "prestige": 0
         }
       ],
@@ -13855,6 +13879,18 @@
           "spawn type": "Ground",
           "kill xp reward": 25000,
           "kill $ reward": 60000,
+          "prestige": 0
+        },
+        {
+          "name": "Behemoth",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP_C",
+          "single cost": 3000000,
+          "description": "BIGGEST BOOM BOOM.",
+          "unlock level": 100,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 50000,
+          "kill $ reward": 150000,
           "prestige": 0
         }
       ],

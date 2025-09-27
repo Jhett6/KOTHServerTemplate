@@ -1902,7 +1902,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76_KESKIN.BP_KNT76_KESKIN_C",
               "unlock level": 27,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -6479,7 +6481,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76_KESKIN.BP_KNT76_KESKIN_C",
               "unlock level": 27,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -11296,7 +11300,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76_KESKIN.BP_KNT76_KESKIN_C",
               "unlock level": 27,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },

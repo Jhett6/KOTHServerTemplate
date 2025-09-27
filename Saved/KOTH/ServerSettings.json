@@ -1884,9 +1884,27 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
               "unlock level": 27,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -2328,7 +2346,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -3668,6 +3686,18 @@
           "prestige": 0
         },
         {
+          "name": "luvw_m2",
+          "vehicle": "/Game/Vehicles/LUVW/BP_LUVW_M2.BP_LUVW_M2_C",
+          "single cost": 1500,
+          "description": "A LUVW with an open top m2.",
+          "unlock level": 13,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
           "single cost": 800,
@@ -3812,6 +3842,30 @@
           "prestige": 0
         },
         {
+          "name": "FV432",
+          "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
+          "single cost": 10000,
+          "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "acv mg3",
+          "vehicle": "/Game/V/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "single cost": 8000,
+          "description": "The AVC is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
           "single cost": 10000,
@@ -3912,6 +3966,18 @@
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
           "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 31,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+                {
+          "name": "BMPZU",
+          "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
+          "single cost": 8000,
+          "description": "An amphibious anti air platform using a BMP chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
@@ -4062,12 +4128,48 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
+        },        
+        {
+          "name": "TAPV",
+          "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
+          "single cost": 9000,
+          "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "M1117",
+          "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
+          "single cost": 10000,
+          "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
+          "prestige": 0
+        },
+                {
+          "name": "PARS III mk19",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
+          "single cost": 10000,
+          "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
@@ -4475,7 +4577,19 @@
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
           "single cost": 22000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "ZBD-05",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZSD05_QJZ-89.BP_ZSD05_QJZ-89_C",
+          "single cost": 20000,
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
@@ -6340,9 +6454,27 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
               "unlock level": 27,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -6784,7 +6916,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -8124,6 +8256,18 @@
           "prestige": 0
         },
         {
+          "name": "luvw_m2",
+          "vehicle": "/Game/Vehicles/LUVW/BP_LUVW_M2.BP_LUVW_M2_C",
+          "single cost": 1500,
+          "description": "A LUVW with an open top m2.",
+          "unlock level": 13,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
           "single cost": 800,
@@ -8268,6 +8412,30 @@
           "prestige": 0
         },
         {
+          "name": "FV432",
+          "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
+          "single cost": 10000,
+          "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "acv mg3",
+          "vehicle": "/Game/V/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "single cost": 8000,
+          "description": "The AVC is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
           "single cost": 10000,
@@ -8368,6 +8536,18 @@
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
           "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 31,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+                {
+          "name": "BMPZU",
+          "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
+          "single cost": 8000,
+          "description": "An amphibious anti air platform using a BMP chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
@@ -8518,12 +8698,48 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
+        },        
+        {
+          "name": "TAPV",
+          "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
+          "single cost": 9000,
+          "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "M1117",
+          "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
+          "single cost": 10000,
+          "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
+          "prestige": 0
+        },
+                {
+          "name": "PARS III mk19",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
+          "single cost": 10000,
+          "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
@@ -8931,7 +9147,19 @@
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
           "single cost": 22000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "ZBD-05",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZSD05_QJZ-89.BP_ZSD05_QJZ-89_C",
+          "single cost": 20000,
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
@@ -11036,9 +11264,27 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
               "unlock level": 27,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -11480,7 +11726,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -12820,6 +13066,18 @@
           "prestige": 0
         },
         {
+          "name": "luvw_m2",
+          "vehicle": "/Game/Vehicles/LUVW/BP_LUVW_M2.BP_LUVW_M2_C",
+          "single cost": 1500,
+          "description": "A LUVW with an open top m2.",
+          "unlock level": 13,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
           "single cost": 800,
@@ -12964,6 +13222,30 @@
           "prestige": 0
         },
         {
+          "name": "FV432",
+          "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
+          "single cost": 10000,
+          "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "acv mg3",
+          "vehicle": "/Game/V/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "single cost": 8000,
+          "description": "The AVC is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
           "single cost": 10000,
@@ -13064,6 +13346,18 @@
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
           "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 31,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+                {
+          "name": "BMPZU",
+          "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
+          "single cost": 8000,
+          "description": "An amphibious anti air platform using a BMP chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
@@ -13214,12 +13508,48 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
+        },        
+        {
+          "name": "TAPV",
+          "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
+          "single cost": 9000,
+          "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "M1117",
+          "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
+          "single cost": 10000,
+          "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
+          "prestige": 0
+        },
+                {
+          "name": "PARS III mk19",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
+          "single cost": 10000,
+          "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
@@ -13627,7 +13957,19 @@
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
           "single cost": 22000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "ZBD-05",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZSD05_QJZ-89.BP_ZSD05_QJZ-89_C",
+          "single cost": 20000,
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
@@ -14243,6 +14585,24 @@
           "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke.BP_M4M203_UGL_Smoke_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Blue.BP_M4M203_UGL_Smoke_Blue_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Red.BP_M4M203_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blu/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_HE.BP_MPT76_AK40GL_A940_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke.BP_MPT76_AK40GL_A940_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke_Blue.BP_MPT76_AK40GL_A940_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke_Red.BP_MPT76_AK40GL_A940_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_HE.BP_MPT76_AK40GL_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke.BP_MPT76_AK40GL_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Blue.BP_MPT76_AK40GL_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Red.BP_MPT76_AK40GL_UGL_Smoke_Red_C"
         ]
       }
     ]

@@ -4596,7 +4596,7 @@
         },
         {
           "name": "ZBD-05",
-          "vehicle": "/Game/Vehicles/ZBD05/BP_ZSD05_QJZ-89.BP_ZSD05_QJZ-89_C",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
           "single cost": 20000,
           "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
@@ -9175,7 +9175,7 @@
         },
         {
           "name": "ZBD-05",
-          "vehicle": "/Game/Vehicles/ZBD05/BP_ZSD05_QJZ-89.BP_ZSD05_QJZ-89_C",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
           "single cost": 20000,
           "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
@@ -13994,7 +13994,7 @@
         },
         {
           "name": "ZBD-05",
-          "vehicle": "/Game/Vehicles/ZBD05/BP_ZSD05_QJZ-89.BP_ZSD05_QJZ-89_C",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
           "single cost": 20000,
           "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,

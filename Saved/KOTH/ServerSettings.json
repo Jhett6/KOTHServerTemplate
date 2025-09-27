@@ -3973,7 +3973,7 @@
           "kill $ reward": 3000,
           "prestige": 0
         },
-                {
+        {
           "name": "BMPZU",
           "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
           "single cost": 8000,
@@ -4165,7 +4165,7 @@
           "kill $ reward": 2500,
           "prestige": 0
         },
-                {
+        {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
           "single cost": 10000,
@@ -8543,7 +8543,7 @@
           "kill $ reward": 3000,
           "prestige": 0
         },
-                {
+        {
           "name": "BMPZU",
           "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
           "single cost": 8000,
@@ -8735,7 +8735,7 @@
           "kill $ reward": 2500,
           "prestige": 0
         },
-                {
+        {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
           "single cost": 10000,
@@ -13353,7 +13353,7 @@
           "kill $ reward": 3000,
           "prestige": 0
         },
-                {
+        {
           "name": "BMPZU",
           "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
           "single cost": 8000,
@@ -13545,7 +13545,7 @@
           "kill $ reward": 2500,
           "prestige": 0
         },
-                {
+        {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
           "single cost": 10000,

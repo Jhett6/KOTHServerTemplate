@@ -3855,7 +3855,7 @@
         },
         {
           "name": "acv mg3",
-          "vehicle": "/Game/V/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
           "single cost": 8000,
           "description": "The AVC is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
           "unlock level": 21,
@@ -8425,7 +8425,7 @@
         },
         {
           "name": "acv mg3",
-          "vehicle": "/Game/V/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
           "single cost": 8000,
           "description": "The AVC is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
           "unlock level": 21,
@@ -13235,7 +13235,7 @@
         },
         {
           "name": "acv mg3",
-          "vehicle": "/Game/V/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
           "single cost": 8000,
           "description": "The AVC is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
           "unlock level": 21,

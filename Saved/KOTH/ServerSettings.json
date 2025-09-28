@@ -1715,7 +1715,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -6294,7 +6296,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -11113,7 +11117,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },

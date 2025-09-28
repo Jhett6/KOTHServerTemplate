@@ -86,7 +86,7 @@
       {
         "name": "Objective Offensive",
         "xp": 50,
-        "$":50,
+        "$": 50,
         "description": "Awarded for aggressively holding W toward the point while bullets fly past your head. Remember, aggression wins wars.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/CommandMarker/map_commandmarker_attack.map_commandmarker_attack",
         "display reward": true

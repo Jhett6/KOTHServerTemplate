@@ -862,6 +862,20 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U.BP_AKS74U_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U_45Rnd.BP_AKS74U_45Rnd_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_AKS74_1P29.BP_AKS74_1P29_C",
               "unlock level": 5,
               "perk requirements": [],
@@ -5682,6 +5696,20 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AKS74.BP_AKS74_C",
               "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U.BP_AKS74U_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U_45Rnd.BP_AKS74U_45Rnd_C",
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -10747,6 +10775,20 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AKS74.BP_AKS74_C",
               "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U.BP_AKS74U_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U_45Rnd.BP_AKS74U_45Rnd_C",
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0

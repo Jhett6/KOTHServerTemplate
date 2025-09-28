@@ -4242,7 +4242,7 @@
           "kill $ reward": 3000,
           "prestige": 0
         },
-        {
+                {
           "name": "BMPZU",
           "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
           "single cost": 8000,
@@ -4434,7 +4434,7 @@
           "kill $ reward": 2500,
           "prestige": 0
         },
-        {
+                {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
           "single cost": 10000,
@@ -4807,6 +4807,18 @@
           "prestige": 0
         },
         {
+          "name": "Loach-CAS wpmc",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/Loach/Loach/WPMC_Loach_CAS.WPMC_Loach_CAS_C",
+          "single cost": 32000,
+          "description": "WPMC version of the loach cas. ",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 10600,
+          "prestige": 0
+        },
+        {
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
           "single cost": 32000,
@@ -5003,6 +5015,18 @@
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
           "single cost": 40000,
           "description": "double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
+        },
+        {
+          "name": "VDV Loach-CAS-small",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/Loach/VDV/VDV_LoachCAS_Small.VDV_LoachCAS_Small_C",
+          "single cost": 40000,
+          "description": "VDV version. double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
@@ -9081,7 +9105,7 @@
           "kill $ reward": 3000,
           "prestige": 0
         },
-        {
+                {
           "name": "BMPZU",
           "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
           "single cost": 8000,
@@ -9273,7 +9297,7 @@
           "kill $ reward": 2500,
           "prestige": 0
         },
-        {
+                {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
           "single cost": 10000,
@@ -9646,6 +9670,18 @@
           "prestige": 0
         },
         {
+          "name": "Loach-CAS wpmc",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/Loach/Loach/WPMC_Loach_CAS.WPMC_Loach_CAS_C",
+          "single cost": 32000,
+          "description": "WPMC version of the loach cas. ",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 10600,
+          "prestige": 0
+        },
+        {
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
           "single cost": 32000,
@@ -9842,6 +9878,18 @@
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
           "single cost": 40000,
           "description": "double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
+        },
+        {
+          "name": "VDV Loach-CAS-small",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/Loach/VDV/VDV_LoachCAS_Small.VDV_LoachCAS_Small_C",
+          "single cost": 40000,
+          "description": "VDV version. double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
@@ -14160,7 +14208,7 @@
           "kill $ reward": 3000,
           "prestige": 0
         },
-        {
+                {
           "name": "BMPZU",
           "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
           "single cost": 8000,
@@ -14352,7 +14400,7 @@
           "kill $ reward": 2500,
           "prestige": 0
         },
-        {
+                {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
           "single cost": 10000,
@@ -14725,6 +14773,18 @@
           "prestige": 0
         },
         {
+          "name": "Loach-CAS wpmc",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/Loach/Loach/WPMC_Loach_CAS.WPMC_Loach_CAS_C",
+          "single cost": 32000,
+          "description": "WPMC version of the loach cas. ",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 10600,
+          "prestige": 0
+        },
+        {
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
           "single cost": 32000,
@@ -14921,6 +14981,18 @@
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
           "single cost": 40000,
           "description": "double the miniguns, double the fun.",
+          "unlock level": 80,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 8000,
+          "kill $ reward": 18500,
+          "prestige": 1
+        },
+        {
+          "name": "VDV Loach-CAS-small",
+          "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/Loach/VDV/VDV_LoachCAS_Small.VDV_LoachCAS_Small_C",
+          "single cost": 40000,
+          "description": "VDV version. double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",

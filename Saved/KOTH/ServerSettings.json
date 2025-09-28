@@ -577,6 +577,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -761,6 +788,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+              "unlock level": 24,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -937,6 +991,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 22
@@ -1062,6 +1143,24 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -1196,6 +1295,24 @@
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
               ],
               "item count": -1,
               "prestige": 0
@@ -1606,6 +1723,50 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
+              "unlock level": 2,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2_Foregrip.BP_C8A3_C79A2_Foregrip_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
               "unlock level": 30,
               "perk requirements": [
                 "Grenadier"
@@ -2357,7 +2518,7 @@
           ],
           "unlock level": 100
         }
-      ], 
+      ],  
       "secondary": [
         {
           "family name": "QSZ92",
@@ -5207,6 +5368,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -5391,6 +5579,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+              "unlock level": 24,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -5567,6 +5782,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 22
@@ -5692,6 +5934,24 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -5826,6 +6086,24 @@
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
               ],
               "item count": -1,
               "prestige": 0
@@ -6236,6 +6514,50 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
+              "unlock level": 2,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2_Foregrip.BP_C8A3_C79A2_Foregrip_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
               "unlock level": 30,
               "perk requirements": [
                 "Grenadier"
@@ -10077,6 +10399,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -10261,6 +10610,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+              "unlock level": 24,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -10437,6 +10813,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 22
@@ -10562,6 +10965,24 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -10696,6 +11117,24 @@
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
               ],
               "item count": -1,
               "prestige": 0
@@ -11106,6 +11545,50 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
+              "unlock level": 2,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2_Foregrip.BP_C8A3_C79A2_Foregrip_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
               "unlock level": 30,
               "perk requirements": [
                 "Grenadier"
@@ -14780,9 +15263,129 @@
         "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
         "items": [
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_HE.BP_MPT76_AK40GL_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK4GL_UGL_Smoke.BP_MPT76_AK40GL_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke.BP_MPT76_AK40GL_UGL_Smoke_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Blue.BP_MPT76_AK40GL_UGL_Smoke_Blue_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Red.BP_MPT76_AK40GL_UGL_Smoke_Red_C"
+        ]
+      },
+            {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_HE.BP_G3A3HK79_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke.BP_G3A3HK79_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke_Blue.BP_G3A3HK79_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke_Red.BP_G3A3HK79_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_HE.BP_G3A3HK79_Optic_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke.BP_G3A3HK79_Optic_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke_Blue.BP_G3A3HK79_Optic_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke_Red.BP_G3A3HK79_Optic_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_HE.BP_L85A2AG36_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke.BP_L85A2AG36_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke_Blue.BP_L85A2AG36_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke_Red.BP_L85A2AG36_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_HE.BP_L85A2AG36_LDS_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke.BP_L85A2AG36_LDS_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke_Blue.BP_L85A2AG36_LDS_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke_Red.BP_L85A2AG36_LDS_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_HE.BP_L85A2AG36_ACOG_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke.BP_L85A2AG36_ACOG_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke_Blue.BP_L85A2AG36_ACOG_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke_Red.BP_L85A2AG36_ACOG_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_HE.BP_QBZ95-1_QLG-10_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke.BP_QBZ95-1_QLG-10_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke_Blue.BP_QBZ95-1_QLG-10_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke_Red.BP_QBZ95-1_QLG-10_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_HE.BP_QBZ95-1_QLG-10_Optic_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Blue.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Red.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_HE.BP_C8A3_M203_ET_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke.BP_C8A3_M203_ET_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke_Blue.BP_C8A3_M203_ET_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke_Red.BP_C8A3_M203_ET_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_HE.BP_AK74MGP25_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke.BP_AK74MGP25_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke_Blue.BP_AK74MGP25_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke_Red.BP_AK74MGP25_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_HE.BP_AK74MGP25_1P63_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke.BP_AK74MGP25_1P63_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke_Blue.BP_AK74MGP25_1P63_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke_Red.BP_AK74MGP25_1P63_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_HE.BP_AK74MGP25_1P78_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke.BP_AK74MGP25_1P78_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke_Blue.BP_AK74MGP25_1P78_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke_Red.BP_AK74MGP25_1P78_UGL_Smoke_Red_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_HE_2rnds.BP_AK12GP25_UGL_HE_2rnds_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Smoke.BP_AK12GP25_UGL_Smoke_C"
+        ]
+      },
+                        {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Reddot_HE_2rnds.BP_AK12GP25_UGL_Reddot_HE_2rnds_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Reddot_Smoke.BP_AK12GP25_UGL_Reddot_Smoke_C"
+        ]
+      },
+                  {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds.BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_Smoke.BP_AK12GP25_UGL_1P78Picatinny_Smoke_C"
         ]
       }
     ]

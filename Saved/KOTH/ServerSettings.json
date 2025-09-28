@@ -2576,7 +2576,7 @@
       "special": [
         {
           "family name": "Grenade",
-          "single cost": "150",
+          "single cost": "70",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -2600,13 +2600,62 @@
         },
         {
           "family name": "Smoke Grenade",
-          "single cost": "100",
+          "single cost": "25",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -4743,8 +4792,8 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 80000,
-          "description": "Double the rockets, double the miniguns, double the fun.",
+          "single cost": 40000,
+          "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
@@ -7157,7 +7206,7 @@
       "special": [
         {
           "family name": "Grenade",
-          "single cost": "150",
+          "single cost": "70",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -7181,13 +7230,62 @@
         },
         {
           "family name": "Smoke Grenade",
-          "single cost": "100",
+          "single cost": "25",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -9324,8 +9422,8 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 80000,
-          "description": "Double the rockets, double the miniguns, double the fun.",
+          "single cost": 40000,
+          "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
@@ -11978,7 +12076,7 @@
       "special": [
         {
           "family name": "Grenade",
-          "single cost": "150",
+          "single cost": "70",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -12002,13 +12100,62 @@
         },
         {
           "family name": "Smoke Grenade",
-          "single cost": "100",
+          "single cost": "25",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -14145,8 +14292,8 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 80000,
-          "description": "Double the rockets, double the miniguns, double the fun.",
+          "single cost": 40000,
+          "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",

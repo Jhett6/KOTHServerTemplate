@@ -15531,6 +15531,15 @@
           "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds.BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_Smoke.BP_AK12GP25_UGL_1P78Picatinny_Smoke_C"
         ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AKMGP25_Rifle.BP_AKMGP25_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_HE.BP_AKMGP25_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke.BP_AKMGP25_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke_Blue.BP_AKMGP25_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke_Red.BP_AKMGP25_UGL_Smoke_Red_C"
+        ]
       }
     ]
   },

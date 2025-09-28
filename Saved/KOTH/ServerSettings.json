@@ -2,7 +2,7 @@
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
-      "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C",      "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01.BP_Squad_UltraDynamicWeather_01_C"
+      "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C"
     ],
     "economy": {
       "$ multiplier": 2,

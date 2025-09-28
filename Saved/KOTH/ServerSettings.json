@@ -2660,7 +2660,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -2732,6 +2732,40 @@
             }
           ],
           "unlock level": 25
+        },
+        {
+          "family name": "SQR9",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta.",
+          "texture": "A Semi Auto Pistol",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_SOR9.BP_SOR9_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "L131A1",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta.",
+          "texture": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning ",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 32
         }
       ],
       "special": [
@@ -7451,7 +7485,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -7523,6 +7557,40 @@
             }
           ],
           "unlock level": 25
+        },
+        {
+          "family name": "SQR9",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta.",
+          "texture": "A Semi Auto Pistol",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_SOR9.BP_SOR9_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "L131A1",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta.",
+          "texture": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning ",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 32
         }
       ],
       "special": [
@@ -12482,7 +12550,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -12554,6 +12622,40 @@
             }
           ],
           "unlock level": 25
+        },
+        {
+          "family name": "SQR9",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta.",
+          "texture": "A Semi Auto Pistol",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_SOR9.BP_SOR9_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "L131A1",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta.",
+          "texture": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning ",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 32
         }
       ],
       "special": [

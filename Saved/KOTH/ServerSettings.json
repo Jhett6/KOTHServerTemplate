@@ -14615,7 +14615,7 @@
         ]
       },
       {
-        "parent": "/Game/Blu/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
         "items": [
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_HE.BP_MPT76_AK40GL_A940_UGL_HE_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke.BP_MPT76_AK40GL_A940_UGL_Smoke_C",
@@ -14627,7 +14627,7 @@
         "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
         "items": [
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_HE.BP_MPT76_AK40GL_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke.BP_MPT76_AK40GL_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK4GL_UGL_Smoke.BP_MPT76_AK40GL_UGL_Smoke_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Blue.BP_MPT76_AK40GL_UGL_Smoke_Blue_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Red.BP_MPT76_AK40GL_UGL_Smoke_Red_C"
         ]

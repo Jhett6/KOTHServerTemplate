@@ -1,4 +1,4 @@
-{
+{ 
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -2762,23 +2762,6 @@
             }
           ],
           "unlock level": 30
-        },
-        {
-          "family name": "L131A1",
-          "single cost": "75",
-          "perma cost": "25000",
-          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 32
         }
       ],
       "special": [
@@ -4604,7 +4587,7 @@
         {
           "name": "M1064A3",
           "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
-          "single cost": 17000,
+          "single cost": 20000,
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -7597,23 +7580,6 @@
             }
           ],
           "unlock level": 30
-        },
-        {
-          "family name": "L131A1",
-          "single cost": "75",
-          "perma cost": "25000",
-          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 32
         }
       ],
       "special": [
@@ -9439,7 +9405,7 @@
         {
           "name": "M1064A3",
           "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
-          "single cost": 17000,
+          "single cost": 20000,
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -12672,23 +12638,6 @@
             }
           ],
           "unlock level": 30
-        },
-        {
-          "family name": "L131A1",
-          "single cost": "75",
-          "perma cost": "25000",
-          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 32
         }
       ],
       "special": [
@@ -14514,7 +14463,7 @@
         {
           "name": "M1064A3",
           "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
-          "single cost": 17000,
+          "single cost": 20000,
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",

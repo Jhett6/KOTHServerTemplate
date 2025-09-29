@@ -2531,7 +2531,7 @@
           ],
           "unlock level": 100
         }
-      ],  
+      ],
       "secondary": [
         {
           "family name": "QSZ92",
@@ -4396,7 +4396,7 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
-        },        
+        },
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
@@ -7366,7 +7366,7 @@
           ],
           "unlock level": 100
         }
-      ], 
+      ],
       "secondary": [
         {
           "family name": "QSZ92",
@@ -9231,7 +9231,7 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
-        },        
+        },
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
@@ -12441,7 +12441,7 @@
           ],
           "unlock level": 100
         }
-      ], 
+      ],
       "secondary": [
         {
           "family name": "QSZ92",
@@ -14306,7 +14306,7 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
-        },        
+        },
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",

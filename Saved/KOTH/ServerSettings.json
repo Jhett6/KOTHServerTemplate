@@ -4587,7 +4587,7 @@
         {
           "name": "M1064A3",
           "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
-          "single cost": 17000,
+          "single cost": 20000,
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -9405,7 +9405,7 @@
         {
           "name": "M1064A3",
           "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
-          "single cost": 17000,
+          "single cost": 20000,
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -14463,7 +14463,7 @@
         {
           "name": "M1064A3",
           "vehicle": "/Game/Vehicles/M1064A3/BP_M1064A3_M121_Desert.BP_M1064A3_M121_Desert_C",
-          "single cost": 17000,
+          "single cost": 20000,
           "description": "An APC with a 120mm mortar.",
           "unlock level": 53,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",

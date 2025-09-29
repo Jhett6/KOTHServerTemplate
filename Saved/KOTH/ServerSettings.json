@@ -576,6 +576,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -760,6 +787,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+              "unlock level": 24,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -802,6 +856,20 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AKS74.BP_AKS74_C",
               "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U.BP_AKS74U_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U_45Rnd.BP_AKS74U_45Rnd_C",
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -936,6 +1004,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 22
@@ -1061,6 +1156,24 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -1195,6 +1308,24 @@
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
               ],
               "item count": -1,
               "prestige": 0
@@ -1611,6 +1742,50 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
+              "unlock level": 2,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2_Foregrip.BP_C8A3_C79A2_Foregrip_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 41
@@ -1714,7 +1889,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -1883,9 +2060,36 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
-              "unlock level": 27,
+              "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_KNT76_KESKIN.BP_KNT76_KESKIN_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -2327,7 +2531,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ],  
       "secondary": [
         {
           "family name": "QSZ92",
@@ -2469,7 +2673,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -2541,12 +2745,46 @@
             }
           ],
           "unlock level": 25
+        },
+        {
+          "family name": "SQR9",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "A Semi Auto Pistol in 9mm",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_SOR9.BP_SOR9_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "L131A1",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 32
         }
       ],
       "special": [
         {
           "family name": "Grenade",
-          "single cost": "150",
+          "single cost": "70",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -2570,13 +2808,62 @@
         },
         {
           "family name": "Smoke Grenade",
-          "single cost": "100",
+          "single cost": "25",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -3667,6 +3954,18 @@
           "prestige": 0
         },
         {
+          "name": "luvw_m2",
+          "vehicle": "/Game/Vehicles/LUVW/BP_LUVW_M2.BP_LUVW_M2_C",
+          "single cost": 1500,
+          "description": "A LUVW with an open top m2.",
+          "unlock level": 13,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
           "single cost": 800,
@@ -3811,6 +4110,30 @@
           "prestige": 0
         },
         {
+          "name": "FV432",
+          "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
+          "single cost": 10000,
+          "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "acv mg3",
+          "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "single cost": 8000,
+          "description": "The ACV is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
           "single cost": 10000,
@@ -3911,6 +4234,18 @@
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
           "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 31,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
+          "name": "BMPZU",
+          "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
+          "single cost": 8000,
+          "description": "An amphibious anti air platform using a BMP chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
@@ -4061,12 +4396,48 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
+        },        
+        {
+          "name": "TAPV",
+          "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
+          "single cost": 9000,
+          "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "M1117",
+          "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
+          "single cost": 10000,
+          "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
+          "prestige": 0
+        },
+        {
+          "name": "PARS III mk19",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
+          "single cost": 10000,
+          "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
@@ -4474,7 +4845,19 @@
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
           "single cost": 22000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "ZBD-05",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
+          "single cost": 20000,
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
@@ -4617,8 +5000,8 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 80000,
-          "description": "Double the rockets, double the miniguns, double the fun.",
+          "single cost": 40000,
+          "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
@@ -5028,6 +5411,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -5212,6 +5622,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+              "unlock level": 24,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -5254,6 +5691,20 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AKS74.BP_AKS74_C",
               "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U.BP_AKS74U_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U_45Rnd.BP_AKS74U_45Rnd_C",
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -5388,6 +5839,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 22
@@ -5513,6 +5991,24 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -5647,6 +6143,24 @@
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
               ],
               "item count": -1,
               "prestige": 0
@@ -6063,6 +6577,50 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
+              "unlock level": 2,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2_Foregrip.BP_C8A3_C79A2_Foregrip_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 41
@@ -6166,7 +6724,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -6335,9 +6895,36 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
-              "unlock level": 27,
+              "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_KNT76_KESKIN.BP_KNT76_KESKIN_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -6779,7 +7366,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -6921,7 +7508,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -6993,12 +7580,46 @@
             }
           ],
           "unlock level": 25
+        },
+        {
+          "family name": "SQR9",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "A Semi Auto Pistol in 9mm",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_SOR9.BP_SOR9_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "L131A1",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 32
         }
       ],
       "special": [
         {
           "family name": "Grenade",
-          "single cost": "150",
+          "single cost": "70",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -7022,13 +7643,62 @@
         },
         {
           "family name": "Smoke Grenade",
-          "single cost": "100",
+          "single cost": "25",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -8119,6 +8789,18 @@
           "prestige": 0
         },
         {
+          "name": "luvw_m2",
+          "vehicle": "/Game/Vehicles/LUVW/BP_LUVW_M2.BP_LUVW_M2_C",
+          "single cost": 1500,
+          "description": "A LUVW with an open top m2.",
+          "unlock level": 13,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
           "single cost": 800,
@@ -8263,6 +8945,30 @@
           "prestige": 0
         },
         {
+          "name": "FV432",
+          "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
+          "single cost": 10000,
+          "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "acv mg3",
+          "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "single cost": 8000,
+          "description": "The ACV is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
           "single cost": 10000,
@@ -8363,6 +9069,18 @@
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
           "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 31,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
+          "name": "BMPZU",
+          "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
+          "single cost": 8000,
+          "description": "An amphibious anti air platform using a BMP chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
@@ -8513,12 +9231,48 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
+        },        
+        {
+          "name": "TAPV",
+          "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
+          "single cost": 9000,
+          "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "M1117",
+          "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
+          "single cost": 10000,
+          "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
+          "prestige": 0
+        },
+        {
+          "name": "PARS III mk19",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
+          "single cost": 10000,
+          "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
@@ -8926,7 +9680,19 @@
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
           "single cost": 22000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "ZBD-05",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
+          "single cost": 20000,
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
@@ -9069,8 +9835,8 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 80000,
-          "description": "Double the rockets, double the miniguns, double the fun.",
+          "single cost": 40000,
+          "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
@@ -9720,6 +10486,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -9904,6 +10697,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+              "unlock level": 18,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+              "unlock level": 24,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -9946,6 +10766,20 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AKS74.BP_AKS74_C",
               "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U.BP_AKS74U_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AKS74U_45Rnd.BP_AKS74U_45Rnd_C",
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -10080,6 +10914,33 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+              "unlock level": 22,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 22
@@ -10205,6 +11066,24 @@
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1_Holo.BP_QBZ95-1_Holo_C",
               "unlock level": 5,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+              "unlock level": 7,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -10339,6 +11218,24 @@
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
               ],
               "item count": -1,
               "prestige": 0
@@ -10755,6 +11652,50 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
+              "unlock level": 2,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2_Foregrip.BP_C8A3_C79A2_Foregrip_C",
+              "unlock level": 25,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
+              "unlock level": 30,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 41
@@ -10858,7 +11799,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_L129A1_Optic.BP_L129A1_Optic_C",
               "unlock level": 0,
-              "perk requirements": [],
+              "perk requirements": [
+                "Marksman"
+              ],
               "item count": -1,
               "prestige": 0
             },
@@ -11027,9 +11970,36 @@
               "prestige": 0
             },
             {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+              "unlock level": 26,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_KNT76.BP_KNT76_C",
-              "unlock level": 27,
+              "unlock level": 0,
               "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_KNT76_KESKIN.BP_KNT76_KESKIN_C",
+              "unlock level": 27,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+              "unlock level": 28,
+              "perk requirements": [
+                "Grenadier"
+              ],
               "item count": -1,
               "prestige": 0
             }
@@ -11471,7 +12441,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -11613,7 +12583,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/m9a1beretta.m9a1beretta",
           "xp unlocks": [
             {
-              "item": "/Game/Blueprints/Items/Pistols/BP_M9.BP_M9_C",
+              "item": "/Game/Blueprints/Items/Pistols/BP_M9A1.BP_M9A1_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -11685,12 +12655,46 @@
             }
           ],
           "unlock level": 25
+        },
+        {
+          "family name": "SQR9",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "A Semi Auto Pistol in 9mm",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_SOR9.BP_SOR9_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "L131A1",
+          "single cost": "75",
+          "perma cost": "25000",
+          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 32
         }
       ],
       "special": [
         {
           "family name": "Grenade",
-          "single cost": "150",
+          "single cost": "70",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
@@ -11714,13 +12718,62 @@
         },
         {
           "family name": "Smoke Grenade",
-          "single cost": "100",
+          "single cost": "25",
           "perma cost": "-1",
           "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
           "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -12811,6 +13864,18 @@
           "prestige": 0
         },
         {
+          "name": "luvw_m2",
+          "vehicle": "/Game/Vehicles/LUVW/BP_LUVW_M2.BP_LUVW_M2_C",
+          "single cost": 1500,
+          "description": "A LUVW with an open top m2.",
+          "unlock level": 13,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
+          "spawn type": "Ground",
+          "kill xp reward": 375,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CPV",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_Transport.BP_CPV_Transport_C",
           "single cost": 800,
@@ -12955,6 +14020,30 @@
           "prestige": 0
         },
         {
+          "name": "FV432",
+          "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
+          "single cost": 10000,
+          "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "acv mg3",
+          "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_MG3.BP_ACV-15_MG3_C",
+          "single cost": 8000,
+          "description": "The ACV is a tracked armored personnel carrier (APC) available to the Turkish Army, with an Open top MG3.",
+          "unlock level": 21,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
           "single cost": 10000,
@@ -13055,6 +14144,18 @@
           "vehicle": "/Game/Vehicles/BTR-D/BP_BTR-ZD.BP_BTR-ZD_C",
           "single cost": 8000,
           "description": "An amphibious anti air platform using a BTR chassis.",
+          "unlock level": 31,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
+          "prestige": 0
+        },
+        {
+          "name": "BMPZU",
+          "vehicle": "/Game/Vehicles/BMP-1/BP_BMP1_MIL_ZU23.BP_BMP1_MIL_ZU23_C",
+          "single cost": 8000,
+          "description": "An amphibious anti air platform using a BMP chassis.",
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
@@ -13205,12 +14306,48 @@
           "kill xp reward": 750,
           "kill $ reward": 1000,
           "prestige": 0
+        },        
+        {
+          "name": "TAPV",
+          "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
+          "single cost": 9000,
+          "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
+        },
+        {
+          "name": "M1117",
+          "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
+          "single cost": 10000,
+          "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 750,
+          "kill $ reward": 1000,
+          "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
           "single cost": 12000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
+          "unlock level": 40,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
+          "prestige": 0
+        },
+        {
+          "name": "PARS III mk19",
+          "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
+          "single cost": 10000,
+          "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
@@ -13618,7 +14755,19 @@
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
           "single cost": 22000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
+          "unlock level": 70,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 6000,
+          "prestige": 0
+        },
+        {
+          "name": "ZBD-05",
+          "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
+          "single cost": 20000,
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
@@ -13761,8 +14910,8 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 80000,
-          "description": "Double the rockets, double the miniguns, double the fun.",
+          "single cost": 40000,
+          "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
@@ -14230,6 +15379,153 @@
           "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke.BP_M4M203_UGL_Smoke_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Blue.BP_M4M203_UGL_Smoke_Blue_C",
           "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Red.BP_M4M203_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_HE.BP_MPT76_AK40GL_A940_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke.BP_MPT76_AK40GL_A940_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke_Blue.BP_MPT76_AK40GL_A940_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke_Red.BP_MPT76_AK40GL_A940_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_HE.BP_MPT76_AK40GL_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke.BP_MPT76_AK40GL_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Blue.BP_MPT76_AK40GL_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Red.BP_MPT76_AK40GL_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_HE.BP_G3A3HK79_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke.BP_G3A3HK79_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke_Blue.BP_G3A3HK79_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke_Red.BP_G3A3HK79_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_HE.BP_G3A3HK79_Optic_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke.BP_G3A3HK79_Optic_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke_Blue.BP_G3A3HK79_Optic_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke_Red.BP_G3A3HK79_Optic_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_HE.BP_L85A2AG36_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke.BP_L85A2AG36_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke_Blue.BP_L85A2AG36_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke_Red.BP_L85A2AG36_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_HE.BP_L85A2AG36_LDS_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke.BP_L85A2AG36_LDS_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke_Blue.BP_L85A2AG36_LDS_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke_Red.BP_L85A2AG36_LDS_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_HE.BP_L85A2AG36_ACOG_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke.BP_L85A2AG36_ACOG_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke_Blue.BP_L85A2AG36_ACOG_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke_Red.BP_L85A2AG36_ACOG_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_HE.BP_QBZ95-1_QLG-10_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke.BP_QBZ95-1_QLG-10_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke_Blue.BP_QBZ95-1_QLG-10_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke_Red.BP_QBZ95-1_QLG-10_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_HE.BP_QBZ95-1_QLG-10_Optic_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Blue.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Red.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_HE.BP_C8A3_M203_ET_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke.BP_C8A3_M203_ET_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke_Blue.BP_C8A3_M203_ET_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke_Red.BP_C8A3_M203_ET_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_HE.BP_AK74MGP25_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke.BP_AK74MGP25_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke_Blue.BP_AK74MGP25_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke_Red.BP_AK74MGP25_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_HE.BP_AK74MGP25_1P63_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke.BP_AK74MGP25_1P63_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke_Blue.BP_AK74MGP25_1P63_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke_Red.BP_AK74MGP25_1P63_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_HE.BP_AK74MGP25_1P78_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke.BP_AK74MGP25_1P78_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke_Blue.BP_AK74MGP25_1P78_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke_Red.BP_AK74MGP25_1P78_UGL_Smoke_Red_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_HE_2rnds.BP_AK12GP25_UGL_HE_2rnds_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Smoke.BP_AK12GP25_UGL_Smoke_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Reddot_HE_2rnds.BP_AK12GP25_UGL_Reddot_HE_2rnds_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Reddot_Smoke.BP_AK12GP25_UGL_Reddot_Smoke_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds.BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_Smoke.BP_AK12GP25_UGL_1P78Picatinny_Smoke_C"
+        ]
+      },
+      {
+        "parent": "/Game/Blueprints/Items/Rifles/BP_AKMGP25_Rifle.BP_AKMGP25_Rifle_C",
+        "items": [
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_HE.BP_AKMGP25_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke.BP_AKMGP25_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke_Blue.BP_AKMGP25_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke_Red.BP_AKMGP25_UGL_Smoke_Red_C"
         ]
       }
     ]

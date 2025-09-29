@@ -2762,23 +2762,6 @@
             }
           ],
           "unlock level": 30
-        },
-        {
-          "family name": "L131A1",
-          "single cost": "75",
-          "perma cost": "25000",
-          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 32
         }
       ],
       "special": [
@@ -7597,23 +7580,6 @@
             }
           ],
           "unlock level": 30
-        },
-        {
-          "family name": "L131A1",
-          "single cost": "75",
-          "perma cost": "25000",
-          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 32
         }
       ],
       "special": [
@@ -12672,23 +12638,6 @@
             }
           ],
           "unlock level": 30
-        },
-        {
-          "family name": "L131A1",
-          "single cost": "75",
-          "perma cost": "25000",
-          "description": "The L131A1 general service pistol is a sidearm adopted by the British Army to replace the Browning",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/mp443.mp443",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Pistols/BP_L131A1.BP_L131A1_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 32
         }
       ],
       "special": [

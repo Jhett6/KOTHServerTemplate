@@ -2221,6 +2221,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -2249,6 +2256,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -7039,6 +7053,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -7067,6 +7088,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -12097,6 +12125,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -12125,6 +12160,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0

@@ -2876,7 +2876,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -7694,7 +7694,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -12752,7 +12752,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",

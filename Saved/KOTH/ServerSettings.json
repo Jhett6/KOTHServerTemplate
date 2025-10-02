@@ -4102,8 +4102,8 @@
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 3000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -4115,7 +4115,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 2000,
-          "kill $ reward": 3000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -4127,7 +4127,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -4138,8 +4138,8 @@
           "unlock level": 22,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2500,
-          "kill $ reward": 3000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -4151,7 +4151,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -4643,7 +4643,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -4691,7 +4691,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
-          "kill $ reward": 8500,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -4715,7 +4715,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -4727,7 +4727,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -4739,7 +4739,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -4751,7 +4751,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -4763,7 +4763,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -4859,7 +4859,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -4907,7 +4907,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -4955,7 +4955,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5300,
           "prestige": 0
         },
         {
@@ -8934,8 +8934,8 @@
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 3000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -8947,7 +8947,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 2000,
-          "kill $ reward": 3000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -8959,7 +8959,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -8970,8 +8970,8 @@
           "unlock level": 22,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2500,
-          "kill $ reward": 3000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -8983,7 +8983,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -9475,7 +9475,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -9523,7 +9523,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
-          "kill $ reward": 8500,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -9547,7 +9547,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -9559,7 +9559,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -9571,7 +9571,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -9583,7 +9583,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -9595,7 +9595,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -9691,7 +9691,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -9739,7 +9739,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -9787,7 +9787,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5300,
           "prestige": 0
         },
         {
@@ -14006,8 +14006,8 @@
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 3000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -14019,7 +14019,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 2000,
-          "kill $ reward": 3000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -14031,7 +14031,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -14042,8 +14042,8 @@
           "unlock level": 22,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2500,
-          "kill $ reward": 3000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -14055,7 +14055,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -14547,7 +14547,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -14595,7 +14595,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
-          "kill $ reward": 8500,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -14619,7 +14619,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -14631,7 +14631,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -14643,7 +14643,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -14655,7 +14655,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -14667,7 +14667,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -14763,7 +14763,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -14811,7 +14811,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -14859,7 +14859,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5300,
           "prestige": 0
         },
         {

@@ -2871,7 +2871,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -2971,7 +2971,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -2990,7 +2990,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -3009,7 +3009,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -3315,6 +3315,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -7703,7 +7730,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -7803,7 +7830,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -7822,7 +7849,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -7841,7 +7868,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -8147,6 +8174,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -12775,7 +12829,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -12875,7 +12929,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -12894,7 +12948,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -12913,7 +12967,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -13219,6 +13273,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],

@@ -1,4 +1,4 @@
-{ 
+{
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -2221,6 +2221,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -2249,6 +2256,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -2531,7 +2545,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -2857,7 +2871,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -2876,7 +2890,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -2957,7 +2971,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -2976,7 +2990,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -2995,7 +3009,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -3301,6 +3315,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -7039,6 +7080,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -7067,6 +7115,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -7349,7 +7404,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -7675,7 +7730,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -7694,7 +7749,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -7775,7 +7830,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -7794,7 +7849,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -7813,7 +7868,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -8119,6 +8174,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -12097,6 +12179,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -12125,6 +12214,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -12407,7 +12503,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -12733,7 +12829,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -12752,7 +12848,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -12833,7 +12929,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -12852,7 +12948,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -12871,7 +12967,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -13177,6 +13273,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],

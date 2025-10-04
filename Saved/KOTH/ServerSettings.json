@@ -411,7 +411,7 @@
           "item count": 1
         },
         {
-          "item": "/KingOfTheHill/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
+          "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
           "slot": 5,
           "item count": 1
         }
@@ -543,10 +543,10 @@
           "single cost": "350",
           "perma cost": "10000",
           "description": "A Russian pump-action shotgun chambered in 23×75mmR, originally designed for riot control but adapted for military and special forces use. With its powerful cartridges, it can breach doors, or deliver extreme stopping power in combat scenarios.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/ks23.ks23",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/ks23.ks23",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -1005,7 +1005,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AK12/Whirlwind/BP_AK12_Whirlwind.BP_AK12_Whirlwind_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AK12/Whirlwind/BP_AK12_Whirlwind.BP_AK12_Whirlwind_C",
               "unlock level": 20,
               "perk requirements": [
                 "Silencer"
@@ -1601,7 +1601,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/akm.akm",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -1615,35 +1615,35 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Jungle.BP_AKM_Jungle_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Jungle.BP_AKM_Jungle_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_WoodlandTiger.BP_AKM_WoodlandTiger_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_WoodlandTiger.BP_AKM_WoodlandTiger_C",
               "unlock level": 9,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Digi.BP_AKM_Digi_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Digi.BP_AKM_Digi_C",
               "unlock level": 12,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_Drummag_KOTH.BP_AKM_Drummag_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKM_Drummag_KOTH.BP_AKM_Drummag_KOTH_C",
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner"
@@ -1652,7 +1652,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/EliteContractor/BP_AKM_EliteContractor.BP_AKM_EliteContractor_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/EliteContractor/BP_AKM_EliteContractor.BP_AKM_EliteContractor_C",
               "unlock level": 20,
               "perk requirements": [
                 "Silencer"
@@ -1974,10 +1974,10 @@
           "single cost": "400",
           "perma cost": "100000",
           "description": "A pump-action shotgun chambered in 12-gauge, widely used by military, law enforcement, and civilian shooters. Known for its reliability and versatility, it serves in both combat and sporting applications.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/M870.M870",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/M870.M870",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -2142,7 +2142,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M14/Deedless/BP_M14_Deedless.BP_M14_Deedless_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/M14/Deedless/BP_M14_Deedless.BP_M14_Deedless_C",
               "unlock level": 15,
               "perk requirements": [
                 "Silencer"
@@ -2340,7 +2340,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner",
@@ -2508,10 +2508,10 @@
           "single cost": "500",
           "perma cost": "100000",
           "description": "A semi-automatic shotgun chambered in 12-gauge, designed for military and law enforcement use. Featuring a gas-operated system, it offers rapid follow-up shots and exceptional durability in harsh conditions.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/m1014.m1014",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/m1014.m1014",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -2733,10 +2733,10 @@
           "single cost": "100",
           "perma cost": "50000",
           "description": "A compact variant of the Remington 870 pump-action shotgun, featuring a shortened barrel and stock for increased maneuverability in close-quarters combat. Chambered in 12-gauge, it delivers devastating stopping power at short range but sacrifices accuracy and capacity.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -2745,7 +2745,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/Persuader/BP_Sawnoff_M870_Persuader.BP_Sawnoff_M870_Persuader_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/Persuader/BP_Sawnoff_M870_Persuader.BP_Sawnoff_M870_Persuader_C",
               "unlock level": 10,
               "perk requirements": [
                 "Medic"
@@ -2935,7 +2935,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -3085,7 +3085,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
               "unlock level": 7,
               "perk requirements": [
                 "Launcher"
@@ -3589,7 +3589,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -3606,7 +3606,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -3623,7 +3623,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -3640,7 +3640,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -3657,7 +3657,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -3838,7 +3838,7 @@
         },
         {
           "name": "Safir",
-          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
           "single cost": 300,
           "description": "A small open truck.",
           "unlock level": 7,
@@ -4246,7 +4246,7 @@
         },
         {
           "name": "UH60M Transport",
-          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
           "single cost": 1200,
           "description": "A US military helicopter purely for transportation",
           "unlock level": 29,
@@ -5299,7 +5299,7 @@
           "item count": 1
         },
         {
-          "item": "/KingOfTheHill/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
+          "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
           "slot": 5,
           "item count": 1
         }
@@ -5431,10 +5431,10 @@
           "single cost": "350",
           "perma cost": "10000",
           "description": "A Russian pump-action shotgun chambered in 23×75mmR, originally designed for riot control but adapted for military and special forces use. With its powerful cartridges, it can breach doors, or deliver extreme stopping power in combat scenarios.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/ks23.ks23",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/ks23.ks23",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -5893,7 +5893,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AK12/Whirlwind/BP_AK12_Whirlwind.BP_AK12_Whirlwind_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AK12/Whirlwind/BP_AK12_Whirlwind.BP_AK12_Whirlwind_C",
               "unlock level": 20,
               "perk requirements": [
                 "Silencer"
@@ -6490,7 +6490,7 @@
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
-              "unlock level": 0,
+              "unlock levelKOTHContractorCrate/KOTH 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -6503,35 +6503,35 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Jungle.BP_AKM_Jungle_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Jungle.BP_AKM_Jungle_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_WoodlandTiger.BP_AKM_WoodlandTiger_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_WoodlandTiger.BP_AKM_WoodlandTiger_C",
               "unlock level": 9,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Digi.BP_AKM_Digi_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Digi.BP_AKM_Digi_C",
               "unlock level": 12,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_Drummag_KOTH.BP_AKM_Drummag_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKM_Drummag_KOTH.BP_AKM_Drummag_KOTH_C",
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner"
@@ -6540,7 +6540,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/EliteContractor/BP_AKM_EliteContractor.BP_AKM_EliteContractor_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/EliteContractor/BP_AKM_EliteContractor.BP_AKM_EliteContractor_C",
               "unlock level": 20,
               "perk requirements": [
                 "Silencer"
@@ -6862,10 +6862,10 @@
           "single cost": "400",
           "perma cost": "100000",
           "description": "A pump-action shotgun chambered in 12-gauge, widely used by military, law enforcement, and civilian shooters. Known for its reliability and versatility, it serves in both combat and sporting applications.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/M870.M870",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/M870.M870",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -7030,7 +7030,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M14/Deedless/BP_M14_Deedless.BP_M14_Deedless_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/M14/Deedless/BP_M14_Deedless.BP_M14_Deedless_C",
               "unlock level": 15,
               "perk requirements": [
                 "Silencer"
@@ -7228,7 +7228,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner",
@@ -7396,10 +7396,10 @@
           "single cost": "500",
           "perma cost": "100000",
           "description": "A semi-automatic shotgun chambered in 12-gauge, designed for military and law enforcement use. Featuring a gas-operated system, it offers rapid follow-up shots and exceptional durability in harsh conditions.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/m1014.m1014",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/m1014.m1014",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -7621,10 +7621,10 @@
           "single cost": "100",
           "perma cost": "50000",
           "description": "A compact variant of the Remington 870 pump-action shotgun, featuring a shortened barrel and stock for increased maneuverability in close-quarters combat. Chambered in 12-gauge, it delivers devastating stopping power at short range but sacrifices accuracy and capacity.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -7633,7 +7633,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/Persuader/BP_Sawnoff_M870_Persuader.BP_Sawnoff_M870_Persuader_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/Persuader/BP_Sawnoff_M870_Persuader.BP_Sawnoff_M870_Persuader_C",
               "unlock level": 10,
               "perk requirements": [
                 "Medic"
@@ -7823,7 +7823,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -7973,7 +7973,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
               "unlock level": 7,
               "perk requirements": [
                 "Launcher"
@@ -8477,7 +8477,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -8494,7 +8494,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -8511,7 +8511,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -8528,7 +8528,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -8545,7 +8545,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -8726,7 +8726,7 @@
         },
         {
           "name": "Safir",
-          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
           "single cost": 300,
           "description": "A small open truck.",
           "unlock level": 7,
@@ -9134,7 +9134,7 @@
         },
         {
           "name": "UH60M Transport",
-          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
           "single cost": 1200,
           "description": "A US military helicopter purely for transportation",
           "unlock level": 29,
@@ -10170,7 +10170,7 @@
           "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
           "upper1p": "SkeletalMesh'/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveShort_Africanamerican.SK_USMC_1p_SleeveShort_Africanamerican'",
           "1p": "SkeletalMesh'/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody'",
-          "3p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/USMC/SK_USMC_Plain_1.SK_USMC_Plain_1'",
+          "3p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/SK_USMC_Plain_1.SK_USMC_Plain_1'",
           "upper1p materials": [],
           "1p materials": [],
           "3p materials": [],
@@ -10240,8 +10240,8 @@
           "name": "USMC Woodland Rifleman Alpha",
           "unlock level": 12,
           "texture": "/Game/UI/HUD/Roles/T_role_rifleman.T_role_rifleman",
-          "upper1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/USMC/Woodland/SK_USMC_1p_SleeveShort_Woodland.SK_USMC_1p_SleeveShort_Woodland'",
-          "1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/USMC/Woodland/SK_USMC_1p_LowerBody_Woodland.SK_USMC_1p_LowerBody_Woodland'",
+          "upper1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/Woodland/SK_USMC_1p_SleeveShort_Woodland.SK_USMC_1p_SleeveShort_Woodland'",
+          "1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/Woodland/SK_USMC_1p_LowerBody_Woodland.SK_USMC_1p_LowerBody_Woodland'",
           "3p": "SkeletalMesh'/Game/Art/Soldier2/USMC/SK_USMC_Rifleman_2_Woodland.SK_USMC_Rifleman_2_Woodland'",
           "upper1p materials": [],
           "1p materials": [],
@@ -10252,8 +10252,8 @@
           "name": "USMC Woodland Rifleman Bravo",
           "unlock level": 12,
           "texture": "/Game/UI/HUD/Roles/T_role_rifleman.T_role_rifleman",
-          "upper1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/USMC/Woodland/SK_USMC_1p_SleeveShort_Africanamerican_Woodland.SK_USMC_1p_SleeveShort_Africanamerican_Woodland'",
-          "1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/USMC/Woodland/SK_USMC_1p_LowerBody_Woodland.SK_USMC_1p_LowerBody_Woodland'",
+          "upper1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/Woodland/SK_USMC_1p_SleeveShort_Africanamerican_Woodland.SK_USMC_1p_SleeveShort_Africanamerican_Woodland'",
+          "1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/Woodland/SK_USMC_1p_LowerBody_Woodland.SK_USMC_1p_LowerBody_Woodland'",
           "3p": "SkeletalMesh'/Game/Art/Soldier2/USMC/SK_USMC_Rifleman_1_Woodland.SK_USMC_Rifleman_1_Woodland'",
           "upper1p materials": [],
           "1p materials": [],
@@ -10276,8 +10276,8 @@
           "name": "USMC Woodland Medic Alpha",
           "unlock level": 14,
           "texture": "/Game/UI/HUD/Roles/T_role_medic.T_role_medic",
-          "upper1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/USMC/Woodland/SK_USMC_1p_SleeveLong_Woodland.SK_USMC_1p_SleeveLong_Woodland'",
-          "1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/USMC/Woodland/SK_USMC_1p_LowerBody_Woodland.SK_USMC_1p_LowerBody_Woodland'",
+          "upper1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/Woodland/SK_USMC_1p_SleeveLong_Woodland.SK_USMC_1p_SleeveLong_Woodland'",
+          "1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/Woodland/SK_USMC_1p_LowerBody_Woodland.SK_USMC_1p_LowerBody_Woodland'",
           "3p": "SkeletalMesh'/Game/Art/Soldier2/USMC/SK_USMC_Medic_Woodland.SK_USMC_Medic_Woodland'",
           "upper1p materials": [],
           "1p materials": [],
@@ -10355,20 +10355,20 @@
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_USMC_Gear_CoyoteBrown.MI_WPMC_USMC_Gear_CoyoteBrown'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Equipment_CoyoteBrown.MI_WPMC_Equipment_CoyoteBrown'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_NAM_Optimized.MI_WPMC_NAM_Optimized'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/WPMC/BLUFOR/MI_WPMC_Upper_Flannel_BLUFOR.MI_WPMC_Upper_Flannel_BLUFOR'"
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/BLUFOR/MI_WPMC_Upper_Flannel_BLUFOR.MI_WPMC_Upper_Flannel_BLUFOR'"
           ],
           "1p materials": [],
           "3p materials": [
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Lower_Jeans_Pants_Pants_Black.MI_WPMC_Lower_Jeans_Pants_Pants_Black'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/WPMC/BLUFOR/MI_WPMC_Equipment_BLUFOR.MI_WPMC_Equipment_BLUFOR'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/BLUFOR/MI_WPMC_Equipment_BLUFOR.MI_WPMC_Equipment_BLUFOR'",
             "Material'/Game/Art/Soldier2/Patches/M_Master_Patch.M_Master_Patch'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/WPMC/BLUFOR/MI_WPMC_Upper_Flannel_BLUFOR.MI_WPMC_Upper_Flannel_BLUFOR'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/BLUFOR/MI_WPMC_Upper_Flannel_BLUFOR.MI_WPMC_Upper_Flannel_BLUFOR'",
             "Material'/Game/Art/Soldier2/Materials/CharacterShaders/M_StandardEye.M_StandardEye'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_USMC_Gear_OliveGreen.MI_WPMC_USMC_Gear_OliveGreen'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_NAM_Optimized.MI_WPMC_NAM_Optimized'",
-            "Material'/KingOfTheHill/Art/Skins/Soldiers/Glasses/M_Aviators.M_Aviators'"
+            "Material'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Glasses/M_Aviators.M_Aviators'"
           ],
           "prestige": 1
         }
@@ -10407,7 +10407,7 @@
           "item count": 1
         },
         {
-          "item": "/KingOfTheHill/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
+          "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
           "slot": 5,
           "item count": 1
         }
@@ -10539,10 +10539,10 @@
           "single cost": "350",
           "perma cost": "10000",
           "description": "A Russian pump-action shotgun chambered in 23×75mmR, originally designed for riot control but adapted for military and special forces use. With its powerful cartridges, it can breach doors, or deliver extreme stopping power in combat scenarios.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/ks23.ks23",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/ks23.ks23",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_Ks23_Shotgun.BP_Ks23_Shotgun_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -11001,7 +11001,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AK12/Whirlwind/BP_AK12_Whirlwind.BP_AK12_Whirlwind_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AK12/Whirlwind/BP_AK12_Whirlwind.BP_AK12_Whirlwind_C",
               "unlock level": 20,
               "perk requirements": [
                 "Silencer"
@@ -11597,7 +11597,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/akm.akm",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -11611,35 +11611,35 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKM_KOTH.BP_AKM_KOTH_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Jungle.BP_AKM_Jungle_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Jungle.BP_AKM_Jungle_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_WoodlandTiger.BP_AKM_WoodlandTiger_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_WoodlandTiger.BP_AKM_WoodlandTiger_C",
               "unlock level": 9,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Digi.BP_AKM_Digi_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/Skins/BP_AKM_Digi.BP_AKM_Digi_C",
               "unlock level": 12,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKM_Drummag_KOTH.BP_AKM_Drummag_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKM_Drummag_KOTH.BP_AKM_Drummag_KOTH_C",
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner"
@@ -11648,7 +11648,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/EliteContractor/BP_AKM_EliteContractor.BP_AKM_EliteContractor_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/EliteContractor/BP_AKM_EliteContractor.BP_AKM_EliteContractor_C",
               "unlock level": 20,
               "perk requirements": [
                 "Silencer"
@@ -11970,10 +11970,10 @@
           "single cost": "400",
           "perma cost": "100000",
           "description": "A pump-action shotgun chambered in 12-gauge, widely used by military, law enforcement, and civilian shooters. Known for its reliability and versatility, it serves in both combat and sporting applications.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/M870.M870",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/M870.M870",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M870_ADF.BP_M870_ADF_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -12138,7 +12138,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M14/Deedless/BP_M14_Deedless.BP_M14_Deedless_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/M14/Deedless/BP_M14_Deedless.BP_M14_Deedless_C",
               "unlock level": 15,
               "perk requirements": [
                 "Silencer"
@@ -12336,7 +12336,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/M4_SimonOffense/Lawmaker/BP_M4_SimonOffense_LawMaker.BP_M4_SimonOffense_LawMaker_C",
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner",
@@ -12504,10 +12504,10 @@
           "single cost": "500",
           "perma cost": "100000",
           "description": "A semi-automatic shotgun chambered in 12-gauge, designed for military and law enforcement use. Featuring a gas-operated system, it offers rapid follow-up shots and exceptional durability in harsh conditions.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/m1014.m1014",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/m1014.m1014",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -12729,10 +12729,10 @@
           "single cost": "100",
           "perma cost": "50000",
           "description": "A compact variant of the Remington 870 pump-action shotgun, featuring a shortened barrel and stock for increased maneuverability in close-quarters combat. Chambered in 12-gauge, it delivers devastating stopping power at short range but sacrifices accuracy and capacity.",
-          "texture": "/KingOfTheHill/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
+          "texture": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/sawnoff_m870.sawnoff_m870",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_Sawnoff_M870.BP_Sawnoff_M870_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -12741,7 +12741,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Shotguns/Persuader/BP_Sawnoff_M870_Persuader.BP_Sawnoff_M870_Persuader_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/Persuader/BP_Sawnoff_M870_Persuader.BP_Sawnoff_M870_Persuader_C",
               "unlock level": 10,
               "perk requirements": [
                 "Medic"
@@ -12931,7 +12931,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -13081,7 +13081,7 @@
               "prestige": 0
             },
             {
-              "item": "/KingOfTheHill/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
               "unlock level": 7,
               "perk requirements": [
                 "Launcher"
@@ -13585,7 +13585,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -13602,7 +13602,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -13619,7 +13619,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -13636,7 +13636,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -13653,7 +13653,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -13834,7 +13834,7 @@
         },
         {
           "name": "Safir",
-          "vehicle": "/KingOfTheHill/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Safir/BP_Safir_Transport.BP_Safir_Transport_C",
           "single cost": 300,
           "description": "A small open truck.",
           "unlock level": 7,
@@ -14242,7 +14242,7 @@
         },
         {
           "name": "UH60M Transport",
-          "vehicle": "/KingOfTheHill/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/UH60M/BP_UH60_NoGuns.BP_UH60_NoGuns_C",
           "single cost": 1200,
           "description": "A US military helicopter purely for transportation",
           "unlock level": 29,
@@ -15252,8 +15252,8 @@
           "name": "PLA Desert Recruit",
           "unlock level": 0,
           "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
-          "upper1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/PLA/Desert/SK_PLA_1p_UpperBody.SK_PLA_1p_UpperBody'",
-          "1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/PLA/Desert/SK_PLA_1p_LowerBody.SK_PLA_1p_LowerBody'",
+          "upper1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/PLA/Desert/SK_PLA_1p_UpperBody.SK_PLA_1p_UpperBody'",
+          "1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/PLA/Desert/SK_PLA_1p_LowerBody.SK_PLA_1p_LowerBody'",
           "3p": "SkeletalMesh'/Game/Art/Soldier2/PLA/Arid/SK_PLA_Plain1_Arid.SK_PLA_Plain1_Arid'",
           "upper1p materials": [],
           "1p materials": [],
@@ -15372,7 +15372,7 @@
           "name": "WPMC Raider",
           "unlock level": 100,
           "texture": "/Game/UI/HUD/Roles/T_role_raider.T_role_raider",
-          "upper1p": "SkeletalMesh'/KingOfTheHill/Art/Soldiers/WPMC/SK_WPMC_1p_Flannel_Green.SK_WPMC_1p_Flannel_Green'",
+          "upper1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/WPMC/SK_WPMC_1p_Flannel_Green.SK_WPMC_1p_Flannel_Green'",
           "1p": "SkeletalMesh'/Game/Art/Soldier2/WPMC/SK_WPMC_1p_LowerBody_Jeans_Black.SK_WPMC_1p_LowerBody_Jeans_Black'",
           "3p": "SkeletalMesh'/Game/Art/Soldier2/WPMC/SK_WPMC_Raider_02.SK_WPMC_Raider_02'",
           "upper1p materials": [],
@@ -15391,19 +15391,19 @@
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_USMC_Gear_CoyoteBrown.MI_WPMC_USMC_Gear_CoyoteBrown'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Equipment_CoyoteBrown.MI_WPMC_Equipment_CoyoteBrown'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_NAM_Optimized.MI_WPMC_NAM_Optimized'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Upper_Flannel_REDFOR.MI_WPMC_Upper_Flannel_REDFOR'"
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Upper_Flannel_REDFOR.MI_WPMC_Upper_Flannel_REDFOR'"
           ],
           "1p materials": [],
           "3p materials": [
             "Material'/Game/Art/Soldier2/Patches/M_Master_Patch.M_Master_Patch'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Equipment_CoyoteBrown.MI_WPMC_Equipment_CoyoteBrown'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Upper_Flannel_REDFOR.MI_WPMC_Upper_Flannel_REDFOR'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Upper_Flannel_REDFOR.MI_WPMC_Upper_Flannel_REDFOR'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Lower_Jeans_Pants_Pants_Black.MI_WPMC_Lower_Jeans_Pants_Pants_Black'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
-            "MaterialInstanceConstant'/KingOfTheHill/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Equipment_Helmet_REDFOR_Tape.MI_WPMC_Equipment_Helmet_REDFOR_Tape'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
+            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Equipment_Helmet_REDFOR_Tape.MI_WPMC_Equipment_Helmet_REDFOR_Tape'",
             "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_NAM_Optimized.MI_WPMC_NAM_Optimized'",
-            "Material'/KingOfTheHill/Art/Skins/Soldiers/Glasses/M_FancyShades.M_FancyShades'"
+            "Material'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Glasses/M_FancyShades.M_FancyShades'"
           ],
           "prestige": 1
         }

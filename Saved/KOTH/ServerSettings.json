@@ -3,7 +3,8 @@
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
       "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C",
-      "/FastRopes/Blueprints/BP_FastRopeInjector.BP_FastRopeInjector_C"
+      "/FastRopes/Blueprints/BP_FastRopeInjector.BP_FastRopeInjector_C",
+      "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01_Random.BP_Squad_UltraDynamicWeather_01_Random_C"
     ],
     "economy": {
       "$ multiplier": 2,
@@ -2559,7 +2560,7 @@
           ],
           "unlock level": 100
         }
-      ], 
+      ],
       "secondary": [
         {
           "family name": "QSZ92",
@@ -4434,7 +4435,7 @@
           "kill xp reward": 1000,
           "kill $ reward": 2000,
           "prestige": 0
-        },        
+        },
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
@@ -7447,7 +7448,7 @@
           ],
           "unlock level": 100
         }
-      ], 
+      ],
       "secondary": [
         {
           "family name": "QSZ92",
@@ -9322,7 +9323,7 @@
           "kill xp reward": 1000,
           "kill $ reward": 2000,
           "prestige": 0
-        },        
+        },
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
@@ -12555,7 +12556,7 @@
           ],
           "unlock level": 100
         }
-      ], 
+      ],
       "secondary": [
         {
           "family name": "QSZ92",
@@ -14430,7 +14431,7 @@
           "kill xp reward": 1000,
           "kill $ reward": 2000,
           "prestige": 0
-        },        
+        },
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",

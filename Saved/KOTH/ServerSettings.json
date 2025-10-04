@@ -6490,7 +6490,7 @@
           "xp unlocks": [
             {
               "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
-              "unlock levelKOTHContractorCrate/KOTH 0,
+              "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0

@@ -2935,7 +2935,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -3085,7 +3085,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
+              "item": "/KingOfTheHill/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
               "unlock level": 7,
               "perk requirements": [
                 "Launcher"
@@ -3132,7 +3132,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
@@ -3161,6 +3161,24 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
               "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 15,
               "perk requirements": [
                 "Launcher"
               ],
@@ -3330,33 +3348,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -7823,7 +7814,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -7973,7 +7964,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
+              "item": "/KingOfTheHill/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
               "unlock level": 7,
               "perk requirements": [
                 "Launcher"
@@ -8020,7 +8011,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
@@ -8049,6 +8040,24 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
               "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 15,
               "perk requirements": [
                 "Launcher"
               ],
@@ -8218,33 +8227,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -12931,7 +12913,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/fielddressing.fielddressing",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
+              "item": "/KingOfTheHill/Blueprints/Items/Bandage/BP_KOTH_CombatGauze.BP_KOTH_CombatGauze_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -13081,7 +13063,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
+              "item": "/KingOfTheHill/Blueprints/Items/RocketLaunchers/RPG7/Говномёт/BP_RPG7_Говномёт.BP_RPG7_Говномёт_C",
               "unlock level": 7,
               "perk requirements": [
                 "Launcher"
@@ -13128,7 +13110,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [
                 "Launcher"
               ],
@@ -13157,6 +13139,24 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Heat.BP_M3MAAWS_HEAT_C",
               "unlock level": 0,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 15,
               "perk requirements": [
                 "Launcher"
               ],
@@ -13326,33 +13326,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],

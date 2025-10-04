@@ -2235,6 +2235,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -2263,6 +2270,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -2545,7 +2559,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -2871,7 +2885,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -2890,7 +2904,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -2971,7 +2985,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -2990,7 +3004,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -3009,7 +3023,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -3315,6 +3329,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -3737,13 +3778,13 @@
         {
           "name": "RHIB_M134",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
-          "single cost": 900,
+          "single cost": 800,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
-          "kill $ reward": 200,
+          "kill $ reward": 250,
           "prestige": 0
         },
         {
@@ -3773,7 +3814,7 @@
         {
           "name": "RHIB_NSV",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
-          "single cost": 800,
+          "single cost": 600,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -3785,7 +3826,7 @@
         {
           "name": "RHIB_DSHK",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
-          "single cost": 800,
+          "single cost": 600,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -3869,13 +3910,13 @@
         {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
-          "single cost": 15000,
+          "single cost": 12000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -3898,8 +3939,8 @@
           "unlock level": 9,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 75,
-          "kill $ reward": 100,
+          "kill xp reward": 175,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -3946,8 +3987,8 @@
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 75,
-          "kill $ reward": 150,
+          "kill xp reward": 175,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -3989,7 +4030,7 @@
         {
           "name": "Technical_M134",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
-          "single cost": 1600,
+          "single cost": 1500,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -4007,13 +4048,13 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 500,
+          "kill $ reward": 600,
           "prestige": 0
         },
         {
           "name": "Technical armored dshk",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
-          "single cost": 1700,
+          "single cost": 1600,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -4025,7 +4066,7 @@
         {
           "name": "M1151 M2A1 Armored Desert",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151.BP_M1151_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top M2A1",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -4037,7 +4078,7 @@
         {
           "name": "M1151 MK19 Armored Desert",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_Mk19.BP_M1151_Mk19_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -4049,7 +4090,7 @@
         {
           "name": "M1151 M240",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_M240_WPMC.BP_M1151_M240_WPMC_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top M240",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -4061,7 +4102,7 @@
         {
           "name": "M1151 M240 black",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_WPMC.BP_M1151_WPMC_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A black variant of the M240",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -4073,49 +4114,49 @@
         {
           "name": "Tigr",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr.BP_Tigr_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
           "name": "CPV_M134",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_M134.BP_CPV_M134_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
           "name": "M113A3 TLAV",
           "vehicle": "/Game/Vehicles/TLAV/BP_M113A3_CAF_TLAV.BP_M113A3_CAF_TLAV_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "The M113A3 is a tracked armored personnel carrier (APC) available to the Canadian Army.",
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
           "name": "FV432",
           "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -4133,13 +4174,13 @@
         {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
           "unlock level": 22,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -4151,19 +4192,19 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 25,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -4181,13 +4222,13 @@
         {
           "name": "Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_Mortar.BP_Technical2Seater_White_Mortar_C",
-          "single cost": 15000,
+          "single cost": 12000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 27,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
-          "kill xp reward": 3750,
-          "kill $ reward": 5000,
+          "kill xp reward": 2500,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -4217,13 +4258,13 @@
         {
           "name": "MATV_MK19",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_Mk19.BP_MATV_Mk19_C",
-          "single cost": 2200,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 550,
-          "kill $ reward": 726,
+          "kill xp reward": 400,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -4234,7 +4275,7 @@
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
@@ -4246,7 +4287,7 @@
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
@@ -4258,62 +4299,62 @@
           "unlock level": 32,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "M1151 crows",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_CROWS_Woodland.BP_M1151_CROWS_Woodland_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 33,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "BTR80",
           "vehicle": "/Game/Vehicles/BTR80/BP_BTR80_RUS_Desert.BP_BTR80_RUS_Desert_C",
-          "single cost": 12000,
+          "single cost": 10000,
           "description": "The BTR-80 was adopted as the standard armored personnel carrier (APC) of the Soviet Army.",
           "unlock level": 34,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
-          "kill $ reward": 2500,
+          "kill xp reward": 2000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "MATV crows",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_CROWS.BP_MATV_CROWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 35,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical SPG9",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
+          "single cost": 9000,
+          "description": "A basic technical with an SPG9 on its back.",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 1000,
           "kill $ reward": 1500,
           "prestige": 0
         },
         {
-          "name": "Technical SPG9",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
-          "single cost": 12000,
-          "description": "A basic technical with an SPG9 on its back.",
-          "unlock level": 36,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
-          "spawn type": "Ground",
-          "kill xp reward": 900,
-          "kill $ reward": 1000,
-          "prestige": 0
-        },
-        {
           "name": "Technical kornet",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
-          "single cost": 17500,
+          "single cost": 15000,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -4325,49 +4366,49 @@
         {
           "name": "CSK131 Mengshi RWS",
           "vehicle": "/Game/Vehicles/CSK131/BP_CSK131_RWS.BP_CSK131_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 37,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Bushmaster PMV RWS",
           "vehicle": "/Game/Vehicles/PMV/BP_PMV_RWS.BP_PMV_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 38,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Tigr-M Kord RWS",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr_RWS.BP_Tigr_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal and smoke countermeasures.",
           "unlock level": 39,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "LPPV RWS",
           "vehicle": "/Game/Vehicles/LPPV/BP_LPPV_M2RWS.BP_LPPV_M2RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -4385,43 +4426,43 @@
         {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
-        },
+        },        
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
-          "single cost": 9000,
+          "single cost": 8000,
           "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill $ reward": 1500,
           "prestige": 0
         },
         {
           "name": "M1117",
           "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-          "single cost": 12000,
+          "single cost": 11000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -4433,7 +4474,7 @@
         {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -4445,7 +4486,7 @@
         {
           "name": "PARS III apc",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_M2_Desert.BP_PARS3_M2_Desert_C",
-          "single cost": 12000,
+          "single cost": 11000,
           "description": "A Turkish M2 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -4469,19 +4510,19 @@
         {
           "name": "FV107",
           "vehicle": "/Game/Vehicles/FV107/BP_FV107.BP_FV107_C",
-          "single cost": 13500,
+          "single cost": 13000,
           "description": "A British tracked recon vic with a 30mm cannon.",
           "unlock level": 42,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 850,
-          "kill $ reward": 1300,
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "ACV-15",
           "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_Desert.BP_ACV-15_Desert_C",
-          "single cost": 15000,
+          "single cost": 14000,
           "description": "A turkish IFV using an APC chassis with a 25mm cannon.",
           "unlock level": 43,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -4493,19 +4534,19 @@
         {
           "name": "ZSL10",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZSL10_QJZ-89_Naval.BP_ZSL10_QJZ-89_Naval_C",
-          "single cost": 12500,
+          "single cost": 10000,
           "description": "Part of the ZBL08 (Type 08) wheeled armored vehicle family, the ZSL10 variant is the armored personnel carrier for the Peoples Liberation Army.",
           "unlock level": 44,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1000,
-          "kill $ reward": 2500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "MATV TOW",
           "vehicle": "/game/vehicles/MATV/BP_MATV_TOW.BP_MATV_TOW_C",
-          "single cost": 18500,
+          "single cost": 15500,
           "description": "A well armored squad transport vehicle armed with a TOW",
           "unlock level": 45,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -4529,31 +4570,31 @@
         {
           "name": "FV510 warrior",
           "vehicle": "/Game/vehicles/FV510/BP_FV510_Woodland.BP_FV510_Woodland_C",
-          "single cost": 22000,
+          "single cost": 19000,
           "description": "FV510 is the most common infantry fighting vehicle for the British Armed Forces faction. Two variants are available.",
           "unlock level": 47,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
           "name": "PARS III ifv",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3.BP_PARS3_C",
-          "single cost": 20000,
+          "single cost": 18000,
           "description": "A Turkish IFV with a 25mm cannon.",
           "unlock level": 48,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2500,
-          "kill $ reward": 5000,
+          "kill xp reward": 2000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
           "name": "Simir Kornet",
           "vehicle": "/game/vehicles/Safir/BP_Safir_Kornet.BP_Safir_Kornet_C",
-          "single cost": 17500,
+          "single cost": 15000,
           "description": "A Safir with a Kornet",
           "unlock level": 49,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -4565,7 +4606,7 @@
         {
           "name": "FV510_40mm",
           "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 25000,
+          "single cost": 22000,
           "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -4613,7 +4654,7 @@
         {
           "name": "ZBL08",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZBL08_HJ73C_Naval.BP_ZBL08_HJ73C_Naval_C",
-          "single cost": 24000,
+          "single cost": 21000,
           "description": "Part of the ZBL08 (Type 08) wheeled armored vehicle family, ZBL-08 is the primary variant and the principal wheeled IFV system for the Peoples Liberation Army.",
           "unlock level": 54,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
@@ -4637,19 +4678,19 @@
         {
           "name": "T62",
           "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
           "name": "T72b3",
           "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
-          "single cost": 30000,
+          "single cost": 28000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -4661,7 +4702,7 @@
         {
           "name": "M60T pmc",
           "vehicle": "/Game/Vehicles/M60T_WPMC/BP_M60T_WPMC.BP_M60T_WPMC_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "The M60T Sabra is a main battle tank used by the Turkish Land Forces.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -4673,7 +4714,7 @@
         {
           "name": "M1151 TOW",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_TOW_WPMC.BP_M1151_TOW_WPMC_C",
-          "single cost": 18500,
+          "single cost": 15500,
           "description": "A well armored squad transport vehicle armed with a TOW",
           "unlock level": 56,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -4685,13 +4726,13 @@
         {
           "name": "Leopard 2A6M",
           "vehicle": "/Game/Vehicles/Leopard2/BP_2A6_Woodland.BP_2A6_Woodland_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "The Canadian MBT featuring a 120mm cannon.",
           "unlock level": 57,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
-          "kill $ reward": 8500,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -4709,13 +4750,13 @@
         {
           "name": "BMP-1",
           "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
-          "single cost": 20000,
+          "single cost": 19000,
           "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
           "unlock level": 59,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5800,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -4727,43 +4768,43 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5800,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
           "name": "BTR-82A",
           "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
-          "single cost": 20000,
+          "single cost": 19000,
           "description": "A Russian infantry fighting vehicle designed to deliver quick blows with its speed and 30mm autocannon. ",
           "unlock level": 59,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-2",
+          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
+          "single cost": 22000,
+          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
           "kill $ reward": 5500,
           "prestige": 0
         },
         {
-          "name": "BMP-2",
-          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
-          "single cost": 23000,
-          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
-          "unlock level": 60,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 3000,
-          "kill $ reward": 5600,
-          "prestige": 0
-        },
-        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 23500,
+          "single cost": 22500,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -4793,31 +4834,31 @@
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 10600,
+          "kill $ reward": 10000,
           "prestige": 0
         },
         {
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 5000,
-          "kill $ reward": 8600,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
           "name": "BMP-3M",
           "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
-          "single cost": 25000,
+          "single cost": 23000,
           "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
           "unlock level": 67,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -4829,7 +4870,7 @@
         {
           "name": "FV4034 Challenger",
           "vehicle": "/Game/vehicles/FV4034/BP_FV4034.BP_FV4034_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A British tank with a 120mm rifled gun and 2 MGs.",
           "unlock level": 68,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -4841,7 +4882,7 @@
         {
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
-          "single cost": 22000,
+          "single cost": 23000,
           "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -4854,18 +4895,18 @@
           "name": "ZBD-05",
           "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
           "single cost": 20000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
           "name": "M1128 MGS",
           "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
-          "single cost": 28000,
+          "single cost": 27000,
           "description": "An American mobile gun system with a powerful 105mm rifled gun.",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -4877,7 +4918,7 @@
         {
           "name": "ZTD05",
           "vehicle": "/Game/Vehicles/ZTD05/BP_ZTD05.BP_ZTD05_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "Part of the Type 05 amphibious armored vehicle family, the ZTD05 is an amphibious assault gun used by PLA Navy Marine Corps.",
           "unlock level": 71,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -4889,7 +4930,7 @@
         {
           "name": "BMD-4M",
           "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
-          "single cost": 27000,
+          "single cost": 24000,
           "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
           "unlock level": 72,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -4901,19 +4942,19 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 25000,
+          "single cost": 22000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
           "name": "Sprut-SDM1",
           "vehicle": "/Game/Vehicles/Sprut-SDM1/BP_Sprut_Desert.BP_Sprut_Desert_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "Based on the chassis of BMD-4M, Sprut-SDM1 is an airborne-capable, amphibious assault gun used by Russian Airborne Forces. Armed with a powerful 125mm 2A45 tank gun.",
           "unlock level": 74,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -4925,7 +4966,7 @@
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "Chinas most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
           "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -4949,19 +4990,19 @@
         {
           "name": "M2A3 Bradley",
           "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5300,
           "prestige": 0
         },
         {
           "name": "M1A2",
           "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
           "unlock level": 85,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -4973,7 +5014,7 @@
         {
           "name": "Technical UB-32",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_UB32.BP_Technical2Seater_White_UB32_C",
-          "single cost": 75000,
+          "single cost": 65000,
           "description": "A technical with a UB-32 rocket pod mounted on its flatbed.",
           "unlock level": 90,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -4997,13 +5038,13 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 40000,
+          "single cost": 36000,
           "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 18500,
+          "kill $ reward": 11000,
           "prestige": 1
         },
         {
@@ -7082,6 +7123,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -7110,6 +7158,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -7392,7 +7447,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -7718,7 +7773,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -7737,7 +7792,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -7818,7 +7873,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -7837,7 +7892,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -7856,7 +7911,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -8162,6 +8217,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -8584,13 +8666,13 @@
         {
           "name": "RHIB_M134",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
-          "single cost": 900,
+          "single cost": 800,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
-          "kill $ reward": 200,
+          "kill $ reward": 250,
           "prestige": 0
         },
         {
@@ -8620,7 +8702,7 @@
         {
           "name": "RHIB_NSV",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
-          "single cost": 800,
+          "single cost": 600,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -8632,7 +8714,7 @@
         {
           "name": "RHIB_DSHK",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
-          "single cost": 800,
+          "single cost": 600,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -8716,13 +8798,13 @@
         {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
-          "single cost": 15000,
+          "single cost": 12000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -8745,8 +8827,8 @@
           "unlock level": 9,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 75,
-          "kill $ reward": 100,
+          "kill xp reward": 175,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -8793,8 +8875,8 @@
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 75,
-          "kill $ reward": 150,
+          "kill xp reward": 175,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -8836,7 +8918,7 @@
         {
           "name": "Technical_M134",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
-          "single cost": 1600,
+          "single cost": 1500,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -8854,13 +8936,13 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 500,
+          "kill $ reward": 600,
           "prestige": 0
         },
         {
           "name": "Technical armored dshk",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
-          "single cost": 1700,
+          "single cost": 1600,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -8872,7 +8954,7 @@
         {
           "name": "M1151 M2A1 Armored Desert",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151.BP_M1151_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top M2A1",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -8884,7 +8966,7 @@
         {
           "name": "M1151 MK19 Armored Desert",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_Mk19.BP_M1151_Mk19_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -8896,7 +8978,7 @@
         {
           "name": "M1151 M240",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_M240_WPMC.BP_M1151_M240_WPMC_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top M240",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -8908,7 +8990,7 @@
         {
           "name": "M1151 M240 black",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_WPMC.BP_M1151_WPMC_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A black variant of the M240",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -8920,49 +9002,49 @@
         {
           "name": "Tigr",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr.BP_Tigr_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
           "name": "CPV_M134",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_M134.BP_CPV_M134_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
           "name": "M113A3 TLAV",
           "vehicle": "/Game/Vehicles/TLAV/BP_M113A3_CAF_TLAV.BP_M113A3_CAF_TLAV_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "The M113A3 is a tracked armored personnel carrier (APC) available to the Canadian Army.",
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
           "name": "FV432",
           "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -8980,13 +9062,13 @@
         {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
           "unlock level": 22,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -8998,19 +9080,19 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 25,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -9028,13 +9110,13 @@
         {
           "name": "Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_Mortar.BP_Technical2Seater_White_Mortar_C",
-          "single cost": 15000,
+          "single cost": 12000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 27,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
-          "kill xp reward": 3750,
-          "kill $ reward": 5000,
+          "kill xp reward": 2500,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -9064,13 +9146,13 @@
         {
           "name": "MATV_MK19",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_Mk19.BP_MATV_Mk19_C",
-          "single cost": 2200,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 550,
-          "kill $ reward": 726,
+          "kill xp reward": 400,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -9081,7 +9163,7 @@
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
@@ -9093,7 +9175,7 @@
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
@@ -9105,62 +9187,62 @@
           "unlock level": 32,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "M1151 crows",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_CROWS_Woodland.BP_M1151_CROWS_Woodland_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 33,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "BTR80",
           "vehicle": "/Game/Vehicles/BTR80/BP_BTR80_RUS_Desert.BP_BTR80_RUS_Desert_C",
-          "single cost": 12000,
+          "single cost": 10000,
           "description": "The BTR-80 was adopted as the standard armored personnel carrier (APC) of the Soviet Army.",
           "unlock level": 34,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
-          "kill $ reward": 2500,
+          "kill xp reward": 2000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "MATV crows",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_CROWS.BP_MATV_CROWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 35,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical SPG9",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
+          "single cost": 9000,
+          "description": "A basic technical with an SPG9 on its back.",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 1000,
           "kill $ reward": 1500,
           "prestige": 0
         },
         {
-          "name": "Technical SPG9",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
-          "single cost": 12000,
-          "description": "A basic technical with an SPG9 on its back.",
-          "unlock level": 36,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
-          "spawn type": "Ground",
-          "kill xp reward": 900,
-          "kill $ reward": 1000,
-          "prestige": 0
-        },
-        {
           "name": "Technical kornet",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
-          "single cost": 17500,
+          "single cost": 15000,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -9172,49 +9254,49 @@
         {
           "name": "CSK131 Mengshi RWS",
           "vehicle": "/Game/Vehicles/CSK131/BP_CSK131_RWS.BP_CSK131_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 37,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Bushmaster PMV RWS",
           "vehicle": "/Game/Vehicles/PMV/BP_PMV_RWS.BP_PMV_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 38,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Tigr-M Kord RWS",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr_RWS.BP_Tigr_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal and smoke countermeasures.",
           "unlock level": 39,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "LPPV RWS",
           "vehicle": "/Game/Vehicles/LPPV/BP_LPPV_M2RWS.BP_LPPV_M2RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -9232,43 +9314,43 @@
         {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
-        },
+        },        
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
-          "single cost": 9000,
+          "single cost": 8000,
           "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill $ reward": 1500,
           "prestige": 0
         },
         {
           "name": "M1117",
           "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-          "single cost": 12000,
+          "single cost": 11000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -9280,7 +9362,7 @@
         {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -9292,7 +9374,7 @@
         {
           "name": "PARS III apc",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_M2_Desert.BP_PARS3_M2_Desert_C",
-          "single cost": 12000,
+          "single cost": 11000,
           "description": "A Turkish M2 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -9316,19 +9398,19 @@
         {
           "name": "FV107",
           "vehicle": "/Game/Vehicles/FV107/BP_FV107.BP_FV107_C",
-          "single cost": 13500,
+          "single cost": 13000,
           "description": "A British tracked recon vic with a 30mm cannon.",
           "unlock level": 42,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 850,
-          "kill $ reward": 1300,
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "ACV-15",
           "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_Desert.BP_ACV-15_Desert_C",
-          "single cost": 15000,
+          "single cost": 14000,
           "description": "A turkish IFV using an APC chassis with a 25mm cannon.",
           "unlock level": 43,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -9340,19 +9422,19 @@
         {
           "name": "ZSL10",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZSL10_QJZ-89_Naval.BP_ZSL10_QJZ-89_Naval_C",
-          "single cost": 12500,
+          "single cost": 10000,
           "description": "Part of the ZBL08 (Type 08) wheeled armored vehicle family, the ZSL10 variant is the armored personnel carrier for the Peoples Liberation Army.",
           "unlock level": 44,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1000,
-          "kill $ reward": 2500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "MATV TOW",
           "vehicle": "/game/vehicles/MATV/BP_MATV_TOW.BP_MATV_TOW_C",
-          "single cost": 18500,
+          "single cost": 15500,
           "description": "A well armored squad transport vehicle armed with a TOW",
           "unlock level": 45,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -9376,31 +9458,31 @@
         {
           "name": "FV510 warrior",
           "vehicle": "/Game/vehicles/FV510/BP_FV510_Woodland.BP_FV510_Woodland_C",
-          "single cost": 22000,
+          "single cost": 19000,
           "description": "FV510 is the most common infantry fighting vehicle for the British Armed Forces faction. Two variants are available.",
           "unlock level": 47,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
           "name": "PARS III ifv",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3.BP_PARS3_C",
-          "single cost": 20000,
+          "single cost": 18000,
           "description": "A Turkish IFV with a 25mm cannon.",
           "unlock level": 48,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2500,
-          "kill $ reward": 5000,
+          "kill xp reward": 2000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
           "name": "Simir Kornet",
           "vehicle": "/game/vehicles/Safir/BP_Safir_Kornet.BP_Safir_Kornet_C",
-          "single cost": 17500,
+          "single cost": 15000,
           "description": "A Safir with a Kornet",
           "unlock level": 49,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -9412,7 +9494,7 @@
         {
           "name": "FV510_40mm",
           "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 25000,
+          "single cost": 22000,
           "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -9460,7 +9542,7 @@
         {
           "name": "ZBL08",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZBL08_HJ73C_Naval.BP_ZBL08_HJ73C_Naval_C",
-          "single cost": 24000,
+          "single cost": 21000,
           "description": "Part of the ZBL08 (Type 08) wheeled armored vehicle family, ZBL-08 is the primary variant and the principal wheeled IFV system for the Peoples Liberation Army.",
           "unlock level": 54,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
@@ -9484,19 +9566,19 @@
         {
           "name": "T62",
           "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
           "name": "T72b3",
           "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
-          "single cost": 30000,
+          "single cost": 28000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -9508,7 +9590,7 @@
         {
           "name": "M60T pmc",
           "vehicle": "/Game/Vehicles/M60T_WPMC/BP_M60T_WPMC.BP_M60T_WPMC_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "The M60T Sabra is a main battle tank used by the Turkish Land Forces.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -9520,7 +9602,7 @@
         {
           "name": "M1151 TOW",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_TOW_WPMC.BP_M1151_TOW_WPMC_C",
-          "single cost": 18500,
+          "single cost": 15500,
           "description": "A well armored squad transport vehicle armed with a TOW",
           "unlock level": 56,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -9532,13 +9614,13 @@
         {
           "name": "Leopard 2A6M",
           "vehicle": "/Game/Vehicles/Leopard2/BP_2A6_Woodland.BP_2A6_Woodland_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "The Canadian MBT featuring a 120mm cannon.",
           "unlock level": 57,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
-          "kill $ reward": 8500,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -9556,13 +9638,13 @@
         {
           "name": "BMP-1",
           "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
-          "single cost": 20000,
+          "single cost": 19000,
           "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
           "unlock level": 59,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5800,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -9574,43 +9656,43 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5800,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
           "name": "BTR-82A",
           "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
-          "single cost": 20000,
+          "single cost": 19000,
           "description": "A Russian infantry fighting vehicle designed to deliver quick blows with its speed and 30mm autocannon. ",
           "unlock level": 59,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-2",
+          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
+          "single cost": 22000,
+          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
           "kill $ reward": 5500,
           "prestige": 0
         },
         {
-          "name": "BMP-2",
-          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
-          "single cost": 23000,
-          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
-          "unlock level": 60,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 3000,
-          "kill $ reward": 5600,
-          "prestige": 0
-        },
-        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 23500,
+          "single cost": 22500,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -9640,31 +9722,31 @@
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 10600,
+          "kill $ reward": 10000,
           "prestige": 0
         },
         {
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 5000,
-          "kill $ reward": 8600,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
           "name": "BMP-3M",
           "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
-          "single cost": 25000,
+          "single cost": 23000,
           "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
           "unlock level": 67,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -9676,7 +9758,7 @@
         {
           "name": "FV4034 Challenger",
           "vehicle": "/Game/vehicles/FV4034/BP_FV4034.BP_FV4034_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A British tank with a 120mm rifled gun and 2 MGs.",
           "unlock level": 68,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -9688,7 +9770,7 @@
         {
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
-          "single cost": 22000,
+          "single cost": 23000,
           "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -9701,18 +9783,18 @@
           "name": "ZBD-05",
           "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
           "single cost": 20000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
           "name": "M1128 MGS",
           "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
-          "single cost": 28000,
+          "single cost": 27000,
           "description": "An American mobile gun system with a powerful 105mm rifled gun.",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -9724,7 +9806,7 @@
         {
           "name": "ZTD05",
           "vehicle": "/Game/Vehicles/ZTD05/BP_ZTD05.BP_ZTD05_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "Part of the Type 05 amphibious armored vehicle family, the ZTD05 is an amphibious assault gun used by PLA Navy Marine Corps.",
           "unlock level": 71,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -9736,7 +9818,7 @@
         {
           "name": "BMD-4M",
           "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
-          "single cost": 27000,
+          "single cost": 24000,
           "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
           "unlock level": 72,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -9748,19 +9830,19 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 25000,
+          "single cost": 22000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
           "name": "Sprut-SDM1",
           "vehicle": "/Game/Vehicles/Sprut-SDM1/BP_Sprut_Desert.BP_Sprut_Desert_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "Based on the chassis of BMD-4M, Sprut-SDM1 is an airborne-capable, amphibious assault gun used by Russian Airborne Forces. Armed with a powerful 125mm 2A45 tank gun.",
           "unlock level": 74,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -9772,7 +9854,7 @@
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "Chinas most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
           "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -9796,19 +9878,19 @@
         {
           "name": "M2A3 Bradley",
           "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5300,
           "prestige": 0
         },
         {
           "name": "M1A2",
           "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
           "unlock level": 85,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -9820,7 +9902,7 @@
         {
           "name": "Technical UB-32",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_UB32.BP_Technical2Seater_White_UB32_C",
-          "single cost": 75000,
+          "single cost": 65000,
           "description": "A technical with a UB-32 rocket pod mounted on its flatbed.",
           "unlock level": 90,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -9844,13 +9926,13 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 40000,
+          "single cost": 36000,
           "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 18500,
+          "kill $ reward": 11000,
           "prestige": 1
         },
         {
@@ -12149,6 +12231,13 @@
               "unlock level": "20",
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/AK101_PushCo/BP_AK101_PushCO_M150_Foregrip.BP_AK101_PushCO_M150_Foregrip_C",
+              "perk requirements": [],
+              "unlock level": "23",
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 58
@@ -12177,6 +12266,13 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic.BP_M27_Optic_C",
               "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/BP_M27_Optic_Bipod.BP_M27_Optic_Bipod_C",
+              "unlock level": 15,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -12459,7 +12555,7 @@
           ],
           "unlock level": 100
         }
-      ],
+      ], 
       "secondary": [
         {
           "family name": "QSZ92",
@@ -12785,7 +12881,7 @@
         },
         {
           "family name": "RKG3",
-          "single cost": "400",
+          "single cost": "300",
           "perma cost": "-1",
           "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
@@ -12804,7 +12900,7 @@
         },
         {
           "family name": "Flashbang",
-          "single cost": "300",
+          "single cost": "50",
           "perma cost": "-1",
           "description": "A flashbang",
           "texture": "/KingOfTheHill/Art/Items/Flashbang/T_M84.T_M84",
@@ -12885,7 +12981,7 @@
         },
         {
           "family name": "IED",
-          "single cost": "1800",
+          "single cost": "1600",
           "perma cost": "-1",
           "description": "An Improvised Explosive Device, typically crafted from available materials for asymmetric warfare. Used in guerrilla tactics and insurgency operations, it can range from crude roadside bombs to sophisticated remote-detonated explosives.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
@@ -12904,7 +13000,7 @@
         },
         {
           "family name": "Bangerite",
-          "single cost": "1800",
+          "single cost": "1700",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
@@ -12923,7 +13019,7 @@
         },
         {
           "family name": "Mine",
-          "single cost": "2000",
+          "single cost": "1800",
           "perma cost": "-1",
           "description": "An explosive device with a mechanical pressure activated switch connected to a detonator. Often concealed or buried to surprise unsuspecting foes. Note that these don't discriminate, inform your friends where you place them!",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/m15_mine.m15_mine",
@@ -13229,6 +13325,33 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -13651,13 +13774,13 @@
         {
           "name": "RHIB_M134",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_US_M134.BP_RHIB_US_M134_C",
-          "single cost": 900,
+          "single cost": 800,
           "description": "A boat with a mounted MINIGUN mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
           "spawn type": "Sea Vehicle",
           "kill xp reward": 150,
-          "kill $ reward": 200,
+          "kill $ reward": 250,
           "prestige": 0
         },
         {
@@ -13687,7 +13810,7 @@
         {
           "name": "RHIB_NSV",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_RUS_NSV.BP_RHIB_RUS_NSV_C",
-          "single cost": 800,
+          "single cost": 600,
           "description": "A boat with a mounted NSV mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -13699,7 +13822,7 @@
         {
           "name": "RHIB_DSHK",
           "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_DSHK.BP_RHIB_DSHK_C",
-          "single cost": 800,
+          "single cost": 600,
           "description": "A boat with a mounted DSHK mounted on the bow.",
           "unlock level": 7,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat_openturret.T_map_boat_openturret",
@@ -13783,13 +13906,13 @@
         {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
-          "single cost": 15000,
+          "single cost": 12000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 3750,
-          "kill $ reward": 5000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -13812,8 +13935,8 @@
           "unlock level": 9,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 75,
-          "kill $ reward": 100,
+          "kill xp reward": 175,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -13860,8 +13983,8 @@
           "unlock level": 12,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
-          "kill xp reward": 75,
-          "kill $ reward": 150,
+          "kill xp reward": 175,
+          "kill $ reward": 300,
           "prestige": 0
         },
         {
@@ -13903,7 +14026,7 @@
         {
           "name": "Technical_M134",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_M134_Black.BP_Technical2Seater_M134_Black_C",
-          "single cost": 1600,
+          "single cost": 1500,
           "description": "A technical with a MINIGUN mounted on its flatbed.",
           "unlock level": 15,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -13921,13 +14044,13 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 500,
+          "kill $ reward": 600,
           "prestige": 0
         },
         {
           "name": "Technical armored dshk",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Armored_Technical2Seater_Camo_DSHK.BP_Armored_Technical2Seater_Camo_DSHK_C",
-          "single cost": 1700,
+          "single cost": 1600,
           "description": "A well armored transport vehicle armed with an Dshk.",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -13939,7 +14062,7 @@
         {
           "name": "M1151 M2A1 Armored Desert",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151.BP_M1151_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top M2A1",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -13951,7 +14074,7 @@
         {
           "name": "M1151 MK19 Armored Desert",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_Mk19.BP_M1151_Mk19_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -13963,7 +14086,7 @@
         {
           "name": "M1151 M240",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_M240_WPMC.BP_M1151_M240_WPMC_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top M240",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -13975,7 +14098,7 @@
         {
           "name": "M1151 M240 black",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_WPMC.BP_M1151_WPMC_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A black variant of the M240",
           "unlock level": 16,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
@@ -13987,49 +14110,49 @@
         {
           "name": "Tigr",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr.BP_Tigr_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 18,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
           "name": "CPV_M134",
           "vehicle": "/Game/Vehicles/CPV/BP_CPV_M134.BP_CPV_M134_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "An armored SUV armed with an open-top M134 minigun.",
           "unlock level": 20,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep.map_jeep",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
           "name": "M113A3 TLAV",
           "vehicle": "/Game/Vehicles/TLAV/BP_M113A3_CAF_TLAV.BP_M113A3_CAF_TLAV_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "The M113A3 is a tracked armored personnel carrier (APC) available to the Canadian Army.",
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
           "name": "FV432",
           "vehicle": "/Game/Vehicles/FV432/BP_FV432_RWS_M2_Woodland.BP_FV432_RWS_M2_Woodland_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "The FV432 is a tracked armored personnel carrier (APC) available to the British Army. RWS variant",
           "unlock level": 21,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -14047,13 +14170,13 @@
         {
           "name": "AAVP",
           "vehicle": "/Game/Vehicles/AAVP7A1/BP_AAVP7A1_Woodland.BP_AAVP7A1_Woodland_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "An amphibious apc used by the Marines with a 50cal and a MK19.",
           "unlock level": 22,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill xp reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
@@ -14065,19 +14188,19 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedapc.map_trackedapc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1500,
-          "kill $ reward": 2000,
+          "kill $ reward": 2500,
           "prestige": 0
         },
         {
           "name": "MATV",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV.BP_MATV_C",
-          "single cost": 1800,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top 50 cal.",
           "unlock level": 25,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 450,
-          "kill $ reward": 600,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -14095,13 +14218,13 @@
         {
           "name": "Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_Mortar.BP_Technical2Seater_White_Mortar_C",
-          "single cost": 15000,
+          "single cost": 12000,
           "description": "A technical with a mortar mounted on its flatbed.",
           "unlock level": 27,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
-          "kill xp reward": 3750,
-          "kill $ reward": 5000,
+          "kill xp reward": 2500,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
@@ -14131,13 +14254,13 @@
         {
           "name": "MATV_MK19",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_Mk19.BP_MATV_Mk19_C",
-          "single cost": 2200,
+          "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 550,
-          "kill $ reward": 726,
+          "kill xp reward": 400,
+          "kill $ reward": 500,
           "prestige": 0
         },
         {
@@ -14148,7 +14271,7 @@
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
@@ -14160,7 +14283,7 @@
           "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
@@ -14172,62 +14295,62 @@
           "unlock level": 32,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_antiair.map_antiair",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
+          "kill xp reward": 1500,
           "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "M1151 crows",
           "vehicle": "/Game/Vehicles/M1151/BP_M1151_CROWS_Woodland.BP_M1151_CROWS_Woodland_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 33,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "BTR80",
           "vehicle": "/Game/Vehicles/BTR80/BP_BTR80_RUS_Desert.BP_BTR80_RUS_Desert_C",
-          "single cost": 12000,
+          "single cost": 10000,
           "description": "The BTR-80 was adopted as the standard armored personnel carrier (APC) of the Soviet Army.",
           "unlock level": 34,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 1000,
-          "kill $ reward": 2500,
+          "kill xp reward": 2000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "MATV crows",
           "vehicle": "/Game/Vehicles/MATV/BP_MATV_CROWS.BP_MATV_CROWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 35,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
+          "name": "Technical SPG9",
+          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
+          "single cost": 9000,
+          "description": "A basic technical with an SPG9 on its back.",
+          "unlock level": 36,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
           "spawn type": "Ground",
           "kill xp reward": 1000,
           "kill $ reward": 1500,
           "prestige": 0
         },
         {
-          "name": "Technical SPG9",
-          "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_SPG9.BP_Technical2Seater_Camo_SPG9_C",
-          "single cost": 12000,
-          "description": "A basic technical with an SPG9 on its back.",
-          "unlock level": 36,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
-          "spawn type": "Ground",
-          "kill xp reward": 900,
-          "kill $ reward": 1000,
-          "prestige": 0
-        },
-        {
           "name": "Technical kornet",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_Camo_Kornet.BP_Technical2Seater_Camo_Kornet_C",
-          "single cost": 17500,
+          "single cost": 15000,
           "description": "A well techie armed with a kornet",
           "unlock level": 36,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -14239,49 +14362,49 @@
         {
           "name": "CSK131 Mengshi RWS",
           "vehicle": "/Game/Vehicles/CSK131/BP_CSK131_RWS.BP_CSK131_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 37,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Bushmaster PMV RWS",
           "vehicle": "/Game/Vehicles/PMV/BP_PMV_RWS.BP_PMV_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 38,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Tigr-M Kord RWS",
           "vehicle": "/Game/Vehicles/Tigr/BP_Tigr_RWS.BP_Tigr_RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal and smoke countermeasures.",
           "unlock level": 39,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "LPPV RWS",
           "vehicle": "/Game/Vehicles/LPPV/BP_LPPV_M2RWS.BP_LPPV_M2RWS_C",
-          "single cost": 7000,
+          "single cost": 5000,
           "description": "A well armored squad transport vehicle armed with a remote controlled 50 cal.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 1000,
-          "kill $ reward": 1500,
+          "kill xp reward": 1500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
@@ -14299,43 +14422,43 @@
         {
           "name": "BRDM-2",
           "vehicle": "/Game/Vehicles/BRDM-2/BP_BRDM-2.BP_BRDM-2_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "A Soviet armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
-        },
+        },        
         {
           "name": "TAPV",
           "vehicle": "/Game/Vehicles/TAPV/BP_TAPV_C16_Desert.BP_TAPV_C16_Desert_C",
-          "single cost": 9000,
+          "single cost": 8000,
           "description": "Canadian armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill $ reward": 1500,
           "prestige": 0
         },
         {
           "name": "M1117",
           "vehicle": "/Game/Vehicles/M1117/BP_M1117.BP_M1117_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "An American armored reconnaissance vehicle built on a wheeled chassis.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
-          "kill xp reward": 750,
-          "kill $ reward": 1000,
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "Stryker",
           "vehicle": "/Game/Vehicles/M1126/BP_M1126_Woodland.BP_M1126_Woodland_C",
-          "single cost": 12000,
+          "single cost": 11000,
           "description": "A standard US army armored personnel carrier with a Browning Crows system.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -14347,7 +14470,7 @@
         {
           "name": "PARS III mk19",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_MK19.BP_PARS3_MK19_C",
-          "single cost": 10000,
+          "single cost": 9000,
           "description": "A Turkish M19 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -14359,7 +14482,7 @@
         {
           "name": "PARS III apc",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3_M2_Desert.BP_PARS3_M2_Desert_C",
-          "single cost": 12000,
+          "single cost": 11000,
           "description": "A Turkish M2 variant of the PARS III.",
           "unlock level": 40,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
@@ -14383,19 +14506,19 @@
         {
           "name": "FV107",
           "vehicle": "/Game/Vehicles/FV107/BP_FV107.BP_FV107_C",
-          "single cost": 13500,
+          "single cost": 13000,
           "description": "A British tracked recon vic with a 30mm cannon.",
           "unlock level": 42,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 850,
-          "kill $ reward": 1300,
+          "kill xp reward": 1000,
+          "kill $ reward": 3000,
           "prestige": 0
         },
         {
           "name": "ACV-15",
           "vehicle": "/Game/Vehicles/ACV-15/BP_ACV-15_Desert.BP_ACV-15_Desert_C",
-          "single cost": 15000,
+          "single cost": 14000,
           "description": "A turkish IFV using an APC chassis with a 25mm cannon.",
           "unlock level": 43,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -14407,19 +14530,19 @@
         {
           "name": "ZSL10",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZSL10_QJZ-89_Naval.BP_ZSL10_QJZ-89_Naval_C",
-          "single cost": 12500,
+          "single cost": 10000,
           "description": "Part of the ZBL08 (Type 08) wheeled armored vehicle family, the ZSL10 variant is the armored personnel carrier for the Peoples Liberation Army.",
           "unlock level": 44,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_apc.map_apc",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 1000,
-          "kill $ reward": 2500,
+          "kill $ reward": 2000,
           "prestige": 0
         },
         {
           "name": "MATV TOW",
           "vehicle": "/game/vehicles/MATV/BP_MATV_TOW.BP_MATV_TOW_C",
-          "single cost": 18500,
+          "single cost": 15500,
           "description": "A well armored squad transport vehicle armed with a TOW",
           "unlock level": 45,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -14443,31 +14566,31 @@
         {
           "name": "FV510 warrior",
           "vehicle": "/Game/vehicles/FV510/BP_FV510_Woodland.BP_FV510_Woodland_C",
-          "single cost": 22000,
+          "single cost": 19000,
           "description": "FV510 is the most common infantry fighting vehicle for the British Armed Forces faction. Two variants are available.",
           "unlock level": 47,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3500,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
           "name": "PARS III ifv",
           "vehicle": "/Game/Vehicles/PARS_III/BP_PARS3.BP_PARS3_C",
-          "single cost": 20000,
+          "single cost": 18000,
           "description": "A Turkish IFV with a 25mm cannon.",
           "unlock level": 48,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
-          "kill xp reward": 2500,
-          "kill $ reward": 5000,
+          "kill xp reward": 2000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
           "name": "Simir Kornet",
           "vehicle": "/game/vehicles/Safir/BP_Safir_Kornet.BP_Safir_Kornet_C",
-          "single cost": 17500,
+          "single cost": 15000,
           "description": "A Safir with a Kornet",
           "unlock level": 49,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -14479,7 +14602,7 @@
         {
           "name": "FV510_40mm",
           "vehicle": "/Game/Vehicles/FV510_40mm/BP_FV510UA_CTAS40.BP_FV510UA_CTAS40_C",
-          "single cost": 25000,
+          "single cost": 22000,
           "description": "A British infantry fighting vehicle fitted with the CTAS 40mm cannon. Combining advanced firepower and strong protection, it is a formidable presence on the battlefield.",
           "unlock level": 50,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -14527,7 +14650,7 @@
         {
           "name": "ZBL08",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZBL08_HJ73C_Naval.BP_ZBL08_HJ73C_Naval_C",
-          "single cost": 24000,
+          "single cost": 21000,
           "description": "Part of the ZBL08 (Type 08) wheeled armored vehicle family, ZBL-08 is the primary variant and the principal wheeled IFV system for the Peoples Liberation Army.",
           "unlock level": 54,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
@@ -14551,19 +14674,19 @@
         {
           "name": "T62",
           "vehicle": "/Game/Vehicles/T62/BP_T62.BP_T62_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "A Soviet main battle tank of the Cold War era. Armed with a 115mm smoothbore gun, it brings heavy armor and firepower but lacks the modern refinements of newer designs.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
           "name": "T72b3",
           "vehicle": "/Game/Vehicles/T72B3/BP_T72B3.BP_T72B3_C",
-          "single cost": 30000,
+          "single cost": 28000,
           "description": "A modernized version of the T72 with a 125mm gun.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -14575,7 +14698,7 @@
         {
           "name": "M60T pmc",
           "vehicle": "/Game/Vehicles/M60T_WPMC/BP_M60T_WPMC.BP_M60T_WPMC_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "The M60T Sabra is a main battle tank used by the Turkish Land Forces.",
           "unlock level": 55,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -14587,7 +14710,7 @@
         {
           "name": "M1151 TOW",
           "vehicle": "/Game/Vehicles/M1151_WPMC/BP_M1151_TOW_WPMC.BP_M1151_TOW_WPMC_C",
-          "single cost": 18500,
+          "single cost": 15500,
           "description": "A well armored squad transport vehicle armed with a TOW",
           "unlock level": 56,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antitank.map_jeep_antitank",
@@ -14599,13 +14722,13 @@
         {
           "name": "Leopard 2A6M",
           "vehicle": "/Game/Vehicles/Leopard2/BP_2A6_Woodland.BP_2A6_Woodland_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "The Canadian MBT featuring a 120mm cannon.",
           "unlock level": 57,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
-          "kill $ reward": 8500,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -14623,13 +14746,13 @@
         {
           "name": "BMP-1",
           "vehicle": "/Game/vehicles/BMP-1/BP_BMP1_MIL.BP_BMP1_MIL_C",
-          "single cost": 20000,
+          "single cost": 19000,
           "description": "A Soviet era IFV with a powerful 73mm cannon and 4 125mm missiles.",
           "unlock level": 59,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5800,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -14641,43 +14764,43 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3200,
-          "kill $ reward": 5800,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
           "name": "BTR-82A",
           "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
-          "single cost": 20000,
+          "single cost": 19000,
           "description": "A Russian infantry fighting vehicle designed to deliver quick blows with its speed and 30mm autocannon. ",
           "unlock level": 59,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
+          "name": "BMP-2",
+          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
+          "single cost": 22000,
+          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
+          "unlock level": 60,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
           "kill $ reward": 5500,
           "prestige": 0
         },
         {
-          "name": "BMP-2",
-          "vehicle": "/Game/vehicles/BMP-2/BP_BMP2_Desert.BP_BMP2_Desert_C",
-          "single cost": 23000,
-          "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
-          "unlock level": 60,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
-          "spawn type": "Armored Vehicle",
-          "kill xp reward": 3000,
-          "kill $ reward": 5600,
-          "prestige": 0
-        },
-        {
           "name": "BMP-2M",
           "vehicle": "/Game/Vehicles/BMP-2M/BP_BMP2M.BP_BMP2M_C",
-          "single cost": 23500,
+          "single cost": 22500,
           "description": "A modernized infantry fighting vehicle armed with the powerful 30mm autocannon and advanced optics. Agile and deadly, it provides both transport for infantry and heavy fire support.",
           "unlock level": 60,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5600,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
@@ -14707,31 +14830,31 @@
         {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A lightly armored WPMC military helicopter armed with a pilot controlled GAU-17/A minigun and M151 High Explosive dumb fire rockets.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 10600,
+          "kill $ reward": 10000,
           "prestige": 0
         },
         {
           "name": "T90A",
           "vehicle": "/Game/Vehicles/T90A/BP_T90A.BP_T90A_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A modern Russian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
           "unlock level": 65,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 5000,
-          "kill $ reward": 8600,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
           "name": "BMP-3M",
           "vehicle": "/Game/Vehicles/BMP-3M/BP_BMP3M_Desert.BP_BMP3M_Desert_C",
-          "single cost": 25000,
+          "single cost": 23000,
           "description": "A Russian IFV with a 30mm autocannon and 3 100mm missiles.",
           "unlock level": 67,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -14743,7 +14866,7 @@
         {
           "name": "FV4034 Challenger",
           "vehicle": "/Game/vehicles/FV4034/BP_FV4034.BP_FV4034_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "A British tank with a 120mm rifled gun and 2 MGs.",
           "unlock level": 68,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -14755,7 +14878,7 @@
         {
           "name": "ZBD-04A",
           "vehicle": "/Game/Vehicles/ZBD04A/BP_ZBD04A.BP_ZBD04A_C",
-          "single cost": 22000,
+          "single cost": 23000,
           "description": "A Chinese amphibious infantry fighting vehicle with a 30mm cannon and a 100mm cannon",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -14768,18 +14891,18 @@
           "name": "ZBD-05",
           "vehicle": "/Game/Vehicles/ZBD05/BP_ZBD05_HJ73C_Woodland.BP_ZBD05_HJ73C_Woodland_C",
           "single cost": 20000,
-          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm  and a 50 cal",
+          "description": "A Chinese amphibious infantry fighting vehicle with a 30mm and a 50 cal",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 6000,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
           "name": "M1128 MGS",
           "vehicle": "/Game/Vehicles/M1128_MGS/BP_M1128.BP_M1128_C",
-          "single cost": 28000,
+          "single cost": 27000,
           "description": "An American mobile gun system with a powerful 105mm rifled gun.",
           "unlock level": 70,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -14791,7 +14914,7 @@
         {
           "name": "ZTD05",
           "vehicle": "/Game/Vehicles/ZTD05/BP_ZTD05.BP_ZTD05_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "Part of the Type 05 amphibious armored vehicle family, the ZTD05 is an amphibious assault gun used by PLA Navy Marine Corps.",
           "unlock level": 71,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -14803,7 +14926,7 @@
         {
           "name": "BMD-4M",
           "vehicle": "/Game/Vehicles/BMD-4M/BP_BMD4M.BP_BMD4M_C",
-          "single cost": 27000,
+          "single cost": 24000,
           "description": "A Russian amphibious IFV with improved armor, 30mm autocannon and 3 guided missiles.",
           "unlock level": 72,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
@@ -14815,19 +14938,19 @@
         {
           "name": "LAV 6.0",
           "vehicle": "/Game/Vehicles/LAV6/BP_LAV6_Woodland.BP_LAV6_Woodland_C",
-          "single cost": 25000,
+          "single cost": 22000,
           "description": "A much more heavily armored version of the LAV III",
           "unlock level": 73,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5500,
           "prestige": 0
         },
         {
           "name": "Sprut-SDM1",
           "vehicle": "/Game/Vehicles/Sprut-SDM1/BP_Sprut_Desert.BP_Sprut_Desert_C",
-          "single cost": 28000,
+          "single cost": 25000,
           "description": "Based on the chassis of BMD-4M, Sprut-SDM1 is an airborne-capable, amphibious assault gun used by Russian Airborne Forces. Armed with a powerful 125mm 2A45 tank gun.",
           "unlock level": 74,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_mgs.T_map_mgs",
@@ -14839,7 +14962,7 @@
         {
           "name": "ZTZ99",
           "vehicle": "/Game/Vehicles/ZTZ99/BP_ZTZ99.BP_ZTZ99_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "Chinas most advanced main battle tank, armed with a 125mm gun and layered armor. It embodies modern battlefield technology with speed and deadly firepower.",
           "unlock level": 75,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -14863,19 +14986,19 @@
         {
           "name": "M2A3 Bradley",
           "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
-          "single cost": 28000,
+          "single cost": 26000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5000,
+          "kill $ reward": 5300,
           "prestige": 0
         },
         {
           "name": "M1A2",
           "vehicle": "/Game/Vehicles/M1A2/BP_M1A2.BP_M1A2_C",
-          "single cost": 32000,
+          "single cost": 30000,
           "description": "The American Abrams main battle tank, boasting a 120mm smoothbore gun, composite armor, and advanced targeting systems. A symbol of modern armored dominance.",
           "unlock level": 85,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
@@ -14887,7 +15010,7 @@
         {
           "name": "Technical UB-32",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_UB32.BP_Technical2Seater_White_UB32_C",
-          "single cost": 75000,
+          "single cost": 65000,
           "description": "A technical with a UB-32 rocket pod mounted on its flatbed.",
           "unlock level": 90,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -14911,13 +15034,13 @@
         {
           "name": "Loach-CAS-small",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS_Small.BP_Loach_CAS_Small_C",
-          "single cost": 40000,
+          "single cost": 36000,
           "description": "double the miniguns, double the fun.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_lightcas.T_map_helicopter_lightcas",
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
-          "kill $ reward": 18500,
+          "kill $ reward": 11000,
           "prestige": 1
         },
         {

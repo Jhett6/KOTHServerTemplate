@@ -2005,7 +2005,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
               "unlock level": 5,
               "perk requirements": [
                 "Machinegunner"
@@ -2014,13 +2014,22 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
-              "unlock level": 0,
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 46
@@ -6893,7 +6902,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
               "unlock level": 5,
               "perk requirements": [
                 "Machinegunner"
@@ -6902,13 +6911,22 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
-              "unlock level": 0,
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 46
@@ -12001,7 +12019,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
               "unlock level": 5,
               "perk requirements": [
                 "Machinegunner"
@@ -12010,13 +12028,22 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_Foregrip.BP_C9A2_Foregrip_C",
-              "unlock level": 0,
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_C9A2_C79A2.BP_C9A2_C79A2_C",
+              "unlock level": 10,
               "perk requirements": [
                 "Machinegunner"
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 46

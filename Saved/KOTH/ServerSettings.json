@@ -3132,7 +3132,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
-              "unlock level": 0,
+              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],
@@ -8011,7 +8011,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
-              "unlock level": 0,
+              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],
@@ -13110,7 +13110,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/SMAW/BP_SMAW_HEAT.BP_SMAW_HEAT_C",
-              "unlock level": 0,
+              "unlock level": 2,
               "perk requirements": [
                 "Launcher"
               ],

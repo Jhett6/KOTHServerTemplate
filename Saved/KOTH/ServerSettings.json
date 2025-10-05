@@ -1871,6 +1871,15 @@
               "prestige": 0
             },
             {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/M4A1/BP_M4A1_EXPS_Foregrip_Suppressed.BP_M4A1_EXPS_Foregrip_Suppressed_C",
+              "unlock level": 12,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1_M68.BP_M4A1_M68_C",
               "unlock level": 15,
               "perk requirements": [],
@@ -2717,12 +2726,12 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
-				"Silencer"
-			  ],
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             }
@@ -6777,6 +6786,15 @@
               "prestige": 0
             },
             {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/M4A1/BP_M4A1_EXPS_Foregrip_Suppressed.BP_M4A1_EXPS_Foregrip_Suppressed_C",
+              "unlock level": 12,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1_M68.BP_M4A1_M68_C",
               "unlock level": 15,
               "perk requirements": [],
@@ -7623,12 +7641,12 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
-				"Silencer"
-			  ],
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             }
@@ -11903,6 +11921,15 @@
               "prestige": 0
             },
             {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/M4A1/BP_M4A1_EXPS_Foregrip_Suppressed.BP_M4A1_EXPS_Foregrip_Suppressed_C",
+              "unlock level": 12,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
               "item": "/Game/Blueprints/Items/Rifles/BP_M4A1_M68.BP_M4A1_M68_C",
               "unlock level": 15,
               "perk requirements": [],
@@ -12749,12 +12776,12 @@
               "item count": -1,
               "prestige": 0
             },
-			{
+            {
               "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
-				"Silencer"
-			  ],
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             }

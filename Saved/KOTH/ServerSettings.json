@@ -1829,6 +1829,24 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76.BP_PMT76_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76_A940.BP_PMT76_A940_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 42
@@ -6516,7 +6534,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/akm.akm",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -6738,6 +6756,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M240_M145.BP_M240_M145_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76.BP_PMT76_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76_A940.BP_PMT76_A940_C",
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
@@ -11873,6 +11909,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M240_M145.BP_M240_M145_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76.BP_PMT76_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76_A940.BP_PMT76_A940_C",
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"

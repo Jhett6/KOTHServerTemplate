@@ -1757,31 +1757,41 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
+          ],
+          "unlock level": 41
+        },
+        {
+          "family name": "C8A3",
+          "single cost": "800",
+          "perma cost": "100000",
+          "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
+          "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
-              "unlock level": 15,
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
-              "unlock level": 25,
+              "unlock level": 20,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -1795,7 +1805,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
-              "unlock level": 30,
+              "unlock level": 25,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -1803,7 +1813,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 41
+          "unlock level": 42
         },
         {
           "family name": "M240B",
@@ -6690,31 +6700,41 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
+          ],
+          "unlock level": 41
+        },
+        {
+          "family name": "C8A3",
+          "single cost": "800",
+          "perma cost": "100000",
+          "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
+          "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
-              "unlock level": 15,
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
-              "unlock level": 25,
+              "unlock level": 20,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -6728,7 +6748,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
-              "unlock level": 30,
+              "unlock level": 25,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -6736,7 +6756,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 41
+          "unlock level": 42
         },
         {
           "family name": "M240B",
@@ -11843,31 +11863,41 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
+          ],
+          "unlock level": 41
+        },
+        {
+          "family name": "C8A3",
+          "single cost": "800",
+          "perma cost": "100000",
+          "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
+          "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
-              "unlock level": 15,
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
-              "unlock level": 25,
+              "unlock level": 20,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -11881,7 +11911,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
-              "unlock level": 30,
+              "unlock level": 25,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -11889,7 +11919,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 41
+          "unlock level": 42
         },
         {
           "family name": "M240B",

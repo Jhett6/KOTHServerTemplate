@@ -1766,7 +1766,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C8A3_Ironsight.C8A3_Ironsight",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
@@ -6709,7 +6709,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C8A3_Ironsight.C8A3_Ironsight",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
@@ -11872,7 +11872,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/c7a2_irons.c7a2_irons",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C8A3_Ironsight.C8A3_Ironsight",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",

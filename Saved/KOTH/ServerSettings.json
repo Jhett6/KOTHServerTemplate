@@ -1,4 +1,4 @@
-{ 
+{
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -3193,6 +3193,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 14
@@ -3357,33 +3384,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -8108,6 +8108,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 14
@@ -8272,33 +8299,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -13243,6 +13243,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 14
@@ -13407,33 +13434,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],

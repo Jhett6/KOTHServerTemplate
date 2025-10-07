@@ -2125,6 +2125,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Theseus/BP_Theseus.BP_Theseus_C",
+              "unlock level": 50,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 49
@@ -2517,6 +2526,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -2530,6 +2548,15 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -6197,6 +6224,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/FNFAL/BP_FNFAL_GL_Mortar.BP_FNFAL_GL_Mortar_C",
+              "unlock level": 46,
+              "perk requirements": [
+                "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 33
@@ -8515,6 +8551,13 @@
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Camonet_Forest.BP_Infantry_Camonet_Forest_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -15123,6 +15166,90 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 8000,
           "kill $ reward": 11000,
+          "prestige": 1
+        },
+        {
+          "name": "CH146 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Fully loaded CAS. Bring the rain",
+          "unlock level": 76,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "MRH90 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Bring the rain (baguettes)",
+          "unlock level": 82,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH-1Y CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH-1Y_CAS/BP_UH1Y_CAS_SQDU.BP_UH1Y_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Crayon enjoyers galore",
+          "unlock level": 86,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/BP_UH60_CAS_SQDU.BP_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "This thing screams bald eagles",
+          "unlock level": 88,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Z8J CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Not the chinese candles you're thinking about..",
+          "unlock level": 94,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Mi-8 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
+          "single cost": 125000,
+          "description": "If this is on the map, im hiding",
+          "unlock level": 98,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 15000,
+          "kill $ reward": 60000,
           "prestige": 1
         },
         {

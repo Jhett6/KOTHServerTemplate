@@ -1,0 +1,203 @@
+{
+	"Helicopters": {
+		"UH-60M": {
+			"Left": {
+				"Location": {
+					"X": 0,
+					"Y": -141,
+					"Z": 191
+				},
+				"Length": 2
+			},
+			"Right": {
+				"Location": {
+					"X": 0,
+					"Y": 141,
+					"Z": 191
+				},
+				"Length": 2
+			},
+			"MountMesh": {
+				"StaticMesh": "/FastRopes/Art/RopeMount.RopeMount",
+				"Location": {
+					"X": 0,
+					"Y": 0,
+					"Z": 205
+				}
+			}
+		},
+		"UH-1Y": {
+			"Left": {
+				"Location": {
+					"X": 0,
+					"Y": -141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"Right": {
+				"Location": {
+					"X": 0,
+					"Y": 141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"MountMesh": {
+				"StaticMesh": "/FastRopes/Art/RopeMount.RopeMount",
+				"Location": {
+					"X": 0,
+					"Y": 0,
+					"Z": 208
+				}
+			}
+		},
+		"UH-1H": {
+			"Left": {
+				"Location": {
+					"X": 0,
+					"Y": -141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"Right": {
+				"Location": {
+					"X": 0,
+					"Y": 141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"MountMesh": {
+				"StaticMesh": "/FastRopes/Art/RopeMount.RopeMount",
+				"Location": {
+					"X": 0,
+					"Y": 0,
+					"Z": 208
+				}
+			}
+		},
+		"CH-146": {
+			"Left": {
+				"Location": {
+					"X": 0,
+					"Y": -141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"Right": {
+				"Location": {
+					"X": 0,
+					"Y": 141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"MountMesh": {
+				"StaticMesh": "/FastRopes/Art/RopeMount.RopeMount",
+				"Location": {
+					"X": 0,
+					"Y": 0,
+					"Z": 208
+				}
+			}
+		},
+		"CH-146 CAS": {
+			"Left": {
+				"Location": {
+					"X": 0,
+					"Y": -141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"Right": {
+				"Location": {
+					"X": 0,
+					"Y": 141,
+					"Z": 199
+				},
+				"Length": 2
+			},
+			"MountMesh": {
+				"StaticMesh": "/FastRopes/Art/RopeMount.RopeMount",
+				"Location": {
+					"X": 0,
+					"Y": 0,
+					"Z": 208
+				}
+			}
+		},
+		"MRH-90": {
+			"Left": {
+				"Location": {
+					"X": -12,
+					"Y": -136,
+					"Z": 253
+				},
+				"Length": 2
+			},
+			"Right": {
+				"Location": {
+					"X": -12,
+					"Y": 136,
+					"Z": 253
+				},
+				"Length": 2
+			}
+		},
+		"MI-8MTV-5": {
+			"Rear": {
+				"Location": {
+					"X": -385,
+					"Y": 0,
+					"Z": 250
+				},
+				"Length": 2
+			}
+		},
+		"Z-8J": {
+			"Right": {
+				"Location": {
+					"X": 319,
+					"Y": 177,
+					"Z": 310
+				},
+				"Length": 2
+			}
+		},
+		"CH-178": {
+			"Rear": {
+				"Location": {
+					"X": -385,
+					"Y": 0,
+					"Z": 250
+				},
+				"Length": 2
+			}
+		},
+		"Loach Scout": {
+			"Right": {
+				"Location": {
+					"X": -2.25,
+					"Y": 143,
+					"Z": 172
+				},
+				"Length": 1
+			},
+			"MountMesh": {
+				"StaticMesh": "/FastRopes/Art/SingleRopeMount.SingleRopeMount",
+				"Location": {
+					"X": -2.25,
+					"Y": 0,
+					"Z": 181
+				}
+			}
+		}
+	},
+	"DroppedLifeTime": 5,
+	"SlideSpeed": 700,
+	"TickRate": 15
+}

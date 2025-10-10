@@ -1757,31 +1757,41 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
+          ],
+          "unlock level": 41
+        },
+        {
+          "family name": "C8A3",
+          "single cost": "800",
+          "perma cost": "100000",
+          "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C8A3_Ironsight.C8A3_Ironsight",
+          "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
-              "unlock level": 15,
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
-              "unlock level": 25,
+              "unlock level": 20,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -1795,7 +1805,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
-              "unlock level": 30,
+              "unlock level": 25,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -1803,7 +1813,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 41
+          "unlock level": 42
         },
         {
           "family name": "M240B",
@@ -1823,6 +1833,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M240_M145.BP_M240_M145_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76.BP_PMT76_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76_A940.BP_PMT76_A940_C",
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
@@ -2125,6 +2153,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Theseus/BP_Theseus.BP_Theseus_C",
+              "unlock level": 40,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 49
@@ -2530,6 +2567,15 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -3193,6 +3239,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 14
@@ -3357,33 +3430,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -3604,6 +3650,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/CamoWall/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -3685,6 +3738,112 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Metal Sniper Towers",
+          "single cost": 750,
+          "perma cost": -1,
+          "description": "Provides elevated sniping position,",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Short/BP_Infantry_Metal_Tower_Short.BP_Infantry_Metal_Tower_Short_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Tall/BP_Infantry_Metal_Tower_Tall.BP_Infantry_Metal_Tower_Tall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Observation Tower",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/ObservationTowers/Nato/BP_Observation_Tower_Nato.BP_Observation_Tower_Nato_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "Concrete Barriers",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Normal/BP_Infantry_ConcreteBarrier.BP_Infantry_ConcreteBarrier_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Jersey/BP_Infantry_ConcreteBarrier_Jersey.BP_Infantry_ConcreteBarrier_Jersey_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Fortified/BP_Infantry_ConcreteBarrier_Fortified.BP_Infantry_ConcreteBarrier_Fortified_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "Oil Barrel Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Log Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Log.BP_Wall_Log_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -3994,6 +4153,30 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
+        },
+        {
+          "name": "Night_Terror_Mk1",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk1 w/ m240s.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
+        },
+        {
+          "name": "Night_Terror_Mk2",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk2 w/ Miniguns.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
         },
         {
           "name": "Technical4Seater_Transport",
@@ -4870,6 +5053,90 @@
           "kill xp reward": 8000,
           "kill $ reward": 10000,
           "prestige": 0
+        },
+        {
+          "name": "CH146 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Fully loaded CAS. Bring the rain",
+          "unlock level": 76,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "MRH90 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Bring the rain (baguettes)",
+          "unlock level": 82,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH-1Y CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH-1Y_CAS/BP_UH1Y_CAS_SQDU.BP_UH1Y_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Crayon enjoyers galore",
+          "unlock level": 86,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/BP_UH60_CAS_SQDU.BP_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "This thing screams bald eagles",
+          "unlock level": 88,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Z8J CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Not the chinese candles you're thinking about..",
+          "unlock level": 94,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Mi-8 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
+          "single cost": 125000,
+          "description": "If this is on the map, im hiding",
+          "unlock level": 98,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 15000,
+          "kill $ reward": 60000,
+          "prestige": 1
         },
         {
           "name": "T90A",
@@ -6516,7 +6783,7 @@
           "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/akm.akm",
           "xp unlocks": [
             {
-              "item": "/KingOfTheHill/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Rifles/AKM/BP_AKMS_KOTH.BP_AKMS_KOTH_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -6672,31 +6939,41 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
+          ],
+          "unlock level": 41
+        },
+        {
+          "family name": "C8A3",
+          "single cost": "800",
+          "perma cost": "100000",
+          "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C8A3_Ironsight.C8A3_Ironsight",
+          "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
-              "unlock level": 15,
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
-              "unlock level": 25,
+              "unlock level": 20,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -6710,7 +6987,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
-              "unlock level": 30,
+              "unlock level": 25,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -6718,7 +6995,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 41
+          "unlock level": 42
         },
         {
           "family name": "M240B",
@@ -6738,6 +7015,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M240_M145.BP_M240_M145_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76.BP_PMT76_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76_A940.BP_PMT76_A940_C",
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
@@ -7040,6 +7335,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Theseus/BP_Theseus.BP_Theseus_C",
+              "unlock level": 40,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 49
@@ -7445,6 +7749,15 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -8108,6 +8421,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 14
@@ -8272,33 +8612,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -8519,6 +8832,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/CamoWall/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -8600,6 +8920,112 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Metal Sniper Towers",
+          "single cost": 750,
+          "perma cost": -1,
+          "description": "Provides elevated sniping position,",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Short/BP_Infantry_Metal_Tower_Short.BP_Infantry_Metal_Tower_Short_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Tall/BP_Infantry_Metal_Tower_Tall.BP_Infantry_Metal_Tower_Tall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Observation Tower",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/ObservationTowers/Nato/BP_Observation_Tower_Nato.BP_Observation_Tower_Nato_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "Concrete Barriers",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Normal/BP_Infantry_ConcreteBarrier.BP_Infantry_ConcreteBarrier_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Jersey/BP_Infantry_ConcreteBarrier_Jersey.BP_Infantry_ConcreteBarrier_Jersey_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Fortified/BP_Infantry_ConcreteBarrier_Fortified.BP_Infantry_ConcreteBarrier_Fortified_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "Oil Barrel Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Log Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Log.BP_Wall_Log_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -8909,6 +9335,30 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
+        },
+        {
+          "name": "Night_Terror_Mk1",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk1 w/ m240s.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
+        },
+        {
+          "name": "Night_Terror_Mk2",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk2 w/ Miniguns.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
         },
         {
           "name": "Technical4Seater_Transport",
@@ -9785,6 +10235,90 @@
           "kill xp reward": 8000,
           "kill $ reward": 10000,
           "prestige": 0
+        },
+        {
+          "name": "CH146 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Fully loaded CAS. Bring the rain",
+          "unlock level": 76,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "MRH90 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Bring the rain (baguettes)",
+          "unlock level": 82,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH-1Y CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH-1Y_CAS/BP_UH1Y_CAS_SQDU.BP_UH1Y_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Crayon enjoyers galore",
+          "unlock level": 86,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/BP_UH60_CAS_SQDU.BP_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "This thing screams bald eagles",
+          "unlock level": 88,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Z8J CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Not the chinese candles you're thinking about..",
+          "unlock level": 94,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Mi-8 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
+          "single cost": 125000,
+          "description": "If this is on the map, im hiding",
+          "unlock level": 98,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 15000,
+          "kill $ reward": 60000,
+          "prestige": 1
         },
         {
           "name": "T90A",
@@ -11807,31 +12341,41 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
+            }
+          ],
+          "unlock level": 41
+        },
+        {
+          "family name": "C8A3",
+          "single cost": "800",
+          "perma cost": "100000",
+          "description": "The C8A3 is the compact rifle of the Canadian Army issued to specialists in need of a more compact weapon.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C8A3_Ironsight.C8A3_Ironsight",
+          "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_Ironsights_Foregrip.BP_C8A3_Ironsights_Foregrip_C",
-              "unlock level": 2,
+              "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552.BP_C8A3_ET552_C",
-              "unlock level": 10,
+              "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_Foregrip.BP_C8A3_ET552_Foregrip_C",
-              "unlock level": 15,
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_C79A2.BP_C8A3_C79A2_C",
-              "unlock level": 25,
+              "unlock level": 20,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -11845,7 +12389,7 @@
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
-              "unlock level": 30,
+              "unlock level": 25,
               "perk requirements": [
                 "Grenadier"
               ],
@@ -11853,7 +12397,7 @@
               "prestige": 0
             }
           ],
-          "unlock level": 41
+          "unlock level": 42
         },
         {
           "family name": "M240B",
@@ -11873,6 +12417,24 @@
             },
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_M240_M145.BP_M240_M145_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76.BP_PMT76_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/MachineGuns/BP_PMT76_A940.BP_PMT76_A940_C",
               "unlock level": 20,
               "perk requirements": [
                 "Machinegunner"
@@ -12175,6 +12737,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Theseus/BP_Theseus.BP_Theseus_C",
+              "unlock level": 40,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 49
@@ -12580,6 +13151,15 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -13243,6 +13823,33 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 14
@@ -13407,33 +14014,6 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/BP_CarlGustavM2_FFV751_No78Mk1.BP_CarlGustavM2_FFV751_No78Mk1_C",
               "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Heat.BP_M3MDFSW_Heat_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MAAWS_Tandem.BP_M3MAAWS_Tandem_C",
-              "unlock level": 20,
-              "perk requirements": [
-                "Launcher"
-              ],
-              "item count": -1,
-              "prestige": 0
-            },
-            {
-              "item": "/Game/Blueprints/Items/RocketLaunchers/M3MAAWS/BP_M3MDFSW_Tandem.BP_M3MDFSW_Tandem_C",
-              "unlock level": 20,
               "perk requirements": [
                 "Launcher"
               ],
@@ -13654,6 +14234,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/CamoWall/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -13735,6 +14322,112 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Metal Sniper Towers",
+          "single cost": 750,
+          "perma cost": -1,
+          "description": "Provides elevated sniping position,",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Short/BP_Infantry_Metal_Tower_Short.BP_Infantry_Metal_Tower_Short_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Tall/BP_Infantry_Metal_Tower_Tall.BP_Infantry_Metal_Tower_Tall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Observation Tower",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/ObservationTowers/Nato/BP_Observation_Tower_Nato.BP_Observation_Tower_Nato_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "Concrete Barriers",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Normal/BP_Infantry_ConcreteBarrier.BP_Infantry_ConcreteBarrier_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Jersey/BP_Infantry_ConcreteBarrier_Jersey.BP_Infantry_ConcreteBarrier_Jersey_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Fortified/BP_Infantry_ConcreteBarrier_Fortified.BP_Infantry_ConcreteBarrier_Fortified_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "Oil Barrel Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Log Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Log.BP_Wall_Log_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -14044,6 +14737,30 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
+        },
+        {
+          "name": "Night_Terror_Mk1",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk1 w/ m240s.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
+        },
+        {
+          "name": "Night_Terror_Mk2",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk2 w/ Miniguns.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
         },
         {
           "name": "Technical4Seater_Transport",
@@ -14920,6 +15637,90 @@
           "kill xp reward": 8000,
           "kill $ reward": 10000,
           "prestige": 0
+        },
+        {
+          "name": "CH146 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Fully loaded CAS. Bring the rain",
+          "unlock level": 76,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "MRH90 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Bring the rain (baguettes)",
+          "unlock level": 82,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH-1Y CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH-1Y_CAS/BP_UH1Y_CAS_SQDU.BP_UH1Y_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Crayon enjoyers galore",
+          "unlock level": 86,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/BP_UH60_CAS_SQDU.BP_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "This thing screams bald eagles",
+          "unlock level": 88,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Z8J CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Not the chinese candles you're thinking about..",
+          "unlock level": 94,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 40000,
+          "prestige": 1
+        },
+        {
+          "name": "Mi-8 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
+          "single cost": 125000,
+          "description": "If this is on the map, im hiding",
+          "unlock level": 98,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 15000,
+          "kill $ reward": 60000,
+          "prestige": 1
         },
         {
           "name": "T90A",

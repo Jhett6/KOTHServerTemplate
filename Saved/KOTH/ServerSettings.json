@@ -2573,6 +2573,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 78
@@ -3641,6 +3650,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/CamoWall/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -3722,6 +3738,112 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Metal Sniper Towers",
+          "single cost": 750,
+          "perma cost": -1,
+          "description": "Provides elevated sniping position,",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Short/BP_Infantry_Metal_Tower_Short.BP_Infantry_Metal_Tower_Short_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Tall/BP_Infantry_Metal_Tower_Tall.BP_Infantry_Metal_Tower_Tall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Observation Tower",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/ObservationTowers/Nato/BP_Observation_Tower_Nato.BP_Observation_Tower_Nato_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "Concrete Barriers",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Normal/BP_Infantry_ConcreteBarrier.BP_Infantry_ConcreteBarrier_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Jersey/BP_Infantry_ConcreteBarrier_Jersey.BP_Infantry_ConcreteBarrier_Jersey_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Fortified/BP_Infantry_ConcreteBarrier_Fortified.BP_Infantry_ConcreteBarrier_Fortified_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "Oil Barrel Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Log Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Log.BP_Wall_Log_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -4031,6 +4153,30 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
+        },
+        {
+          "name": "Night_Terror_Mk1",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk1 w/ m240s.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
+        },
+        {
+          "name": "Night_Terror_Mk2",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk2 w/ Miniguns.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
         },
         {
           "name": "Technical4Seater_Transport",
@@ -7609,6 +7755,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 78
@@ -8677,6 +8832,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/CamoWall/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -8758,6 +8920,112 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Metal Sniper Towers",
+          "single cost": 750,
+          "perma cost": -1,
+          "description": "Provides elevated sniping position,",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Short/BP_Infantry_Metal_Tower_Short.BP_Infantry_Metal_Tower_Short_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Tall/BP_Infantry_Metal_Tower_Tall.BP_Infantry_Metal_Tower_Tall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Observation Tower",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/ObservationTowers/Nato/BP_Observation_Tower_Nato.BP_Observation_Tower_Nato_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "Concrete Barriers",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Normal/BP_Infantry_ConcreteBarrier.BP_Infantry_ConcreteBarrier_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Jersey/BP_Infantry_ConcreteBarrier_Jersey.BP_Infantry_ConcreteBarrier_Jersey_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Fortified/BP_Infantry_ConcreteBarrier_Fortified.BP_Infantry_ConcreteBarrier_Fortified_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "Oil Barrel Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Log Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Log.BP_Wall_Log_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -9067,6 +9335,30 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
+        },
+        {
+          "name": "Night_Terror_Mk1",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk1 w/ m240s.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
+        },
+        {
+          "name": "Night_Terror_Mk2",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk2 w/ Miniguns.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
         },
         {
           "name": "Technical4Seater_Transport",
@@ -12865,6 +13157,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 78
@@ -13933,6 +14234,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/CamoWall/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
@@ -14014,6 +14322,112 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Metal Sniper Towers",
+          "single cost": 750,
+          "perma cost": -1,
+          "description": "Provides elevated sniping position,",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Short/BP_Infantry_Metal_Tower_Short.BP_Infantry_Metal_Tower_Short_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Tall/BP_Infantry_Metal_Tower_Tall.BP_Infantry_Metal_Tower_Tall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Observation Tower",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/ObservationTowers/Nato/BP_Observation_Tower_Nato.BP_Observation_Tower_Nato_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "Concrete Barriers",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Normal/BP_Infantry_ConcreteBarrier.BP_Infantry_ConcreteBarrier_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Jersey/BP_Infantry_ConcreteBarrier_Jersey.BP_Infantry_ConcreteBarrier_Jersey_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Fortified/BP_Infantry_ConcreteBarrier_Fortified.BP_Infantry_ConcreteBarrier_Fortified_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "Oil Barrel Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Log Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Log.BP_Wall_Log_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -14323,6 +14737,30 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
+        },
+        {
+          "name": "Night_Terror_Mk1",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk1 w/ m240s.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
+        },
+        {
+          "name": "Night_Terror_Mk2",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "single cost": 15000,
+          "description": "Night terror Mk2 w/ Miniguns.",
+          "unlock level": 10,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 2000,
+          "kill $ reward": 7500,
+          "prestige": 1
         },
         {
           "name": "Technical4Seater_Transport",

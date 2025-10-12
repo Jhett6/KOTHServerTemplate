@@ -1149,6 +1149,27 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_30.New_X95_M150_Grip_30_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 27
@@ -2773,7 +2794,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
+              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Scalpel_Suppressed.BP_M9A1_Scalpel_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
                 "Silencer"
@@ -3826,7 +3847,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Barrel.BP_Wall_Barrel_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -4168,7 +4189,7 @@
         },
         {
           "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
           "single cost": 15000,
           "description": "Night terror Mk2 w/ Miniguns.",
           "unlock level": 10,
@@ -6331,6 +6352,27 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_30.New_X95_M150_Grip_30_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 27
@@ -7955,7 +7997,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
+              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Scalpel_Suppressed.BP_M9A1_Scalpel_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
                 "Silencer"
@@ -9008,7 +9050,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Barrel.BP_Wall_Barrel_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -9350,7 +9392,7 @@
         },
         {
           "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
           "single cost": 15000,
           "description": "Night terror Mk2 w/ Miniguns.",
           "unlock level": 10,
@@ -11733,6 +11775,27 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_30.New_X95_M150_Grip_30_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 27
@@ -13357,7 +13420,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
+              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Scalpel_Suppressed.BP_M9A1_Scalpel_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
                 "Silencer"
@@ -14410,7 +14473,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Barrel.BP_Wall_Barrel_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -14752,7 +14815,7 @@
         },
         {
           "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
           "single cost": 15000,
           "description": "Night terror Mk2 w/ Miniguns.",
           "unlock level": 10,

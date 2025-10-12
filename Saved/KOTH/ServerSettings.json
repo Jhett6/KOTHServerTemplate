@@ -1149,6 +1149,27 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_30.New_X95_M150_Grip_30_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 27
@@ -2773,7 +2794,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
+              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Scalpel_Suppressed.BP_M9A1_Scalpel_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
                 "Silencer"
@@ -6331,6 +6352,27 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_30.New_X95_M150_Grip_30_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 27
@@ -7955,7 +7997,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
+              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Scalpel_Suppressed.BP_M9A1_Scalpel_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
                 "Silencer"
@@ -11733,6 +11775,27 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_30.New_X95_M150_Grip_30_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 27
@@ -13357,7 +13420,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
+              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Scalpel_Suppressed.BP_M9A1_Scalpel_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
                 "Silencer"

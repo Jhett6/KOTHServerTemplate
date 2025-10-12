@@ -3826,7 +3826,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Barrel.BP_Wall_Barrel_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -4168,7 +4168,7 @@
         },
         {
           "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
           "single cost": 15000,
           "description": "Night terror Mk2 w/ Miniguns.",
           "unlock level": 10,
@@ -9008,7 +9008,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Barrel.BP_Wall_Barrel_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -9350,7 +9350,7 @@
         },
         {
           "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
           "single cost": 15000,
           "description": "Night terror Mk2 w/ Miniguns.",
           "unlock level": 10,
@@ -14410,7 +14410,7 @@
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Barrel.BP_Wall_Barrel_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -14752,7 +14752,7 @@
         },
         {
           "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
+          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
           "single cost": 15000,
           "description": "Night terror Mk2 w/ Miniguns.",
           "unlock level": 10,

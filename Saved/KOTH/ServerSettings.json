@@ -5,7 +5,8 @@
       "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C",
       "/FastRopes/Blueprints/BP_FastRopeInjector.BP_FastRopeInjector_C",
       "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01_Random.BP_Squad_UltraDynamicWeather_01_Random_C",
-	  "/SquadJSLogger/BP_SquadJSLogger.BP_SquadJSLogger_C"
+      "/SquadJSLogger/BP_SquadJSLogger.BP_SquadJSLogger_C",
+      "/PersistentBattles/BP_PersistentBattles.BP_PersistentBattles_C"
     ],
     "economy": {
       "$ multiplier": 2,

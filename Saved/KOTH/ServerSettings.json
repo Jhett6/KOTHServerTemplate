@@ -3606,7 +3606,7 @@
         },
         {
           "family name": "Sandbag",
-          "single cost": 50,
+          "single cost": 25,
           "perma cost": -1,
           "description": "Solid cover to protect from incoming fire",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
@@ -3623,7 +3623,7 @@
         },
         {
           "family name": "CamoNet",
-          "single cost": 100,
+          "single cost": 35,
           "perma cost": -1,
           "description": "Provides a peronal concealed firing position",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/camonet.camonet",
@@ -3640,7 +3640,7 @@
         },
         {
           "family name": "Ladder",
-          "single cost": 50,
+          "single cost": 25,
           "perma cost": -1,
           "description": "Provides access to elevated positions",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
@@ -3657,7 +3657,7 @@
         },
         {
           "family name": "Ammo Wall Low",
-          "single cost": 100,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
@@ -3674,7 +3674,7 @@
         },
         {
           "family name": "Ammo Wall High",
-          "single cost": 120,
+          "single cost": 60,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
@@ -3691,7 +3691,7 @@
         },
         {
           "family name": "Ammo Wall Firing Port",
-          "single cost": 140,
+          "single cost": 70,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
@@ -3708,7 +3708,7 @@
         },
         {
           "family name": "Hesco Block",
-          "single cost": 100,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
@@ -3725,7 +3725,7 @@
         },
         {
           "family name": "Hesco Wall",
-          "single cost": 300,
+          "single cost": 150,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
@@ -8566,7 +8566,7 @@
         },
         {
           "family name": "Sandbag",
-          "single cost": 50,
+          "single cost": 25,
           "perma cost": -1,
           "description": "Solid cover to protect from incoming fire",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
@@ -8583,7 +8583,7 @@
         },
         {
           "family name": "CamoNet",
-          "single cost": 100,
+          "single cost": 35,
           "perma cost": -1,
           "description": "Provides a peronal concealed firing position",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/camonet.camonet",
@@ -8600,7 +8600,7 @@
         },
         {
           "family name": "Ladder",
-          "single cost": 50,
+          "single cost": 25,
           "perma cost": -1,
           "description": "Provides access to elevated positions",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
@@ -8617,7 +8617,7 @@
         },
         {
           "family name": "Ammo Wall Low",
-          "single cost": 100,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
@@ -8634,7 +8634,7 @@
         },
         {
           "family name": "Ammo Wall High",
-          "single cost": 120,
+          "single cost": 60,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
@@ -8651,7 +8651,7 @@
         },
         {
           "family name": "Ammo Wall Firing Port",
-          "single cost": 140,
+          "single cost": 70,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
@@ -8668,7 +8668,7 @@
         },
         {
           "family name": "Hesco Block",
-          "single cost": 100,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
@@ -8685,7 +8685,7 @@
         },
         {
           "family name": "Hesco Wall",
-          "single cost": 300,
+          "single cost": 150,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
@@ -13746,7 +13746,7 @@
         },
         {
           "family name": "Sandbag",
-          "single cost": 50,
+          "single cost": 25,
           "perma cost": -1,
           "description": "Solid cover to protect from incoming fire",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
@@ -13763,7 +13763,7 @@
         },
         {
           "family name": "CamoNet",
-          "single cost": 100,
+          "single cost": 35,
           "perma cost": -1,
           "description": "Provides a peronal concealed firing position",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/camonet.camonet",
@@ -13780,7 +13780,7 @@
         },
         {
           "family name": "Ladder",
-          "single cost": 50,
+          "single cost": 25,
           "perma cost": -1,
           "description": "Provides access to elevated positions",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
@@ -13797,7 +13797,7 @@
         },
         {
           "family name": "Ammo Wall Low",
-          "single cost": 100,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
@@ -13814,7 +13814,7 @@
         },
         {
           "family name": "Ammo Wall High",
-          "single cost": 120,
+          "single cost": 60,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
@@ -13831,7 +13831,7 @@
         },
         {
           "family name": "Ammo Wall Firing Port",
-          "single cost": 140,
+          "single cost": 70,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
@@ -13848,7 +13848,7 @@
         },
         {
           "family name": "Hesco Block",
-          "single cost": 100,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
@@ -13865,7 +13865,7 @@
         },
         {
           "family name": "Hesco Wall",
-          "single cost": 300,
+          "single cost": 150,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",

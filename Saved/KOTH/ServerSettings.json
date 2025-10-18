@@ -3707,6 +3707,23 @@
           "unlock level": 28
         },
         {
+          "family name": "Hesco Block",
+          "single cost": 100,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoBlock.BP_Infantry_HescoBlock_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 10
+        },
+        {
           "family name": "Hesco Wall",
           "single cost": 300,
           "perma cost": -1,
@@ -8648,6 +8665,23 @@
             }
           ],
           "unlock level": 28
+        },
+        {
+          "family name": "Hesco Block",
+          "single cost": 100,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoBlock.BP_Infantry_HescoBlock_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 10
         },
         {
           "family name": "Hesco Wall",
@@ -13811,6 +13845,23 @@
             }
           ],
           "unlock level": 28
+        },
+        {
+          "family name": "Hesco Block",
+          "single cost": 100,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoBlock.BP_Infantry_HescoBlock_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 10
         },
         {
           "family name": "Hesco Wall",

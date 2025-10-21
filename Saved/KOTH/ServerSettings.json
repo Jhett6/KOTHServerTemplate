@@ -180,7 +180,7 @@
         "display reward": true
       },
       {
-        "name": "Repair",
+        "name": "Repairing",
         "xp": 75,
         "$": 75,
         "description": "Awarded for repairing friendly vehicles or equipment, maintaining team assets.",

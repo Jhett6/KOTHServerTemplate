@@ -180,7 +180,7 @@
         "display reward": true
       },
       {
-        "name": "Repair",
+        "name": "Repairing",
         "xp": 75,
         "$": 75,
         "description": "Awarded for repairing friendly vehicles or equipment, maintaining team assets.",
@@ -617,6 +617,15 @@
               "unlock level": 28,
               "perk requirements": [
                 "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Tempest/BP_L85A2_SPECTRE_Foregrip_Tempest.BP_L85A2_SPECTRE_Foregrip_Tempest_C",
+              "unlock level": 35,
+              "perk requirements": [
+                "Silencer"
               ],
               "item count": -1,
               "prestige": 0
@@ -1242,6 +1251,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/SubMachine/RoomSweeper/BP_MP5A3_RoomSweeper.BP_MP5A3_RoomSweeper_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 30
@@ -1532,6 +1550,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Kaskad/BP_RPK74M_Kaskad.BP_RPK74M_Kaskad_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 36
@@ -1551,6 +1578,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/PP19/WarTrophy/SD_BP_PP19_War_Trophy.SD_BP_PP19_War_Trophy_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Crewman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 37
@@ -2624,6 +2660,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Sniper/UnImpressed/BP_C14_Suppressed.BP_C14_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 80
@@ -3623,6 +3668,25 @@
             }
           ],
           "unlock level": 65
+        },
+        {
+          "family name": "FPV Drone",
+          "single cost": "3000",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to destroy enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
         }
       ],
       "deployables": [
@@ -3693,6 +3757,23 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 20
+        },
+        {
+          "family name": "Tank Trap",
+          "single cost": 500,
+          "perma cost": -1,
+          "description": "Provides ability to block roads and paths.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHedgehogIcon.T_RadialHedgehogIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/TankTrap/BP_TankTrap.BP_TankTrap_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -5823,6 +5904,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Tempest/BP_L85A2_SPECTRE_Foregrip_Tempest.BP_L85A2_SPECTRE_Foregrip_Tempest_C",
+              "unlock level": 35,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -6445,6 +6535,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/SubMachine/RoomSweeper/BP_MP5A3_RoomSweeper.BP_MP5A3_RoomSweeper_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 30
@@ -6735,6 +6834,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Kaskad/BP_RPK74M_Kaskad.BP_RPK74M_Kaskad_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 36
@@ -6754,6 +6862,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/PP19/WarTrophy/SD_BP_PP19_War_Trophy.SD_BP_PP19_War_Trophy_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Crewman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 37
@@ -7827,6 +7944,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Sniper/UnImpressed/BP_C14_Suppressed.BP_C14_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 80
@@ -8826,6 +8952,25 @@
             }
           ],
           "unlock level": 65
+        },
+        {
+          "family name": "FPV Drone",
+          "single cost": "3000",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to destroy enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
         }
       ],
       "deployables": [
@@ -8896,6 +9041,23 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 20
+        },
+        {
+          "family name": "Tank Trap",
+          "single cost": 500,
+          "perma cost": -1,
+          "description": "Provides ability to block roads and paths.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHedgehogIcon.T_RadialHedgehogIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/TankTrap/BP_TankTrap.BP_TankTrap_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -11246,6 +11408,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Tempest/BP_L85A2_SPECTRE_Foregrip_Tempest.BP_L85A2_SPECTRE_Foregrip_Tempest_C",
+              "unlock level": 35,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 0
@@ -11868,6 +12039,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/SubMachine/RoomSweeper/BP_MP5A3_RoomSweeper.BP_MP5A3_RoomSweeper_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 30
@@ -12158,6 +12338,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Kaskad/BP_RPK74M_Kaskad.BP_RPK74M_Kaskad_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 36
@@ -12177,6 +12366,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/PP19/WarTrophy/SD_BP_PP19_War_Trophy.SD_BP_PP19_War_Trophy_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Crewman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 37
@@ -13250,6 +13448,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Sniper/UnImpressed/BP_C14_Suppressed.BP_C14_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 80
@@ -14249,6 +14456,25 @@
             }
           ],
           "unlock level": 65
+        },
+        {
+          "family name": "FPV Drone",
+          "single cost": "3000",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to destroy enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
         }
       ],
       "deployables": [
@@ -14319,6 +14545,23 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 20
+        },
+        {
+          "family name": "Tank Trap",
+          "single cost": 500,
+          "perma cost": -1,
+          "description": "Provides ability to block roads and paths.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHedgehogIcon.T_RadialHedgehogIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/TankTrap/BP_TankTrap.BP_TankTrap_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,

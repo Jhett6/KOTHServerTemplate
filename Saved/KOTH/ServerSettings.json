@@ -1046,7 +1046,7 @@
           "description": "A not-so-bulletproof rubber boat.",
           "unlock level": 0,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
-          "spawn type": "Sea Vehicle",
+          "spawn type": "Ground",
           "kill xp reward": 50,
           "kill $ reward": 66,
           "prestige": 0

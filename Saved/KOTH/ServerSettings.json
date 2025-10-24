@@ -1039,6 +1039,18 @@
         }
       ],
       "vehicles": [
+        {
+          "name": "Renault GBC 180 Transport",
+          "vehicle": "/SPM/Vehicles/TRAN/Blueprints/Medium/GBC-180/BP_GBC-180_TRAN_Desert.BP_GBC-180_TRAN_Desert_C",
+          "single cost": 200,
+          "description": "A not-so-bulletproof rubber boat.",
+          "unlock level": 0,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 50,
+          "kill $ reward": 66,
+          "prestige": 0
+        }
       ],
       "perks": [
         {

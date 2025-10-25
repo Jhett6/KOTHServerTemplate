@@ -13,15 +13,15 @@
       "xp multiplier": 1,
       "weapon xp multiplier": 12
     },
-	"halo cost": 5000,
+    "halo cost": 5000,
     "intel": {
-      "prio": 50,
-      "zone": 25,
+      "prio": 100,
+      "zone": 50,
       "zone_assist": 0.5,
       "prio_assist": 1
     },
     "bounties": {
-      "intel_required": 1000,
+      "intel_required": 2000,
       "top_bounty_ping": true,
       "bounty_ping": false,
       "ghost_radius": 3000,
@@ -388,7 +388,7 @@
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
       },
-	  {
+      {
         "name": "Team Killed",
         "xp": -1,
         "$": -1,
@@ -4266,18 +4266,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk1",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
-          "single cost": 15000,
-          "description": "Night terror Mk1 w/ m240s.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 7500,
-          "prestige": 1
         },
         {
           "name": "Night_Terror_Mk2",
@@ -9550,18 +9538,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk1",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
-          "single cost": 15000,
-          "description": "Night terror Mk1 w/ m240s.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 7500,
-          "prestige": 1
         },
         {
           "name": "Night_Terror_Mk2",
@@ -15054,18 +15030,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk1",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror.BP_Loach_NightTerror_C",
-          "single cost": 15000,
-          "description": "Night terror Mk1 w/ m240s.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 7500,
-          "prestige": 1
         },
         {
           "name": "Night_Terror_Mk2",

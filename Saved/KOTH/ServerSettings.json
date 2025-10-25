@@ -386,6 +386,14 @@
         "description": "Damn you smoked his ass. I owe you one.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
+      },
+	  {
+        "name": "Team Killed",
+        "xp": -1,
+        "$": -1,
+        "description": "You were shot by a friendly. Your rebuy is free.",
+        "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
+        "display reward": true
       }
     ]
   },

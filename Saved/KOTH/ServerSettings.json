@@ -391,7 +391,7 @@
         "name": "Team Killed",
         "xp": -1,
         "$": -1,
-        "description": "You were shot by a friendly. Your rebuy is free.",
+        "description": "You were shot by a friendly. Your rebuy is on them.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
       }

@@ -13,6 +13,7 @@
       "xp multiplier": 1,
       "weapon xp multiplier": 12
     },
+	"halo cost": 5000,
     "intel": {
       "prio": 50,
       "zone": 25,

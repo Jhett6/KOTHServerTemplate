@@ -5600,7 +5600,7 @@
         },
         {
           "name": "Got Milk?",
-          "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
+          "description": "HALO jump 50% cost. Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
           "material": "None",
           "unlock level": 40,
@@ -10884,7 +10884,7 @@
         },
         {
           "name": "Got Milk?",
-          "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
+          "description": "HALO jump 50% cost. Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
           "material": "None",
           "unlock level": 40,
@@ -16388,7 +16388,7 @@
         },
         {
           "name": "Got Milk?",
-          "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
+          "description": "HALO jump 50% cost. Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
           "material": "None",
           "unlock level": 40,

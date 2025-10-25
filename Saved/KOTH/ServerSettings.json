@@ -39,7 +39,7 @@
       "prio vehicle can capture": true
     },
     "max prestige": 1,
-    "msv timer": 120,
+    "msv timer": 60,
     "msv enemy trace distance": 3000,
     "main protection time": 1,
     "vehicle cleanup": {

@@ -3260,6 +3260,42 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C",
+              "unlock level": 1,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 4
@@ -8527,6 +8563,42 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C",
+              "unlock level": 1,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C",
+              "unlock level": 25,
               "perk requirements": [
                 "Launcher"
               ],
@@ -14019,6 +14091,42 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C",
+              "unlock level": 1,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C",
+              "unlock level": 25,
               "perk requirements": [
                 "Launcher"
               ],

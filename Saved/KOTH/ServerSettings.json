@@ -948,7 +948,7 @@
           "single cost": "1000",
           "perma cost": "120000",
           "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -1203,7 +1203,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "texture": "/Game/Art/Items/QBZ-95-1/T_qbz95-1.T_qbz95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
@@ -1408,7 +1408,7 @@
           "single cost": "850",
           "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJY-88/qjy88.qjy88",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
@@ -2713,7 +2713,7 @@
           "single cost": "20",
           "perma cost": "1000",
           "description": "A Chinese semi-auto pistol",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "texture": "/Game/Art/Items/QSZ-92_Pistol/qsz92.qsz92",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
@@ -6262,7 +6262,7 @@
           "single cost": "1000",
           "perma cost": "120000",
           "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -6517,7 +6517,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "texture": "/Game/Art/Items/QBZ-95-1/T_qbz95-1.T_qbz95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
@@ -6722,7 +6722,7 @@
           "single cost": "850",
           "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJY-88/qjy88.qjy88",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
@@ -8027,7 +8027,7 @@
           "single cost": "20",
           "perma cost": "1000",
           "description": "A Chinese semi-auto pistol",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "texture": "/Game/Art/Items/QSZ-92_Pistol/qsz92.qsz92",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
@@ -11796,7 +11796,7 @@
           "single cost": "1000",
           "perma cost": "120000",
           "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -12051,7 +12051,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "texture": "/Game/Art/Items/QBZ-95-1/T_qbz95-1.T_qbz95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
@@ -12256,7 +12256,7 @@
           "single cost": "850",
           "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJY-88/qjy88.qjy88",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
@@ -13561,7 +13561,7 @@
           "single cost": "20",
           "perma cost": "1000",
           "description": "A Chinese semi-auto pistol",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "texture": "/Game/Art/Items/QSZ-92_Pistol/qsz92.qsz92",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",

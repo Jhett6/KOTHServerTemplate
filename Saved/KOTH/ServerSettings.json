@@ -3725,7 +3725,8 @@
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
               "unlock level": 0,
               "perk requirements": [
-                "Drone Operator"
+                "Drone Operator",
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -9033,7 +9034,8 @@
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
               "unlock level": 0,
               "perk requirements": [
-                "Drone Operator"
+                "Drone Operator",
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -14561,7 +14563,8 @@
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
               "unlock level": 0,
               "perk requirements": [
-                "Drone Operator"
+                "Drone Operator",
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0

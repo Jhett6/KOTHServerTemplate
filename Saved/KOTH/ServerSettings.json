@@ -4313,7 +4313,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 2000,
           "kill $ reward": 7500,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",
@@ -9621,7 +9621,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 2000,
           "kill $ reward": 7500,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",
@@ -15149,7 +15149,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 2000,
           "kill $ reward": 7500,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",

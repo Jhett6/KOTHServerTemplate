@@ -5225,7 +5225,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
           "kill $ reward": 40000,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "UH60M CAS",
@@ -5273,7 +5273,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 15000,
           "kill $ reward": 60000,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "T90A",
@@ -10533,7 +10533,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
           "kill $ reward": 40000,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "UH60M CAS",
@@ -10581,7 +10581,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 15000,
           "kill $ reward": 60000,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "T90A",
@@ -16061,7 +16061,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
           "kill $ reward": 40000,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "UH60M CAS",
@@ -16109,7 +16109,7 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 15000,
           "kill $ reward": 60000,
-          "prestige": 1
+          "prestige": 2
         },
         {
           "name": "T90A",

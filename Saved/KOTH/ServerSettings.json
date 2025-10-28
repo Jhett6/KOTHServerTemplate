@@ -4310,18 +4310,6 @@
           "prestige": 0
         },
         {
-          "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
-          "single cost": 9000,
-          "description": "Night terror Mk2 w/ Miniguns.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 800,
-          "kill $ reward": 1000,
-          "prestige": 2
-        },
-        {
           "name": "Technical4Seater_Transport",
           "vehicle": "/Game/Vehicles/Technical2Seater/Technical4Seater/BP_Technical4Seater_Transport.BP_Technical4Seater_Transport_C",
           "single cost": 400,
@@ -9622,18 +9610,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
-          "single cost": 9000,
-          "description": "Night terror Mk2 w/ Miniguns.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 800,
-          "kill $ reward": 1000,
-          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",
@@ -15156,18 +15132,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
-          "single cost": 9000,
-          "description": "Night terror Mk2 w/ Miniguns.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 800,
-          "kill $ reward": 1000,
-          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",

@@ -948,7 +948,7 @@
           "single cost": "1000",
           "perma cost": "120000",
           "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -1180,14 +1180,18 @@
             {
               "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
               "unlock level": 15,
-              "perk requirements": [],
+              "perk requirements": [
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             },
             {
               "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
               "unlock level": 15,
-              "perk requirements": [],
+              "perk requirements": [
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             }
@@ -1199,7 +1203,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "texture": "/Game/Art/Items/QBZ-95-1/T_qbz95-1.T_qbz95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
@@ -1265,7 +1269,8 @@
               "item": "/KOTHContractorCrate/Fosh/Guns/SubMachine/RoomSweeper/BP_MP5A3_RoomSweeper.BP_MP5A3_RoomSweeper_C",
               "unlock level": 15,
               "perk requirements": [
-                "Silencer"
+                "Silencer",
+                "Crewman"
               ],
               "item count": -1,
               "prestige": 1
@@ -1403,7 +1408,7 @@
           "single cost": "850",
           "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJY-88/qjy88.qjy88",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
@@ -2126,15 +2131,6 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 1
             }
           ],
           "unlock level": 46
@@ -2622,6 +2618,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -2708,7 +2713,7 @@
           "single cost": "20",
           "perma cost": "1000",
           "description": "A Chinese semi-auto pistol",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "texture": "/Game/Art/Items/QSZ-92_Pistol/qsz92.qsz92",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
@@ -4259,13 +4264,13 @@
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 1500,
+          "single cost": 5000,
           "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 375,
-          "kill $ reward": 500,
+          "kill xp reward": 875,
+          "kill $ reward": 1500,
           "prestige": 0
         },
         {
@@ -4303,18 +4308,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
-          "single cost": 15000,
-          "description": "Night terror Mk2 w/ Miniguns.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 7500,
-          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",
@@ -5195,25 +5188,25 @@
         {
           "name": "CH146 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 60000,
           "description": "Fully loaded CAS. Bring the rain",
           "unlock level": 76,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
           "name": "MRH90 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 60000,
           "description": "Bring the rain (baguettes)",
           "unlock level": 82,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
@@ -5225,7 +5218,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 30000,
           "prestige": 2
         },
         {
@@ -5237,43 +5230,43 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 30000,
           "prestige": 1
         },
         {
           "name": "TLF UH60M CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 70000,
           "description": "Even NATO is scared",
           "unlock level": 92,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 25000,
           "prestige": 1
         },
         {
           "name": "Z8J CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 65000,
           "description": "Not the chinese candles you're thinking about..",
           "unlock level": 94,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
           "name": "Mi-8 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
-          "single cost": 125000,
+          "single cost": 90000,
           "description": "If this is on the map, im hiding",
           "unlock level": 98,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 15000,
-          "kill $ reward": 60000,
+          "kill $ reward": 35000,
           "prestige": 2
         },
         {
@@ -5423,13 +5416,13 @@
         {
           "name": "M2A3 Bradley",
           "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
-          "single cost": 26000,
+          "single cost": 22000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5300,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -5453,13 +5446,13 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 10000,
-          "kill $ reward": 25000,
+          "kill $ reward": 20000,
           "prestige": 0
         },
         {
           "name": "Grad",
           "vehicle": "/Game/Vehicles/BM21Grad/BP_BM21Grad_MIL.BP_BM21Grad_MIL_C",
-          "single cost": 500000,
+          "single cost": 300000,
           "description": "BIG BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -5483,13 +5476,13 @@
         {
           "name": "Behemoth",
           "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP.BP_MTLB_FAB500_SATP_C",
-          "single cost": 3000000,
+          "single cost": 500000,
           "description": "BIGGEST BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
-          "kill $ reward": 150000,
+          "kill $ reward": 100000,
           "prestige": 1
         }
       ],
@@ -6257,7 +6250,7 @@
           "single cost": "1000",
           "perma cost": "120000",
           "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -6489,14 +6482,18 @@
             {
               "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
               "unlock level": 15,
-              "perk requirements": [],
+              "perk requirements": [
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             },
             {
               "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
               "unlock level": 15,
-              "perk requirements": [],
+              "perk requirements": [
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             }
@@ -6508,7 +6505,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "texture": "/Game/Art/Items/QBZ-95-1/T_qbz95-1.T_qbz95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
@@ -6574,7 +6571,8 @@
               "item": "/KOTHContractorCrate/Fosh/Guns/SubMachine/RoomSweeper/BP_MP5A3_RoomSweeper.BP_MP5A3_RoomSweeper_C",
               "unlock level": 15,
               "perk requirements": [
-                "Silencer"
+                "Silencer",
+                "Crewman"
               ],
               "item count": -1,
               "prestige": 1
@@ -6712,7 +6710,7 @@
           "single cost": "850",
           "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJY-88/qjy88.qjy88",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
@@ -7435,15 +7433,6 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 1
             }
           ],
           "unlock level": 46
@@ -7931,6 +7920,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -8017,7 +8015,7 @@
           "single cost": "20",
           "perma cost": "1000",
           "description": "A Chinese semi-auto pistol",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "texture": "/Game/Art/Items/QSZ-92_Pistol/qsz92.qsz92",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
@@ -9568,13 +9566,13 @@
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 1500,
+          "single cost": 5000,
           "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 375,
-          "kill $ reward": 500,
+          "kill xp reward": 875,
+          "kill $ reward": 1500,
           "prestige": 0
         },
         {
@@ -9612,18 +9610,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
-          "single cost": 15000,
-          "description": "Night terror Mk2 w/ Miniguns.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 7500,
-          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",
@@ -10504,25 +10490,25 @@
         {
           "name": "CH146 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 60000,
           "description": "Fully loaded CAS. Bring the rain",
           "unlock level": 76,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
           "name": "MRH90 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 60000,
           "description": "Bring the rain (baguettes)",
           "unlock level": 82,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
@@ -10534,7 +10520,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 30000,
           "prestige": 2
         },
         {
@@ -10546,43 +10532,43 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 30000,
           "prestige": 1
         },
         {
           "name": "TLF UH60M CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 70000,
           "description": "Even NATO is scared",
           "unlock level": 92,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 25000,
           "prestige": 1
         },
         {
           "name": "Z8J CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 65000,
           "description": "Not the chinese candles you're thinking about..",
           "unlock level": 94,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
           "name": "Mi-8 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
-          "single cost": 125000,
+          "single cost": 90000,
           "description": "If this is on the map, im hiding",
           "unlock level": 98,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 15000,
-          "kill $ reward": 60000,
+          "kill $ reward": 35000,
           "prestige": 2
         },
         {
@@ -10732,13 +10718,13 @@
         {
           "name": "M2A3 Bradley",
           "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
-          "single cost": 26000,
+          "single cost": 22000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5300,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -10762,13 +10748,13 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 10000,
-          "kill $ reward": 25000,
+          "kill $ reward": 20000,
           "prestige": 0
         },
         {
           "name": "Grad",
           "vehicle": "/Game/Vehicles/BM21Grad/BP_BM21Grad_MIL.BP_BM21Grad_MIL_C",
-          "single cost": 500000,
+          "single cost": 300000,
           "description": "BIG BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -10792,13 +10778,13 @@
         {
           "name": "Behemoth",
           "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP.BP_MTLB_FAB500_SATP_C",
-          "single cost": 3000000,
+          "single cost": 500000,
           "description": "BIGGEST BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
-          "kill $ reward": 150000,
+          "kill $ reward": 100000,
           "prestige": 1
         }
       ],
@@ -11786,7 +11772,7 @@
           "single cost": "1000",
           "perma cost": "120000",
           "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -12018,14 +12004,18 @@
             {
               "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
               "unlock level": 15,
-              "perk requirements": [],
+              "perk requirements": [
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             },
             {
               "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
               "unlock level": 15,
-              "perk requirements": [],
+              "perk requirements": [
+                "Silencer"
+              ],
               "item count": -1,
               "prestige": 1
             }
@@ -12037,7 +12027,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "texture": "/Game/Art/Items/QBZ-95-1/T_qbz95-1.T_qbz95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
@@ -12103,7 +12093,8 @@
               "item": "/KOTHContractorCrate/Fosh/Guns/SubMachine/RoomSweeper/BP_MP5A3_RoomSweeper.BP_MP5A3_RoomSweeper_C",
               "unlock level": 15,
               "perk requirements": [
-                "Silencer"
+                "Silencer",
+                "Crewman"
               ],
               "item count": -1,
               "prestige": 1
@@ -12241,7 +12232,7 @@
           "single cost": "850",
           "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJY-88/qjy88.qjy88",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
@@ -12964,15 +12955,6 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 1
             }
           ],
           "unlock level": 46
@@ -13460,6 +13442,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -13546,7 +13537,7 @@
           "single cost": "20",
           "perma cost": "1000",
           "description": "A Chinese semi-auto pistol",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "texture": "/Game/Art/Items/QSZ-92_Pistol/qsz92.qsz92",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
@@ -15097,13 +15088,13 @@
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 1500,
+          "single cost": 5000,
           "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 375,
-          "kill $ reward": 500,
+          "kill xp reward": 875,
+          "kill $ reward": 1500,
           "prestige": 0
         },
         {
@@ -15141,18 +15132,6 @@
           "kill xp reward": 200,
           "kill $ reward": 265,
           "prestige": 0
-        },
-        {
-          "name": "Night_Terror_Mk2",
-          "vehicle": "/KOTHContractorCrate/KOTH/Vehicles/Helicopters/NightTerror/BP_Loach_NightTerror_MK2.BP_Loach_NightTerror_MK2_C",
-          "single cost": 15000,
-          "description": "Night terror Mk2 w/ Miniguns.",
-          "unlock level": 10,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/T_map_helicopter_scout.T_map_helicopter_scout",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 2000,
-          "kill $ reward": 7500,
-          "prestige": 2
         },
         {
           "name": "Technical4Seater_Transport",
@@ -16033,25 +16012,25 @@
         {
           "name": "CH146 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 60000,
           "description": "Fully loaded CAS. Bring the rain",
           "unlock level": 76,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
           "name": "MRH90 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 60000,
           "description": "Bring the rain (baguettes)",
           "unlock level": 82,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
@@ -16063,7 +16042,7 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 30000,
           "prestige": 2
         },
         {
@@ -16075,43 +16054,43 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 30000,
           "prestige": 1
         },
         {
           "name": "TLF UH60M CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 70000,
           "description": "Even NATO is scared",
           "unlock level": 92,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill $ reward": 25000,
           "prestige": 1
         },
         {
           "name": "Z8J CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
-          "single cost": 80000,
+          "single cost": 65000,
           "description": "Not the chinese candles you're thinking about..",
           "unlock level": 94,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 40000,
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
           "prestige": 1
         },
         {
           "name": "Mi-8 CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
-          "single cost": 125000,
+          "single cost": 90000,
           "description": "If this is on the map, im hiding",
           "unlock level": 98,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
           "spawn type": "Air Vehicle",
           "kill xp reward": 15000,
-          "kill $ reward": 60000,
+          "kill $ reward": 35000,
           "prestige": 2
         },
         {
@@ -16261,13 +16240,13 @@
         {
           "name": "M2A3 Bradley",
           "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
-          "single cost": 26000,
+          "single cost": 22000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5300,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -16291,13 +16270,13 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 10000,
-          "kill $ reward": 25000,
+          "kill $ reward": 20000,
           "prestige": 0
         },
         {
           "name": "Grad",
           "vehicle": "/Game/Vehicles/BM21Grad/BP_BM21Grad_MIL.BP_BM21Grad_MIL_C",
-          "single cost": 500000,
+          "single cost": 300000,
           "description": "BIG BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -16321,13 +16300,13 @@
         {
           "name": "Behemoth",
           "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP.BP_MTLB_FAB500_SATP_C",
-          "single cost": 3000000,
+          "single cost": 500000,
           "description": "BIGGEST BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
-          "kill $ reward": 150000,
+          "kill $ reward": 100000,
           "prestige": 1
         }
       ],

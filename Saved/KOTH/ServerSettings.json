@@ -1283,7 +1283,7 @@
           "single cost": "900",
           "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJB-95-1_LSW/T_qjb95-1.T_qjb95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
@@ -6585,7 +6585,7 @@
           "single cost": "900",
           "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJB-95-1_LSW/T_qjb95-1.T_qjb95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
@@ -12107,7 +12107,7 @@
           "single cost": "900",
           "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJB-95-1_LSW/T_qjb95-1.T_qjb95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
@@ -16683,12 +16683,12 @@
         ]
       },
       {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
+        "parent": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C",
         "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_HE.BP_M16A2M203_Optic_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke.BP_M16A2M203_Optic_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke_Blue.BP_M16A2M203_Optic_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke_Red.BP_M16A2M203_Optic_UGL_Smoke_Red_C"
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_HE.BP_M16A2M203_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke.BP_M16A2M203_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke_Blue.BP_M16A2M203_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke_Red.BP_M16A2M203_UGL_Smoke_Red_C"
         ]
       },
       {

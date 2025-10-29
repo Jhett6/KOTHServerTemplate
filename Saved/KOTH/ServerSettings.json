@@ -16683,12 +16683,12 @@
         ]
       },
       {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
+        "parent": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Rifle.BP_M16A2M203_Rifle_C",
         "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_HE.BP_M16A2M203_Optic_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke.BP_M16A2M203_Optic_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke_Blue.BP_M16A2M203_Optic_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke_Red.BP_M16A2M203_Optic_UGL_Smoke_Red_C"
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_HE.BP_M16A2M203_UGL_HE_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke.BP_M16A2M203_UGL_Smoke_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke_Blue.BP_M16A2M203_UGL_Smoke_Blue_C",
+          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_UGL_Smoke_Red.BP_M16A2M203_UGL_Smoke_Red_C"
         ]
       },
       {

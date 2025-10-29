@@ -1283,7 +1283,7 @@
           "single cost": "900",
           "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJB-95-1_LSW/T_qjb95-1.T_qjb95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
@@ -6585,7 +6585,7 @@
           "single cost": "900",
           "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJB-95-1_LSW/T_qjb95-1.T_qjb95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
@@ -12107,7 +12107,7 @@
           "single cost": "900",
           "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJB-95-1_LSW/T_qjb95-1.T_qjb95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",

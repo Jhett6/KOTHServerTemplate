@@ -14,13 +14,13 @@
       "weapon xp multiplier": 12
     },
     "intel": {
-      "prio": 50,
-      "zone": 25,
+      "prio": 100,
+      "zone": 50,
       "zone_assist": 0.5,
       "prio_assist": 1
     },
     "bounties": {
-      "intel_required": 1000,
+      "intel_required": 2000,
       "top_bounty_ping": true,
       "bounty_ping": false,
       "ghost_radius": 3000,

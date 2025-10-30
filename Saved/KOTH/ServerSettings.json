@@ -3118,7 +3118,7 @@
         },
         {
           "family name": "RPG 7",
-          "single cost": "400",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
@@ -3167,13 +3167,49 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C",
+              "unlock level": 1,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 4
         },
         {
           "family name": "SMAW",
-          "single cost": "400",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
@@ -3201,7 +3237,7 @@
         },
         {
           "family name": "M3 MAAWS",
-          "single cost": "400",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
@@ -3313,7 +3349,7 @@
         },
         {
           "family name": "DZJ-08",
-          "single cost": "500",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
           "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
@@ -3332,7 +3368,7 @@
         },
         {
           "family name": "RPG 28",
-          "single cost": "600",
+          "single cost": "3000",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -3341,7 +3377,8 @@
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
               "unlock level": 0,
               "perk requirements": [
-                "Launcher"
+                "Launcher",
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -3351,7 +3388,7 @@
         },
         {
           "family name": "RPG 29",
-          "single cost": "600",
+          "single cost": "2000",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -3379,7 +3416,7 @@
         },
         {
           "family name": "Carl Gustav M2",
-          "single cost": "600",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2+no78mk1.carlgustavm2+no78mk1",
@@ -3425,7 +3462,7 @@
         },
         {
           "family name": "NLAW",
-          "single cost": "800",
+          "single cost": "3000",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -3435,7 +3472,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Launcher",
-                "Engineer"
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -3445,7 +3482,7 @@
         },
         {
           "family name": "PF-98",
-          "single cost": "500",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
           "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
@@ -3578,6 +3615,26 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "FPV Drone",
+          "single cost": "3000",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to destroy enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator",
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -8078,7 +8135,7 @@
         },
         {
           "family name": "RPG 7",
-          "single cost": "400",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
@@ -8127,13 +8184,49 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C",
+              "unlock level": 1,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 4
         },
         {
           "family name": "SMAW",
-          "single cost": "400",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
@@ -8161,7 +8254,7 @@
         },
         {
           "family name": "M3 MAAWS",
-          "single cost": "400",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
@@ -8273,7 +8366,7 @@
         },
         {
           "family name": "DZJ-08",
-          "single cost": "500",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
           "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
@@ -8292,7 +8385,7 @@
         },
         {
           "family name": "RPG 28",
-          "single cost": "600",
+          "single cost": "3000",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -8301,7 +8394,8 @@
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
               "unlock level": 0,
               "perk requirements": [
-                "Launcher"
+                "Launcher",
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -8311,7 +8405,7 @@
         },
         {
           "family name": "RPG 29",
-          "single cost": "600",
+          "single cost": "2000",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -8339,7 +8433,7 @@
         },
         {
           "family name": "Carl Gustav M2",
-          "single cost": "600",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2+no78mk1.carlgustavm2+no78mk1",
@@ -8385,7 +8479,7 @@
         },
         {
           "family name": "NLAW",
-          "single cost": "800",
+          "single cost": "3000",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -8395,7 +8489,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Launcher",
-                "Engineer"
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -8405,7 +8499,7 @@
         },
         {
           "family name": "PF-98",
-          "single cost": "500",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
           "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
@@ -8538,6 +8632,26 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "FPV Drone",
+          "single cost": "3000",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to destroy enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator",
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -13258,7 +13372,7 @@
         },
         {
           "family name": "RPG 7",
-          "single cost": "400",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "A shoulder fired rocket launcher, popular in conflicts worldwide.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg7.rpg7",
@@ -13307,13 +13421,49 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C",
+              "unlock level": 1,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 4
         },
         {
           "family name": "SMAW",
-          "single cost": "400",
+          "single cost": "500",
           "perma cost": "-1",
           "description": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon (SMAW) is a shoulder-fired rocket launcher primarily used as a portable assault weapon, or tank buster.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/smaw_heat.smaw_heat",
@@ -13341,7 +13491,7 @@
         },
         {
           "family name": "M3 MAAWS",
-          "single cost": "400",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "The M3 Multi-Role Anti-Armor Anti-Personnel Weapon System (MAAWS), commonly known as the Carl Gustaf, is a 84mm recoilless rifle used by the U.S. military, particularly by Special Operations Command units",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/m3maaws_heat.m3maaws_heat",
@@ -13453,7 +13603,7 @@
         },
         {
           "family name": "DZJ-08",
-          "single cost": "500",
+          "single cost": "600",
           "perma cost": "-1",
           "description": "The DZJ-08 is a portable, disposable, unguided, shoulder-launched, multipurpose recoilless weapon.",
           "texture": "/Game/Art/Items/DZJ-08/dzj08.dzj08",
@@ -13472,7 +13622,7 @@
         },
         {
           "family name": "RPG 28",
-          "single cost": "600",
+          "single cost": "3000",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -13481,7 +13631,8 @@
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG28/BP_RPG28.BP_RPG28_C",
               "unlock level": 0,
               "perk requirements": [
-                "Launcher"
+                "Launcher",
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -13491,7 +13642,7 @@
         },
         {
           "family name": "RPG 29",
-          "single cost": "600",
+          "single cost": "2000",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -13519,7 +13670,7 @@
         },
         {
           "family name": "Carl Gustav M2",
-          "single cost": "600",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "84 mm recoilless rifle.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/carlgustavm2+no78mk1.carlgustavm2+no78mk1",
@@ -13565,7 +13716,7 @@
         },
         {
           "family name": "NLAW",
-          "single cost": "800",
+          "single cost": "3000",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -13575,7 +13726,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Launcher",
-                "Engineer"
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -13585,7 +13736,7 @@
         },
         {
           "family name": "PF-98",
-          "single cost": "500",
+          "single cost": "1000",
           "perma cost": "-1",
           "description": "The Type 98 (PF-98) is a 120mm unguided anti-tank rocket system.",
           "texture": "/Game/Art/Items/PF-98/pf98_he.pf98_he",
@@ -13718,6 +13869,26 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "FPV Drone",
+          "single cost": "3000",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to destroy enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator",
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0

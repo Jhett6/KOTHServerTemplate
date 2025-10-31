@@ -3721,7 +3721,7 @@
         },
         {
           "family name": "FPV Drone",
-          "single cost": "3000",
+          "single cost": "5000",
           "perma cost": "-1",
           "description": "A lightweight quadcopter used to destroy enemy positions",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
@@ -3731,7 +3731,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-				"Explosives"
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -9023,7 +9023,7 @@
         },
         {
           "family name": "FPV Drone",
-          "single cost": "3000",
+          "single cost": "5000",
           "perma cost": "-1",
           "description": "A lightweight quadcopter used to destroy enemy positions",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
@@ -9033,7 +9033,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-				"Explosives"
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -14545,7 +14545,7 @@
         },
         {
           "family name": "FPV Drone",
-          "single cost": "3000",
+          "single cost": "5000",
           "perma cost": "-1",
           "description": "A lightweight quadcopter used to destroy enemy positions",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
@@ -14555,7 +14555,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-				"Explosives"
+                "Explosives"
               ],
               "item count": -1,
               "prestige": 0

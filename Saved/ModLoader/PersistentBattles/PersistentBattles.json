@@ -1,0 +1,14 @@
+{
+  "WaitForMatchStart": false,
+  "LayerMode": false,
+  "FOBs": false,
+  "FOBDecayAmount": 1,
+  "FOBAmmoMultiplier": 0,
+  "FOBConstructionMultiplier": 0,
+  "Deployables": true,
+  "DeployableDecayAmounts": {
+    "Default": 0.2
+  },
+  "MinDistanceToSpawner": 200.0,
+  "MinDistanceToMain": 80000
+}

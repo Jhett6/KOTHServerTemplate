@@ -3466,7 +3466,7 @@
         },
         {
           "family name": "RPG 28",
-          "single cost": "3000",
+          "single cost": "2000",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -3486,7 +3486,7 @@
         },
         {
           "family name": "RPG 29",
-          "single cost": "2000",
+          "single cost": "1500",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -3560,7 +3560,7 @@
         },
         {
           "family name": "NLAW",
-          "single cost": "3000",
+          "single cost": "2500",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -8769,7 +8769,7 @@
         },
         {
           "family name": "RPG 28",
-          "single cost": "3000",
+          "single cost": "2000",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -8789,7 +8789,7 @@
         },
         {
           "family name": "RPG 29",
-          "single cost": "2000",
+          "single cost": "1500",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -8863,7 +8863,7 @@
         },
         {
           "family name": "NLAW",
-          "single cost": "3000",
+          "single cost": "2500",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",
@@ -14292,7 +14292,7 @@
         },
         {
           "family name": "RPG 28",
-          "single cost": "3000",
+          "single cost": "2000",
           "perma cost": "-1",
           "description": "A Russian handheld anti-tank rocket launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg28.rpg28",
@@ -14312,7 +14312,7 @@
         },
         {
           "family name": "RPG 29",
-          "single cost": "2000",
+          "single cost": "1500",
           "perma cost": "-1",
           "description": "Soviet reusable rocket-propelled grenade (RPG) launcher.",
           "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/rpg29.rpg29",
@@ -14386,7 +14386,7 @@
         },
         {
           "family name": "NLAW",
-          "single cost": "3000",
+          "single cost": "2500",
           "perma cost": "-1",
           "description": "The missile uses a soft-launch system and is guided by predicted line of sight (PLOS).",
           "texture": "/Game/Art/Items/NLAW/Textures/nlaw.nlaw",

@@ -5234,18 +5234,6 @@
           "prestige": 1
         },
         {
-          "name": "TLF UH60M CAS",
-          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
-          "single cost": 70000,
-          "description": "Even NATO is scared",
-          "unlock level": 92,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 25000,
-          "prestige": 1
-        },
-        {
           "name": "Z8J CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
           "single cost": 65000,
@@ -10533,18 +10521,6 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
           "kill $ reward": 30000,
-          "prestige": 1
-        },
-        {
-          "name": "TLF UH60M CAS",
-          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
-          "single cost": 70000,
-          "description": "Even NATO is scared",
-          "unlock level": 92,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 25000,
           "prestige": 1
         },
         {
@@ -16055,18 +16031,6 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 10000,
           "kill $ reward": 30000,
-          "prestige": 1
-        },
-        {
-          "name": "TLF UH60M CAS",
-          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
-          "single cost": 70000,
-          "description": "Even NATO is scared",
-          "unlock level": 92,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
-          "spawn type": "Air Vehicle",
-          "kill xp reward": 10000,
-          "kill $ reward": 25000,
           "prestige": 1
         },
         {

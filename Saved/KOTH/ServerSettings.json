@@ -10956,18 +10956,6 @@
           "prestige": 0
         },
         {
-          "name": "USA Recruit Bravo",
-          "unlock level": 0,
-          "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Usa/SK_Usa_1p_Upper_Sleevesdown.SK_Usa_1p_Upper_Sleevesdown'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Usa/SK_Usa_1p_Lower.SK_Usa_1p_Lower'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Usa/SK_Usa_Plain_3.SK_Usa_Plain_3'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
-          "prestige": 0
-        },
-        {
           "name": "USMC Desert Recruit Alpha",
           "unlock level": 3,
           "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",

@@ -1,4 +1,4 @@
-{ 
+{
   "settings": {
     "mod loader": [
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
@@ -3732,7 +3732,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-				"Explosives"
+				        "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -9023,7 +9023,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-				"Explosives"
+				        "Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -14534,7 +14534,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-				"Explosives"
+				        "Explosives"
               ],
               "item count": -1,
               "prestige": 0

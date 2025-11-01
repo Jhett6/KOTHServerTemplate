@@ -10989,13 +10989,13 @@
           "upper1p materials": [],
           "1p materials": [],
           "3p materials": [
-		  		"/Game/Art/Soldier2/USMC/Materials/MI_USMC_Gear.MI_USMC_Gear",
-				"/Game/Art/Soldier2/USMC/Materials/MI_USMC_Body.MI_USMC_Body",
-				"/Game/Art/Soldier2/Patches/M_Master_Patch.M_Master_Patch",
-				"/Game/Art/Soldier2/USMC/Materials/MI_USMC_1p_Arms_AA.MI_USMC_1p_Arms_AA",
-				"/Game/Art/Soldier2/USMC/Materials/MI_USMC_Heads.MI_USMC_Heads",
-				"/Game/Art/Soldier2/Materials/CharacterShaders/M_StandardEye.M_StandardEye"
-		  ],
+            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_Gear.MI_USMC_Gear",
+            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_Body.MI_USMC_Body",
+            "/Game/Art/Soldier2/Patches/M_Master_Patch.M_Master_Patch",
+            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_1p_Arms_AA.MI_USMC_1p_Arms_AA",
+            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_Heads.MI_USMC_Heads",
+            "/Game/Art/Soldier2/Materials/CharacterShaders/M_StandardEye.M_StandardEye"
+          ],
           "prestige": 0
         },
         {
@@ -11151,6 +11151,70 @@
           "3p": "SkeletalMesh'/Game/Art/Soldier2/AU/SK_ADF_Medic.SK_ADF_Medic'",
           "upper1p materials": [],
           "1p materials": [],
+          "3p materials": [],
+          "prestige": 0
+        },
+        {
+          "name": "USMC Squad Leader Desert",
+          "unlock level": 80,
+          "texture": "/Game/UI/HUD/Roles/T_SquadLeader_NCO.T_SquadLeader_NCO",
+          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
+          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
+          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_SquadLeader.SK_USMC_SquadLeader",
+          "upper1p materials": [],
+          "1p materials": [],
+          "3p materials": [],
+          "prestige": 0
+        },
+        {
+          "name": "USMC Squad Leader Woodland",
+          "unlock level": 85,
+          "texture": "/Game/UI/HUD/Roles/T_SquadLeader_NCO.T_SquadLeader_NCO",
+          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
+          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
+          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_SquadLeader_Woodland.SK_USMC_SquadLeader_Woodland",
+          "upper1p materials": [
+            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_1p_Arms.MI_USMC_1p_Arms",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_1p_Sleeves_Woodland.MI_USMC_1p_Sleeves_Woodland",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
+          ],
+          "1p materials": [
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
+          ],
+          "3p materials": [],
+          "prestige": 0
+        },
+        {
+          "name": "USMC Squad Leader Pilot Desert",
+          "unlock level": 90,
+          "texture": "/Game/UI/HUD/Roles/T_role_pilot_squadleader.T_role_pilot_squadleader",
+          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
+          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
+          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_Pilot_SL.SK_USMC_Pilot_SL",
+          "upper1p materials": [],
+          "1p materials": [],
+          "3p materials": [],
+          "prestige": 0
+        },
+        {
+          "name": "USMC Squad Leader Pilot Woodland",
+          "unlock level": 95,
+          "texture": "/Game/UI/HUD/Roles/T_role_pilot_squadleader.T_role_pilot_squadleader",
+          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
+          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
+          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_Pilot_SL_Woodland.SK_USMC_Pilot_SL_Woodland",
+          "upper1p materials": [
+            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_1p_Arms.MI_USMC_1p_Arms",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_1p_Sleeves_Woodland.MI_USMC_1p_Sleeves_Woodland",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
+          ],
+          "1p materials": [
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
+            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
+          ],
           "3p materials": [],
           "prestige": 0
         },

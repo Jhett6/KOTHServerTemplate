@@ -395,6 +395,14 @@
         "description": "You were shot by a friendly. Your rebuy is on them.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
+      },
+	  {
+        "name": "Daily Reward",
+        "xp": 100,
+        "$": 100,
+        "description": "Awarded for claiming your daily bonus.",
+        "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
+        "display reward": true
       }
     ]
   },

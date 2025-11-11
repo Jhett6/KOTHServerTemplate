@@ -939,6 +939,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+			{
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 20
@@ -2627,6 +2634,25 @@
               ],
               "item count": -1,
               "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Reddot/BP_Minimi_Reddot.BP_Minimi_Reddot_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Suppressed/BP_Minimi_Reddot_Suppressed.BP_Minimi_Reddot_Suppressed_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Machinegunner",
+				"Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -3941,6 +3967,23 @@
             }
           ],
           "unlock level": 60
+        },
+        {
+          "family name": "Jammer Tower",
+          "single cost": 3500,
+          "perma cost": -1,
+          "description": "Powered anti drone and rocket defense system. ",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Jammers/Tower/BP_Jammer_Tower_Infantry.BP_Jammer_Tower_Infantry_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 75
         },
         {
           "family name": "Concrete Barriers",
@@ -6241,6 +6284,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+			{
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 20
@@ -7929,6 +7979,25 @@
               ],
               "item count": -1,
               "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Reddot/BP_Minimi_Reddot.BP_Minimi_Reddot_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Suppressed/BP_Minimi_Reddot_Suppressed.BP_Minimi_Reddot_Suppressed_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Machinegunner",
+				"Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -9243,6 +9312,23 @@
             }
           ],
           "unlock level": 60
+        },
+        {
+          "family name": "Jammer Tower",
+          "single cost": 3500,
+          "perma cost": -1,
+          "description": "Powered anti drone and rocket defense system. ",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Jammers/Tower/BP_Jammer_Tower_Infantry.BP_Jammer_Tower_Infantry_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 75
         },
         {
           "family name": "Concrete Barriers",
@@ -11763,6 +11849,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+			{
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 20
@@ -13451,6 +13544,25 @@
               ],
               "item count": -1,
               "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Reddot/BP_Minimi_Reddot.BP_Minimi_Reddot_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Suppressed/BP_Minimi_Reddot_Suppressed.BP_Minimi_Reddot_Suppressed_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Machinegunner",
+				"Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -14765,6 +14877,23 @@
             }
           ],
           "unlock level": 60
+        },
+        {
+          "family name": "Jammer Tower",
+          "single cost": 3500,
+          "perma cost": -1,
+          "description": "Powered anti drone and rocket defense system. ",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Jammers/Tower/BP_Jammer_Tower_Infantry.BP_Jammer_Tower_Infantry_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 75
         },
         {
           "family name": "Concrete Barriers",

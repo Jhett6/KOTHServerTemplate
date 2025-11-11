@@ -396,18 +396,10 @@
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
       },
-      {
+	  {
         "name": "Daily Reward",
         "xp": 100,
         "$": 100,
-        "description": "Awarded for claiming your daily bonus.",
-        "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
-        "display reward": true
-      },
-      {
-        "name": "Daily Reward",
-        "xp": 10000,
-        "$": 10000,
         "description": "Awarded for claiming your daily bonus.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
@@ -956,7 +948,7 @@
               "item count": -1,
               "prestige": 0
             },
-            {
+			{
               "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
               "unlock level": 10,
               "perk requirements": [],
@@ -2665,7 +2657,7 @@
               "unlock level": 25,
               "perk requirements": [
                 "Machinegunner",
-                "Silencer"
+				"Silencer"
               ],
               "item count": -1,
               "prestige": 1
@@ -3773,7 +3765,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-                "Explosives"
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -6301,7 +6293,7 @@
               "item count": -1,
               "prestige": 0
             },
-            {
+			{
               "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
               "unlock level": 10,
               "perk requirements": [],
@@ -8010,7 +8002,7 @@
               "unlock level": 25,
               "perk requirements": [
                 "Machinegunner",
-                "Silencer"
+				"Silencer"
               ],
               "item count": -1,
               "prestige": 1
@@ -9118,7 +9110,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-                "Explosives"
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -11866,7 +11858,7 @@
               "item count": -1,
               "prestige": 0
             },
-            {
+			{
               "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
               "unlock level": 10,
               "perk requirements": [],
@@ -13575,7 +13567,7 @@
               "unlock level": 25,
               "perk requirements": [
                 "Machinegunner",
-                "Silencer"
+				"Silencer"
               ],
               "item count": -1,
               "prestige": 1
@@ -14683,7 +14675,7 @@
               "unlock level": 0,
               "perk requirements": [
                 "Drone Operator",
-                "Explosives"
+				"Explosives"
               ],
               "item count": -1,
               "prestige": 0
@@ -17063,19 +17055,18 @@
     ]
   },
   "save version": {
-    "text": "v1.5",
+    "text": "v1.4",
     "major": 1,
-    "minor": 5
+    "minor": 4
   },
   "update info": {
     "year": 2025,
-    "month": 11,
-    "day": 11,
+    "month": 4,
+    "day": 22,
     "hour": 20,
-    "minute": 0,
-    "second": 28,
-    "millisecond": 901,
-    "iso": "2025-11-11T20:00:28.901+00:00"
+    "minute": 51,
+    "second": 55,
+    "millisecond": 939
   },
   "save data": {},
   "old save data": {}

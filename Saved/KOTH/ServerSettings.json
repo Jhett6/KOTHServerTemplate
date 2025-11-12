@@ -9,6 +9,27 @@
       "/PersistentBattles/BP_PersistentBattles.BP_PersistentBattles_C",
       "/NightVisionGoggles/BP_NVGs.BP_NVGs_C"
     ],
+	"daily_rewards":{
+		"check_interval": 60.0,
+		"delay_minutes": 1,
+		"claim_amounts": [
+			1000,
+			1000,
+			2000,
+			2000,
+			4000,
+			4000,
+			8000,
+			8000,
+			8000,
+			10000,
+			10000,
+			12000,
+			12000,
+			20000
+		],
+		"perma_token_days": 14
+	},
     "economy": {
       "$ multiplier": 2,
       "xp multiplier": 1,
@@ -399,8 +420,8 @@
       },
       {
         "name": "Daily Reward",
-        "xp": 10,
-        "$": 10000,
+        "xp": -1,
+        "$": -1,
         "description": "Awarded for claiming your daily bonus.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true

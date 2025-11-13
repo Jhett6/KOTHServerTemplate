@@ -6,8 +6,30 @@
       "/FastRopes/Blueprints/BP_FastRopeInjector.BP_FastRopeInjector_C",
       "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01_Random.BP_Squad_UltraDynamicWeather_01_Random_C",
       "/SquadJSLogger/BP_SquadJSLogger.BP_SquadJSLogger_C",
-      "/PersistentBattles/BP_PersistentBattles.BP_PersistentBattles_C"
+      "/PersistentBattles/BP_PersistentBattles.BP_PersistentBattles_C",
+      "/NightVisionGoggles/BP_NVGs.BP_NVGs_C"
     ],
+	"daily_rewards":{
+		"check_interval": 60.0,
+		"delay_minutes": 20,
+		"claim_amounts": [
+			1000,
+			1000,
+			2000,
+			2000,
+			4000,
+			4000,
+			8000,
+			8000,
+			8000,
+			10000,
+			10000,
+			12000,
+			12000,
+			20000
+		],
+		"perma_token_days": 14
+	},
     "economy": {
       "$ multiplier": 2,
       "xp multiplier": 1,
@@ -395,6 +417,14 @@
         "description": "You were shot by a friendly. Your rebuy is on them.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
+      },
+      {
+        "name": "Daily Reward",
+        "xp": -1,
+        "$": -1,
+        "description": "Awarded for claiming your daily bonus.",
+        "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
+        "display reward": true
       }
     ]
   },
@@ -466,7 +496,7 @@
           "single cost": "300",
           "perma cost": "4000",
           "description": "The M1 carbine (formally the United States carbine, caliber .30, M1) is a lightweight semi-automatic carbine chambered in the .30 carbine (7.62×33mm) cartridge that was issued to the U.S. military during World War II, the Korean War, and the Vietnam War.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M1Carbine.T_M1Carbine",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.BP_M1Carbine_Ironsights_C",
@@ -939,6 +969,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 20
@@ -994,7 +1031,7 @@
           "single cost": "1000",
           "perma cost": "100000",
           "description": "Magazine Capacity: 30+1/Caliber: 5.45x39mm/Rate of Fire: 650 RPM/Fire Mode: Semi, Auto",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ak12.T_ak12",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_ak12.T_ak12",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AK12.BP_AK12_C",
@@ -2485,7 +2522,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "A specialized Russian suppressed assault rifle chambered in 9x39mm. Designed for stealth operations, it excels in close to mid-range engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_ASVAL.BP_ASVAL_C",
@@ -2624,6 +2661,25 @@
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Reddot/BP_Minimi_Reddot.BP_Minimi_Reddot_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Suppressed/BP_Minimi_Reddot_Suppressed.BP_Minimi_Reddot_Suppressed_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Machinegunner",
+                "Silencer"
               ],
               "item count": -1,
               "prestige": 1
@@ -3040,25 +3096,6 @@
           "unlock level": 6
         },
         {
-          "family name": "RKG3",
-          "single cost": "300",
-          "perma cost": "-1",
-          "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Flashbang",
           "single cost": "100",
           "perma cost": "-1",
@@ -3144,7 +3181,7 @@
           "single cost": "1000",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/Bangerite.Bangerite",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/EquippableItems/BP_GenericEquippableItem_Deployable_Bangerite.BP_GenericEquippableItem_Deployable_Bangerite_C",
@@ -3941,6 +3978,23 @@
             }
           ],
           "unlock level": 60
+        },
+        {
+          "family name": "Jammer Tower",
+          "single cost": 3500,
+          "perma cost": -1,
+          "description": "Powered anti drone and rocket defense system. ",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Jammers/Tower/BP_Jammer_Tower_Infantry.BP_Jammer_Tower_Infantry_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 75
         },
         {
           "family name": "Concrete Barriers",
@@ -5234,6 +5288,18 @@
           "prestige": 1
         },
         {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 70000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 25000,
+          "prestige": 1
+        },
+        {
           "name": "Z8J CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
           "single cost": 65000,
@@ -5616,7 +5682,7 @@
         {
           "name": "Silencer",
           "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
@@ -5756,7 +5822,7 @@
           "single cost": "300",
           "perma cost": "4000",
           "description": "The M1 carbine (formally the United States carbine, caliber .30, M1) is a lightweight semi-automatic carbine chambered in the .30 carbine (7.62×33mm) cartridge that was issued to the U.S. military during World War II, the Korean War, and the Vietnam War.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M1Carbine.T_M1Carbine",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.BP_M1Carbine_Ironsights_C",
@@ -6229,6 +6295,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 20
@@ -6284,7 +6357,7 @@
           "single cost": "1000",
           "perma cost": "100000",
           "description": "Magazine Capacity: 30+1/Caliber: 5.45x39mm/Rate of Fire: 650 RPM/Fire Mode: Semi, Auto",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ak12.T_ak12",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_ak12.T_ak12",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AK12.BP_AK12_C",
@@ -7775,7 +7848,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "A specialized Russian suppressed assault rifle chambered in 9x39mm. Designed for stealth operations, it excels in close to mid-range engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_ASVAL.BP_ASVAL_C",
@@ -7914,6 +7987,25 @@
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Reddot/BP_Minimi_Reddot.BP_Minimi_Reddot_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Suppressed/BP_Minimi_Reddot_Suppressed.BP_Minimi_Reddot_Suppressed_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Machinegunner",
+                "Silencer"
               ],
               "item count": -1,
               "prestige": 1
@@ -8330,25 +8422,6 @@
           "unlock level": 6
         },
         {
-          "family name": "RKG3",
-          "single cost": "300",
-          "perma cost": "-1",
-          "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Flashbang",
           "single cost": "100",
           "perma cost": "-1",
@@ -8434,7 +8507,7 @@
           "single cost": "1000",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/Bangerite.Bangerite",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/EquippableItems/BP_GenericEquippableItem_Deployable_Bangerite.BP_GenericEquippableItem_Deployable_Bangerite_C",
@@ -9231,6 +9304,23 @@
             }
           ],
           "unlock level": 60
+        },
+        {
+          "family name": "Jammer Tower",
+          "single cost": 3500,
+          "perma cost": -1,
+          "description": "Powered anti drone and rocket defense system. ",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Jammers/Tower/BP_Jammer_Tower_Infantry.BP_Jammer_Tower_Infantry_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 75
         },
         {
           "family name": "Concrete Barriers",
@@ -10524,6 +10614,18 @@
           "prestige": 1
         },
         {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 70000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 25000,
+          "prestige": 1
+        },
+        {
           "name": "Z8J CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
           "single cost": 65000,
@@ -10906,7 +11008,7 @@
         {
           "name": "Silencer",
           "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
@@ -10988,14 +11090,7 @@
           "3p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/USMC/SK_USMC_Plain_1.SK_USMC_Plain_1'",
           "upper1p materials": [],
           "1p materials": [],
-          "3p materials": [
-            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_Gear.MI_USMC_Gear",
-            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_Body.MI_USMC_Body",
-            "/Game/Art/Soldier2/Patches/M_Master_Patch.M_Master_Patch",
-            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_1p_Arms_AA.MI_USMC_1p_Arms_AA",
-            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_Heads.MI_USMC_Heads",
-            "/Game/Art/Soldier2/Materials/CharacterShaders/M_StandardEye.M_StandardEye"
-          ],
+          "3p materials": [],
           "prestige": 0
         },
         {
@@ -11155,70 +11250,6 @@
           "prestige": 0
         },
         {
-          "name": "USMC Squad Leader Desert",
-          "unlock level": 80,
-          "texture": "/Game/UI/HUD/Roles/T_SquadLeader_NCO.T_SquadLeader_NCO",
-          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
-          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
-          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_SquadLeader.SK_USMC_SquadLeader",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
-          "prestige": 0
-        },
-        {
-          "name": "USMC Squad Leader Woodland",
-          "unlock level": 85,
-          "texture": "/Game/UI/HUD/Roles/T_SquadLeader_NCO.T_SquadLeader_NCO",
-          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
-          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
-          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_SquadLeader_Woodland.SK_USMC_SquadLeader_Woodland",
-          "upper1p materials": [
-            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_1p_Arms.MI_USMC_1p_Arms",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_1p_Sleeves_Woodland.MI_USMC_1p_Sleeves_Woodland",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
-          ],
-          "1p materials": [
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
-          ],
-          "3p materials": [],
-          "prestige": 0
-        },
-        {
-          "name": "USMC Squad Leader Pilot Desert",
-          "unlock level": 90,
-          "texture": "/Game/UI/HUD/Roles/T_role_pilot_squadleader.T_role_pilot_squadleader",
-          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
-          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
-          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_Pilot_SL.SK_USMC_Pilot_SL",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
-          "prestige": 0
-        },
-        {
-          "name": "USMC Squad Leader Pilot Woodland",
-          "unlock level": 95,
-          "texture": "/Game/UI/HUD/Roles/T_role_pilot_squadleader.T_role_pilot_squadleader",
-          "upper1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_SleeveLong.SK_USMC_1p_SleeveLong",
-          "1p": "/Game/Art/Soldier2/USMC/SK_USMC_1p_LowerBody.SK_USMC_1p_LowerBody",
-          "3p": "/Game/Art/Soldier2/USMC/SK_USMC_Pilot_SL_Woodland.SK_USMC_Pilot_SL_Woodland",
-          "upper1p materials": [
-            "/Game/Art/Soldier2/USMC/Materials/MI_USMC_1p_Arms.MI_USMC_1p_Arms",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_1p_Sleeves_Woodland.MI_USMC_1p_Sleeves_Woodland",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
-          ],
-          "1p materials": [
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Body_Woodland.MI_USMC_Body_Woodland",
-            "/Game/Art/Soldier2/USMC/Materials/Woodland/MI_USMC_Gear_Woodland.MI_USMC_Gear_Woodland"
-          ],
-          "3p materials": [],
-          "prestige": 0
-        },
-        {
           "name": "WPMC Raider",
           "unlock level": 100,
           "texture": "/Game/UI/HUD/Roles/T_role_raider.T_role_raider",
@@ -11337,7 +11368,7 @@
           "single cost": "300",
           "perma cost": "4000",
           "description": "The M1 carbine (formally the United States carbine, caliber .30, M1) is a lightweight semi-automatic carbine chambered in the .30 carbine (7.62×33mm) cartridge that was issued to the U.S. military during World War II, the Korean War, and the Vietnam War.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M1Carbine.T_M1Carbine",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.BP_M1Carbine_Ironsights_C",
@@ -11810,6 +11841,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 20
@@ -11865,7 +11903,7 @@
           "single cost": "1000",
           "perma cost": "100000",
           "description": "Magazine Capacity: 30+1/Caliber: 5.45x39mm/Rate of Fire: 650 RPM/Fire Mode: Semi, Auto",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ak12.T_ak12",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_ak12.T_ak12",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AK12.BP_AK12_C",
@@ -13356,7 +13394,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "A specialized Russian suppressed assault rifle chambered in 9x39mm. Designed for stealth operations, it excels in close to mid-range engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_ASVAL.BP_ASVAL_C",
@@ -13495,6 +13533,25 @@
               "unlock level": 15,
               "perk requirements": [
                 "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Reddot/BP_Minimi_Reddot.BP_Minimi_Reddot_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Suppressed/BP_Minimi_Reddot_Suppressed.BP_Minimi_Reddot_Suppressed_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Machinegunner",
+                "Silencer"
               ],
               "item count": -1,
               "prestige": 1
@@ -13911,25 +13968,6 @@
           "unlock level": 6
         },
         {
-          "family name": "RKG3",
-          "single cost": "300",
-          "perma cost": "-1",
-          "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Flashbang",
           "single cost": "100",
           "perma cost": "-1",
@@ -14015,7 +14053,7 @@
           "single cost": "1000",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/Bangerite.Bangerite",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/EquippableItems/BP_GenericEquippableItem_Deployable_Bangerite.BP_GenericEquippableItem_Deployable_Bangerite_C",
@@ -14812,6 +14850,23 @@
             }
           ],
           "unlock level": 60
+        },
+        {
+          "family name": "Jammer Tower",
+          "single cost": 3500,
+          "perma cost": -1,
+          "description": "Powered anti drone and rocket defense system. ",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Jammers/Tower/BP_Jammer_Tower_Infantry.BP_Jammer_Tower_Infantry_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 75
         },
         {
           "family name": "Concrete Barriers",
@@ -16105,6 +16160,18 @@
           "prestige": 1
         },
         {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 70000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 25000,
+          "prestige": 1
+        },
+        {
           "name": "Z8J CAS",
           "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
           "single cost": 65000,
@@ -16487,7 +16554,7 @@
         {
           "name": "Silencer",
           "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
@@ -16953,18 +17020,19 @@
     ]
   },
   "save version": {
-    "text": "v1.4",
+    "text": "v1.5",
     "major": 1,
-    "minor": 4
+    "minor": 5
   },
   "update info": {
     "year": 2025,
-    "month": 4,
-    "day": 22,
+    "month": 11,
+    "day": 11,
     "hour": 20,
-    "minute": 51,
-    "second": 55,
-    "millisecond": 939
+    "minute": 0,
+    "second": 28,
+    "millisecond": 901,
+    "iso": "2025-11-11T20:00:28.901+00:00"
   },
   "save data": {},
   "old save data": {}

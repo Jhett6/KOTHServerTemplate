@@ -2522,7 +2522,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "A specialized Russian suppressed assault rifle chambered in 9x39mm. Designed for stealth operations, it excels in close to mid-range engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_ASVAL.BP_ASVAL_C",
@@ -5701,7 +5701,7 @@
         {
           "name": "Silencer",
           "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
@@ -7867,7 +7867,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "A specialized Russian suppressed assault rifle chambered in 9x39mm. Designed for stealth operations, it excels in close to mid-range engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_ASVAL.BP_ASVAL_C",
@@ -11046,7 +11046,7 @@
         {
           "name": "Silencer",
           "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
@@ -13432,7 +13432,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "A specialized Russian suppressed assault rifle chambered in 9x39mm. Designed for stealth operations, it excels in close to mid-range engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_ASVAL.BP_ASVAL_C",
@@ -16611,7 +16611,7 @@
         {
           "name": "Silencer",
           "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "material": "None",
           "unlock level": 48,
           "unlock items": [],

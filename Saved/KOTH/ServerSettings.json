@@ -10,7 +10,7 @@
       "/NightVisionGoggles/BP_NVGs.BP_NVGs_C"
     ],
     "daily_rewards": {
-      "check_interval": 60.0,
+      "check_interval": 60,
       "delay_minutes": 20,
       "claim_amounts": [
         1000,
@@ -1972,6 +1972,164 @@
           "unlock level": 42
         },
         {
+          "family name": "Malyuk 5.45",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545.BP_Malyuk_545_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_Foregrip.BP_Malyuk_545_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68.BP_Malyuk_545_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78.BP_Malyuk_545_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78_Foregrip.BP_Malyuk_545_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 42
+        },
+        {
+          "family name": "Malyuk 5.56",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556.BP_Malyuk_556_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_Foregrip.BP_Malyuk_556_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78.BP_Malyuk_556_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78_Foregrip.BP_Malyuk_556_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "Malyuk 7.62",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762.BP_Malyuk_762_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_Foregrip.BP_Malyuk_762_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68.BP_Malyuk_762_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68_Foregrip.BP_Malyuk_762_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78.BP_Malyuk_762_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78_Foregrip.BP_Malyuk_762_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 74
+        },
+        {
           "family name": "M4",
           "single cost": "900",
           "perma cost": "100000",
@@ -4304,6 +4462,18 @@
           "prestige": 0
         },
         {
+          "name": "Kraz 6322 Transport",
+          "vehicle": "/Game/Vehicles/Kraz-6322/BP_Kraz_6322.BP_Kraz_6322_C",
+          "single cost": 400,
+          "description": "A transport truck.",
+          "unlock level": 8,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 100,
+          "kill $ reward": 133,
+          "prestige": 0
+        },
+        {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
           "single cost": 12000,
@@ -4604,6 +4774,18 @@
           "prestige": 0
         },
         {
+          "name": "Kozak Kord",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_Kord.BP_Kozak_2M1_Kord_C",
+          "single cost": 1550,
+          "description": "A well armored squad transport vehicle armed with an open-top Kord",
+          "unlock level": 26,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 450,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CH146 (Griffon) Non CAS",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146.BP_CH146_C",
           "single cost": 1200,
@@ -4657,6 +4839,18 @@
           "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 400,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
+          "name": "Kozak AGS",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_AGS.BP_Kozak_2M1_AGS_C",
+          "single cost": 1500,
+          "description": "A well armored squad transport vehicle armed with an open-top AGS.",
+          "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 400,
@@ -4928,6 +5122,18 @@
           "prestige": 0
         },
         {
+          "name": "BRDM-2L1",
+          "vehicle": "/Game/Vehicles/BRDM2-L1_AFU/BP_BRDM-2L1_AFU.BP_BRDM-2L1_AFU_C",
+          "single cost": 9000,
+          "description": "A Ukrainian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 43,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "ZSL10",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZSL10_QJZ-89_Naval.BP_ZSL10_QJZ-89_Naval_C",
           "single cost": 10000,
@@ -5168,6 +5374,18 @@
           "prestige": 0
         },
         {
+          "name": "BMP-1TS",
+          "vehicle": "/Game/Vehicles/BMP1TS_AFU/BP_BMP1TS_AFU.BP_BMP1TS_AFU_C",
+          "single cost": 19000,
+          "description": "A modern Ukrainian BMP built off the BMP1 chassis.",
+          "unlock level": 59,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
           "name": "BTR-82A",
           "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
           "single cost": 19000,
@@ -5225,6 +5443,18 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 450,
           "kill $ reward": 600,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-4",
+          "vehicle": "/Game/Vehicles/BTR4/BP_BTR4_AFU.BP_BTR4_AFU_C",
+          "single cost": 19000,
+          "description": "A Ukrainian infantry fighting vehicle designed to deliver quick blows with its speed. ",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -5357,6 +5587,18 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
           "kill $ reward": 8500,
+          "prestige": 0
+        },
+        {
+          "name": "T64BM2",
+          "vehicle": "/Game/Vehicles/T64_BM2/BP_T64BM2.BP_T64BM2_C",
+          "single cost": 30000,
+          "description": "A modern Ukranian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
+          "unlock level": 69,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -5501,6 +5743,18 @@
           "spawn type": "Ground",
           "kill xp reward": 10000,
           "kill $ reward": 20000,
+          "prestige": 0
+        },
+        {
+          "name": "Kraz Grad",
+          "vehicle": "/Game/Vehicles/Kraz-6322_BM21Grad/BP_Kraz_6322_BM21Grad.BP_Kraz_6322_BM21Grad_C",
+          "single cost": 300000,
+          "description": "BIG BOOM BOOM.",
+          "unlock level": 90,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Ground",
+          "kill xp reward": 25000,
+          "kill $ reward": 60000,
           "prestige": 0
         },
         {
@@ -7298,6 +7552,164 @@
           "unlock level": 42
         },
         {
+          "family name": "Malyuk 5.45",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545.BP_Malyuk_545_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_Foregrip.BP_Malyuk_545_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68.BP_Malyuk_545_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78.BP_Malyuk_545_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78_Foregrip.BP_Malyuk_545_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 42
+        },
+        {
+          "family name": "Malyuk 5.56",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556.BP_Malyuk_556_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_Foregrip.BP_Malyuk_556_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78.BP_Malyuk_556_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78_Foregrip.BP_Malyuk_556_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "Malyuk 7.62",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762.BP_Malyuk_762_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_Foregrip.BP_Malyuk_762_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68.BP_Malyuk_762_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68_Foregrip.BP_Malyuk_762_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78.BP_Malyuk_762_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78_Foregrip.BP_Malyuk_762_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 74
+        },
+        {
           "family name": "M4",
           "single cost": "900",
           "perma cost": "100000",
@@ -9630,6 +10042,18 @@
           "prestige": 0
         },
         {
+          "name": "Kraz 6322 Transport",
+          "vehicle": "/Game/Vehicles/Kraz-6322/BP_Kraz_6322.BP_Kraz_6322_C",
+          "single cost": 400,
+          "description": "A transport truck.",
+          "unlock level": 8,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 100,
+          "kill $ reward": 133,
+          "prestige": 0
+        },
+        {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
           "single cost": 12000,
@@ -9930,6 +10354,18 @@
           "prestige": 0
         },
         {
+          "name": "Kozak Kord",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_Kord.BP_Kozak_2M1_Kord_C",
+          "single cost": 1550,
+          "description": "A well armored squad transport vehicle armed with an open-top Kord",
+          "unlock level": 26,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 450,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CH146 (Griffon) Non CAS",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146.BP_CH146_C",
           "single cost": 1200,
@@ -9983,6 +10419,18 @@
           "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 400,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
+          "name": "Kozak AGS",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_AGS.BP_Kozak_2M1_AGS_C",
+          "single cost": 1500,
+          "description": "A well armored squad transport vehicle armed with an open-top AGS.",
+          "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 400,
@@ -10254,6 +10702,18 @@
           "prestige": 0
         },
         {
+          "name": "BRDM-2L1",
+          "vehicle": "/Game/Vehicles/BRDM2-L1_AFU/BP_BRDM-2L1_AFU.BP_BRDM-2L1_AFU_C",
+          "single cost": 9000,
+          "description": "A Ukrainian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 43,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "ZSL10",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZSL10_QJZ-89_Naval.BP_ZSL10_QJZ-89_Naval_C",
           "single cost": 10000,
@@ -10494,6 +10954,18 @@
           "prestige": 0
         },
         {
+          "name": "BMP-1TS",
+          "vehicle": "/Game/Vehicles/BMP1TS_AFU/BP_BMP1TS_AFU.BP_BMP1TS_AFU_C",
+          "single cost": 19000,
+          "description": "A modern Ukrainian BMP built off the BMP1 chassis.",
+          "unlock level": 59,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
           "name": "BTR-82A",
           "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
           "single cost": 19000,
@@ -10551,6 +11023,18 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 450,
           "kill $ reward": 600,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-4",
+          "vehicle": "/Game/Vehicles/BTR4/BP_BTR4_AFU.BP_BTR4_AFU_C",
+          "single cost": 19000,
+          "description": "A Ukrainian infantry fighting vehicle designed to deliver quick blows with its speed. ",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -10683,6 +11167,18 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
           "kill $ reward": 8500,
+          "prestige": 0
+        },
+        {
+          "name": "T64BM2",
+          "vehicle": "/Game/Vehicles/T64_BM2/BP_T64BM2.BP_T64BM2_C",
+          "single cost": 30000,
+          "description": "A modern Ukranian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
+          "unlock level": 69,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -10827,6 +11323,18 @@
           "spawn type": "Ground",
           "kill xp reward": 10000,
           "kill $ reward": 20000,
+          "prestige": 0
+        },
+        {
+          "name": "Kraz Grad",
+          "vehicle": "/Game/Vehicles/Kraz-6322_BM21Grad/BP_Kraz_6322_BM21Grad.BP_Kraz_6322_BM21Grad_C",
+          "single cost": 300000,
+          "description": "BIG BOOM BOOM.",
+          "unlock level": 90,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Ground",
+          "kill xp reward": 25000,
+          "kill $ reward": 60000,
           "prestige": 0
         },
         {
@@ -12844,6 +13352,164 @@
           "unlock level": 42
         },
         {
+          "family name": "Malyuk 5.45",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545.BP_Malyuk_545_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_Foregrip.BP_Malyuk_545_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68.BP_Malyuk_545_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78.BP_Malyuk_545_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78_Foregrip.BP_Malyuk_545_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 42
+        },
+        {
+          "family name": "Malyuk 5.56",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556.BP_Malyuk_556_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_Foregrip.BP_Malyuk_556_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78.BP_Malyuk_556_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78_Foregrip.BP_Malyuk_556_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "Malyuk 7.62",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762.BP_Malyuk_762_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_Foregrip.BP_Malyuk_762_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68.BP_Malyuk_762_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68_Foregrip.BP_Malyuk_762_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78.BP_Malyuk_762_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78_Foregrip.BP_Malyuk_762_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 74
+        },
+        {
           "family name": "M4",
           "single cost": "900",
           "perma cost": "100000",
@@ -15176,6 +15842,18 @@
           "prestige": 0
         },
         {
+          "name": "Kraz 6322 Transport",
+          "vehicle": "/Game/Vehicles/Kraz-6322/BP_Kraz_6322.BP_Kraz_6322_C",
+          "single cost": 400,
+          "description": "A transport truck.",
+          "unlock level": 8,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 100,
+          "kill $ reward": 133,
+          "prestige": 0
+        },
+        {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
           "single cost": 12000,
@@ -15476,6 +16154,18 @@
           "prestige": 0
         },
         {
+          "name": "Kozak Kord",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_Kord.BP_Kozak_2M1_Kord_C",
+          "single cost": 1550,
+          "description": "A well armored squad transport vehicle armed with an open-top Kord",
+          "unlock level": 26,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 450,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CH146 (Griffon) Non CAS",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146.BP_CH146_C",
           "single cost": 1200,
@@ -15529,6 +16219,18 @@
           "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 400,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
+          "name": "Kozak AGS",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_AGS.BP_Kozak_2M1_AGS_C",
+          "single cost": 1500,
+          "description": "A well armored squad transport vehicle armed with an open-top AGS.",
+          "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 400,
@@ -15800,6 +16502,18 @@
           "prestige": 0
         },
         {
+          "name": "BRDM-2L1",
+          "vehicle": "/Game/Vehicles/BRDM2-L1_AFU/BP_BRDM-2L1_AFU.BP_BRDM-2L1_AFU_C",
+          "single cost": 9000,
+          "description": "A Ukrainian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 43,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "ZSL10",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZSL10_QJZ-89_Naval.BP_ZSL10_QJZ-89_Naval_C",
           "single cost": 10000,
@@ -16040,6 +16754,18 @@
           "prestige": 0
         },
         {
+          "name": "BMP-1TS",
+          "vehicle": "/Game/Vehicles/BMP1TS_AFU/BP_BMP1TS_AFU.BP_BMP1TS_AFU_C",
+          "single cost": 19000,
+          "description": "A modern Ukrainian BMP built off the BMP1 chassis.",
+          "unlock level": 59,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
           "name": "BTR-82A",
           "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
           "single cost": 19000,
@@ -16097,6 +16823,18 @@
           "spawn type": "Air Vehicle",
           "kill xp reward": 450,
           "kill $ reward": 600,
+          "prestige": 0
+        },
+        {
+          "name": "BTR-4",
+          "vehicle": "/Game/Vehicles/BTR4/BP_BTR4_AFU.BP_BTR4_AFU_C",
+          "single cost": 19000,
+          "description": "A Ukrainian infantry fighting vehicle designed to deliver quick blows with its speed. ",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 4000,
           "prestige": 0
         },
         {
@@ -16229,6 +16967,18 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
           "kill $ reward": 8500,
+          "prestige": 0
+        },
+        {
+          "name": "T64BM2",
+          "vehicle": "/Game/Vehicles/T64_BM2/BP_T64BM2.BP_T64BM2_C",
+          "single cost": 30000,
+          "description": "A modern Ukranian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
+          "unlock level": 69,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -16373,6 +17123,18 @@
           "spawn type": "Ground",
           "kill xp reward": 10000,
           "kill $ reward": 20000,
+          "prestige": 0
+        },
+        {
+          "name": "Kraz Grad",
+          "vehicle": "/Game/Vehicles/Kraz-6322_BM21Grad/BP_Kraz_6322_BM21Grad.BP_Kraz_6322_BM21Grad_C",
+          "single cost": 300000,
+          "description": "BIG BOOM BOOM.",
+          "unlock level": 90,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Ground",
+          "kill xp reward": 25000,
+          "kill $ reward": 60000,
           "prestige": 0
         },
         {

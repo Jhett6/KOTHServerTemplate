@@ -2052,7 +2052,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
@@ -2085,11 +2085,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762.BP_Malyuk_762_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
+              "perk requirements": [],
               "item count": -1,
-              "prestige": 1
+              "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_Foregrip.BP_Malyuk_762_Foregrip_C",
@@ -2329,6 +2327,32 @@
             }
           ],
           "unlock level": 46
+        },
+        {
+          "family name": "UAR-10",
+          "single cost": "900",
+          "perma cost": "150000",
+          "description": "Ukrainian Designated Marksman Rifle",
+          "texture": "/Game/Art/Items/UAR-10/UI/uar10_iron.uar10_iron",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Irons.BP_UAR-10_Irons_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Optic.BP_UAR-10_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 48
         },
         {
           "family name": "MPT76",
@@ -7632,7 +7656,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
@@ -7665,9 +7689,7 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762.BP_Malyuk_762_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
+              "perk requirements": [],
               "item count": -1,
               "prestige": 1
             },
@@ -7909,6 +7931,32 @@
             }
           ],
           "unlock level": 46
+        },
+        {
+          "family name": "UAR-10",
+          "single cost": "900",
+          "perma cost": "150000",
+          "description": "Ukrainian Designated Marksman Rifle",
+          "texture": "/Game/Art/Items/UAR-10/UI/uar10_iron.uar10_iron",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Irons.BP_UAR-10_Irons_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Optic.BP_UAR-10_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 48
         },
         {
           "family name": "MPT76",
@@ -13432,7 +13480,7 @@
               "prestige": 0
             },
             {
-              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
               "unlock level": 7,
               "perk requirements": [],
               "item count": -1,
@@ -13465,11 +13513,9 @@
             {
               "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762.BP_Malyuk_762_C",
               "unlock level": 0,
-              "perk requirements": [
-                "Silencer"
-              ],
+              "perk requirements": [],
               "item count": -1,
-              "prestige": 1
+              "prestige": 0
             },
             {
               "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_Foregrip.BP_Malyuk_762_Foregrip_C",
@@ -13709,6 +13755,32 @@
             }
           ],
           "unlock level": 46
+        },
+        {
+          "family name": "UAR-10",
+          "single cost": "900",
+          "perma cost": "150000",
+          "description": "Ukrainian Designated Marksman Rifle",
+          "texture": "/Game/Art/Items/UAR-10/UI/uar10_iron.uar10_iron",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Irons.BP_UAR-10_Irons_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Optic.BP_UAR-10_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 48
         },
         {
           "family name": "MPT76",

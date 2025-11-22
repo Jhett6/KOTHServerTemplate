@@ -31,8 +31,8 @@
       "perma_token_days": 14
     },
     "economy": {
-      "$ multiplier": 2,
-      "xp multiplier": 1,
+      "$ multiplier": 4,
+      "xp multiplier": 2,
       "weapon xp multiplier": 12
     },
     "halo cost": 5000,

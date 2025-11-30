@@ -6,8 +6,7 @@
       "/FastRopes/Blueprints/BP_FastRopeInjector.BP_FastRopeInjector_C",
       "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01_Random.BP_Squad_UltraDynamicWeather_01_Random_C",
       "/SquadJSLogger/BP_SquadJSLogger.BP_SquadJSLogger_C",
-      "/PersistentBattles/BP_PersistentBattles.BP_PersistentBattles_C",
-      "/NightVisionGoggles/BP_NVGs.BP_NVGs_C"
+      "/PersistentBattles/BP_PersistentBattles.BP_PersistentBattles_C"
     ],
     "daily_rewards": {
       "check_interval": 60,
@@ -33,7 +32,7 @@
     "economy": {
       "$ multiplier": 2,
       "xp multiplier": 1,
-      "weapon xp multiplier": 12
+      "weapon xp multiplier": 6
     },
     "halo cost": 5000,
     "intel": {

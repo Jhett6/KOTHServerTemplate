@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "bSeedModsOnlyDuringSeeding": false,
+  "mods": {
+    "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C": true,
+    "/NightVisionGoggles/BP_NVGs.BP_NVGs_C": true,
+    "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01_Random.BP_Squad_UltraDynamicWeather_01_Random_C": true
+  },
+  "rulesets": {
+    "/ModLoader/Rulesets/ModLoader/BP_EndInit_Ruleset.BP_EndInit_Ruleset_C": true
+  },
+  "seedMods": {},
+  "seedRulesets": {},
+  "Widgets": [
+    {
+      "buttonName": "Night Vision",
+      "WidgetRef": "/NightVisionGoggles/UI/W_NightVision_Options.W_NightVision_Options_C",
+      "bIsAdmin": false
+    }
+  ]
+}

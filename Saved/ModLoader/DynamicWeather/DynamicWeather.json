@@ -1,0 +1,66 @@
+{
+  "Weather": {
+    "Interval": {
+      "MinTimeToWeatherChange": 480,
+      "MaxTimeToWeatherChange": 720
+    },
+    "Biomes": {
+      "Desert": {
+        "ClearSkiesProb": 1.2,
+        "CloudyProb": 0.1,
+        "OvercastProb": 0.1,
+        "PartyCloudyProb": 0.1,
+        "RainLightProb": 0,
+        "DustCalmProb": 0.5,
+        "DustStormProb": 0.5,
+        "FoggyProb": 0.1,
+        "RainProb": 0,
+        "RainThunderstormProb": 0,
+        "SnowProb": 0,
+        "SnowLightProb": 0,
+        "SnowBlizzardProb": 0
+      },
+      "Forest": {
+        "ClearSkiesProb": 1.2,
+        "CloudyProb": 0.8,
+        "OvercastProb": 0.5,
+        "PartyCloudyProb": 0.7,
+        "RainLightProb": 0.6,
+        "DustCalmProb": 0,
+        "DustStormProb": 0,
+        "FoggyProb": 0.4,
+        "RainProb": 0.5,
+        "RainThunderstormProb": 0.5,
+        "SnowProb": 0,
+        "SnowLightProb": 0,
+        "SnowBlizzardProb": 0
+      },
+      "Snow": {
+        "ClearSkiesProb": 1,
+        "CloudyProb": 1,
+        "OvercastProb": 0.8,
+        "PartyCloudyProb": 0.6,
+        "RainLightProb": 0.1,
+        "DustCalmProb": 0,
+        "DustStormProb": 0,
+        "FoggyProb": 0.4,
+        "RainProb": 0.08,
+        "RainThunderstormProb": 0.01,
+        "SnowProb": 1.2,
+        "SnowLightProb": 1,
+        "SnowBlizzardProb": 0.8
+      }
+    }
+  },
+  "Time": {
+    "RandomStartingTime": true,
+    "AnimateTimeOfDay": true,
+    "Night": {
+      "NightLength": 15,
+      "NightBrightness": 0.5
+    },
+    "Day": {
+      "DayLength": 20
+    }
+  }
+}

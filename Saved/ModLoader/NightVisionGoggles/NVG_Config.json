@@ -1,0 +1,103 @@
+{
+  "TeamConfig": {
+    "ADF": [
+      "AN-PVS14 Green Phosphor",
+      "AN-PVS14 White Phosphor",
+      "PVS-31"
+    ],
+    "BAF": [
+      "AN-PVS14 Green Phosphor",
+      "AN-PVS14 White Phosphor",
+      "PVS-31",
+      "GPNVG-18 Tan"
+    ],
+    "CAF": [
+      "AN-PVS14 Green Phosphor",
+      "AN-PVS14 White Phosphor",
+      "PVS-31"
+    ],
+    "CIV": [
+      "PVS-7 Green Phosphor",
+      "PVS-7 White Phosphor",
+      "AN-PVS14 Green Phosphor"
+    ],
+    "CRF": [
+      "PVS-7 Green Phosphor",
+      "PVS-7 White Phosphor",
+      "AN-PVS14 Green Phosphor"
+    ],
+    "GFI": [
+      "1PN138",
+      "PVS-7 Green Phosphor"
+    ],
+    "IMF": [
+      "PVS-7 Green Phosphor",
+      "PVS-7 White Phosphor",
+      "AN-PVS14 Green Phosphor"
+    ],
+    "MEI": [
+      "1PN138",
+      "PVS-7 Green Phosphor"
+    ],
+    "PLA": [
+      "AN-PVS14 Green Phosphor"
+    ],
+    "PLAAGF": [
+      "AN-PVS14 Green Phosphor"
+    ],
+    "PLANMC": [
+      "AN-PVS14 Green Phosphor"
+    ],
+    "RGF": [
+      "1PN138",
+      "PVS-7 Green Phosphor"
+    ],
+    "TLF": [
+      "PVS-7 Green Phosphor",
+      "PVS-7 White Phosphor",
+      "AN-PVS14 Green Phosphor"
+    ],
+    "USA": [
+      "AN-PVS14 Green Phosphor",
+      "AN-PVS14 White Phosphor",
+      "PVS-31",
+      "GPNVG-18 Tan",
+      "GPNVG-18 Black"
+    ],
+    "USMC": [
+      "AN-PVS14 Green Phosphor",
+      "AN-PVS14 White Phosphor",
+      "PVS-31",
+      "GPNVG-18 Tan",
+      "GPNVG-18 Black"
+    ],
+    "VDV": [
+      "1PN138",
+      "PVS-7 Green Phosphor"
+    ],
+    "WPMC": [
+      "AN-PVS14 Green Phosphor",
+      "AN-PVS14 White Phosphor",
+      "PVS-31",
+      "PVS-7 Green Phosphor"
+    ],
+    "BLUFOR_KOTH": [
+      "GPNVG-18 Black",
+      "GPNVG-18 Tan",
+      "AN-PVS14 Green Phosphor",
+      "AN-PVS14 White Phosphor",
+      "PVS-31"
+    ],
+    "REDFOR_KOTH": [
+      "GPNVG-18 Black",
+      "GPNVG-18 Tan",
+      "1PN138",
+      "PVS-7 Green Phosphor",
+      "AN-PVS14 White Phosphor"
+    ],
+    "INDFOR_KOTH": [
+      "PVS-7 Green Phosphor",
+      "AN-PVS14 White Phosphor"
+    ]
+  }
+}

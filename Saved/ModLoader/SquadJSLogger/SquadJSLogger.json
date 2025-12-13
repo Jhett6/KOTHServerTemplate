@@ -1,0 +1,266 @@
+{
+  "Settings": {
+    "Enabled": true,
+    "JsonRefreshTime": -1,
+    "GarbageCollectionTime": 300,
+    "DeployablesSearchInterval": 1
+  },
+  "Logging": {
+    "Commander": {
+      "CommandApproved": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "CommanderNominationStart": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "CommanderNominationEnd": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "CommanderNominationAvailable": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      }
+    },
+    "Player": {
+      "PlayerDamaged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerWounded": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerTeamWounded": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerKilled": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerTeamKilled": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerDied": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerSuicide": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerWound": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerSelfWound": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerHealed": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerSelfHealed": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerRevived": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerBandaged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerSelfBandaged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerJoined": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerJoinedTeam": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerSpawned": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "SuppressionInflicted": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "ModifySoldierInventory": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "RallyCreated": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "DeployRoleChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "RoleChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "FireteamChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerCommendationChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "PlayerNameChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "BecomeSquadLeader": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "SquadStateChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "AmmoChanged": {
+        "Enabled": false,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "MagazineChanged": {
+        "Enabled": false,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "SwitchWeapon": {
+        "Enabled": false,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "WaterImmersionChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      }
+    },
+    "Vehicle": {
+      "VehicleSpawned": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "VehicleEntered": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "SeatChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "LogisticsDropOff": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "VehicleDamaged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "VehicleDestroyed": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      }
+    },
+    "Game": {
+      "MatchStarted": {
+        "Enabled": true
+      },
+      "MatchEnded": {
+        "Enabled": true
+      },
+      "TicketChanged": {
+        "Enabled": true
+      },
+      "LevelInfo": {
+        "Enabled": true
+      },
+      "MainBaseInfo": {
+        "Enabled": true
+      },
+      "CaptureZoneInfo": {
+        "Enabled": true
+      },
+      "WorldSettingsInfo": {
+        "Enabled": true
+      },
+      "CaptureChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      }
+    },
+    "Deployables": {
+      "BuildStateChanged": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "DeployableDestroyed": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      },
+      "FOBStateUpdated": {
+        "Enabled": true,
+        "SpamProtectionTime": -1,
+        "MaxLogsPerRound": -1
+      }
+    }
+  }
+}

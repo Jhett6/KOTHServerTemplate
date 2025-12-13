@@ -1,0 +1,103 @@
+{
+"Models": {
+    "1PN138": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/1PN138/M_1PN138_GreenPhosphor_Single.M_1PN138_GreenPhosphor_Single"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/1PN138/SK_1PN138.SK_1PN138",
+      "AnimInstance": "/NightVisionGoggles/Meshes/1PN138/AnimBP_1PN138.AnimBP_1PN138_C",
+      "Transform": {
+        "Location": "(X=19.515622,Y=-10.286697,Z=0.000000)",
+        "Rotation": "(P=90.0,Y=0.0,R=164.104551)"
+      }
+    },
+    "AN-PVS14 Green Phosphor": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/AN-PVS14/M_AN-PVS14_GreenPhosphor_Single.M_AN-PVS14_GreenPhosphor_Single"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/AN-PVS14/SK_AN-PVS14.SK_AN-PVS14",
+      "AnimInstance": "/NightVisionGoggles/Meshes/AN-PVS14/AnimBP_AN-PVS14.AnimBP_AN-PVS14_C",
+      "Transform": {
+        "Location": "(X=19.76473,Y=-11.730832,Z=0.000000)",
+        "Rotation": "(P=90.0,Y=-90.0,R=90.0)"
+      }
+    },
+    "AN-PVS14 White Phosphor": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/AN-PVS14/M_AN-PVS14_WhitePhosphor_Single.M_AN-PVS14_WhitePhosphor_Single"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/AN-PVS14/SK_AN-PVS14.SK_AN-PVS14",
+      "AnimInstance": "/NightVisionGoggles/Meshes/AN-PVS14/AnimBP_AN-PVS14.AnimBP_AN-PVS14_C",
+      "Transform": {
+        "Location": "(X=19.76473,Y=-11.730832,Z=0.000000)",
+        "Rotation": "(P=90.0,Y=-90.0,R=90.0)"
+      }
+    },
+    "GPNVG-18 Black": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/GPNVG-18/M_GPNVG-18_GreenPhosphor_Quad.M_GPNVG-18_GreenPhosphor_Quad",
+        "/NightVisionGoggles/Materials/Instances/GPNVG-18/M_GPNVG-18_WhitePhosphor_Quad.M_GPNVG-18_WhitePhosphor_Quad"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/GPNVG-18/SK_GPNVG18_Black.SK_GPNVG18_Black",
+      "AnimInstance": "/NightVisionGoggles/Meshes/GPNVG-18/AnimBP_GPNVG-18.AnimBP_GPNVG-18_C",
+      "Transform": {
+        "Location": "(X=19.636015,Y=-12.293949,Z=0.000000)",
+        "Rotation": "(P=90,Y=0.0,R=180.0)"
+      }
+    },
+    "GPNVG-18 Tan": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/GPNVG-18/M_GPNVG-18_GreenPhosphor_Quad.M_GPNVG-18_GreenPhosphor_Quad",
+        "/NightVisionGoggles/Materials/Instances/GPNVG-18/M_GPNVG-18_WhitePhosphor_Quad.M_GPNVG-18_WhitePhosphor_Quad"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/GPNVG-18/SK_GPNVG18_Tan.SK_GPNVG18_Tan",
+      "AnimInstance": "/NightVisionGoggles/Meshes/GPNVG-18/AnimBP_GPNVG-18.AnimBP_GPNVG-18_C",
+      "Transform": {
+        "Location": "(X=19.636015,Y=-12.293949,Z=0.000000)",
+        "Rotation": "(P=90,Y=0.0,R=180.0)"
+      }
+    },
+    "PVS-7 Green Phosphor": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/PVS-7/M_PVS-7_GreenPhosphor_Single.M_PVS-7_GreenPhosphor_Single"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/PVS-7/SK_PVS-7.SK_PVS-7",
+      "AnimInstance": "/NightVisionGoggles/Meshes/PVS-7/AnimBP_PVS-7.AnimBP_PVS-7_C",
+      "Transform": {
+        "Location": "(X=19.515622,Y=-10.286697,Z=0.000000)",
+        "Rotation": "(P=90.0,Y=0.0,R=164.104451.0)"
+      }
+    },
+    "PVS-7 White Phosphor": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/PVS-7/M_PVS-7_WhitePhosphor_Single.M_PVS-7_WhitePhosphor_Single"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/PVS-7/SK_PVS-7.SK_PVS-7",
+      "AnimInstance": "/NightVisionGoggles/Meshes/PVS-7/AnimBP_PVS-7.AnimBP_PVS-7_C",
+      "Transform": {
+        "Location": "(X=19.515622,Y=-10.286697,Z=0.000000)",
+        "Rotation": "(P=90.0,Y=0.0,R=164.104451.0)"
+      }
+    },
+    "PVS-31": {
+      "MaterialRef": [
+        "/NightVisionGoggles/Materials/Instances/PVS-31/M_PVS-31_GreenPhosphor_Double.M_PVS-31_GreenPhosphor_Double",
+        "/NightVisionGoggles/Materials/Instances/PVS-31/M_PVS-31_WhitePhosphor_Double.M_PVS-31_WhitePhosphor_Double"
+      ],
+      "TransitionTime": 0.5,
+      "MeshRef": "/NightVisionGoggles/Meshes/PVS-31/SK_PVS-31.SK_PVS-31",
+      "AnimInstance": "/NightVisionGoggles/Meshes/PVS-31/AnimBP_PVS-31.AnimBP_PVS-31_C",
+      "Transform": {
+        "Location": "(X=19.515622,Y=-10.302655,Z=0.000000)",
+        "Rotation": "(P=90.0,Y=-90.0,R=90.0)"
+      }
+    }
+  }
+}

@@ -16,6 +16,11 @@
       "buttonName": "Night Vision",
       "WidgetRef": "/NightVisionGoggles/UI/W_NightVision_Options.W_NightVision_Options_C",
       "bIsAdmin": false
+    },
+    {
+        "buttonName": "Dynamic Weather",
+        "WidgetRef": "/DynamicWeatherSystem/Widgets/W_ML_Options.W_ML_Options_C",
+        "bisAdmin": false
     }
   ]
 }

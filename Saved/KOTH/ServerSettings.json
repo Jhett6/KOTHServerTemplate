@@ -4,15 +4,36 @@
       "/BasicModSetup/Blueprints/BP_Init_Live_KOTH_BM_Child.BP_Init_Live_KOTH_BM_Child_C",
       "/SquadAdminTools/Maps/MapInitializer/Blueprints/BP_MapInitializer.BP_MapInitializer_C",
       "/FastRopes/Blueprints/BP_FastRopeInjector.BP_FastRopeInjector_C",
-      "/DynamicWeatherSystem/BP_Squad_UltraDynamicWeather_01_Random.BP_Squad_UltraDynamicWeather_01_Random_C",
       "/SquadJSLogger/BP_SquadJSLogger.BP_SquadJSLogger_C",
       "/PersistentBattles/BP_PersistentBattles.BP_PersistentBattles_C"
     ],
-    "economy": {
-      "$ multiplier": 2,
-      "xp multiplier": 1,
-      "weapon xp multiplier": 12
+    "daily_rewards": {
+      "check_interval": 60,
+      "delay_minutes": 20,
+      "claim_amounts": [
+        1000,
+        1000,
+        2000,
+        2000,
+        4000,
+        4000,
+        8000,
+        8000,
+        8000,
+        10000,
+        10000,
+        12000,
+        12000,
+        20000
+      ],
+      "perma_token_days": 14
     },
+    "economy": {
+      "$ multiplier": 1,
+      "xp multiplier": 1,
+      "weapon xp multiplier": 4
+    },
+    "halo cost": 2000,
     "intel": {
       "prio": 50,
       "zone": 25,
@@ -20,7 +41,7 @@
       "prio_assist": 1
     },
     "bounties": {
-      "intel_required": 1000,
+      "intel_required": 2000,
       "top_bounty_ping": true,
       "bounty_ping": false,
       "ghost_radius": 3000,
@@ -38,7 +59,7 @@
       "prio vehicle can capture": true
     },
     "max prestige": 1,
-    "msv timer": 120,
+    "msv timer": 60,
     "msv enemy trace distance": 3000,
     "main protection time": 1,
     "vehicle cleanup": {
@@ -180,7 +201,7 @@
         "display reward": true
       },
       {
-        "name": "Repair",
+        "name": "Repairing",
         "xp": 75,
         "$": 75,
         "description": "Awarded for repairing friendly vehicles or equipment, maintaining team assets.",
@@ -309,8 +330,8 @@
       },
       {
         "name": "Enemy Stabbed",
-        "xp": 250,
-        "$": 250,
+        "xp": 500,
+        "$": 500,
         "description": "Awarded for stabbing an enemy player. Congratulations, you won the melee lottery in a game that barely acknowledges knives exist.",
         "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_attack.map_commandmarker_attack",
         "display reward": true
@@ -341,8 +362,8 @@
       },
       {
         "name": "Bot Killed",
-        "xp": 50,
-        "$": 50,
+        "xp": 75,
+        "$": 75,
         "description": "Congrats, you fragged the digital equivalent of a wet cardboard box. The hill is safer, somehow.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
@@ -386,890 +407,27 @@
         "description": "Damn you smoked his ass. I owe you one.",
         "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
         "display reward": true
+      },
+      {
+        "name": "Team Killed",
+        "xp": -1,
+        "$": -1,
+        "description": "You were shot by a friendly. Your rebuy is on them.",
+        "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
+        "display reward": true
+      },
+      {
+        "name": "Daily Reward",
+        "xp": -1,
+        "$": -1,
+        "description": "Awarded for claiming your daily bonus.",
+        "texture": "/Game/UI/RadialMenu/RadialMenutextures/Icons/Markers/Enemy/Misc/map_mine.map_mine",
+        "display reward": true
       }
     ]
   },
   "stores": {
     "indfor": {
-      "free shit": [
-        {
-          "item": "/KingOfTheHill/Blueprints/Items/Surrender/BP_Surrender_KOTH.BP_Surrender_KOTH_C",
-          "slot": 0,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/Melee/BP_M9Bayonet.BP_M9Bayonet_C",
-          "slot": 1,
-          "item count": 1
-        },
-        {
-          "item": "/Game/Blueprints/Items/EquippableItems/BP_Generic_FieldDressing_Medic.BP_Generic_FieldDressing_Medic_C",
-          "slot": 4,
-          "item count": 5
-        },
-        {
-          "item": "/Game/Blueprints/Items/EquippableItems/BP_EntrenchingTool.BP_EntrenchingTool_C",
-          "slot": 5,
-          "item count": 1
-        },
-        {
-          "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
-          "slot": 5,
-          "item count": 1
-        }
-      ],
-      "primary": [],
-	  "secondary": [],
-	  "special": [],
-	  "deployables": [
-        {
-          "family name": "RazorWire",
-          "single cost": 10,
-          "perma cost": -1,
-          "description": "Slows down and damages enemies. Great for choke points slowing down enemy movement",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/razorwire.razorwire",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Razorwire.BP_Infantry_Razorwire_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 5
-        },
-        {
-          "family name": "Sandbag",
-          "single cost": 25,
-          "perma cost": -1,
-          "description": "Solid cover to protect from incoming fire",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Sandbag.BP_Infantry_Sandbag_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
-          "family name": "CamoNet",
-          "single cost": 35,
-          "perma cost": -1,
-          "description": "Provides a peronal concealed firing position",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/camonet.camonet",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Camonet_Forest.BP_Infantry_Camonet_Forest_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 15
-        },
-        {
-          "family name": "Ladder",
-          "single cost": 25,
-          "perma cost": -1,
-          "description": "Provides access to elevated positions",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 20
-        },
-        {
-          "family name": "Ammo Wall Low",
-          "single cost": 50,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 20
-        },
-        {
-          "family name": "Ammo Wall High",
-          "single cost": 60,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 25
-        },
-        {
-          "family name": "Ammo Wall Firing Port",
-          "single cost": 70,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 28
-        },
-        {
-          "family name": "Hesco Block",
-          "single cost": 50,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoBlock.BP_Infantry_HescoBlock_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
-          "family name": "Hesco Wall",
-          "single cost": 150,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 30
-        }
-      ],
-      "vehicles": [],
-	  "perks": [
-        {
-          "name": "Engineer",
-          "description": "Gives you an Engineer Shovel",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/entrenchingtool.entrenchingtool",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_EntrenchingTool_Engineer.BP_EntrenchingTool_Engineer_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Ammo",
-          "description": "Gives you a deployable ammo bag",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/ammobag.ammobag",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Ammobag_USA.BP_Infantry_Ammobag_USA_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Anti-Flash Goggles",
-          "description": "Provides you with goggles that resist flashbangs.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/RadialObserveMarker.RadialObserveMarker",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Crewman",
-          "description": "Gives you a repair kit for repairing friendly vehicles to a working condition. This additionally unlocks compact ",
-          "crewman": "weaponry.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/repairtool.repairtool",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_RepairTool.BP_RepairTool_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Explosives",
-          "description": "Grants access to Explosives",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
-          "material": "None",
-          "unlock level": 3,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_Phone_Detonator.BP_Phone_Detonator_C",
-            "/Game/Blueprints/Items/EquippableItems/BP_M60_Detonator.BP_M60_Detonator_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Marksman",
-          "description": "Grants access to sniper rifles, DMRs, long range scopes.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
-          "material": "None",
-          "unlock level": 5,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Launcher",
-          "description": "Grants access to Anti-Tank, Anti-Air and Anti-Personnel launchers.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
-          "material": "None",
-          "unlock level": 5,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Medic",
-          "description": "Gives you a Medical Kit for healing yourself and teammates, as well as extra Bandages.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/medibag.medibag",
-          "material": "None",
-          "unlock level": 7,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_Generic_MedicalKit.BP_Generic_MedicalKit_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Overkill",
-          "description": "Allows you to purchase primary items in the secondary store.",
-          "texture": "/KingOfTheHill/UI/KOTH_Icons/T_Overkill.T_Overkill",
-          "material": "None",
-          "unlock level": 10,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Grenadier",
-          "description": "Grants access to underbarrel grenade launcher variants.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/m203_gl.m203_gl",
-          "material": "None",
-          "unlock level": 15,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Shift-W",
-          "description": "Increases stamina regeneration.",
-          "texture": "None",
-          "material": "/Game/UI/Widgets/Loading/RunningMan/Loading_RunningMan_SpriteSheet_Mat.Loading_RunningMan_SpriteSheet_Mat",
-          "unlock level": 20,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Machinegunner",
-          "description": "Grants access to machineguns and higher capacity magazines.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
-          "material": "None",
-          "unlock level": 25,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Money",
-          "description": "Increases money rewards by 10% and reduces price when buying your last loadout by 50%",
-          "texture": "/Game/UI/Widgets/Menu_Main/Icons/mainmenu_star.mainmenu_star",
-          "material": "None",
-          "unlock level": 35,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Got Milk?",
-          "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
-          "material": "None",
-          "unlock level": 40,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Silencer",
-          "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
-          "material": "None",
-          "unlock level": 48,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Ghost",
-          "description": "Scrambles your name to a GHOST callsign, and adds a random offset to Bounty ping locations.",
-          "texture": "/Game/UI/Widgets/Menu_Deployment/Textures/Icon_Legend.Icon_Legend",
-          "material": "None",
-          "unlock level": 60,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Drone Operator",
-          "description": "Allows you to purchase and operate Drones",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
-          "material": "",
-          "unlock level": 65,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_Smartphone_FPV.BP_Smartphone_FPV_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "SPHERE",
-          "description": "WIP! THE SPHERE IS REAL. PRAISE SPHERE",
-          "texture": "None",
-          "material": "/KingOfTheHill/UI/KOTH_Icons/M_Sphere.M_Sphere",
-          "unlock level": 100,
-          "unlock items": [],
-          "prestige": 0
-        }
-      ],
-      "skins": [
-        {
-          "name": "INS Recruit 1",
-          "unlock level": 0,
-          "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_JacketClosed1_1p_Upper.SK_Ins_JacketClosed1_1p_Upper'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_LongPants1_1p_Lower.SK_Ins_LongPants1_1p_Lower'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_1.SK_Ins_1'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
-          "prestige": 0
-        },
-        {
-          "name": "INS Recruit 2",
-          "unlock level": 0,
-          "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_JacketClosed2_1p_Upper.SK_Ins_JacketClosed2_1p_Upper'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_LongPants2_1p_Lower.SK_Ins_LongPants2_1p_Lower'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_2.SK_Ins_2'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
-          "prestige": 0
-        }
-      ],
-      "community tab": [
-        {
-          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/psg_koth.png",
-          "url": "https://psg-hosting.com/game-servers/squad/"
-        },
-        {
-          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/bbucket_logo.png",
-          "url": "https://discord.gg/bbucket"
-        }
-      ]
-    },
-    "blufor": {
-      "free shit": [
-        {
-          "item": "/KingOfTheHill/Blueprints/Items/Surrender/BP_Surrender_KOTH.BP_Surrender_KOTH_C",
-          "slot": 0,
-          "item count": 1
-        },
-        {
-          "item": "/SPM/Weapons/Melee/Famas_Bayonet/BP_FAMAS_Bayonet.BP_FAMAS_Bayonet_C",
-          "slot": 1,
-          "item count": 1
-        },
-        {
-          "item": "/SPM/Weapons/Misc/FFD/BP_FFD_FRA_Medic.BP_FFD_FRA_Medic_C",
-          "slot": 4,
-          "item count": 5
-        },
-        {
-          "item": "/SPM/Weapons/Misc/French_shovel/BP_French_shovel.BP_French_shovel_C",
-          "slot": 5,
-          "item count": 1
-        },
-        {
-          "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Binoculars/BP_KOTH_Binoculars.BP_KOTH_Binoculars_C",
-          "slot": 5,
-          "item count": 1
-        }
-      ],
-      "primary": [
-        {
-          "family name": "Famas",
-          "single cost": "700",
-          "perma cost": "100000",
-          "description": "Assault Rifle from the Saint-Étienne Weapon Factory",
-          "texture": "/SPM/Weapons/Riffle/Assault/FAMAS/Materials/Textures/T_FAMAS_F1_UI.T_FAMAS_F1_UI",
-          "xp unlocks": [
-            {
-              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_2mag_supermod.1_BP_Famas_F1_2mag_supermod_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-			{
-              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_Grip_supermod.1_BP_Famas_F1_Grip_supermod_C",
-              "unlock level": 5,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-			{
-              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_7mag_supermod.1_BP_Famas_INF_AIMPoint_7mag_supermod_C",
-              "unlock level": 7,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-			{
-              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_7mag_Grip_supermod.1_BP_Famas_INF_AIMPoint_7mag_Grip_supermod_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-			{
-              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/3_Famas_Valorise_552/1_BP_Famas_Valorise_552_Grip_supermod.1_BP_Famas_Valorise_552_Grip_supermod_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-			{
-              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/3_Famas_Scrome_J4/1_BP_Famas_INF_SCROME_J4_Grip_supermod.1_BP_Famas_INF_SCROME_J4_Grip_supermod_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            },
-			{
-              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/4_Famas_Valorise_SJ4/1_BP_Famas_Valorise_SJ4_supermod.1_BP_Famas_Valorise_SJ4_supermod_C",
-              "unlock level": 10,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 0
-        }
-      ],
-      "secondary": [],
-      "special": [],
-      "deployables": [
-        {
-          "family name": "RazorWire",
-          "single cost": 10,
-          "perma cost": -1,
-          "description": "Slows down and damages enemies. Great for choke points slowing down enemy movement",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/razorwire.razorwire",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Razorwire.BP_Infantry_Razorwire_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 5
-        },
-        {
-          "family name": "Sandbag",
-          "single cost": 25,
-          "perma cost": -1,
-          "description": "Solid cover to protect from incoming fire",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Sandbag.BP_Infantry_Sandbag_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
-          "family name": "CamoNet",
-          "single cost": 35,
-          "perma cost": -1,
-          "description": "Provides a peronal concealed firing position",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/camonet.camonet",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Camonet_Forest.BP_Infantry_Camonet_Forest_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 15
-        },
-        {
-          "family name": "Ladder",
-          "single cost": 25,
-          "perma cost": -1,
-          "description": "Provides access to elevated positions",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Ladder/BP_Infantry_Ladder.BP_Infantry_Ladder_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 20
-        },
-        {
-          "family name": "Ammo Wall Low",
-          "single cost": 50,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/LowWall/BP_Infantry_DirtCrate_LowWall.BP_Infantry_DirtCrate_LowWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 20
-        },
-        {
-          "family name": "Ammo Wall High",
-          "single cost": 60,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/HighWall/BP_Infantry_DirtCrate_HighWall.BP_Infantry_DirtCrate_HighWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 25
-        },
-        {
-          "family name": "Ammo Wall Firing Port",
-          "single cost": 70,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/AmmoWalls/FiringPort/BP_Infantry_DirtCrate_FiringPortWall.BP_Infantry_DirtCrate_FiringPortWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 28
-        },
-        {
-          "family name": "Hesco Block",
-          "single cost": 50,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoBlock.BP_Infantry_HescoBlock_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
-          "family name": "Hesco Wall",
-          "single cost": 150,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 30
-        }
-      ],
-      "vehicles": [
-        {
-          "name": "Renault GBC 180 Transport",
-          "vehicle": "/SPM/Vehicles/TRAN/Blueprints/Medium/GBC-180/BP_GBC-180_TRAN_Desert.BP_GBC-180_TRAN_Desert_C",
-          "single cost": 200,
-          "description": "Transport vehicle",
-          "unlock level": 0,
-          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
-          "spawn type": "Ground",
-          "kill xp reward": 50,
-          "kill $ reward": 66,
-          "prestige": 0
-        }
-      ],
-      "perks": [
-        {
-          "name": "Engineer",
-          "description": "Gives you an Engineer Shovel",
-          "texture": "/SPM/Weapons/Misc/French_shovel/Textures/T_French_shovel_ui.T_French_shovel_ui",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [
-            "/SPM/Weapons/Misc/French_shovel/BP_French_shovel_CE.BP_French_shovel_CE_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Ammo",
-          "description": "Gives you a deployable ammo bag",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/ammobag.ammobag",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [
-            "/SPM/Soldiers/FRA20/Blueprints/BP_Infantry_Ammobag_FFL.BP_Infantry_Ammobag_FFL_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Anti-Flash Goggles",
-          "description": "Provides you with goggles that resist flashbangs.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/RadialObserveMarker.RadialObserveMarker",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Crewman",
-          "description": "Gives you a repair kit for repairing friendly vehicles to a working condition. This additionally unlocks compact ",
-          "crewman": "weaponry.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/repairtool.repairtool",
-          "material": "None",
-          "unlock level": 0,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_RepairTool.BP_RepairTool_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Explosives",
-          "description": "Grants access to Explosives",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
-          "material": "None",
-          "unlock level": 3,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_Phone_Detonator.BP_Phone_Detonator_C",
-            "/Game/Blueprints/Items/EquippableItems/BP_M60_Detonator.BP_M60_Detonator_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Marksman",
-          "description": "Grants access to sniper rifles, DMRs, long range scopes.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
-          "material": "None",
-          "unlock level": 5,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Launcher",
-          "description": "Grants access to Anti-Tank, Anti-Air and Anti-Personnel launchers.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
-          "material": "None",
-          "unlock level": 5,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Medic",
-          "description": "Gives you a Medical Kit for healing yourself and teammates, as well as extra Bandages.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/medibag.medibag",
-          "material": "None",
-          "unlock level": 7,
-          "unlock items": [
-            "/SPM/Weapons/Misc/Medicbag/BP_Generic_MedicalKit_FFL.BP_Generic_MedicalKit_FFL_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "Overkill",
-          "description": "Allows you to purchase primary items in the secondary store.",
-          "texture": "/KingOfTheHill/UI/KOTH_Icons/T_Overkill.T_Overkill",
-          "material": "None",
-          "unlock level": 10,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Grenadier",
-          "description": "Grants access to underbarrel grenade launcher variants.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/m203_gl.m203_gl",
-          "material": "None",
-          "unlock level": 15,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Shift-W",
-          "description": "Increases stamina regeneration.",
-          "texture": "None",
-          "material": "/Game/UI/Widgets/Loading/RunningMan/Loading_RunningMan_SpriteSheet_Mat.Loading_RunningMan_SpriteSheet_Mat",
-          "unlock level": 20,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Machinegunner",
-          "description": "Grants access to machineguns and higher capacity magazines.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
-          "material": "None",
-          "unlock level": 25,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Money",
-          "description": "Increases money rewards by 10% and reduces price when buying your last loadout by 50%",
-          "texture": "/Game/UI/Widgets/Menu_Main/Icons/mainmenu_star.mainmenu_star",
-          "material": "None",
-          "unlock level": 35,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Got Milk?",
-          "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
-          "material": "None",
-          "unlock level": 40,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Silencer",
-          "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
-          "material": "None",
-          "unlock level": 48,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Ghost",
-          "description": "Scrambles your name to a GHOST callsign, and adds a random offset to Bounty ping locations.",
-          "texture": "/Game/UI/Widgets/Menu_Deployment/Textures/Icon_Legend.Icon_Legend",
-          "material": "None",
-          "unlock level": 60,
-          "unlock items": [],
-          "prestige": 0
-        },
-        {
-          "name": "Drone Operator",
-          "description": "Allows you to purchase and operate Drones",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
-          "material": "",
-          "unlock level": 65,
-          "unlock items": [
-            "/Game/Blueprints/Items/EquippableItems/BP_Smartphone_FPV.BP_Smartphone_FPV_C"
-          ],
-          "prestige": 0
-        },
-        {
-          "name": "SPHERE",
-          "description": "WIP! THE SPHERE IS REAL. PRAISE SPHERE",
-          "texture": "None",
-          "material": "/KingOfTheHill/UI/KOTH_Icons/M_Sphere.M_Sphere",
-          "unlock level": 100,
-          "unlock items": [],
-          "prestige": 0
-        }
-      ],
-      "skins": [
-        {
-          "name": "SU FRA SL 04",
-          "unlock level": 0,
-          "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
-          "upper1p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_1p_upperbody_shortsleeve_1.SK_FRA20_1p_upperbody_shortsleeve_1",
-          "1p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_1p_lowerbody.SK_FRA20_1p_lowerbody",
-          "3p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_SL.SK_FRA20_SL",
-          "upper1p materials": [
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA_White.MI_FRA_White"
-			],
-          "1p materials": [
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow"
-			],
-          "3p materials": [
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Helmet_CE.MI_FRA20_Helmet_CE",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA_Glass.MI_FRA_Glass",
-				"/SPM/Soldiers/FRA20/Materials/MI_FRA_White.MI_FRA_White"
-			],
-          "prestige": 0
-        }
-      ],
-      "community tab": [
-        {
-          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/psg_koth.png",
-          "url": "https://psg-hosting.com/game-servers/squad/"
-        },
-        {
-          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/bbucket_logo.png",
-          "url": "https://discord.gg/bbucket"
-        }
-      ]
-    },
-    "redfor": {
       "free shit": [
         {
           "item": "/KingOfTheHill/Blueprints/Items/Surrender/BP_Surrender_KOTH.BP_Surrender_KOTH_C",
@@ -1336,7 +494,7 @@
           "single cost": "300",
           "perma cost": "4000",
           "description": "The M1 carbine (formally the United States carbine, caliber .30, M1) is a lightweight semi-automatic carbine chambered in the .30 carbine (7.62×33mm) cartridge that was issued to the U.S. military during World War II, the Korean War, and the Vietnam War.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/M1Carbine.T_M1Carbine",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_M1Carbine.T_M1Carbine",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/M1Carbine/BP_M1Carbine_Ironsights.BP_M1Carbine_Ironsights_C",
@@ -1496,6 +654,15 @@
               "unlock level": 28,
               "perk requirements": [
                 "Grenadier"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Tempest/BP_L85A2_SPECTRE_Foregrip_Tempest.BP_L85A2_SPECTRE_Foregrip_Tempest_C",
+              "unlock level": 35,
+              "perk requirements": [
+                "Silencer"
               ],
               "item count": -1,
               "prestige": 0
@@ -1800,6 +967,13 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/MasterPiece/BP_AUG_Suppressed.BP_AUG_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 20
@@ -1809,7 +983,7 @@
           "single cost": "1000",
           "perma cost": "120000",
           "description": "Magazine Capacity: 5/Caliber: .338 Lapua Magnum/Fire Mode: Bolt-Action",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/C14.C14",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/SVD/BP_SVD_Optic.BP_SVD_Optic_C",
@@ -1855,7 +1029,7 @@
           "single cost": "1000",
           "perma cost": "100000",
           "description": "Magazine Capacity: 30+1/Caliber: 5.45x39mm/Rate of Fire: 650 RPM/Fire Mode: Semi, Auto",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/ak12.T_ak12",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_ak12.T_ak12",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_AK12.BP_AK12_C",
@@ -2030,6 +1204,31 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_30.New_X95_M150_Grip_30_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_Holo_Grip_Suppressor.New_X95_Holo_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/X95/New_X95_M150_Grip_Suppressor.New_X95_M150_Grip_Suppressor_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 27
@@ -2039,7 +1238,7 @@
           "single cost": "700",
           "perma cost": "100000",
           "description": "The QBZ-95 family of rifles is a bullpup configured rifle designed and manufactured by Norinco.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/l85a2.l85a2",
+          "texture": "/Game/Art/Items/QBZ-95-1/T_qbz95-1.T_qbz95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_QBZ95-1.BP_QBZ95-1_C",
@@ -2100,6 +1299,16 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/SubMachine/RoomSweeper/BP_MP5A3_RoomSweeper.BP_MP5A3_RoomSweeper_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Silencer",
+                "Crewman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 30
@@ -2109,7 +1318,7 @@
           "single cost": "900",
           "perma cost": "110000",
           "description": "The QJB95-1 is the upgraded version of the QBB95 automatic rifle. It is a bullpup configured squad automatic weapon",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJB-95-1_LSW/T_qjb95-1.T_qjb95-1",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJB95-1_LSW.BP_QJB95-1_LSW_C",
@@ -2234,7 +1443,7 @@
           "single cost": "850",
           "perma cost": "125000",
           "description": "QJY-88 is a general purpose machine gun designed to replace the aging Type 67",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/pkp.pkp",
+          "texture": "/Game/Art/Items/QJY-88/qjy88.qjy88",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/MachineGuns/BP_QJY-88.BP_QJY-88_C",
@@ -2390,6 +1599,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Kaskad/BP_RPK74M_Kaskad.BP_RPK74M_Kaskad_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 36
@@ -2409,6 +1627,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/SD/Weapons/PP19/WarTrophy/SD_BP_PP19_War_Trophy.SD_BP_PP19_War_Trophy_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Crewman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 37
@@ -2743,6 +1970,162 @@
           "unlock level": 42
         },
         {
+          "family name": "Malyuk 5.45",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545.BP_Malyuk_545_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_Foregrip.BP_Malyuk_545_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68.BP_Malyuk_545_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_M68_Foregrip.BP_Malyuk_545_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78.BP_Malyuk_545_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_545_1p78_Foregrip.BP_Malyuk_545_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 42
+        },
+        {
+          "family name": "Malyuk 5.56",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556.BP_Malyuk_556_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_Foregrip.BP_Malyuk_556_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_M68.BP_Malyuk_556_M68_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78.BP_Malyuk_556_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_556_1p78_Foregrip.BP_Malyuk_556_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
+        },
+        {
+          "family name": "Malyuk 7.62",
+          "single cost": "1000",
+          "perma cost": "130000",
+          "description": "The Malyuk is a Ukranian Bulpup rifle used by the special forces of Ukraine.",
+          "texture": "/Game/Art/Items/Malyuk/UI/malyuk_545_irons.malyuk_545_irons",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762.BP_Malyuk_762_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_Foregrip.BP_Malyuk_762_Foregrip_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68.BP_Malyuk_762_M68_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_M68_Foregrip.BP_Malyuk_762_M68_Foregrip_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78.BP_Malyuk_762_1p78_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/Malyuk/BP_Malyuk_762_1p78_Foregrip.BP_Malyuk_762_1p78_Foregrip_C",
+              "unlock level": 15,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 74
+        },
+        {
           "family name": "M4",
           "single cost": "900",
           "perma cost": "100000",
@@ -2939,18 +2322,35 @@
               ],
               "item count": -1,
               "prestige": 0
-            },
-            {
-              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
-              "unlock level": 15,
-              "perk requirements": [
-                "Machinegunner"
-              ],
-              "item count": -1,
-              "prestige": 1
             }
           ],
           "unlock level": 46
+        },
+        {
+          "family name": "UAR-10",
+          "single cost": "900",
+          "perma cost": "150000",
+          "description": "Ukrainian Designated Marksman Rifle",
+          "texture": "/Game/Art/Items/UAR-10/UI/uar10_iron.uar10_iron",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Irons.BP_UAR-10_Irons_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Rifles/UAR-10/BP_UAR-10_Optic.BP_UAR-10_Optic_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 48
         },
         {
           "family name": "MPT76",
@@ -3034,6 +2434,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Rifles/Theseus/BP_Theseus.BP_Theseus_C",
+              "unlock level": 40,
+              "perk requirements": [
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 49
@@ -3293,7 +2702,7 @@
           "single cost": "800",
           "perma cost": "100000",
           "description": "A specialized Russian suppressed assault rifle chambered in 9x39mm. Designed for stealth operations, it excels in close to mid-range engagements.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Rifles/BP_ASVAL.BP_ASVAL_C",
@@ -3426,6 +2835,34 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/BP_Minimi_Elcan.BP_Minimi_Elcan_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Reddot/BP_Minimi_Reddot.BP_Minimi_Reddot_C",
+              "unlock level": 20,
+              "perk requirements": [
+                "Machinegunner"
+              ],
+              "item count": -1,
+              "prestige": 1
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/MachineGuns/Minimi/Suppressed/BP_Minimi_Reddot_Suppressed.BP_Minimi_Reddot_Suppressed_C",
+              "unlock level": 25,
+              "perk requirements": [
+                "Machinegunner",
+                "Silencer"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 77
@@ -3439,6 +2876,15 @@
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/BP_M1014_Shotgun.BP_M1014_Shotgun_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Medic"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Shotguns/StreetSweeper/BP_M1014_StreetSweeper.BP_M1014_StreetSweeper_C",
               "unlock level": 0,
               "perk requirements": [
                 "Medic"
@@ -3464,6 +2910,15 @@
               ],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/Fosh/Guns/Sniper/UnImpressed/BP_C14_Suppressed.BP_C14_Suppressed_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Marksman"
+              ],
+              "item count": -1,
+              "prestige": 1
             }
           ],
           "unlock level": 80
@@ -3494,7 +2949,7 @@
           "single cost": "20",
           "perma cost": "1000",
           "description": "A Chinese semi-auto pistol",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Pistols/tt33.tt33",
+          "texture": "/Game/Art/Items/QSZ-92_Pistol/qsz92.qsz92",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/Pistols/BP_QSZ-92.BP_QSZ-92_C",
@@ -3636,7 +3091,7 @@
               "prestige": 0
             },
             {
-              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Suppressed.BP_M9A1_Suppressed_C",
+              "item": "/KOTHContractorCrate/Fosh/Guns/Pistols/BP_M9A1_Scalpel_Suppressed.BP_M9A1_Scalpel_Suppressed_C",
               "unlock level": 5,
               "perk requirements": [
                 "Silencer"
@@ -3821,25 +3276,6 @@
           "unlock level": 6
         },
         {
-          "family name": "RKG3",
-          "single cost": "300",
-          "perma cost": "-1",
-          "description": "A Soviet handheld anti-tank grenade with a shaped charge warhead. Designed for use against armored vehicles, it requires the user to throw it at an angle for maximum penetration upon impact.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Grenades/rkg3.rkg3",
-          "xp unlocks": [
-            {
-              "item": "/Game/Blueprints/Items/Grenades/BP_RKG3Antitank.BP_RKG3Antitank_C",
-              "unlock level": 0,
-              "perk requirements": [
-                "Explosives"
-              ],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Flashbang",
           "single cost": "100",
           "perma cost": "-1",
@@ -3925,7 +3361,7 @@
           "single cost": "1000",
           "perma cost": "-1",
           "description": "Bangerite goes live the moment it’s set, detonating when shot. One contractor never made it back — riddled and bleeding, he dragged the bag into the killzone and pulled the trigger himself.",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED_NoRemote.T_IED_NoRemote",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/Bangerite.Bangerite",
           "xp unlocks": [
             {
               "item": "/Game/Blueprints/Items/EquippableItems/BP_GenericEquippableItem_Deployable_Bangerite.BP_GenericEquippableItem_Deployable_Bangerite_C",
@@ -4041,6 +3477,42 @@
             {
               "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7_Tandem.BP_RPG7_Tandem_C",
               "unlock level": 20,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Frag.BP_RPG7V1_Frag_C",
+              "unlock level": 1,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Heat.BP_RPG7V1_Heat_C",
+              "unlock level": 10,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Thermo.BP_RPG7V1_Thermo_C",
+              "unlock level": 15,
+              "perk requirements": [
+                "Launcher"
+              ],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/RocketLaunchers/RPG7/RPG7/BP_RPG7V1_Tandem.BP_RPG7V1_Tandem_C",
+              "unlock level": 25,
               "perk requirements": [
                 "Launcher"
               ],
@@ -4463,6 +3935,26 @@
             }
           ],
           "unlock level": 65
+        },
+        {
+          "family name": "FPV Drone",
+          "single cost": "30000",
+          "perma cost": "-1",
+          "description": "A lightweight quadcopter used to destroy enemy positions",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/handhelddrone.handhelddrone",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Drone/FPVDrone/BP_Deployable_DroneItem_FPVDrone.BP_Deployable_DroneItem_FPVDrone_C",
+              "unlock level": 0,
+              "perk requirements": [
+                "Drone Operator",
+                "Explosives"
+              ],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 65
         }
       ],
       "deployables": [
@@ -4485,7 +3977,7 @@
         },
         {
           "family name": "Sandbag",
-          "single cost": 25,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Solid cover to protect from incoming fire",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
@@ -4502,7 +3994,7 @@
         },
         {
           "family name": "CamoNet",
-          "single cost": 35,
+          "single cost": 100,
           "perma cost": -1,
           "description": "Provides a peronal concealed firing position",
           "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/camonet.camonet",
@@ -4513,13 +4005,20 @@
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Camo/CamoWall/BP_Infantry_CamoNetWall.BP_Infantry_CamoNetWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
             }
           ],
           "unlock level": 15
         },
         {
           "family name": "Ladder",
-          "single cost": 25,
+          "single cost": 50,
           "perma cost": -1,
           "description": "Provides access to elevated positions",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialLadderIcon.RadialLadderIcon",
@@ -4535,8 +4034,25 @@
           "unlock level": 20
         },
         {
+          "family name": "Tank Trap",
+          "single cost": 500,
+          "perma cost": -1,
+          "description": "Provides ability to block roads and paths.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHedgehogIcon.T_RadialHedgehogIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/TankTrap/BP_TankTrap.BP_TankTrap_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 20
+        },
+        {
           "family name": "Ammo Wall Low",
-          "single cost": 50,
+          "single cost": 100,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesLowWallIcon.T_RadialDirtCratesLowWallIcon",
@@ -4553,7 +4069,7 @@
         },
         {
           "family name": "Ammo Wall High",
-          "single cost": 60,
+          "single cost": 120,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesHighWallIcon.T_RadialDirtCratesHighWallIcon",
@@ -4570,7 +4086,7 @@
         },
         {
           "family name": "Ammo Wall Firing Port",
-          "single cost": 70,
+          "single cost": 140,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/T_RadialDirtCratesFiringPortsIcon.T_RadialDirtCratesFiringPortsIcon",
@@ -4586,31 +4102,137 @@
           "unlock level": 28
         },
         {
-          "family name": "Hesco Block",
-          "single cost": 50,
-          "perma cost": -1,
-          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
-          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
-          "xp unlocks": [
-            {
-              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoBlock.BP_Infantry_HescoBlock_C",
-              "unlock level": 0,
-              "perk requirements": [],
-              "item count": -1,
-              "prestige": 0
-            }
-          ],
-          "unlock level": 10
-        },
-        {
           "family name": "Hesco Wall",
-          "single cost": 150,
+          "single cost": 300,
           "perma cost": -1,
           "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
           "xp unlocks": [
             {
               "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Hesco/BP_Infantry_HescoWall.BP_Infantry_HescoWall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Metal Sniper Towers",
+          "single cost": 750,
+          "perma cost": -1,
+          "description": "Provides elevated sniping position,",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Short/BP_Infantry_Metal_Tower_Short.BP_Infantry_Metal_Tower_Short_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Metal/Tall/BP_Infantry_Metal_Tower_Tall.BP_Infantry_Metal_Tower_Tall_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 40
+        },
+        {
+          "family name": "Observation Tower",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover and is difficult to climb over. Lined with barbed wire.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/ObservationTowers/Nato/BP_Observation_Tower_Nato.BP_Observation_Tower_Nato_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 60
+        },
+        {
+          "family name": "Jammer Tower",
+          "single cost": 3500,
+          "perma cost": -1,
+          "description": "Powered anti drone and rocket defense system. ",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Jammers/Tower/BP_Jammer_Tower_Infantry.BP_Jammer_Tower_Infantry_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 75
+        },
+        {
+          "family name": "Concrete Barriers",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadiaIndirectFireLookoutIcon_A.T_RadiaIndirectFireLookoutIcon_A",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Normal/BP_Infantry_ConcreteBarrier.BP_Infantry_ConcreteBarrier_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Jersey/BP_Infantry_ConcreteBarrier_Jersey.BP_Infantry_ConcreteBarrier_Jersey_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Concrete/Barriers/Fortified/BP_Infantry_ConcreteBarrier_Fortified.BP_Infantry_ConcreteBarrier_Fortified_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 25
+        },
+        {
+          "family name": "Oil Barrel Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Barrel.BP_Wall_Barrel_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 30
+        },
+        {
+          "family name": "Log Wall",
+          "single cost": 300,
+          "perma cost": -1,
+          "description": "Provides solid cover.",
+          "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Fortifications/RadialHescoWallIcon.RadialHescoWallIcon",
+          "xp unlocks": [
+            {
+              "item": "/KOTHContractorCrate/KOTH/Blueprints/Items/Deployable/Walls/BP_Wall_Log.BP_Wall_Log_C",
               "unlock level": 0,
               "perk requirements": [],
               "item count": -1,
@@ -4862,6 +4484,18 @@
           "prestige": 0
         },
         {
+          "name": "Kraz 6322 Transport",
+          "vehicle": "/Game/Vehicles/Kraz-6322/BP_Kraz_6322.BP_Kraz_6322_C",
+          "single cost": 400,
+          "description": "A transport truck.",
+          "unlock level": 8,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_truck_transport.map_truck_transport",
+          "spawn type": "Ground",
+          "kill xp reward": 100,
+          "kill $ reward": 133,
+          "prestige": 0
+        },
+        {
           "name": "PMC Technical Mortar",
           "vehicle": "/Game/Vehicles/Technical2Seater_WPMC/BP_Technical2Seater_Mortar_Black.BP_Technical2Seater_Mortar_Black_C",
           "single cost": 12000,
@@ -4876,13 +4510,13 @@
         {
           "name": "AntiAir-Truck",
           "vehicle": "/Game/Vehicles/Technical2Seater/BP_Technical2Seater_White_ZU23.BP_Technical2Seater_White_ZU23_C",
-          "single cost": 1500,
+          "single cost": 5000,
           "description": "A technical with a ZU-23 anti-aircraft twin-barreled autocannon mounted on its flatbed.",
           "unlock level": 8,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_antiair.T_map_jeep_antiair",
           "spawn type": "Ground",
-          "kill xp reward": 375,
-          "kill $ reward": 500,
+          "kill xp reward": 875,
+          "kill $ reward": 1500,
           "prestige": 0
         },
         {
@@ -5162,6 +4796,18 @@
           "prestige": 0
         },
         {
+          "name": "Kozak Kord",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_Kord.BP_Kozak_2M1_Kord_C",
+          "single cost": 1550,
+          "description": "A well armored squad transport vehicle armed with an open-top Kord",
+          "unlock level": 26,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 450,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
           "name": "CH146 (Griffon) Non CAS",
           "vehicle": "/Game/Vehicles/CH146/BP_CH146.BP_CH146_C",
           "single cost": 1200,
@@ -5215,6 +4861,18 @@
           "single cost": 1500,
           "description": "A well armored squad transport vehicle armed with an open-top MK19 grenade launcher.",
           "unlock level": 30,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 400,
+          "kill $ reward": 500,
+          "prestige": 0
+        },
+        {
+          "name": "Kozak AGS",
+          "vehicle": "/Game/Vehicles/Kozak_2M1_AFU/BP_Kozak_2M1_AGS.BP_Kozak_2M1_AGS_C",
+          "single cost": 1500,
+          "description": "A well armored squad transport vehicle armed with an open-top AGS.",
+          "unlock level": 31,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
           "spawn type": "Ground",
           "kill xp reward": 400,
@@ -5486,6 +5144,18 @@
           "prestige": 0
         },
         {
+          "name": "BRDM-2L1",
+          "vehicle": "/Game/Vehicles/BRDM2-L1_AFU/BP_BRDM-2L1_AFU.BP_BRDM-2L1_AFU_C",
+          "single cost": 9000,
+          "description": "A Ukrainian armored reconnaissance vehicle built on a wheeled chassis.",
+          "unlock level": 43,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_turret.map_jeep_turret",
+          "spawn type": "Ground",
+          "kill xp reward": 1000,
+          "kill $ reward": 2000,
+          "prestige": 0
+        },
+        {
           "name": "ZSL10",
           "vehicle": "/Game/Vehicles/ZBL08/BP_ZSL10_QJZ-89_Naval.BP_ZSL10_QJZ-89_Naval_C",
           "single cost": 10000,
@@ -5726,6 +5396,18 @@
           "prestige": 0
         },
         {
+          "name": "BMP-1TS",
+          "vehicle": "/Game/Vehicles/BMP1TS_AFU/BP_BMP1TS_AFU.BP_BMP1TS_AFU_C",
+          "single cost": 19000,
+          "description": "A modern Ukrainian BMP built off the BMP1 chassis.",
+          "unlock level": 59,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3200,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
           "name": "BTR-82A",
           "vehicle": "/Game/Vehicles/BTR80/82A/BP_BTR82A_RUS.BP_BTR82A_RUS_C",
           "single cost": 19000,
@@ -5786,6 +5468,18 @@
           "prestige": 0
         },
         {
+          "name": "BTR-4",
+          "vehicle": "/Game/Vehicles/BTR4/BP_BTR4_AFU.BP_BTR4_AFU_C",
+          "single cost": 19000,
+          "description": "A Ukrainian infantry fighting vehicle designed to deliver quick blows with its speed. ",
+          "unlock level": 65,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_ifv.map_ifv",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 3000,
+          "kill $ reward": 4000,
+          "prestige": 0
+        },
+        {
           "name": "Loach-CAS",
           "vehicle": "/Game/Vehicles/Loach_CAS_WPMC/BP_Loach_CAS.BP_Loach_CAS_C",
           "single cost": 30000,
@@ -5796,6 +5490,90 @@
           "kill xp reward": 8000,
           "kill $ reward": 10000,
           "prestige": 0
+        },
+        {
+          "name": "CH146 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/CH-146_CAS/BP_CH146_CAS_SQDU.BP_CH146_CAS_SQDU_C",
+          "single cost": 60000,
+          "description": "Fully loaded CAS. Bring the rain",
+          "unlock level": 76,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
+          "prestige": 1
+        },
+        {
+          "name": "MRH90 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MRH-90_CAS/BP_MRH90_CAS_SQDU.BP_MRH90_CAS_SQDU_C",
+          "single cost": 60000,
+          "description": "Bring the rain (baguettes)",
+          "unlock level": 82,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
+          "prestige": 1
+        },
+        {
+          "name": "UH-1Y CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH-1Y_CAS/BP_UH1Y_CAS_SQDU.BP_UH1Y_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "Crayon enjoyers galore",
+          "unlock level": 86,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 30000,
+          "prestige": 2
+        },
+        {
+          "name": "UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/BP_UH60_CAS_SQDU.BP_UH60_CAS_SQDU_C",
+          "single cost": 80000,
+          "description": "This thing screams bald eagles",
+          "unlock level": 88,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 30000,
+          "prestige": 1
+        },
+        {
+          "name": "TLF UH60M CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/UH60_CAS/TLF/BP_TLF_UH60_CAS_SQDU.BP_TLF_UH60_CAS_SQDU_C",
+          "single cost": 70000,
+          "description": "Even NATO is scared",
+          "unlock level": 92,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 10000,
+          "kill $ reward": 25000,
+          "prestige": 1
+        },
+        {
+          "name": "Z8J CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/Z8J_CAS/BP_Z8J_CAS_SQDU.BP_Z8J_CAS_SQDU_C",
+          "single cost": 65000,
+          "description": "Not the chinese candles you're thinking about..",
+          "unlock level": 94,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 9000,
+          "kill $ reward": 20000,
+          "prestige": 1
+        },
+        {
+          "name": "Mi-8 CAS",
+          "vehicle": "/KOTHContractorCrate/Fosh/CAS/MI-8_CAS/BP_MI8_CAS_SQDU.BP_MI8_CAS_SQDU_C",
+          "single cost": 90000,
+          "description": "If this is on the map, im hiding",
+          "unlock level": 98,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_attackhelo.map_attackhelo",
+          "spawn type": "Air Vehicle",
+          "kill xp reward": 15000,
+          "kill $ reward": 35000,
+          "prestige": 2
         },
         {
           "name": "T90A",
@@ -5831,6 +5609,18 @@
           "spawn type": "Armored Vehicle",
           "kill xp reward": 4500,
           "kill $ reward": 8500,
+          "prestige": 0
+        },
+        {
+          "name": "T64BM2",
+          "vehicle": "/Game/Vehicles/T64_BM2/BP_T64BM2.BP_T64BM2_C",
+          "single cost": 30000,
+          "description": "A modern Ukranian main battle tank, equipped with a 125mm smoothbore gun, reactive armor, and advanced defensive systems. A balanced mix of protection, mobility, and firepower.",
+          "unlock level": 69,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_tank.map_tank",
+          "spawn type": "Armored Vehicle",
+          "kill xp reward": 5000,
+          "kill $ reward": 8000,
           "prestige": 0
         },
         {
@@ -5944,13 +5734,13 @@
         {
           "name": "M2A3 Bradley",
           "vehicle": "/Game/Vehicles/BFV/BP_BFV_Woodland.BP_BFV_Woodland_C",
-          "single cost": 26000,
+          "single cost": 22000,
           "description": "A well armored IFV armed with a 25mm autocannon, 30 cal machine gun, anti-tank guided missiles and smoke countermeasures.",
           "unlock level": 80,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_trackedifv.map_trackedifv",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 3000,
-          "kill $ reward": 5300,
+          "kill $ reward": 5000,
           "prestige": 0
         },
         {
@@ -5974,13 +5764,25 @@
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Ground",
           "kill xp reward": 10000,
-          "kill $ reward": 25000,
+          "kill $ reward": 20000,
+          "prestige": 0
+        },
+        {
+          "name": "Kraz Grad",
+          "vehicle": "/Game/Vehicles/Kraz-6322_BM21Grad/BP_Kraz_6322_BM21Grad.BP_Kraz_6322_BM21Grad_C",
+          "single cost": 300000,
+          "description": "BIG BOOM BOOM.",
+          "unlock level": 90,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
+          "spawn type": "Ground",
+          "kill xp reward": 25000,
+          "kill $ reward": 60000,
           "prestige": 0
         },
         {
           "name": "Grad",
           "vehicle": "/Game/Vehicles/BM21Grad/BP_BM21Grad_MIL.BP_BM21Grad_MIL_C",
-          "single cost": 500000,
+          "single cost": 300000,
           "description": "BIG BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
@@ -6004,13 +5806,13 @@
         {
           "name": "Behemoth",
           "vehicle": "/SquadAdminTools/Maps/SATSeed/Vehicles/MTLB_FAB500/BP_MTLB_FAB500_SATP.BP_MTLB_FAB500_SATP_C",
-          "single cost": 3000000,
+          "single cost": 500000,
           "description": "BIGGEST BOOM BOOM.",
           "unlock level": 100,
           "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_jeep_artillery.map_jeep_artillery",
           "spawn type": "Armored Vehicle",
           "kill xp reward": 50000,
-          "kill $ reward": 150000,
+          "kill $ reward": 100000,
           "prestige": 1
         }
       ],
@@ -6146,7 +5948,7 @@
         },
         {
           "name": "Got Milk?",
-          "description": "Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
+          "description": "HALO jump 50% cost. Strong bones, faster pulls. Pop your chute lower and slam into the Zone before the rest even clear the clouds.",
           "texture": "/Game/UI/RadialMenu/RadialMenuTextures/Icons/Markers/CommandMarker/map_commandmarker_reinforcement.map_commandmarker_reinforcement",
           "material": "None",
           "unlock level": 40,
@@ -6156,7 +5958,7 @@
         {
           "name": "Silencer",
           "description": "Grants access to Silenced weapons",
-          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/asval.T_asval",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
           "material": "None",
           "unlock level": 48,
           "unlock items": [],
@@ -6194,175 +5996,828 @@
       ],
       "skins": [
         {
-          "name": "PLA Woodland Recruit",
+          "name": "INS Recruit 1",
           "unlock level": 0,
           "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/PLA/SK_PLA_1p_UpperBody_NoElbow.SK_PLA_1p_UpperBody_NoElbow'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/PLA/SK_PLA_1p_LowerBody.SK_PLA_1p_LowerBody'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/PLA/SK_PLA_Plain1.SK_PLA_Plain1'",
+          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_JacketClosed1_1p_Upper.SK_Ins_JacketClosed1_1p_Upper'",
+          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_LongPants1_1p_Lower.SK_Ins_LongPants1_1p_Lower'",
+          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_1.SK_Ins_1'",
           "upper1p materials": [],
           "1p materials": [],
           "3p materials": [],
           "prestige": 0
         },
         {
-          "name": "PLA Desert Recruit",
+          "name": "INS Recruit 2",
           "unlock level": 0,
           "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
-          "upper1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/PLA/Desert/SK_PLA_1p_UpperBody.SK_PLA_1p_UpperBody'",
-          "1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/PLA/Desert/SK_PLA_1p_LowerBody.SK_PLA_1p_LowerBody'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/PLA/Arid/SK_PLA_Plain1_Arid.SK_PLA_Plain1_Arid'",
+          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_JacketClosed2_1p_Upper.SK_Ins_JacketClosed2_1p_Upper'",
+          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_LongPants2_1p_Lower.SK_Ins_LongPants2_1p_Lower'",
+          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ins/SK_Ins_2.SK_Ins_2'",
           "upper1p materials": [],
           "1p materials": [],
           "3p materials": [],
           "prestige": 0
+        }
+      ],
+      "community tab": [
+        {
+          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/psg_koth.png",
+          "url": "https://psg-hosting.com/game-servers/squad/"
         },
         {
-          "name": "RGF Rifleman Woodland",
+          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/bbucket_logo.png",
+          "url": "https://discord.gg/bbucket"
+        }
+      ]
+    },
+    "blufor": {
+      "free shit": [
+        {
+          "item": "/KingOfTheHill/Blueprints/Items/Surrender/BP_Surrender_KOTH.BP_Surrender_KOTH_C",
+          "slot": 0,
+          "item count": 1
+        },
+        {
+          "item": "/SPM/Weapons/Melee/SG_2000_WC_F/BP_HK416_Bayonet.BP_HK416_Bayonet_C",
+          "slot": 1,
+          "item count": 1
+        },
+        {
+          "item": "/SPM/Weapons/Misc/FFD/BP_FFD_FRA_Medic.BP_FFD_FRA_Medic_C",
+          "slot": 4,
+          "item count": 5
+        },
+        {
+          "item": "/SPM/Weapons/Misc/French_shovel/BP_French_shovel.BP_French_shovel_C",
+          "slot": 5,
+          "item count": 1
+        },
+        {
+          "item": "/SPM/Weapons/Misc/Vector_IV/BP_Vector_IV.BP_Vector_IV_C",
+          "slot": 5,
+          "item count": 1
+        }
+      ],
+      "primary": [
+        {
+          "family name": "FAMAS",
+          "single cost": "50",
+          "perma cost": "800",
+          "description": "The FAMAS (Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne) is a French bullpup-style assault rifle, nicknamed Le Clairon (The Bugle), designed in the 1970s and adopted as the primary service rifle for the French military in 1980. It uses a 5.56mm NATO cartridge and features a high rate of fire.",
+          "texture": "/SPM/Weapons/Riffle/Assault/FAMAS/Materials/Textures/T_FAMAS_F1_UI.T_FAMAS_F1_UI",
+          "xp unlocks": [
+            {
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_2mag_supermod.1_BP_Famas_F1_2mag_supermod_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Ironsight/1_BP_EF88_Ironsight_Grippod.1_BP_EF88_Ironsight_Grippod_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Eotech552/1_BP_EF88_Eotech_Grippod.1_BP_EF88_Eotech_Grippod_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Specter/1_BP_EF88_Specter_Frontgrip_supermod.1_BP_EF88_Specter_Frontgrip_supermod_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 0
+        }
+      ],
+      "secondary": [
+        {
+          "family name": "Pamas G1S",
+          "single cost": "20",
+          "perma cost": "1000",
+          "description": "The PAMAS G1S is a French-produced 9mm semi-automatic pistol, specifically a variant of the Beretta 92F produced under license for the French armed forces and gendarmerie by MAS (Manufacture d'armes de Saint-Étienne). It was designed to replace the MAT-49 and MAC 50, featuring a 15-round capacity and a decocking lever.",
+          "texture": "/SPM/Weapons/Handgun/PAMAS/Textures/T_PAMAS_ui.T_PAMAS_ui",
+          "xp unlocks": [
+            {
+              "item": "/SPM/Weapons/Handgun/Pamas/Blueprints/1_BP_Pamas_supermod.1_BP_Pamas_supermod_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 1
+        }
+      ],
+      "special": [
+        {
+          "family name": "GR MA OF 37",
+          "single cost": "150",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/SPM/Weapons/Grenades/OF37/BP_OF37.BP_OF37_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 2
+        },
+        {
+          "family name": "Smoke Grenade",
+          "single cost": "25",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 6
+        }
+      ],
+      "deployables": [
+        {
+          "family name": "RazorWire",
+          "single cost": 10,
+          "perma cost": -1,
+          "description": "Slows down and damages enemies. Great for choke points slowing down enemy movement",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/razorwire.razorwire",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Razorwire.BP_Infantry_Razorwire_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 5
+        },
+        {
+          "family name": "Sandbag",
+          "single cost": 50,
+          "perma cost": -1,
+          "description": "Solid cover to protect from incoming fire",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Sandbag.BP_Infantry_Sandbag_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 10
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "RHIB",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_Transport.BP_RHIB_Transport_C",
+          "single cost": 200,
+          "description": "A not-so-bulletproof rubber boat.",
+          "unlock level": 0,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 50,
+          "kill $ reward": 66,
+          "prestige": 0
+        }
+      ],
+      "perks": [
+        {
+          "name": "Engineer",
+          "description": "Gives you an Engineer Shovel",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/entrenchingtool.entrenchingtool",
+          "material": "None",
+          "unlock level": 0,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_EntrenchingTool_Engineer.BP_EntrenchingTool_Engineer_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Ammo",
+          "description": "Gives you a deployable ammo bag",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/ammobag.ammobag",
+          "material": "None",
+          "unlock level": 0,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Ammobag_USA.BP_Infantry_Ammobag_USA_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Crewman",
+          "description": "Gives you a repair kit for repairing friendly vehicles to a working condition. This additionally unlocks compact ",
+          "crewman": "weaponry.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/repairtool.repairtool",
+          "material": "None",
+          "unlock level": 0,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_RepairTool.BP_RepairTool_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Explosives",
+          "description": "Grants access to Explosives",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
+          "material": "None",
+          "unlock level": 3,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Phone_Detonator.BP_Phone_Detonator_C",
+            "/Game/Blueprints/Items/EquippableItems/BP_M60_Detonator.BP_M60_Detonator_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Marksman",
+          "description": "Grants access to sniper rifles, DMRs, long range scopes.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
+          "material": "None",
           "unlock level": 5,
-          "texture": "/Game/UI/HUD/Roles/T_role_rifleman.T_role_rifleman",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Upper.SK_Ru_1p_Upper'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Lower.SK_Ru_1p_Lower'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_Rifleman1.SK_Ru_Rifleman1'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "RGF Rifleman Desert",
+          "name": "Launcher",
+          "description": "Grants access to Anti-Tank, Anti-Air and Anti-Personnel launchers.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
+          "material": "None",
           "unlock level": 5,
-          "texture": "/Game/UI/HUD/Roles/T_role_rifleman.T_role_rifleman",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Upper_Desert.SK_Ru_1p_Upper_Desert'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Lower_Desert.SK_Ru_1p_Lower_Desert'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_Rifleman1_Desert.SK_Ru_Rifleman1_Desert'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "RGF Rifleman Desert",
-          "unlock level": 5,
-          "texture": "/Game/UI/HUD/Roles/T_role_rifleman.T_role_rifleman",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Upper_Desert.SK_Ru_1p_Upper_Desert'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Lower_Desert.SK_Ru_1p_Lower_Desert'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_Medic_Desert.SK_Ru_Medic_Desert'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "name": "Medic",
+          "description": "Gives you a Medical Kit for healing yourself and teammates, as well as extra Bandages.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/medibag.medibag",
+          "material": "None",
+          "unlock level": 7,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Generic_MedicalKit.BP_Generic_MedicalKit_C"
+          ],
           "prestige": 0
         },
         {
-          "name": "RGF Crewman Woodland",
+          "name": "Overkill",
+          "description": "Allows you to purchase primary items in the secondary store.",
+          "texture": "/KingOfTheHill/UI/KOTH_Icons/T_Overkill.T_Overkill",
+          "material": "None",
           "unlock level": 10,
-          "texture": "/Game/UI/HUD/Roles/T_role_crewman.T_role_crewman",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Upper.SK_Ru_1p_Upper'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Lower.SK_Ru_1p_Lower'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_Crewman1.SK_Ru_Crewman1'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "RGF Crewman Desert",
-          "unlock level": 10,
-          "texture": "/Game/UI/HUD/Roles/T_role_crewman.T_role_crewman",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Upper_Desert.SK_Ru_1p_Upper_Desert'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Lower_Desert.SK_Ru_1p_Lower_Desert'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_Crewman1_Desert.SK_Ru_Crewman1_Desert'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "name": "Grenadier",
+          "description": "Grants access to underbarrel grenade launcher variants.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/m203_gl.m203_gl",
+          "material": "None",
+          "unlock level": 15,
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "VDV Marksman Woodland",
-          "unlock level": 22,
-          "texture": "/Game/UI/HUD/Roles/T_role_designatedmarksman.T_role_designatedmarksman",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Upper.SK_Ru_1p_Upper'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_1p_Lower.SK_Ru_1p_Lower'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/Ru/SK_Ru_Marksman.SK_Ru_Marksman'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "name": "Shift-W",
+          "description": "Increases stamina regeneration.",
+          "texture": "None",
+          "material": "/Game/UI/Widgets/Loading/RunningMan/Loading_RunningMan_SpriteSheet_Mat.Loading_RunningMan_SpriteSheet_Mat",
+          "unlock level": 20,
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "VDV Marksman Desert",
-          "unlock level": 22,
-          "texture": "/Game/UI/HUD/Roles/T_role_designatedmarksman.T_role_designatedmarksman",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/VDV/Desert/SK_VDV_1p_UpperBody_1_Desert.SK_VDV_1p_UpperBody_1_Desert'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/VDV/Desert/SK_VDV_1p_LowerBody_1_Desert.SK_VDV_1p_LowerBody_1_Desert'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/VDV/Desert/SK_VDV_Marksman_Desert.SK_VDV_Marksman_Desert'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
-          "prestige": 0
-        },
-        {
-          "name": "VDV Squad Leader Woodland",
+          "name": "Machinegunner",
+          "description": "Grants access to machineguns and higher capacity magazines.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
+          "material": "None",
           "unlock level": 25,
-          "texture": "/Game/UI/HUD/Roles/T_rank_squadleader.T_rank_squadleader",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/VDV/SK_VDV_1p_UpperBody_1.SK_VDV_1p_UpperBody_1'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/VDV/SK_VDV_1p_LowerBody_1.SK_VDV_1p_LowerBody_1'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/VDV/SK_VDV_Squadleader.SK_VDV_Squadleader'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "VDV Squad Leader Desert",
-          "unlock level": 25,
-          "texture": "/Game/UI/HUD/Roles/T_rank_squadleader.T_rank_squadleader",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/VDV/Desert/SK_VDV_1p_UpperBody_1_Desert.SK_VDV_1p_UpperBody_1_Desert'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/VDV/Desert/SK_VDV_1p_LowerBody_1_Desert.SK_VDV_1p_LowerBody_1_Desert'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/VDV/Desert/SK_VDV_Squadleader_Desert.SK_VDV_Squadleader_Desert'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "name": "Money",
+          "description": "Increases money rewards by 10% and reduces price when buying your last loadout by 50%",
+          "texture": "/Game/UI/Widgets/Menu_Main/Icons/mainmenu_star.mainmenu_star",
+          "material": "None",
+          "unlock level": 35,
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "WPMC Raider",
-          "unlock level": 100,
-          "texture": "/Game/UI/HUD/Roles/T_role_raider.T_role_raider",
-          "upper1p": "SkeletalMesh'/KOTHContractorCrate/KOTH/Art/Soldiers/WPMC/SK_WPMC_1p_Flannel_Green.SK_WPMC_1p_Flannel_Green'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/WPMC/SK_WPMC_1p_LowerBody_Jeans_Black.SK_WPMC_1p_LowerBody_Jeans_Black'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/WPMC/SK_WPMC_Raider_02.SK_WPMC_Raider_02'",
-          "upper1p materials": [],
-          "1p materials": [],
-          "3p materials": [],
+          "name": "Silencer",
+          "description": "Grants access to Silenced weapons",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
+          "material": "None",
+          "unlock level": 48,
+          "unlock items": [],
           "prestige": 0
         },
         {
-          "name": "KOTH Season1",
-          "unlock level": 100,
-          "texture": "Texture2D'/Game/UI/HUD/Roles/T_SquadLeader_NCO.T_SquadLeader_NCO'",
-          "upper1p": "SkeletalMesh'/Game/Art/Soldier2/WPMC/SK_WPMC_1P_T_Shirt_Black.SK_WPMC_1P_T_Shirt_Black'",
-          "1p": "SkeletalMesh'/Game/Art/Soldier2/WPMC/SK_WPMC_1P_LowerBody_Trousers.SK_WPMC_1P_LowerBody_Trousers'",
-          "3p": "SkeletalMesh'/Game/Art/Soldier2/WPMC/SK_WPMC_Marksman_03.SK_WPMC_Marksman_03'",
+          "name": "Ghost",
+          "description": "Scrambles your name to a GHOST callsign, and adds a random offset to Bounty ping locations.",
+          "texture": "/Game/UI/Widgets/Menu_Deployment/Textures/Icon_Legend.Icon_Legend",
+          "material": "None",
+          "unlock level": 60,
+          "unlock items": [],
+          "prestige": 0
+        },
+      ],
+      "skins": [
+        {
+          "name": "FRA Recruit",
+          "unlock level": 0,
+          "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
+          "upper1p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_1p_upperbody_shortsleeve_2.SK_FRA20_1p_upperbody_shortsleeve_2",
+          "1p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_1p_lowerbody.SK_FRA20_1p_lowerbody",
+          "3p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_Unarmed.SK_FRA20_Unarmed",
           "upper1p materials": [
-            "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_USMC_Gear_CoyoteBrown.MI_WPMC_USMC_Gear_CoyoteBrown'",
-            "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Equipment_CoyoteBrown.MI_WPMC_Equipment_CoyoteBrown'",
-            "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_NAM_Optimized.MI_WPMC_NAM_Optimized'",
-            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
-            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Upper_Flannel_REDFOR.MI_WPMC_Upper_Flannel_REDFOR'"
-          ],
-          "1p materials": [],
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_Black.MI_FRA_Black"
+			]
+          "1p materials": [
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow"
+			],
           "3p materials": [
-            "Material'/Game/Art/Soldier2/Patches/M_Master_Patch.M_Master_Patch'",
-            "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Equipment_CoyoteBrown.MI_WPMC_Equipment_CoyoteBrown'",
-            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Upper_Flannel_REDFOR.MI_WPMC_Upper_Flannel_REDFOR'",
-            "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_Lower_Jeans_Pants_Pants_Black.MI_WPMC_Lower_Jeans_Pants_Pants_Black'",
-            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Tats/WPMC/MI_WPMC_Arms_Male_KOTH_Tattoo.MI_WPMC_Arms_Male_KOTH_Tattoo'",
-            "MaterialInstanceConstant'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/WPMC/REDFOR/MI_WPMC_Equipment_Helmet_REDFOR_Tape.MI_WPMC_Equipment_Helmet_REDFOR_Tape'",
-            "MaterialInstanceConstant'/Game/Art/Soldier2/WPMC/Materials/MI_WPMC_NAM_Optimized.MI_WPMC_NAM_Optimized'",
-            "Material'/KOTHContractorCrate/KOTH/Art/Skins/Soldiers/Glasses/M_FancyShades.M_FancyShades'"
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Helmet_CE.MI_FRA20_Helmet_CE",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_Black.MI_FRA_Black"
+			],
+          "prestige": 0
+        }
+      ],
+      "community tab": [
+        {
+          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/psg_koth.png",
+          "url": "https://psg-hosting.com/game-servers/squad/"
+        },
+        {
+          "image url": "https://public-repo.psg-hosting.com/external/koth-squad/bbucket_logo.png",
+          "url": "https://discord.gg/bbucket"
+        }
+      ]
+    },
+    "redfor": {
+      "free shit": [
+        {
+          "item": "/KingOfTheHill/Blueprints/Items/Surrender/BP_Surrender_KOTH.BP_Surrender_KOTH_C",
+          "slot": 0,
+          "item count": 1
+        },
+        {
+          "item": "/SPM/Weapons/Melee/SG_2000_WC_F/BP_HK416_Bayonet.BP_HK416_Bayonet_C",
+          "slot": 1,
+          "item count": 1
+        },
+        {
+          "item": "/SPM/Weapons/Misc/FFD/BP_FFD_FRA_Medic.BP_FFD_FRA_Medic_C",
+          "slot": 4,
+          "item count": 5
+        },
+        {
+          "item": "/SPM/Weapons/Misc/French_shovel/BP_French_shovel.BP_French_shovel_C",
+          "slot": 5,
+          "item count": 1
+        },
+        {
+          "item": "/SPM/Weapons/Misc/Vector_IV/BP_Vector_IV.BP_Vector_IV_C",
+          "slot": 5,
+          "item count": 1
+        }
+      ],
+      "primary": [
+        {
+          "family name": "FAMAS",
+          "single cost": "50",
+          "perma cost": "800",
+          "description": "The FAMAS (Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne) is a French bullpup-style assault rifle, nicknamed Le Clairon (The Bugle), designed in the 1970s and adopted as the primary service rifle for the French military in 1980. It uses a 5.56mm NATO cartridge and features a high rate of fire.",
+          "texture": "/SPM/Weapons/Riffle/Assault/FAMAS/Materials/Textures/T_FAMAS_F1_UI.T_FAMAS_F1_UI",
+          "xp unlocks": [
+            {
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_2mag_supermod.1_BP_Famas_F1_2mag_supermod_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Ironsight/1_BP_EF88_Ironsight_Grippod.1_BP_EF88_Ironsight_Grippod_C",
+              "unlock level": 3,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Eotech552/1_BP_EF88_Eotech_Grippod.1_BP_EF88_Eotech_Grippod_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Specter/1_BP_EF88_Specter_Frontgrip_supermod.1_BP_EF88_Specter_Frontgrip_supermod_C",
+              "unlock level": 5,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
           ],
-          "prestige": 1
+          "unlock level": 0
+        }
+      ],
+      "secondary": [
+        {
+          "family name": "Pamas G1S",
+          "single cost": "20",
+          "perma cost": "1000",
+          "description": "The PAMAS G1S is a French-produced 9mm semi-automatic pistol, specifically a variant of the Beretta 92F produced under license for the French armed forces and gendarmerie by MAS (Manufacture d'armes de Saint-Étienne). It was designed to replace the MAT-49 and MAC 50, featuring a 15-round capacity and a decocking lever.",
+          "texture": "/SPM/Weapons/Handgun/PAMAS/Textures/T_PAMAS_ui.T_PAMAS_ui",
+          "xp unlocks": [
+            {
+              "item": "/SPM/Weapons/Handgun/Pamas/Blueprints/1_BP_Pamas_supermod.1_BP_Pamas_supermod_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 1
+        }
+      ],
+      "special": [
+        {
+          "family name": "GR MA OF 37",
+          "single cost": "150",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to injure or destroy infantry.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/SPM/Weapons/Grenades/OF37/BP_OF37.BP_OF37_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 2
+        },
+        {
+          "family name": "Smoke Grenade",
+          "single cost": "25",
+          "perma cost": "-1",
+          "description": "A small explosive weapon that can be thrown by hand used to signal, obscure or screen movements.",
+          "texture": "/Game/Art/Items/RGO/Textures/rgo.rgo",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Parent.BP_M18Smoke_Parent_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Blue.BP_M18Smoke_Blue_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Green.BP_M18Smoke_Green_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Red.BP_M18Smoke_Red_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/M18/BP_M18Smoke_Yellow.BP_M18Smoke_Yellow_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/L83A1/BP_L69A1Smoke_Orange.BP_L69A1Smoke_Orange_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Black.BP_RDG2Smoke_Black_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+            {
+              "item": "/Game/Blueprints/Items/Grenades/SmokeGrenades/BP_RDG2Smoke_Purple.BP_RDG2Smoke_Purple_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 6
+        }
+      ],
+      "deployables": [
+        {
+          "family name": "RazorWire",
+          "single cost": 10,
+          "perma cost": -1,
+          "description": "Slows down and damages enemies. Great for choke points slowing down enemy movement",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/razorwire.razorwire",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Razorwire.BP_Infantry_Razorwire_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 5
+        },
+        {
+          "family name": "Sandbag",
+          "single cost": 50,
+          "perma cost": -1,
+          "description": "Solid cover to protect from incoming fire",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/sandbagwall.sandbagwall",
+          "xp unlocks": [
+            {
+              "item": "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Sandbag.BP_Infantry_Sandbag_C",
+              "unlock level": 0,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            }
+          ],
+          "unlock level": 10
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "RHIB",
+          "vehicle": "/Game/Vehicles/RHIB/BP_RHIB_Transport.BP_RHIB_Transport_C",
+          "single cost": 200,
+          "description": "A not-so-bulletproof rubber boat.",
+          "unlock level": 0,
+          "texture": "/Game/UI/Widgets/Vehicles/VehicleMapIcons/map_boat.map_boat",
+          "spawn type": "Sea Vehicle",
+          "kill xp reward": 50,
+          "kill $ reward": 66,
+          "prestige": 0
+        }
+      ],
+      "perks": [
+        {
+          "name": "Engineer",
+          "description": "Gives you an Engineer Shovel",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/entrenchingtool.entrenchingtool",
+          "material": "None",
+          "unlock level": 0,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_EntrenchingTool_Engineer.BP_EntrenchingTool_Engineer_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Ammo",
+          "description": "Gives you a deployable ammo bag",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/ammobag.ammobag",
+          "material": "None",
+          "unlock level": 0,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Infantry_Ammobag_USA.BP_Infantry_Ammobag_USA_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Crewman",
+          "description": "Gives you a repair kit for repairing friendly vehicles to a working condition. This additionally unlocks compact ",
+          "crewman": "weaponry.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/repairtool.repairtool",
+          "material": "None",
+          "unlock level": 0,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_RepairTool.BP_RepairTool_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Explosives",
+          "description": "Grants access to Explosives",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/IED.IED",
+          "material": "None",
+          "unlock level": 3,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Phone_Detonator.BP_Phone_Detonator_C",
+            "/Game/Blueprints/Items/EquippableItems/BP_M60_Detonator.BP_M60_Detonator_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Marksman",
+          "description": "Grants access to sniper rifles, DMRs, long range scopes.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/svd.svd",
+          "material": "None",
+          "unlock level": 5,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Launcher",
+          "description": "Grants access to Anti-Tank, Anti-Air and Anti-Personnel launchers.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/RocketLaunchers/at4.at4",
+          "material": "None",
+          "unlock level": 5,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Medic",
+          "description": "Gives you a Medical Kit for healing yourself and teammates, as well as extra Bandages.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Equipment/medibag.medibag",
+          "material": "None",
+          "unlock level": 7,
+          "unlock items": [
+            "/Game/Blueprints/Items/EquippableItems/BP_Generic_MedicalKit.BP_Generic_MedicalKit_C"
+          ],
+          "prestige": 0
+        },
+        {
+          "name": "Overkill",
+          "description": "Allows you to purchase primary items in the secondary store.",
+          "texture": "/KingOfTheHill/UI/KOTH_Icons/T_Overkill.T_Overkill",
+          "material": "None",
+          "unlock level": 10,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Grenadier",
+          "description": "Grants access to underbarrel grenade launcher variants.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/GrenadeLaunchers/m203_gl.m203_gl",
+          "material": "None",
+          "unlock level": 15,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Shift-W",
+          "description": "Increases stamina regeneration.",
+          "texture": "None",
+          "material": "/Game/UI/Widgets/Loading/RunningMan/Loading_RunningMan_SpriteSheet_Mat.Loading_RunningMan_SpriteSheet_Mat",
+          "unlock level": 20,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Machinegunner",
+          "description": "Grants access to machineguns and higher capacity magazines.",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/MachineGuns/T_Maximi.T_Maximi",
+          "material": "None",
+          "unlock level": 25,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Money",
+          "description": "Increases money rewards by 10% and reduces price when buying your last loadout by 50%",
+          "texture": "/Game/UI/Widgets/Menu_Main/Icons/mainmenu_star.mainmenu_star",
+          "material": "None",
+          "unlock level": 35,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Silencer",
+          "description": "Grants access to Silenced weapons",
+          "texture": "/Game/UI/HUD/Inventory/Weapons/Rifles/T_asval.T_asval",
+          "material": "None",
+          "unlock level": 48,
+          "unlock items": [],
+          "prestige": 0
+        },
+        {
+          "name": "Ghost",
+          "description": "Scrambles your name to a GHOST callsign, and adds a random offset to Bounty ping locations.",
+          "texture": "/Game/UI/Widgets/Menu_Deployment/Textures/Icon_Legend.Icon_Legend",
+          "material": "None",
+          "unlock level": 60,
+          "unlock items": [],
+          "prestige": 0
+        },
+      ],
+      "skins": [
+        {
+          "name": "FRA Recruit",
+          "unlock level": 0,
+          "texture": "/Game/UI/HUD/Roles/T_role_recruit.T_role_recruit",
+          "upper1p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_1p_upperbody_shortsleeve_2.SK_FRA20_1p_upperbody_shortsleeve_2",
+          "1p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_1p_lowerbody.SK_FRA20_1p_lowerbody",
+          "3p": "/SPM/Soldiers/FRA20/Meshes/SK_FRA20_Unarmed.SK_FRA20_Unarmed",
+          "upper1p materials": [
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_Black.MI_FRA_Black"
+			]
+          "1p materials": [
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow"
+			],
+          "3p materials": [
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Helmet_CE.MI_FRA20_Helmet_CE",
+				"/SPM/Soldiers/FRA20/Materials/MI_FRA_Black.MI_FRA_Black"
+			],
+          "prestige": 0
         }
       ],
       "community tab": [
@@ -6378,262 +6833,25 @@
     },
     "grenadier references": [
       {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_M16A4M203_Rifle.BP_M16A4M203_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_HE.BP_M16A4M203_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_Smoke.BP_M16A4M203_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_Smoke_Blue.BP_M16A4M203_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A4M203_UGL/BP_M16A4M203_UGL_Smoke_Red.BP_M16A4M203_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_M16A2M203_Optic_Rifle.BP_M16A2M203_Optic_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_HE.BP_M16A2M203_Optic_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke.BP_M16A2M203_Optic_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke_Blue.BP_M16A2M203_Optic_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M16A2M203_UGL/BP_M16A2M203_Optic_UGL_Smoke_Red.BP_M16A2M203_Optic_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle.BP_AK74GP25_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_UGL_HE.BP_AK74GP25_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_UGL_Smoke.BP_AK74GP25_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_UGL_Smoke_Blue.BP_AK74GP25_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_UGL_Smoke_Red.BP_AK74GP25_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P63.BP_AK74GP25_Rifle_1P63_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P63_UGL_HE_2Rnds.BP_AK74GP25_1P63_UGL_HE_2Rnds_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P63_UGL_Smoke.BP_AK74GP25_1P63_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P63_UGL_Smoke_Blue.BP_AK74GP25_1P63_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P63_UGL_Smoke_Red.BP_AK74GP25_1P63_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74GP25_Rifle_1P78.BP_AK74GP25_Rifle_1P78_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P78_UGL_HE_2Rounds.BP_AK74GP25_1P78_UGL_HE_2Rounds_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P78_UGL_Smoke.BP_AK74GP25_1P78_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P78_UGL_Smoke_Blue.BP_AK74GP25_1P78_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74GP25_UGL/BP_AK74GP25_1P78_UGL_Smoke_Red.BP_AK74GP25_1P78_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_C7A2_ET552_M203A1.BP_C7A2_ET552_M203A1_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_ET_UGL_HE.BP_C7A2_M203A1_ET_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_ET_UGL_Smoke.BP_C7A2_M203A1_ET_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_ET_UGL_Smoke_Blue.BP_C7A2_M203A1_ET_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_ET_UGL_Smoke_Red.BP_C7A2_M203A1_ET_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_C7A2_C79A2_M203A1.BP_C7A2_C79A2_M203A1_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_C79A2_UGL_HE.BP_C7A2_M203A1_C79A2_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_C79A2_UGL_Smoke.BP_C7A2_M203A1_C79A2_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_C79A2_UGL_Smoke_Blue.BP_C7A2_M203A1_C79A2_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C7A2_M203A1_UGL/BP_C7A2_M203A1_C79A2_UGL_Smoke_Red.BP_C7A2_M203A1_C79A2_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_Rifle.BP_FNFAL_GL_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_Frag.BP_FNFAL_GL_Frag_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_HEAT.BP_FNFAL_GL_HEAT_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_FNFAL_GL_HEAT_Rifle.BP_FNFAL_GL_HEAT_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_Frag.BP_FNFAL_GL_Frag_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/FNFAL_GL/BP_FNFAL_GL_HEAT.BP_FNFAL_GL_HEAT_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_EF88_Specter_SL40.BP_EF88_Specter_SL40_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_HE.BP_EF88_SL40_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_Smoke.BP_EF88_SL40_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_Smoke_Blue.BP_EF88_SL40_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/EF88SL40_UGL/BP_EF88_SL40_UGL_Smoke_Red.BP_EF88_SL40_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_M4M203_Rifle.BP_M4M203_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_HE.BP_M4M203_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke.BP_M4M203_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Blue.BP_M4M203_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/M4M203_UGL/BP_M4M203_UGL_Smoke_Red.BP_M4M203_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_Rifle.BP_MPT76_AK40GL_A940_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_HE.BP_MPT76_AK40GL_A940_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke.BP_MPT76_AK40GL_A940_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke_Blue.BP_MPT76_AK40GL_A940_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_A940_UGL_Smoke_Red.BP_MPT76_AK40GL_A940_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_Rifle.BP_MPT76_AK40GL_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_HE.BP_MPT76_AK40GL_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke.BP_MPT76_AK40GL_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Blue.BP_MPT76_AK40GL_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/MPT76AK40_UGL/BP_MPT76_AK40GL_UGL_Smoke_Red.BP_MPT76_AK40GL_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Rifle.BP_G3A3HK79_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_HE.BP_G3A3HK79_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke.BP_G3A3HK79_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke_Blue.BP_G3A3HK79_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_UGL_Smoke_Red.BP_G3A3HK79_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_G3A3HK79_Optic_Rifle.BP_G3A3HK79_Optic_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_HE.BP_G3A3HK79_Optic_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke.BP_G3A3HK79_Optic_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke_Blue.BP_G3A3HK79_Optic_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/G3A3HK79_UGL/BP_G3A3HK79_Optic_UGL_Smoke_Red.BP_G3A3HK79_Optic_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_Rifle.BP_L85A2AG36_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_HE.BP_L85A2AG36_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke.BP_L85A2AG36_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke_Blue.BP_L85A2AG36_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_UGL_Smoke_Red.BP_L85A2AG36_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_LDS_Rifle.BP_L85A2AG36_LDS_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_HE.BP_L85A2AG36_LDS_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke.BP_L85A2AG36_LDS_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke_Blue.BP_L85A2AG36_LDS_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_LDS_UGL_Smoke_Red.BP_L85A2AG36_LDS_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_L85A2AG36_M150_Rifle.BP_L85A2AG36_M150_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_HE.BP_L85A2AG36_ACOG_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke.BP_L85A2AG36_ACOG_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke_Blue.BP_L85A2AG36_ACOG_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/L85A2AG36_UGL/BP_L85A2AG36_ACOG_UGL_Smoke_Red.BP_L85A2AG36_ACOG_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle.BP_QBZ95-1_QLG-10_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_HE.BP_QBZ95-1_QLG-10_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke.BP_QBZ95-1_QLG-10_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke_Blue.BP_QBZ95-1_QLG-10_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_UGL_Smoke_Red.BP_QBZ95-1_QLG-10_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Rifle_Optic.BP_QBZ95-1_QLG-10_Rifle_Optic_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_HE.BP_QBZ95-1_QLG-10_Optic_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Blue.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/QBZ-95-1_QLG-10_UGL/BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Red.BP_QBZ95-1_QLG-10_Optic_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_C8A3_ET552_M203.BP_C8A3_ET552_M203_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_HE.BP_C8A3_M203_ET_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke.BP_C8A3_M203_ET_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke_Blue.BP_C8A3_M203_ET_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/C8A3_M203_UGL/BP_C8A3_M203_ET_UGL_Smoke_Red.BP_C8A3_M203_ET_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle.BP_AK74MGP25_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_HE.BP_AK74MGP25_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke.BP_AK74MGP25_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke_Blue.BP_AK74MGP25_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_UGL_Smoke_Red.BP_AK74MGP25_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P63.BP_AK74MGP25_Rifle_1P63_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_HE.BP_AK74MGP25_1P63_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke.BP_AK74MGP25_1P63_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke_Blue.BP_AK74MGP25_1P63_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P63_UGL_Smoke_Red.BP_AK74MGP25_1P63_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK74MGP25_Rifle_1P78.BP_AK74MGP25_Rifle_1P78_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_HE.BP_AK74MGP25_1P78_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke.BP_AK74MGP25_1P78_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke_Blue.BP_AK74MGP25_1P78_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK74MGP25_UGL/BP_AK74MGP25_1P78_UGL_Smoke_Red.BP_AK74MGP25_1P78_UGL_Smoke_Red_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle.BP_AK12GP25_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_HE_2rnds.BP_AK12GP25_UGL_HE_2rnds_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Smoke.BP_AK12GP25_UGL_Smoke_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_Reddot.BP_AK12GP25_Rifle_Reddot_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Reddot_HE_2rnds.BP_AK12GP25_UGL_Reddot_HE_2rnds_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_Reddot_Smoke.BP_AK12GP25_UGL_Reddot_Smoke_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AK12GP25_Rifle_1P78Picatinny.BP_AK12GP25_Rifle_1P78Picatinny_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds.BP_AK12GP25_UGL_1P78Picatinny_HE_2rnds_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AK12GP25_UGL/BP_AK12GP25_UGL_1P78Picatinny_Smoke.BP_AK12GP25_UGL_1P78Picatinny_Smoke_C"
-        ]
-      },
-      {
-        "parent": "/Game/Blueprints/Items/Rifles/BP_AKMGP25_Rifle.BP_AKMGP25_Rifle_C",
-        "items": [
-          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_HE.BP_AKMGP25_UGL_HE_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke.BP_AKMGP25_UGL_Smoke_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke_Blue.BP_AKMGP25_UGL_Smoke_Blue_C",
-          "/Game/Blueprints/Items/GrenadeLaunchers/AKMGP25_UGL/BP_AKMGP25_UGL_Smoke_Red.BP_AKMGP25_UGL_Smoke_Red_C"
-        ]
+        "parent": "",
+        "items": []
       }
     ]
   },
   "save version": {
-    "text": "v1.4",
+    "text": "v1.5",
     "major": 1,
-    "minor": 4
+    "minor": 5
   },
   "update info": {
     "year": 2025,
-    "month": 4,
-    "day": 22,
+    "month": 11,
+    "day": 11,
     "hour": 20,
-    "minute": 51,
-    "second": 55,
-    "millisecond": 939
+    "minute": 0,
+    "second": 28,
+    "millisecond": 901,
+    "iso": "2025-11-11T20:00:28.901+00:00"
   },
   "save data": {},
   "old save data": {}

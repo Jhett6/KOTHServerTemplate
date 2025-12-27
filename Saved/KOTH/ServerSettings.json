@@ -6075,22 +6075,85 @@
               "prestige": 0
             },
 			{
-              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Ironsight/1_BP_EF88_Ironsight_Grippod.1_BP_EF88_Ironsight_Grippod_C",
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_Grip_supermod.1_BP_Famas_F1_Grip_supermod_C",
               "unlock level": 3,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
 			{
-              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Eotech552/1_BP_EF88_Eotech_Grippod.1_BP_EF88_Eotech_Grippod_C",
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_7mag_Grip_supermod.1_BP_Famas_INF_AIMPoint_7mag_Grip_supermod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
 			{
-              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Specter/1_BP_EF88_Specter_Frontgrip_supermod.1_BP_EF88_Specter_Frontgrip_supermod_C",
-              "unlock level": 5,
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/3_Famas_Valorise_552/1_BP_Famas_Valorise_552_Grip_supermod.1_BP_Famas_Valorise_552_Grip_supermod_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/3_Famas_Scrome_J4/1_BP_Famas_INF_SCROME_J4_Grip_supermod.1_BP_Famas_INF_SCROME_J4_Grip_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_7mag_supermod.1_BP_Famas_INF_AIMPoint_7mag_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/4_Famas_Valorise_SJ4/1_BP_Famas_Valorise_SJ4_supermod.1_BP_Famas_Valorise_SJ4_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/3_Famas_Scrome_J4/BP_Famas_INF_SCROME_J4_PIRAT.BP_Famas_INF_SCROME_J4_PIRAT_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/3_Famas_Valorise_552/1_BP_Famas_Valorise_552_supermod.1_BP_Famas_Valorise_552_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/3_Famas_Scrome_J4/1_BP_Famas_INF_SCROME_J4_UGL_supermod.1_BP_Famas_INF_SCROME_J4_UGL_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_UGL_supermod.1_BP_Famas_INF_AIMPoint_UGL_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_UGL_supermod.1_BP_Famas_F1_UGL_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/1_Famas_Valorise_Ironsight/1_BP_Famas_Valorise_supermod.1_BP_Famas_Valorise_supermod_C",
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -6391,7 +6454,7 @@
           "unlock level": 60,
           "unlock items": [],
           "prestige": 0
-        },
+        }
       ],
       "skins": [
         {
@@ -6406,7 +6469,7 @@
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA_Black.MI_FRA_Black"
-			]
+			],
           "1p materials": [
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow"
 			],
@@ -6475,22 +6538,85 @@
               "prestige": 0
             },
 			{
-              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Ironsight/1_BP_EF88_Ironsight_Grippod.1_BP_EF88_Ironsight_Grippod_C",
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_Grip_supermod.1_BP_Famas_F1_Grip_supermod_C",
               "unlock level": 3,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
 			{
-              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Eotech552/1_BP_EF88_Eotech_Grippod.1_BP_EF88_Eotech_Grippod_C",
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_7mag_Grip_supermod.1_BP_Famas_INF_AIMPoint_7mag_Grip_supermod_C",
               "unlock level": 5,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
             },
 			{
-              "item": "/SPM/Weapons/Riffle/Assault/EF88/Blueprints/EF88/Specter/1_BP_EF88_Specter_Frontgrip_supermod.1_BP_EF88_Specter_Frontgrip_supermod_C",
-              "unlock level": 5,
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/3_Famas_Valorise_552/1_BP_Famas_Valorise_552_Grip_supermod.1_BP_Famas_Valorise_552_Grip_supermod_C",
+              "unlock level": 7,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/3_Famas_Scrome_J4/1_BP_Famas_INF_SCROME_J4_Grip_supermod.1_BP_Famas_INF_SCROME_J4_Grip_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_7mag_supermod.1_BP_Famas_INF_AIMPoint_7mag_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/4_Famas_Valorise_SJ4/1_BP_Famas_Valorise_SJ4_supermod.1_BP_Famas_Valorise_SJ4_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/3_Famas_Scrome_J4/BP_Famas_INF_SCROME_J4_PIRAT.BP_Famas_INF_SCROME_J4_PIRAT_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/3_Famas_Valorise_552/1_BP_Famas_Valorise_552_supermod.1_BP_Famas_Valorise_552_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/3_Famas_Scrome_J4/1_BP_Famas_INF_SCROME_J4_UGL_supermod.1_BP_Famas_INF_SCROME_J4_UGL_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/2_Famas_Aimpoint/1_BP_Famas_INF_AIMPoint_UGL_supermod.1_BP_Famas_INF_AIMPoint_UGL_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_F1/1_Famas_ironsight/1_BP_Famas_F1_UGL_supermod.1_BP_Famas_F1_UGL_supermod_C",
+              "unlock level": 10,
+              "perk requirements": [],
+              "item count": -1,
+              "prestige": 0
+            },
+			{
+              "item": "/SPM/Weapons/Riffle/Assault/FAMAS/Blueprints/Famas_valorise/1_Famas_Valorise_Ironsight/1_BP_Famas_Valorise_supermod.1_BP_Famas_Valorise_supermod_C",
+              "unlock level": 10,
               "perk requirements": [],
               "item count": -1,
               "prestige": 0
@@ -6791,7 +6917,7 @@
           "unlock level": 60,
           "unlock items": [],
           "prestige": 0
-        },
+        }
       ],
       "skins": [
         {
@@ -6806,7 +6932,7 @@
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Equipment.MI_FRA20_Equipment",
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA_CommonEquipment.MI_FRA_CommonEquipment",
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA_Black.MI_FRA_Black"
-			]
+			],
           "1p materials": [
 				"/SPM/Soldiers/FRA20/Materials/MI_FRA20_Uniform_Snow.MI_FRA20_Uniform_Snow"
 			],

@@ -6063,7 +6063,7 @@
         {
           "family name": "FAMAS",
           "single cost": "50",
-          "perma cost": "800",
+          "perma cost": "0",
           "description": "The FAMAS (Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne) is a French bullpup-style assault rifle, nicknamed Le Clairon (The Bugle), designed in the 1970s and adopted as the primary service rifle for the French military in 1980. It uses a 5.56mm NATO cartridge and features a high rate of fire.",
           "texture": "/SPM/Weapons/Riffle/Assault/FAMAS/Materials/Textures/T_FAMAS_F1_UI.T_FAMAS_F1_UI",
           "xp unlocks": [
@@ -6526,7 +6526,7 @@
         {
           "family name": "FAMAS",
           "single cost": "50",
-          "perma cost": "800",
+          "perma cost": "0",
           "description": "The FAMAS (Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne) is a French bullpup-style assault rifle, nicknamed Le Clairon (The Bugle), designed in the 1970s and adopted as the primary service rifle for the French military in 1980. It uses a 5.56mm NATO cartridge and features a high rate of fire.",
           "texture": "/SPM/Weapons/Riffle/Assault/FAMAS/Materials/Textures/T_FAMAS_F1_UI.T_FAMAS_F1_UI",
           "xp unlocks": [
